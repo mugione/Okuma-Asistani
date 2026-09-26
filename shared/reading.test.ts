@@ -9,6 +9,7 @@ import {
   movingAverage,
   pickQuestions,
   nextStreak,
+  weekStart,
   TARGET_WPM_MAX,
   TARGET_WPM_MIN,
 } from "./reading";
@@ -82,6 +83,14 @@ describe("movingAverage", () => {
       { date: "4", value: 120 },
     ];
     expect(movingAverage(pts, 2)).toEqual([70, 70, 75, 100]);
+  });
+});
+
+describe("weekStart", () => {
+  it("haftanın pazartesisi", () => {
+    expect(weekStart("2026-09-27")).toBe("2026-09-21"); // pazar
+    expect(weekStart("2026-09-21")).toBe("2026-09-21"); // pazartesi
+    expect(weekStart("2026-09-24")).toBe("2026-09-21"); // perşembe
   });
 });
 

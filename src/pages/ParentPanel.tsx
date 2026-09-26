@@ -208,6 +208,7 @@ function ChildSettings({ child }: { child: Child }) {
   const [avatar, setAvatar] = useState(child.avatar);
   const [grade, setGrade] = useState<number | null>(child.grade);
   const [target, setTarget] = useState(child.target_wpm);
+  const [showInLeaderboard, setShowInLeaderboard] = useState(child.show_in_leaderboard === 1);
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -217,7 +218,7 @@ function ChildSettings({ child }: { child: Child }) {
     setMsg(null);
     setError(null);
     try {
-      await api.updateChild(child.id, { name: name.trim(), avatar, grade, targetWpm: target });
+      await api.updateChild(child.id, { name: name.trim(), avatar, grade, targetWpm: target, showInLeaderboard });
       await refresh();
       setMsg("Kaydedildi.");
     } catch (e) {
@@ -247,6 +248,21 @@ function ChildSettings({ child }: { child: Child }) {
             Hedef okuma hızı: <span className="text-brand-700">{target} kelime/dk</span>
             <input type="range" min={TARGET_WPM_MIN} max={TARGET_WPM_MAX} value={target} onChange={(e) => setTarget(Number(e.target.value))} className="accent-brand-500" />
             <span className="text-xs font-semibold text-ink/50">Hedef her okumadan sonra anlama ve doğruluğa göre otomatik ayarlanır. Gerekirse buradan elle değiştirebilirsiniz.</span>
+          </label>
+          <label className="flex items-start gap-3 rounded-2xl bg-brand-50 p-3 font-bold">
+            <input
+              type="checkbox"
+              checked={showInLeaderboard}
+              onChange={(e) => setShowInLeaderboard(e.target.checked)}
+              className="mt-1 size-5 accent-brand-500"
+            />
+            <span>
+              Mahalle sıralamasında görünsün
+              <span className="block text-xs font-semibold text-ink/55">
+                Sıralamada yalnızca çocuğun adı (ilk kelime), avatarı ve XP'si görünür; yalnızca kullanıcı adı ve şifresi olan hesaplar
+                listelenir. Kapatırsanız çocuğunuz sıralamayı görebilir ama listede yer almaz.
+              </span>
+            </span>
           </label>
         </div>
         <div>
@@ -296,7 +312,7 @@ export function ParentPanel() {
             <Info className="size-5 shrink-0" aria-hidden />
             <p>
               Doğru okuma oranı için çocuğunuz sesli okurken dinleyip, okuma sonunda takıldığı veya yanlış okuduğu kelime sayısını girebilirsiniz.
-              Ses kaydı alınmaz ve saklanmaz. Uygulama çocukları birbiriyle karşılaştırmaz.
+              Ses kaydı alınmaz ve saklanmaz. Mahalle sıralamasında görünmeyi aşağıdaki profil ayarlarından kapatabilirsiniz.
             </p>
           </Card>
           {child && <ChildDashboard key={child.id} child={child} />}

@@ -1,4 +1,4 @@
-import { ArrowLeft, Flame, RefreshCw, Star, Users, WifiOff } from "lucide-react";
+import { ArrowLeft, Flame, MapPinHouse, RefreshCw, Star, Users, WifiOff } from "lucide-react";
 import type { ReactNode } from "react";
 import { effectiveStreak, istanbulDate } from "../../shared/reading";
 import { useApp } from "../lib/app-state";
@@ -54,6 +54,10 @@ export function Layout({ children, back, wide }: { children: ReactNode; back?: s
                 <span className="flex items-center gap-1 rounded-full bg-sun-100 px-3 py-1.5 text-sm font-extrabold text-sun-700" title="XP">
                   <Star className="size-4 fill-sun-400 text-sun-500" aria-hidden /> {child.xp}
                 </span>
+                <Link to="/mahalle" className="grid size-10 place-items-center rounded-full bg-brand-50 text-brand-700 shadow-sm hover:bg-brand-100" >
+                  <MapPinHouse className="size-5" aria-hidden />
+                  <span className="sr-only">Mahalle sıralaması</span>
+                </Link>
                 <Link to="/profiller" className="rounded-full ring-2 ring-white" >
                   <Avatar id={child.avatar} size={40} />
                   <span className="sr-only">Profil değiştir</span>

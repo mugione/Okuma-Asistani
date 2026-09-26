@@ -9,6 +9,7 @@ import { hit, RULES } from "./lib/rate-limit";
 import { auth } from "./routes/auth";
 import { children } from "./routes/children";
 import { games } from "./routes/games";
+import { leaderboard } from "./routes/leaderboard";
 import { minute } from "./routes/minute";
 import { parents } from "./routes/parents";
 import { reading } from "./routes/reading";
@@ -104,6 +105,7 @@ app.route("/api/texts", texts);
 app.route("/api/reading", reading);
 app.route("/api/games", games);
 app.route("/api/minute", minute);
+app.route("/api/leaderboard", leaderboard);
 
 app.notFound((c) => {
   if (c.req.path.startsWith("/api/")) return fail(c, 404, "NOT_FOUND", "İstenen API adresi bulunamadı.");

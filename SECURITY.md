@@ -26,6 +26,7 @@ Bir güvenlik açığı bulduysanız lütfen **herkese açık issue açmayın**.
 | Kötüye kullanım | Worker içinde IP başına hız sınırı (dakikada 240 istek / 60 yazma, saatte 30 yeni kayıt). Bellek içi ve "en iyi çaba" düzeyindedir; Free plan hesabında aşım faturaya değil yalnızca geçici kesintiye yol açar. Özel alan adında Cloudflare WAF hız sınırı kuralı eklenmesi önerilir. |
 | Eşzamanlılık | Aynı oturumu iki kez bitirme/cevaplama XP'yi iki kez eklemez (koşullu güncelleme + `UNIQUE` kısıtları). |
 | Gizlilik | Yalnızca ebeveyn adı, isteğe bağlı kullanıcı adı ve şifre özeti, çocuğun adı, isteğe bağlı sınıfı ve doğum yılı ile okuma istatistikleri saklanır. E-posta, ses kaydı, fotoğraf toplanmaz. Fontlar uygulamayla birlikte sunulur; üçüncü taraf istek (Google Fonts, analitik, reklam) yoktur. Service worker API yanıtlarını önbelleğe almaz. |
+| Mahalle sıralaması | Yalnızca giriş yapmış kullanıcılar görebilir (herkese açık değil). Yanıtta yalnızca çocuğun adı (ilk kelime), avatarı ve dönem XP'si bulunur; soyad, kimlik, ebeveyn bilgisi gönderilmez. Yalnızca kullanıcı adı/şifresi olan hesaplar listelenir; ebeveyn "Mahalle sıralamasında görünsün" ayarını kapatabilir. |
 | Hata mesajları | İstemciye genel mesaj döner; ayrıntılar yalnızca Worker loglarına yazılır. |
 
 ## Bağımlılıklar

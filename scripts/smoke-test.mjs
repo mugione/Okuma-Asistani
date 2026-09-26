@@ -168,6 +168,8 @@ check(
 
 // --- Hesap: kullanıcı adı + şifre -------------------------------------------
 const anonParentId = parentId;
+const anonLb = await call("GET", `/api/leaderboard?period=day&childId=${childId}`);
+check("Mahalle: hesapsız çocuk listede yer almaz", anonLb.json.data?.me?.eligible === false && anonLb.json.data.me.reason === "no_account" && !anonLb.json.data.top.some((e) => e.isMe), anonLb.json);
 const username = `duman-${Math.random().toString(36).slice(2, 10)}`;
 const password = `Test-${crypto.randomUUID()}`;
 parentId = null;
@@ -185,6 +187,19 @@ const me = await call("GET", "/api/auth/me");
 check("Oturumla hesap bilgisi (/api/auth/me)", me.json.data?.username === username && me.json.data?.has_password === true, me.json);
 const kid = await call("POST", "/api/children", { parentId: regParentId, name: "Hesaplı Çocuk", avatar: "avatar-4" });
 check("Oturumla çocuk ekleme", kid.status === 201, kid.json);
+const kidId = kid.json.data.id;
+await call("POST", "/api/games/result", { childId: kidId, gameType: "syllables", totalItems: 8, correctItems: 8, durationSeconds: 60 });
+const lb = await call("GET", `/api/leaderboard?period=day&childId=${kidId}`);
+const mine = lb.json.data?.top.find((e) => e.isMe);
+check("Mahalle: hesaplı çocuk günlük ilk 10'da", !!mine && mine.xp === 15 && lb.json.data.me.rank === mine.rank, lb.json);
+check("Mahalle: yalnızca ad gösterilir, kimlik sızmaz", mine?.name === "Hesaplı" && !lb.text.includes(kidId) && !lb.text.includes("parent"), mine);
+for (const period of ["week", "year"]) {
+  const r = await call("GET", `/api/leaderboard?period=${period}&childId=${kidId}`);
+  check(`Mahalle: ${period === "week" ? "haftalık" : "yıllık"} sıralama`, r.json.data?.top.some((e) => e.isMe), r.json);
+}
+await call("PUT", `/api/children/${kidId}`, { showInLeaderboard: false });
+const hidden = await call("GET", `/api/leaderboard?period=day&childId=${kidId}`);
+check("Mahalle: ebeveyn gizleyince listeden çıkar", !hidden.json.data?.top.some((e) => e.isMe) && hidden.json.data?.me?.reason === "hidden", hidden.json);
 token = null;
 
 parentId = regParentId;
@@ -212,6 +227,9 @@ check("Hesapsız aileye kullanıcı adı/şifre ekleme", creds.json.success && !
 const oldId = await call("GET", "/api/auth/me");
 check("Hesap eklenince cihaz kimliği geçersizleşir", oldId.status === 401, oldId.json);
 parentId = null;
+
+const noAuth = await call("GET", "/api/leaderboard?period=week");
+check("Mahalle: giriş yapmadan görülemez", noAuth.status === 401, noAuth.json);
 
 const nf = await call("GET", "/api/yok");
 check("API 404 formatı", nf.status === 404 && nf.json.error?.code === "NOT_FOUND", nf.json);

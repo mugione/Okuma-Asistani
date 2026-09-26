@@ -53,6 +53,7 @@ const updateChildSchema = z
   .object({
     ...childFields,
     targetWpm: z.number().int().min(TARGET_WPM_MIN).max(TARGET_WPM_MAX),
+    showInLeaderboard: z.boolean(),
   })
   .partial()
   .refine((v) => Object.keys(v).length > 0, { message: "En az bir alan gönderilmeli." });
@@ -86,7 +87,8 @@ children.put("/:id", async (c) => {
   const body = parse(updateChildSchema, await readJson(c));
   const target = body.targetWpm !== undefined ? clampTarget(body.targetWpm) : child.target_wpm;
   await c.env.DB.prepare(
-    `UPDATE children SET name = ?, birth_year = ?, grade = ?, avatar = ?, target_wpm = ?, current_level = ?, updated_at = ?
+    `UPDATE children SET name = ?, birth_year = ?, grade = ?, avatar = ?, target_wpm = ?, current_level = ?,
+       show_in_leaderboard = ?, updated_at = ?
      WHERE id = ?`,
   )
     .bind(
@@ -96,6 +98,7 @@ children.put("/:id", async (c) => {
       body.avatar ?? child.avatar,
       target,
       levelFromTargetWpm(target),
+      body.showInLeaderboard === undefined ? child.show_in_leaderboard : body.showInLeaderboard ? 1 : 0,
       nowIso(),
       child.id,
     )

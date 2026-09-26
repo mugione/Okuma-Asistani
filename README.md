@@ -92,7 +92,7 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 
 ### 🏆 Oyunlaştırma
 - ⭐ XP, 🌟 1–3 yıldız, 🔥 günlük seri, 🏅 22 rozet
-- 🚫 **Sıralama tablosu yok, çocuklar birbiriyle karşılaştırılmaz**
+- 🏘️ **Mahalle sıralaması:** navbar'daki ikondan günlük / haftalık / yıllık ilk 10. Sıralama o dönemde kazanılan XP'ye göredir. Yalnızca kullanıcı adı ve şifresi olan hesaplar listelenir, yalnızca çocuğun adı (ilk kelime) görünür, ebeveyn istediğinde kapatabilir. Sıralamayı yalnızca giriş yapmış kullanıcılar görebilir
 - 🦊 8 hazır SVG avatar: baykuş, kedi, tilki, ayı, tavşan, panda, aslan, kurbağa
 
 </td>
@@ -317,6 +317,7 @@ Tüm yanıtlar aynı biçimdedir:
 | `GET` | `/api/children/:id/progress?range=…` | Günlük seri, hareketli ortalama, son okumalar |
 | `GET` | `/api/children/:id/reading-history` | Okunan metinler: kaç kez, en iyi hız ve anlama |
 | `GET` | `/api/children/:id/achievements` | Kazanılan ve kilitli rozetler |
+| `GET` | `/api/leaderboard?period=day\|week\|year&childId=` | Mahalle: dönemde kazanılan XP'ye göre ilk 10 + seçili çocuğun sırası |
 | `GET` | `/api/texts` · `/api/texts/:id` | Metin listesi / metin ve sorular (cevaplar hariç) |
 | `POST` | `/api/reading/start` | Okuma oturumu başlat → havuzdan seçilen 5 soru |
 | `POST` | `/api/reading/:id/finish` | Süre (+ isteğe bağlı hata sayısı) → WPM, XP, tekrar karşılaştırması |

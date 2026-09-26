@@ -38,6 +38,7 @@ export interface Child {
   xp: number;
   placement_completed: number;
   last_active_date: string | null;
+  show_in_leaderboard: number;
   created_at: string;
   updated_at: string;
 }
@@ -233,6 +234,27 @@ export interface MinuteTestHistory {
   best: number | null;
   count: number;
   items: MinuteTestHistoryItem[];
+}
+
+export type LeaderboardPeriod = "day" | "week" | "year";
+
+export interface LeaderboardEntry {
+  rank: number;
+  /** Yalnızca ad (ilk kelime); soyadı ve kimlik bilgisi gönderilmez. */
+  name: string;
+  avatar: string;
+  xp: number;
+  isMe: boolean;
+}
+
+export interface LeaderboardData {
+  period: LeaderboardPeriod;
+  from: string;
+  to: string;
+  top: LeaderboardEntry[];
+  participants: number;
+  /** Seçili çocuğun durumu (ilk 10'da olmasa da). */
+  me: { rank: number | null; xp: number; eligible: boolean; reason: "no_account" | "hidden" | null } | null;
 }
 
 export type GameType = "word_catch" | "sentence_recall" | "missing_word" | "sentence_verify" | "word_chain" | "syllables";

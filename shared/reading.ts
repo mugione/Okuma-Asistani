@@ -186,6 +186,12 @@ export function addDays(isoDate: string, days: number): string {
   return d.toISOString().slice(0, 10);
 }
 
+/** Pazartesi başlangıçlı hafta: verilen günün haftasının pazartesi tarihi. */
+export function weekStart(isoDate: string): string {
+  const day = new Date(`${isoDate}T00:00:00Z`).getUTCDay(); // 0 = pazar
+  return addDays(isoDate, -((day + 6) % 7));
+}
+
 /** Gün sonunda seri devam ediyor mu? Dün veya bugün çalışıldıysa seri canlıdır. */
 export function effectiveStreak(currentStreak: number, lastActiveDate: string | null, today: string): number {
   if (!lastActiveDate) return 0;

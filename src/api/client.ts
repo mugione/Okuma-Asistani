@@ -7,6 +7,8 @@ import type {
   FinishReadingResult,
   GameResultResponse,
   GameType,
+  LeaderboardData,
+  LeaderboardPeriod,
   MinuteTestHistory,
   MinuteTestResult,
   MinuteTestStart,
@@ -74,7 +76,9 @@ export const api = {
   getParent: (id: string) => request<Parent & { children: Child[] }>("GET", `/api/parents/${id}`),
   createChild: (body: { parentId: string; name: string; grade?: number | null; birthYear?: number | null; avatar: string }) =>
     request<Child>("POST", "/api/children", body),
-  updateChild: (id: string, body: Partial<{ name: string; grade: number | null; birthYear: number | null; avatar: string; targetWpm: number }>) =>
+  leaderboard: (period: LeaderboardPeriod, childId?: string) =>
+    request<LeaderboardData>("GET", `/api/leaderboard?period=${period}${childId ? `&childId=${childId}` : ""}`),
+  updateChild: (id: string, body: Partial<{ name: string; grade: number | null; birthYear: number | null; avatar: string; targetWpm: number; showInLeaderboard: boolean }>) =>
     request<Child>("PUT", `/api/children/${id}`, body),
   getChild: (id: string) => request<Child>("GET", `/api/children/${id}`),
   today: (childId: string) => request<TodayData>("GET", `/api/children/${childId}/today`),

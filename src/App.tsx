@@ -4,6 +4,7 @@ import { GamePage, GamesHub } from "./pages/Games";
 import { Home } from "./pages/Home";
 import { Library } from "./pages/Library";
 import { MinuteTest } from "./pages/MinuteTest";
+import { Neighborhood } from "./pages/Neighborhood";
 import { Onboarding } from "./pages/Onboarding";
 import { Placement } from "./pages/Placement";
 import { ProfilePicker } from "./pages/ProfilePicker";
@@ -38,6 +39,7 @@ function Routes() {
   if ((m = matchPath("/oyunlar/:slug", path))) return <GamePage slug={m.slug} />;
   if (path === "/rozetler") return <Achievements />;
   if (path === "/dakika-testi") return <MinuteTest />;
+  if (path === "/mahalle") return <Neighborhood />;
   return <Home />;
 }
 
