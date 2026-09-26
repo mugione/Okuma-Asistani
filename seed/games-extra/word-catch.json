@@ -1,0 +1,994 @@
+{
+  "wordCatch": [
+    {
+      "word": "KAR",
+      "options": [
+        "Kar",
+        "Kır",
+        "Kor",
+        "Kaz"
+      ]
+    },
+    {
+      "word": "KAZ",
+      "options": [
+        "Kaz",
+        "Kez",
+        "Kız",
+        "Saz"
+      ]
+    },
+    {
+      "word": "DAL",
+      "options": [
+        "Dal",
+        "Dil",
+        "Bal",
+        "Dar"
+      ]
+    },
+    {
+      "word": "GÜL",
+      "options": [
+        "Gül",
+        "Göl",
+        "Kül",
+        "Gel"
+      ]
+    },
+    {
+      "word": "YOL",
+      "options": [
+        "Yol",
+        "Yel",
+        "Kol",
+        "Sol"
+      ]
+    },
+    {
+      "word": "TAŞ",
+      "options": [
+        "Taş",
+        "Kaş",
+        "Baş",
+        "Taç"
+      ]
+    },
+    {
+      "word": "TUZ",
+      "options": [
+        "Tuz",
+        "Toz",
+        "Buz",
+        "Tüy"
+      ]
+    },
+    {
+      "word": "FİL",
+      "options": [
+        "Fil",
+        "Fal",
+        "Kil",
+        "Dil"
+      ]
+    },
+    {
+      "word": "AYI",
+      "options": [
+        "Ayı",
+        "Arı",
+        "Ayna",
+        "Ayak"
+      ]
+    },
+    {
+      "word": "MUZ",
+      "options": [
+        "Muz",
+        "Buz",
+        "Mum",
+        "Tuz"
+      ]
+    },
+    {
+      "word": "MUM",
+      "options": [
+        "Mum",
+        "Kum",
+        "Muz",
+        "Mal"
+      ]
+    },
+    {
+      "word": "GÖL",
+      "options": [
+        "Göl",
+        "Gül",
+        "Gel",
+        "Kol"
+      ]
+    },
+    {
+      "word": "DAĞ",
+      "options": [
+        "Dağ",
+        "Bağ",
+        "Sağ",
+        "Dal"
+      ]
+    },
+    {
+      "word": "KEK",
+      "options": [
+        "Kek",
+        "Kel",
+        "Kep",
+        "Pek"
+      ]
+    },
+    {
+      "word": "ODA",
+      "options": [
+        "Oda",
+        "Ada",
+        "Ova",
+        "Odun"
+      ]
+    },
+    {
+      "word": "YÜZ",
+      "options": [
+        "Yüz",
+        "Yaz",
+        "Söz",
+        "Düz"
+      ]
+    },
+    {
+      "word": "DERS",
+      "options": [
+        "Ders",
+        "Dert",
+        "Dere",
+        "Ters"
+      ]
+    },
+    {
+      "word": "KUTU",
+      "options": [
+        "Kutu",
+        "Kuru",
+        "Kötü",
+        "Kuyu"
+      ]
+    },
+    {
+      "word": "KUZU",
+      "options": [
+        "Kuzu",
+        "Kuyu",
+        "Kaza",
+        "Kazı"
+      ]
+    },
+    {
+      "word": "AYAK",
+      "options": [
+        "Ayak",
+        "Ayar",
+        "Ayna",
+        "Yaka"
+      ]
+    },
+    {
+      "word": "HAVA",
+      "options": [
+        "Hava",
+        "Hala",
+        "Halı",
+        "Dava"
+      ]
+    },
+    {
+      "word": "NANE",
+      "options": [
+        "Nane",
+        "Nine",
+        "Name",
+        "Tane"
+      ]
+    },
+    {
+      "word": "TEPE",
+      "options": [
+        "Tepe",
+        "Tere",
+        "Teke",
+        "Tepki"
+      ]
+    },
+    {
+      "word": "KOVA",
+      "options": [
+        "Kova",
+        "Koza",
+        "Kota",
+        "Kovan"
+      ]
+    },
+    {
+      "word": "SOBA",
+      "options": [
+        "Soba",
+        "Sopa",
+        "Sofa",
+        "Soya"
+      ]
+    },
+    {
+      "word": "SINIF",
+      "options": [
+        "Sınıf",
+        "Sınav",
+        "Sınır",
+        "Sıfır"
+      ]
+    },
+    {
+      "word": "TAVUK",
+      "options": [
+        "Tavuk",
+        "Tavus",
+        "Tabak",
+        "Tavan"
+      ]
+    },
+    {
+      "word": "ÖRDEK",
+      "options": [
+        "Ördek",
+        "Örnek",
+        "Örgü",
+        "Ödev"
+      ]
+    },
+    {
+      "word": "LİMON",
+      "options": [
+        "Limon",
+        "Liman",
+        "Limit",
+        "Lokum"
+      ]
+    },
+    {
+      "word": "SEPET",
+      "options": [
+        "Sepet",
+        "Sebep",
+        "Sebze",
+        "Seçim"
+      ]
+    },
+    {
+      "word": "SABUN",
+      "options": [
+        "Sabun",
+        "Sabır",
+        "Saban",
+        "Sabah"
+      ]
+    },
+    {
+      "word": "CEVİZ",
+      "options": [
+        "Ceviz",
+        "Cevap",
+        "Cesur",
+        "Ceket"
+      ]
+    },
+    {
+      "word": "BALON",
+      "options": [
+        "Balon",
+        "Balta",
+        "Balkon",
+        "Salon"
+      ]
+    },
+    {
+      "word": "HAVUÇ",
+      "options": [
+        "Havuç",
+        "Havuz",
+        "Havlu",
+        "Hakem"
+      ]
+    },
+    {
+      "word": "ÇORAP",
+      "options": [
+        "Çorap",
+        "Çoban",
+        "Çorba",
+        "Çatal"
+      ]
+    },
+    {
+      "word": "ÇORBA",
+      "options": [
+        "Çorba",
+        "Çorap",
+        "Çoban",
+        "Torba"
+      ]
+    },
+    {
+      "word": "TABAK",
+      "options": [
+        "Tabak",
+        "Kabak",
+        "Yatak",
+        "Tavan"
+      ]
+    },
+    {
+      "word": "KABAK",
+      "options": [
+        "Kabak",
+        "Kapak",
+        "Tabak",
+        "Kavak"
+      ]
+    },
+    {
+      "word": "BAHÇE",
+      "options": [
+        "Bahçe",
+        "Bahar",
+        "Bakır",
+        "Bahşiş"
+      ]
+    },
+    {
+      "word": "YATAK",
+      "options": [
+        "Yatak",
+        "Yamak",
+        "Yasak",
+        "Yanak"
+      ]
+    },
+    {
+      "word": "SİLGİ",
+      "options": [
+        "Silgi",
+        "Sevgi",
+        "Sergi",
+        "Saygı"
+      ]
+    },
+    {
+      "word": "TAHTA",
+      "options": [
+        "Tahta",
+        "Tahıl",
+        "Tatlı",
+        "Tabla"
+      ]
+    },
+    {
+      "word": "ÇANTA",
+      "options": [
+        "Çanta",
+        "Çatal",
+        "Çamur",
+        "Çardak"
+      ]
+    },
+    {
+      "word": "ASLAN",
+      "options": [
+        "Aslan",
+        "Asker",
+        "Asıl",
+        "Askı"
+      ]
+    },
+    {
+      "word": "HOROZ",
+      "options": [
+        "Horoz",
+        "Horon",
+        "Hoşaf",
+        "Hortum"
+      ]
+    },
+    {
+      "word": "TİLKİ",
+      "options": [
+        "Tilki",
+        "Titiz",
+        "Tekli",
+        "Telli"
+      ]
+    },
+    {
+      "word": "MEYVE",
+      "options": [
+        "Meyve",
+        "Mevsim",
+        "Meyil",
+        "Mermi"
+      ]
+    },
+    {
+      "word": "SEBZE",
+      "options": [
+        "Sebze",
+        "Sebep",
+        "Sepet",
+        "Seyir"
+      ]
+    },
+    {
+      "word": "KULAK",
+      "options": [
+        "Kulak",
+        "Kucak",
+        "Kurak",
+        "Kuşak"
+      ]
+    },
+    {
+      "word": "BURUN",
+      "options": [
+        "Burun",
+        "Buruk",
+        "Bugün",
+        "Barut"
+      ]
+    },
+    {
+      "word": "MUTLU",
+      "options": [
+        "Mutlu",
+        "Mutfak",
+        "Mutlak",
+        "Mutsuz"
+      ]
+    },
+    {
+      "word": "UÇMAK",
+      "options": [
+        "Uçmak",
+        "Uymak",
+        "Açmak",
+        "Uzak"
+      ]
+    },
+    {
+      "word": "YAPRAK",
+      "options": [
+        "Yaprak",
+        "Yapmak",
+        "Toprak",
+        "Yastık"
+      ]
+    },
+    {
+      "word": "DEFTER",
+      "options": [
+        "Defter",
+        "Değer",
+        "Demet",
+        "Detay"
+      ]
+    },
+    {
+      "word": "MAYMUN",
+      "options": [
+        "Maymun",
+        "Mayıs",
+        "Memnun",
+        "Mayın"
+      ]
+    },
+    {
+      "word": "TENCERE",
+      "options": [
+        "Tencere",
+        "Teneke",
+        "Teneffüs",
+        "Tercüme"
+      ]
+    },
+    {
+      "word": "ARKADAŞ",
+      "options": [
+        "Arkadaş",
+        "Arkalık",
+        "Arkeolog",
+        "Arkadaşlık"
+      ]
+    },
+    {
+      "word": "KURBAĞA",
+      "options": [
+        "Kurbağa",
+        "Kurabiye",
+        "Kurdele",
+        "Kurşun"
+      ]
+    },
+    {
+      "word": "DOMATES",
+      "options": [
+        "Domates",
+        "Dolmuş",
+        "Dondurma",
+        "Domino"
+      ]
+    },
+    {
+      "word": "PATATES",
+      "options": [
+        "Patates",
+        "Patlıcan",
+        "Paten",
+        "Patika"
+      ]
+    },
+    {
+      "word": "MAKARNA",
+      "options": [
+        "Makarna",
+        "Makara",
+        "Makine",
+        "Makam"
+      ]
+    },
+    {
+      "word": "ÇEKİRGE",
+      "options": [
+        "Çekirge",
+        "Çekiç",
+        "Çekirdek",
+        "Çekmece"
+      ]
+    },
+    {
+      "word": "PENGUEN",
+      "options": [
+        "Penguen",
+        "Pencere",
+        "Pençe",
+        "Pense"
+      ]
+    },
+    {
+      "word": "AHTAPOT",
+      "options": [
+        "Ahtapot",
+        "Ahşap",
+        "Ahize",
+        "Ahlak"
+      ]
+    },
+    {
+      "word": "KANGURU",
+      "options": [
+        "Kanguru",
+        "Kanarya",
+        "Kanepe",
+        "Kantin"
+      ]
+    },
+    {
+      "word": "KARINCA",
+      "options": [
+        "Karınca",
+        "Karanfil",
+        "Karakol",
+        "Karışık"
+      ]
+    },
+    {
+      "word": "TEBEŞİR",
+      "options": [
+        "Tebeşir",
+        "Tebessüm",
+        "Tebrik",
+        "Tereyağı"
+      ]
+    },
+    {
+      "word": "ÖĞRENCİ",
+      "options": [
+        "Öğrenci",
+        "Öğretmen",
+        "Öğrenmek",
+        "Öğretici"
+      ]
+    },
+    {
+      "word": "YUMURTA",
+      "options": [
+        "Yumurta",
+        "Yumruk",
+        "Yumuşak",
+        "Yuvarlak"
+      ]
+    },
+    {
+      "word": "HEYECAN",
+      "options": [
+        "Heyecan",
+        "Heykel",
+        "Heybe",
+        "Heyelan"
+      ]
+    },
+    {
+      "word": "SANDALYE",
+      "options": [
+        "Sandalye",
+        "Sandalet",
+        "Sandal",
+        "Sandık"
+      ]
+    },
+    {
+      "word": "AYAKKABI",
+      "options": [
+        "Ayakkabı",
+        "Ayaklık",
+        "Ayaküstü",
+        "Ayakkabıcı"
+      ]
+    },
+    {
+      "word": "KURABİYE",
+      "options": [
+        "Kurabiye",
+        "Kurbağa",
+        "Kurdele",
+        "Kuraklık"
+      ]
+    },
+    {
+      "word": "PORTAKAL",
+      "options": [
+        "Portakal",
+        "Portatif",
+        "Porselen",
+        "Portre"
+      ]
+    },
+    {
+      "word": "DONDURMA",
+      "options": [
+        "Dondurma",
+        "Donanma",
+        "Dondurucu",
+        "Doldurma"
+      ]
+    },
+    {
+      "word": "PATLICAN",
+      "options": [
+        "Patlıcan",
+        "Patlamak",
+        "Patates",
+        "Patika"
+      ]
+    },
+    {
+      "word": "ÇEKİRDEK",
+      "options": [
+        "Çekirdek",
+        "Çekirge",
+        "Çekmece",
+        "Çekiliş"
+      ]
+    },
+    {
+      "word": "SONBAHAR",
+      "options": [
+        "Sonbahar",
+        "Sonrası",
+        "Sonsuz",
+        "Sonuncu"
+      ]
+    },
+    {
+      "word": "İLKBAHAR",
+      "options": [
+        "İlkbahar",
+        "İlkokul",
+        "İlkel",
+        "İlginç"
+      ]
+    },
+    {
+      "word": "KALEMLİK",
+      "options": [
+        "Kalemlik",
+        "Kalemtıraş",
+        "Kalender",
+        "Kalınlık"
+      ]
+    },
+    {
+      "word": "BİSİKLET",
+      "options": [
+        "Bisiklet",
+        "Bisküvi",
+        "Bilezik",
+        "Bisikletçi"
+      ]
+    },
+    {
+      "word": "SEVİNMEK",
+      "options": [
+        "Sevinmek",
+        "Sevilmek",
+        "Sevmek",
+        "Sevinç"
+      ]
+    },
+    {
+      "word": "ANAOKULU",
+      "options": [
+        "Anaokulu",
+        "Anahtar",
+        "Anayasa",
+        "Ananas"
+      ]
+    },
+    {
+      "word": "ANNEANNE",
+      "options": [
+        "Anneanne",
+        "Annelik",
+        "Anlatmak",
+        "Anahtarlık"
+      ]
+    },
+    {
+      "word": "BABAANNE",
+      "options": [
+        "Babaanne",
+        "Babalık",
+        "Babacan",
+        "Bahçıvan"
+      ]
+    },
+    {
+      "word": "KIRTASİYE",
+      "options": [
+        "Kırtasiye",
+        "Kırlangıç",
+        "Kırmızı",
+        "Kırılgan"
+      ]
+    },
+    {
+      "word": "KIRLANGIÇ",
+      "options": [
+        "Kırlangıç",
+        "Kırtasiye",
+        "Kırlent",
+        "Kırılgan"
+      ]
+    },
+    {
+      "word": "BATTANİYE",
+      "options": [
+        "Battaniye",
+        "Bataklık",
+        "Batırmak",
+        "Bahçıvan"
+      ]
+    },
+    {
+      "word": "PAZARTESİ",
+      "options": [
+        "Pazartesi",
+        "Pazarlık",
+        "Pazarcı",
+        "Perşembe"
+      ]
+    },
+    {
+      "word": "SALATALIK",
+      "options": [
+        "Salatalık",
+        "Salata",
+        "Saltanat",
+        "Salıncak"
+      ]
+    },
+    {
+      "word": "KALABALIK",
+      "options": [
+        "Kalabalık",
+        "Kaldırım",
+        "Kalıntı",
+        "Kalınlık"
+      ]
+    },
+    {
+      "word": "MATEMATİK",
+      "options": [
+        "Matematik",
+        "Matematikçi",
+        "Matbaa",
+        "Materyal"
+      ]
+    },
+    {
+      "word": "OYUNBOZAN",
+      "options": [
+        "Oyunbozan",
+        "Oyuncak",
+        "Oyunculuk",
+        "Oyalanmak"
+      ]
+    },
+    {
+      "word": "GÖKKUŞAĞI",
+      "options": [
+        "Gökkuşağı",
+        "Gökyüzü",
+        "Gökdelen",
+        "Göktaşı"
+      ]
+    },
+    {
+      "word": "MİKROSKOP",
+      "options": [
+        "Mikroskop",
+        "Mikrofon",
+        "Mikrop",
+        "Mikrodalga"
+      ]
+    },
+    {
+      "word": "CUMARTESİ",
+      "options": [
+        "Cumartesi",
+        "Cuma",
+        "Cumba",
+        "Cumhuriyet"
+      ]
+    },
+    {
+      "word": "MANDALİNA",
+      "options": [
+        "Mandalina",
+        "Mandolin",
+        "Mandıra",
+        "Mangal"
+      ]
+    },
+    {
+      "word": "İTFAİYECİ",
+      "options": [
+        "İtfaiyeci",
+        "İtfaiye",
+        "İtiraz",
+        "İtişmek"
+      ]
+    },
+    {
+      "word": "DÜRÜSTLÜK",
+      "options": [
+        "Dürüstlük",
+        "Dürüst",
+        "Dürbün",
+        "Düzgünlük"
+      ]
+    },
+    {
+      "word": "DENİZALTI",
+      "options": [
+        "Denizaltı",
+        "Denizci",
+        "Denizcilik",
+        "Denetim"
+      ]
+    },
+    {
+      "word": "TELEVİZYON",
+      "options": [
+        "Televizyon",
+        "Telefon",
+        "Teleskop",
+        "Telgraf"
+      ]
+    },
+    {
+      "word": "KARNABAHAR",
+      "options": [
+        "Karnabahar",
+        "Karnaval",
+        "Karanlık",
+        "Kardelen"
+      ]
+    },
+    {
+      "word": "KALEMTIRAŞ",
+      "options": [
+        "Kalemtıraş",
+        "Kalemlik",
+        "Kalınlık",
+        "Kaldırım"
+      ]
+    },
+    {
+      "word": "KAHVERENGİ",
+      "options": [
+        "Kahverengi",
+        "Kahvaltı",
+        "Kahraman",
+        "Kahvehane"
+      ]
+    },
+    {
+      "word": "ARKADAŞLIK",
+      "options": [
+        "Arkadaşlık",
+        "Arkadaş",
+        "Arkalık",
+        "Arkeolog"
+      ]
+    },
+    {
+      "word": "CUMHURİYET",
+      "options": [
+        "Cumhuriyet",
+        "Cumartesi",
+        "Cumhur",
+        "Cumba"
+      ]
+    },
+    {
+      "word": "TERMOMETRE",
+      "options": [
+        "Termometre",
+        "Termos",
+        "Terlemek",
+        "Terazi"
+      ]
+    },
+    {
+      "word": "FOTOĞRAFÇI",
+      "options": [
+        "Fotoğrafçı",
+        "Fotoğraf",
+        "Fotokopi",
+        "Fotosentez"
+      ]
+    },
+    {
+      "word": "ANSİKLOPEDİ",
+      "options": [
+        "Ansiklopedi",
+        "Anlaşmak",
+        "Antrenör",
+        "Ansızın"
+      ]
+    },
+    {
+      "word": "YARDIMLAŞMA",
+      "options": [
+        "Yardımlaşma",
+        "Yardımcı",
+        "Yardımsever",
+        "Yaralanma"
+      ]
+    }
+  ]
+}

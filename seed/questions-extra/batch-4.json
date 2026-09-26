@@ -1,0 +1,1227 @@
+[
+  {
+    "slug": "pazar-kahvaltisi",
+    "questions": [
+      {
+        "question": "Babam sabah mutfağa gidince ilk ne yapar?",
+        "options": [
+          "Çayı demler",
+          "Yumurtaları haşlar",
+          "Sofrayı kurar",
+          "Domatesleri dilimler"
+        ],
+        "correct": "a",
+        "explanation": "Metinde babamın mutfağa gidip çayı demlediği yazıyor."
+      },
+      {
+        "question": "Kahvaltıdaki sohbette ablam neyden bahseder?",
+        "options": [
+          "Okulda öğrendiği şiirden",
+          "Resim kursundan",
+          "Hafta boyunca yaptıklarından",
+          "Küçükken yaşadığı bir olaydan"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Ablam resim kursundan bahseder\" deniyor."
+      },
+      {
+        "question": "Ablam ile ben sofrayı hazırlarken önce ne yaparız?",
+        "options": [
+          "Tabakları ve çatalları dizeriz",
+          "Peyniri kaselere koyarız",
+          "Masaya temiz bir örtü sereriz",
+          "Domatesleri yıkarız"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Önce masaya temiz bir örtü sereriz\" yazıyor."
+      },
+      {
+        "question": "Metne göre kahvaltıdan sonraki işler neden çabucak biter?",
+        "options": [
+          "Bulaşık çok az olduğu için",
+          "Babam işleri tek başına yaptığı için",
+          "Masada hiç yemek kalmadığı için",
+          "İşler hep birlikte yapıldığı için"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"İş birlikte yapılınca çabucak biter\" deniyor."
+      }
+    ]
+  },
+  {
+    "slug": "kumsalda-kesif",
+    "questions": [
+      {
+        "question": "Deniz'in topladığı deniz kabukları nasıl şekillerdeydi?",
+        "options": [
+          "Tamamı yuvarlak ve dümdüzdü",
+          "Bazıları sarmal, bazıları yelpaze gibiydi",
+          "Bazıları kare, bazıları üçgen gibiydi",
+          "Bazıları yıldız, bazıları kalp gibiydi"
+        ],
+        "correct": "b",
+        "explanation": "Metinde kabukların bazılarının sarmal, bazılarının yelpaze gibi olduğu yazıyor."
+      },
+      {
+        "question": "Deniz yosunlara dokununca ne fark etti?",
+        "options": [
+          "Dikenli olduklarını",
+          "Sıcak olduklarını",
+          "Kaygan olduklarını",
+          "Kuru ve sert olduklarını"
+        ],
+        "correct": "c",
+        "explanation": "Metinde Deniz'in yosunların dokunulunca kaygan olduğunu fark ettiği yazıyor."
+      },
+      {
+        "question": "\"Bugün bir kâşif gibi kumsalı inceleyecekti.\" cümlesindeki \"kâşif\" ne demektir?",
+        "options": [
+          "Deniz kabuğu satan kişi",
+          "Kumsalda nöbet tutan kişi",
+          "Denizde balık tutan kişi",
+          "Yeni şeyleri araştırıp keşfeden kişi"
+        ],
+        "correct": "d",
+        "explanation": "Deniz kumsalı büyüteç ve defterle inceleyerek keşif yapıyor; kâşif keşfeden kişidir."
+      },
+      {
+        "question": "Deniz yengeci büyüteçle izledi ama ona dokunmadı. Bundan Deniz hakkında ne sonucuna varabiliriz?",
+        "options": [
+          "Canlılara zarar vermemeye özen gösterir",
+          "Yengeçleri hiç merak etmez",
+          "Yengeci eve götürmek ister",
+          "Büyüteç kullanmayı bilmez"
+        ],
+        "correct": "a",
+        "explanation": "Deniz yengeci dikkatle izleyip dokunmuyor, sonunda da kumsalı canlılar için temiz tutuyor; canlılara özen gösteriyor."
+      }
+    ]
+  },
+  {
+    "slug": "maratonun-hikayesi",
+    "questions": [
+      {
+        "question": "Metne göre İstanbul Maratonu'nu özel kılan nedir?",
+        "options": [
+          "İlk maratonun burada koşulmuş olması",
+          "Dünyanın en uzun maratonu olması",
+          "Koşucuların Asya'dan Avrupa'ya geçmesi",
+          "Yalnızca çocukların katılabilmesi"
+        ],
+        "correct": "c",
+        "explanation": "Metinde İstanbul Maratonu'nun koşucuların Asya'dan Avrupa'ya geçtiği ender yarışlardan biri olduğu yazıyor."
+      },
+      {
+        "question": "Maratonun bugünkü uzunluğu ilk kez nerede kullanıldı?",
+        "options": [
+          "İlk İstanbul Maratonu'nda",
+          "Maraton Ovası'ndaki savaşta",
+          "Filipides'in koşusunda",
+          "1908 Londra Olimpiyatları'nda"
+        ],
+        "correct": "d",
+        "explanation": "Metinde bugünkü uzunluğun ilk kez 1908 Londra Olimpiyatları'nda kullanıldığı yazıyor."
+      },
+      {
+        "question": "\"Maraton koşmak büyük bir dayanıklılık ister.\" cümlesindeki \"dayanıklılık\" ne anlama gelir?",
+        "options": [
+          "Yorgunluğa uzun süre katlanabilme gücü",
+          "Kısa sürede çok hızlanabilme",
+          "Yarışta birinci olma isteği",
+          "Başkalarıyla yarışmayı sevme"
+        ],
+        "correct": "a",
+        "explanation": "Metinde koşucuların aylarca antrenman yaptığı ve enerjilerini dikkatli kullandığı anlatılıyor; bu, uzun süre katlanabilme gücüdür."
+      },
+      {
+        "question": "1896'daki düzenleyiciler Olimpiyatlara neden Maraton'dan Atina'ya bir koşu eklediler?",
+        "options": [
+          "Yeni bir zaferi kutlamak için",
+          "Eski efsaneyi anmak için",
+          "Filipides'in rekorunu kırmak için",
+          "Şehirler arasındaki yolu denemek için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde düzenleyicilerin \"bu eski efsaneyi anmak için\" bu yarışı eklediği yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "piri-reis-haritasi",
+    "questions": [
+      {
+        "question": "Piri Reis gençliğinde kimin yanında denizlere açıldı?",
+        "options": [
+          "Babasının",
+          "Kristof Kolomb'un",
+          "Padişahın",
+          "Amcası Kemal Reis'in"
+        ],
+        "correct": "d",
+        "explanation": "Metinde Piri Reis'in ünlü denizci amcası Kemal Reis'in yanında denizlere açıldığı yazıyor."
+      },
+      {
+        "question": "Piri Reis haritasını hazırlarken yaklaşık kaç eski haritadan yararlandığını yazmıştır?",
+        "options": [
+          "Yirmi kadar",
+          "Beş kadar",
+          "Yüz kadar",
+          "İki kadar"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Piri Reis'in yirmi kadar eski haritadan yararlandığını yazdığı belirtiliyor."
+      },
+      {
+        "question": "Aşağıdaki olaylardan hangisi en önce gerçekleşmiştir?",
+        "options": [
+          "Kitab-ı Bahriye'nin tamamlanması",
+          "Piri Reis'in ünlü haritasını çizmesi",
+          "Haritanın parçasının yeniden bulunması",
+          "2013'ün Piri Reis Yılı ilan edilmesi"
+        ],
+        "correct": "b",
+        "explanation": "Harita 1513'te çizildi; Kitab-ı Bahriye 1521'de tamamlandı, harita 1929'da bulundu, Piri Reis Yılı 2013'tür."
+      },
+      {
+        "question": "Harita neden döneminin en dikkat çekici çalışmalarından biri kabul edilir?",
+        "options": [
+          "Uydu fotoğraflarıyla çizildiği için",
+          "Dünyada çizilen ilk harita olduğu için",
+          "Yeni tanınan Güney Amerika kıyılarını gösterdiği için",
+          "Altın mürekkeple çizildiği için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde Amerika kıtasının o yıllarda yeni tanınmaya başladığı, bu nedenle haritanın dikkat çekici olduğu yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "hezarfen-efsanesi",
+    "questions": [
+      {
+        "question": "Wright kardeşler motorlu bir uçakla hangi yıl havalanmayı başardı?",
+        "options": [
+          "1903",
+          "1633",
+          "1908",
+          "1896"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Wright kardeşlerin 1903 yılında motorlu bir uçakla havalandığı yazıyor."
+      },
+      {
+        "question": "Hezarfen'in kendine hazırladığı kanatlar neye benziyordu?",
+        "options": [
+          "Yarasa kanatlarına",
+          "Kartal kanatlarına",
+          "Kelebek kanatlarına",
+          "Martı kanatlarına"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Hezarfen'in kartal kanatlarını andıran bir çift kanat hazırladığı yazıyor."
+      },
+      {
+        "question": "Anlatılan hikâyede aşağıdakilerden hangisi en son gerçekleşmiştir?",
+        "options": [
+          "Okmeydanı'nda denemeler yapması",
+          "Galata Kulesi'nden atlaması",
+          "Hezarfen'in Cezayir'e gönderilmesi",
+          "Kuşları uzun süre gözlemlemesi"
+        ],
+        "correct": "c",
+        "explanation": "Hezarfen önce kuşları gözledi, Okmeydanı'nda denedi, Galata'dan atladı; padişah onu en sonunda Cezayir'e gönderdi."
+      },
+      {
+        "question": "İstanbul'daki bir havalimanına Hezarfen'in adının verilmesi neyi gösterir?",
+        "options": [
+          "Uçuşun kesin olarak kanıtlandığını",
+          "Hezarfen'in orada doğduğunu",
+          "Havalimanını onun yaptırdığını",
+          "Onun uçma hayaline duyulan saygıyı"
+        ],
+        "correct": "d",
+        "explanation": "Metinde havalimanına adının verilmesinin bu hayale duyulan saygının göstergesi olduğu yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "kayip-kopek-karamel",
+    "questions": [
+      {
+        "question": "Karamel nasıl bir köpekti?",
+        "options": [
+          "Beyaz ve kısa tüylü",
+          "Kahverengi ve tüylü",
+          "Siyah ve benekli",
+          "Sarı ve kıvırcık"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Karamel kahverengi ve tüylü bir köpekti\" yazıyor."
+      },
+      {
+        "question": "Fırıncı Karamel'e ne vermişti?",
+        "options": [
+          "Ekmek",
+          "Kemik",
+          "Su",
+          "Top"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Fırıncı ona su vermişti\" yazıyor."
+      },
+      {
+        "question": "Kardeşler Karamel'i ararken önce nereye gittiler?",
+        "options": [
+          "Fırına",
+          "Bakkala",
+          "Okula",
+          "Parka"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Önce parka gittiler\" yazıyor."
+      },
+      {
+        "question": "Zeynep'in gözleri neden doldu?",
+        "options": [
+          "Çocuklar Karamel'i görmediklerini söylediği için",
+          "Topunu parkta kaybettiği için",
+          "Annesi ona kızdığı için",
+          "Kaydıraktan düştüğü için"
+        ],
+        "correct": "a",
+        "explanation": "Parktaki çocuklar köpeği görmediklerini söyleyince Zeynep'in gözleri doldu."
+      }
+    ]
+  },
+  {
+    "slug": "arilarin-bal-yapimi-ve-dansi",
+    "questions": [
+      {
+        "question": "Kovanda yumurtaları kim bırakır?",
+        "options": [
+          "İşçi arılar",
+          "Yavru arılar",
+          "Ana arı",
+          "Dansçı arılar"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Kovanda bir ana arı vardır ve yumurtaları o bırakır\" yazıyor."
+      },
+      {
+        "question": "Bir işçi arı yaz aylarında ne kadar yaşar?",
+        "options": [
+          "Birkaç yıl",
+          "Tam bir yıl",
+          "Yalnızca birkaç gün",
+          "Yalnızca birkaç hafta"
+        ],
+        "correct": "d",
+        "explanation": "Metinde işçi arının yaz aylarında yalnızca birkaç hafta yaşadığı yazıyor."
+      },
+      {
+        "question": "Arılar nektarı bala dönüştürürken en son ne yapar?",
+        "options": [
+          "Gözlerin ağzını balmumuyla kapatır",
+          "Nektarı petek gözlerine koyar",
+          "Kanatlarıyla nektarı yelpazeler",
+          "Nektarı diğer arılara aktarır"
+        ],
+        "correct": "a",
+        "explanation": "Arılar nektarı aktarır, gözlere koyar, yelpazeler; nektar bala dönüşünce gözlerin ağzını balmumuyla kapatırlar."
+      },
+      {
+        "question": "Bir kavanoz bal için neden binlerce arının emeği gerekir?",
+        "options": [
+          "Arılar balın çoğunu yere döktüğü için",
+          "Bir arı kısa ömründe çok az bal yaptığı için",
+          "Kovanda yalnızca bir arı çalıştığı için",
+          "Çiçekler kovandan çok uzakta olduğu için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde bir işçi arının kısa hayatında bir çay kaşığının çok küçük bir bölümü kadar bal yaptığı yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "ses-nasil-yayilir",
+    "questions": [
+      {
+        "question": "Bir cisim hızlı titreşirse nasıl bir ses çıkar?",
+        "options": [
+          "Kalın ses",
+          "Yüksek ses",
+          "Hafif ses",
+          "İnce ses"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Bir cisim hızlı titreşirse ince ses ... çıkar\" yazıyor."
+      },
+      {
+        "question": "Ses havada saniyede yaklaşık kaç metre yol alır?",
+        "options": [
+          "340 metre",
+          "34 metre",
+          "3400 metre",
+          "1000 metre"
+        ],
+        "correct": "a",
+        "explanation": "Metinde sesin havada saniyede yaklaşık 340 metre yol aldığı yazıyor."
+      },
+      {
+        "question": "Metne göre \"yankı\" nedir?",
+        "options": [
+          "Fırtınada duyulan gök gürültüsü",
+          "Bir duvara ya da dağa çarpıp geri dönen ses",
+          "Kulak zarının titreşmesi",
+          "Suyun içinde yayılan ses"
+        ],
+        "correct": "b",
+        "explanation": "Metinde sesin büyük bir duvara ya da dağa çarpınca geri döndüğü ve buna yankı dendiği anlatılıyor."
+      },
+      {
+        "question": "Kulağını masaya dayayan biri öbür uçtaki vuruşu neden çok net duyar?",
+        "options": [
+          "Masa sesi tamamen yok ettiği için",
+          "Havada ses hiç yayılmadığı için",
+          "Ses katı cisimlerde çoğu zaman daha hızlı yayıldığı için",
+          "Vuruş sesi yankıya dönüştüğü için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde sesin katı cisimlerde çoğu zaman daha hızlı yayıldığı ve bu örneğin verildiği yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "marstaki-gezgin-robotlar",
+    "questions": [
+      {
+        "question": "Mars'a ulaşan ilk gezgin ne büyüklükteydi?",
+        "options": [
+          "Bir mikrodalga fırın büyüklüğünde",
+          "Bir araba büyüklüğünde",
+          "Bir ev büyüklüğünde",
+          "Bir kalem kutusu büyüklüğünde"
+        ],
+        "correct": "a",
+        "explanation": "Metinde ilk gezginin bir mikrodalga fırın büyüklüğünde olduğu yazıyor."
+      },
+      {
+        "question": "Opportunity'nin başlangıçta ne kadar süre çalışması planlanmıştı?",
+        "options": [
+          "On dört yıl",
+          "Yalnızca üç ay",
+          "Bir hafta",
+          "İki yıl"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Opportunity'nin yalnızca üç ay çalışmasının planlandığı yazıyor."
+      },
+      {
+        "question": "Metinde geçen \"gezgin\" kelimesi bu metinde ne anlama gelir?",
+        "options": [
+          "Mars'a giden bir astronot",
+          "Dünya'dan mesaj gönderen bir anten",
+          "Mars'ta dolaşan tekerlekli keşif robotu",
+          "Mars'ta uçan küçük bir helikopter"
+        ],
+        "correct": "c",
+        "explanation": "Metinde Mars'ta çalışan tekerlekli robotlara gezgin ya da keşif aracı dendiği yazıyor."
+      },
+      {
+        "question": "Opportunity'nin planlanandan çok daha uzun süre çalışması neyi gösterir?",
+        "options": [
+          "Mars'taki koşulların çok kolay olduğunu",
+          "Dünya'dan anında yönetildiğini",
+          "Mars'ta hiç toz fırtınası olmadığını",
+          "Beklenenden çok daha dayanıklı olduğunu"
+        ],
+        "correct": "d",
+        "explanation": "Üç ay için planlanan araç on dört yıldan fazla çalıştı; metne göre Mars'ta koşullar zordur, yani araç çok dayanıklıydı."
+      }
+    ]
+  },
+  {
+    "slug": "gobeklitepe-tarihin-sifir-noktasi",
+    "questions": [
+      {
+        "question": "Göbeklitepe'deki taşların üzerinde hangi hayvanların kabartmaları vardır?",
+        "options": [
+          "Aslan, fil, zürafa, at ve deve",
+          "Tilki, yaban domuzu, yılan, akbaba ve akrep",
+          "Kartal, ayı, geyik, kurt ve tavşan",
+          "Balık, yunus, kaplumbağa, yengeç ve ahtapot"
+        ],
+        "correct": "b",
+        "explanation": "Metinde taşlarda tilki, yaban domuzu, yılan, akbaba ve akrep kabartmaları olduğu yazıyor."
+      },
+      {
+        "question": "Göbeklitepe'deki kazılar hangi yıl başlamıştır?",
+        "options": [
+          "2018",
+          "1908",
+          "1995",
+          "1988"
+        ],
+        "correct": "c",
+        "explanation": "Metinde kazıların 1995 yılında başladığı yazıyor."
+      },
+      {
+        "question": "\"Alanın yalnızca küçük bir bölümü gün ışığına çıkarılmıştır.\" cümlesinde \"gün ışığına çıkarılmak\" ne anlama gelir?",
+        "options": [
+          "Güneş ışığıyla aydınlatılmak",
+          "Başka bir yere taşınmak",
+          "Üzeri örtülerek korunmak",
+          "Kazılarak ortaya çıkarılmak"
+        ],
+        "correct": "d",
+        "explanation": "Cümle kazılarla ilgili bölümde geçiyor; alanın yalnızca bir kısmının kazılıp ortaya çıkarıldığını anlatıyor."
+      },
+      {
+        "question": "Bazı dikilitaşlara kollar ve eller oyulmuş olması neyi düşündürür?",
+        "options": [
+          "Taşların insana benzeyen varlıkları temsil ettiğini",
+          "Taşların ev duvarı olarak kullanıldığını",
+          "Taşları çocukların oyduğunu",
+          "Taşların metal aletlerle yontulduğunu"
+        ],
+        "correct": "a",
+        "explanation": "Metinde kol ve ellerin, taşların insana benzeyen varlıkları temsil ettiğini düşündürdüğü yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "bayram-ziyareti",
+    "questions": [
+      {
+        "question": "Zeynep bayram sabahı ne giydi?",
+        "options": [
+          "Yeni gömleğini",
+          "Mavi eteğini",
+          "Kırmızı elbisesini",
+          "Beyaz ceketini"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Kardeşi Zeynep de kırmızı elbisesini giydi\" yazıyor."
+      },
+      {
+        "question": "Mert ile Can bahçede ne yaptılar?",
+        "options": [
+          "Saklambaç oynadılar",
+          "Bisiklet sürdüler",
+          "Resim yaptılar",
+          "Top oynadılar"
+        ],
+        "correct": "d",
+        "explanation": "Metinde iki çocuğun bahçeye çıkıp top oynadığı yazıyor."
+      },
+      {
+        "question": "Ninesi kapıyı açtıktan hemen sonra ne oldu?",
+        "options": [
+          "Herkes birbirine sarılıp bayramlaştı",
+          "Çocuklar bahçeye çıktı",
+          "Hatice Teyze geldi",
+          "Dedesi eski bayramları anlattı"
+        ],
+        "correct": "a",
+        "explanation": "Metinde kapıyı ninesi açınca herkesin birbirine sarılıp \"Bayramınız kutlu olsun!\" dediği yazıyor."
+      },
+      {
+        "question": "Mert yolda neden çok heyecanlıydı?",
+        "options": [
+          "Yeni bir oyuncak alacağı için",
+          "Dedesini uzun zamandır görmediği için",
+          "İlk kez arabaya bindiği için",
+          "Can ile buluşacağını bildiği için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Mert'in heyecanlı olduğu ve dedesini uzun zamandır görmediği yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "bir-adada-kamp",
+    "questions": [
+      {
+        "question": "Adaya tekneyle ne kadar sürede ulaştılar?",
+        "options": [
+          "İki saatte",
+          "Bir günde",
+          "On dakikada",
+          "Yarım saatte"
+        ],
+        "correct": "d",
+        "explanation": "Metinde adaya bir tekneyle yarım saatte ulaştıkları yazıyor."
+      },
+      {
+        "question": "Akşam ateşin başında ne pişirdiler?",
+        "options": [
+          "Mısır",
+          "Balık",
+          "Patates",
+          "Kestane"
+        ],
+        "correct": "a",
+        "explanation": "Metinde ateşin başında oturup mısır pişirdikleri yazıyor."
+      },
+      {
+        "question": "Adaya vardıklarında yaptıkları ilk iş neydi?",
+        "options": [
+          "Kıyı boyunca yürümek",
+          "Çadırları kurmak",
+          "Mısır pişirmek",
+          "Yıldızları izlemek"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"İlk iş çadırları kurmaktı\" yazıyor."
+      },
+      {
+        "question": "Ocağın yanına neden bir kova su koymuş olabilirler?",
+        "options": [
+          "Mısırları yıkamak için",
+          "Çadırları sulamak için",
+          "Ateşi gerektiğinde hemen söndürebilmek için",
+          "Yengeçleri içine koymak için"
+        ],
+        "correct": "c",
+        "explanation": "Annesi ateşin yalnızca ocakta yakılabileceğini hatırlatıyor; su, ateş tehlikeli olursa söndürmek içindir."
+      }
+    ]
+  },
+  {
+    "slug": "pamukkale-travertenleri",
+    "questions": [
+      {
+        "question": "Gün batımında travertenler hangi renklere bürünür?",
+        "options": [
+          "Pembe ve turuncu",
+          "Mavi ve mor",
+          "Yeşil ve sarı",
+          "Gri ve siyah"
+        ],
+        "correct": "a",
+        "explanation": "Metinde gün batımında beyaz basamakların pembe ve turuncu tonlara büründüğü yazıyor."
+      },
+      {
+        "question": "Yaklaşık iki bin yıl önce insanlar Hierapolis'e neden gelirdi?",
+        "options": [
+          "Karda kayak yapmak için",
+          "Şifalı sandıkları sıcak sulardan yararlanmak için",
+          "Denizde balık tutmak için",
+          "Traverten taşı satın almak için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde insanların şifalı olduğuna inandıkları sıcak sulardan yararlanmak için geldiği yazıyor."
+      },
+      {
+        "question": "\"Bu beyaz tortu kat kat birikerek basamaklar oluşturur.\" cümlesindeki \"tortu\" ne demektir?",
+        "options": [
+          "Tepeden akan sıcak su",
+          "Havuzlardaki mavi yansıma",
+          "Sudan ayrılıp dibe çöken madde",
+          "Yerin altındaki sert kaya"
+        ],
+        "correct": "c",
+        "explanation": "Metinde sudaki minerallerin dibe çöküp katılaştığı ve bu beyaz tortunun biriktiği anlatılıyor."
+      },
+      {
+        "question": "Travertenlerin oluşması neden binlerce yıl sürmüştür?",
+        "options": [
+          "Su tepeye çok nadiren ulaştığı için",
+          "İnsanlar basamakları elle yaptığı için",
+          "Tepeye yalnızca kışın kar yağdığı için",
+          "Mineraller yavaş yavaş çöküp kat kat biriktiği için"
+        ],
+        "correct": "d",
+        "explanation": "Metinde minerallerin yavaş yavaş dibe çöktüğü ve kat kat birikerek basamak oluşturduğu yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "uluslararasi-uzay-istasyonu",
+    "questions": [
+      {
+        "question": "Uzay istasyonunun ilk parçası hangi yıl uzaya gönderildi?",
+        "options": [
+          "2024",
+          "1998",
+          "1988",
+          "2008"
+        ],
+        "correct": "b",
+        "explanation": "Metinde ilk parçanın 1998 yılında uzaya gönderildiği yazıyor."
+      },
+      {
+        "question": "Astronotlar istasyonda nasıl uyur?",
+        "options": [
+          "Yataklara kemerle bağlanarak",
+          "Koltuklarında oturarak",
+          "Uyku tulumlarını duvara bağlayarak",
+          "Yerdeki minderlere uzanarak"
+        ],
+        "correct": "c",
+        "explanation": "Metinde astronotların uyku tulumlarını duvara bağlayarak uyuduğu yazıyor."
+      },
+      {
+        "question": "Metinde geçen \"ağırlıksız ortam\" istasyondaki hangi duruma işaret eder?",
+        "options": [
+          "Suyun çok değerli olmasına",
+          "Günde on altı kez gün doğmasına",
+          "Kargo araçlarının gelmesine",
+          "İnsanların ve eşyaların havada süzülmesine"
+        ],
+        "correct": "d",
+        "explanation": "Metinde istasyonda insanların ve eşyaların havada süzüldüğü anlatılıyor; ağırlıksız ortam budur."
+      },
+      {
+        "question": "İstasyonda kullanılmış suyun temizlenip yeniden içilmesinin nedeni nedir?",
+        "options": [
+          "Suyun istasyonda çok değerli olması",
+          "Astronotların hiç su içmemesi",
+          "Dünya'dan hiç malzeme gelmemesi",
+          "Suyun uzayda kendiliğinden temizlenmesi"
+        ],
+        "correct": "a",
+        "explanation": "Metinde \"İstasyonda su çok değerlidir. Bu yüzden...\" denerek suyun yeniden kullanıldığı anlatılıyor."
+      }
+    ]
+  },
+  {
+    "slug": "kasgarli-mahmud-ve-divanu-lugatit-turk",
+    "questions": [
+      {
+        "question": "Kaşgarlı Mahmud eserini nerede tamamladı?",
+        "options": [
+          "Kaşgar'da",
+          "İstanbul'da",
+          "Bağdat'ta",
+          "Semerkant'ta"
+        ],
+        "correct": "c",
+        "explanation": "Metinde eserin 1070'li yıllarda Bağdat'ta tamamlandığı yazıyor."
+      },
+      {
+        "question": "Kaşgarlı Mahmud hangi yüzyılda yaşamıştır?",
+        "options": [
+          "9. yüzyılda",
+          "13. yüzyılda",
+          "15. yüzyılda",
+          "11. yüzyılda"
+        ],
+        "correct": "d",
+        "explanation": "Metinde Kaşgarlı Mahmud'un yaşadığı 11. yüzyıldan söz ediliyor."
+      },
+      {
+        "question": "Metne göre kitabın adındaki \"divan\" kelimesi ne anlama gelir?",
+        "options": [
+          "Kelimelerin toplandığı büyük bir kitap",
+          "Padişahın toplantı salonu",
+          "Oturmak için uzun bir koltuk",
+          "Şiirlerin okunduğu bir tören"
+        ],
+        "correct": "a",
+        "explanation": "Metinde kitabın adının Türkçe kelimelerin bir araya toplandığı büyük bir kitap anlamına geldiği yazıyor."
+      },
+      {
+        "question": "Mahmud'un kelimeleri atasözü ya da şiirle örneklendirmesinin faydası nedir?",
+        "options": [
+          "Kitabın daha kalın görünmesini sağlaması",
+          "Kelimenin cümlede nasıl kullanıldığını kavratması",
+          "Kelimelerin Arapçaya çevrilmesini önlemesi",
+          "Haritanın daha kolay okunmasını sağlaması"
+        ],
+        "correct": "b",
+        "explanation": "Metinde bu yöntemin okuyucunun kelimenin cümle içinde nasıl kullanıldığını kolayca kavramasını sağladığı yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "bisiklet-surmeyi-ogreniyorum",
+    "questions": [
+      {
+        "question": "Elif'in bisikleti ne renkti?",
+        "options": [
+          "Mavi",
+          "Sarı",
+          "Yeşil",
+          "Kırmızı"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Bisikleti kırmızıydı\" yazıyor."
+      },
+      {
+        "question": "Elif ertesi gün kime bisiklet sürmeyi öğretmeye karar verdi?",
+        "options": [
+          "Arkadaşı Ali'ye",
+          "Küçük kardeşine",
+          "Babasına",
+          "Komşusu Zeynep'e"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Elif'in arkadaşı Ali'ye bisiklet sürmeyi öğretmeye karar verdiği yazıyor."
+      },
+      {
+        "question": "Elif çimlere düştükten sonra ilk ne yaptı?",
+        "options": [
+          "Ağlayarak eve döndü",
+          "Hemen ayağa kalktı",
+          "Babasını yardıma çağırdı",
+          "Kaskını çıkardı"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Elif hemen ayağa kalktı\" yazıyor."
+      },
+      {
+        "question": "Babası \"Ben seni çoktan bıraktım!\" deyince Elif neden şaşırdı?",
+        "options": [
+          "Babası onu parkta unuttuğu için",
+          "Bisikleti bozulduğu için",
+          "Tek başına gittiğini fark etmediği için",
+          "Babası eve gittiği için"
+        ],
+        "correct": "c",
+        "explanation": "Elif babasının seleyi hâlâ tuttuğunu sanıyordu; tek başına gittiğini fark edince şaşırdı."
+      }
+    ]
+  },
+  {
+    "slug": "trenle-uzun-yolculuk",
+    "questions": [
+      {
+        "question": "Deniz çantasına neler koydu?",
+        "options": [
+          "Defter, boya kalemleri ve en sevdiği kitabı",
+          "Top, su şişesi ve şapkasını",
+          "Oyuncak tren, harita ve fenerini",
+          "Tablet, kulaklık ve şekerlerini"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Deniz'in çantasına defter, boya kalemleri ve en sevdiği kitabı koyduğu yazıyor."
+      },
+      {
+        "question": "Aile öğle yemeğini nerede yedi?",
+        "options": [
+          "Kompartımanda",
+          "Yemekli vagonda",
+          "İstasyondaki lokantada",
+          "Dedesinin evinde"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Öğle yemeğini yemekli vagonda yediler\" yazıyor."
+      },
+      {
+        "question": "\"Dedesi, peronda kollarını açmış bekliyordu.\" cümlesindeki \"peron\" ne demektir?",
+        "options": [
+          "Trenin yataklı bölümü",
+          "Trenin geçtiği tünel",
+          "İstasyonda trene binilip inilen yer",
+          "Biletlerin satıldığı gişe"
+        ],
+        "correct": "c",
+        "explanation": "Dedesi tren istasyona varınca onu karşılamak için trenin yanında, yani peronda bekliyordu."
+      },
+      {
+        "question": "Trenin düzenli sesinin Deniz'i bir ninni gibi uyutması neyi anlatır?",
+        "options": [
+          "Sesin onu çok korkuttuğunu",
+          "Trende müzik çalındığını",
+          "Annesinin şarkı söylediğini",
+          "Sesin onu rahatlatıp uyuttuğunu"
+        ],
+        "correct": "d",
+        "explanation": "Ninni çocukları uyutan şarkıdır; trenin düzenli sesi de Deniz'i rahatlatıp uyutmuştur."
+      }
+    ]
+  },
+  {
+    "slug": "elektrik-ve-guvenli-kullanim",
+    "questions": [
+      {
+        "question": "Metne göre elektrik akımı nasıl oluşur?",
+        "options": [
+          "Kablolar plastikle kaplanınca",
+          "Elektronlar telde bir yönde akınca",
+          "Su borudan akmaya başlayınca",
+          "Prizin kapağı kapatılınca"
+        ],
+        "correct": "b",
+        "explanation": "Metinde elektronlar bir telin içinde bir yönde akmaya başladığında elektrik akımı oluştuğu yazıyor."
+      },
+      {
+        "question": "Oyuncak arabalar ve el fenerleri neyle çalışır?",
+        "options": [
+          "Rüzgârla",
+          "Suyla",
+          "Pille",
+          "Barajla"
+        ],
+        "correct": "c",
+        "explanation": "Metinde oyuncak arabaların ve el fenerlerinin pille çalıştığı yazıyor."
+      },
+      {
+        "question": "\"Elektriği tasarruflu kullanmak da önemlidir.\" cümlesindeki \"tasarruflu\" ne demektir?",
+        "options": [
+          "Çok hızlı ve aceleyle",
+          "Islak elle dokunmadan",
+          "Pahalı aletlerle",
+          "Gereğinden fazla harcamadan"
+        ],
+        "correct": "d",
+        "explanation": "Metin bu cümleden sonra odadan çıkarken ışığı kapatmayı örnek veriyor; yani boşuna harcamamak demektir."
+      },
+      {
+        "question": "Bu metne göre odadan çıkarken ışığı kapatan biri için ne söylenebilir?",
+        "options": [
+          "Doğaya ve aile bütçesine katkı sağlar",
+          "Elektriği tehlikeli biçimde kullanır",
+          "Lambanın bozulmasına yol açar",
+          "Elektrik santralini durdurur"
+        ],
+        "correct": "a",
+        "explanation": "Metinde ışığı kapatmanın hem doğaya hem de aile bütçesine katkı sağladığı yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "kara-delikler",
+    "questions": [
+      {
+        "question": "Metne göre bir cismin çekimi ne zaman daha güçlü olur?",
+        "options": [
+          "Rengi koyu olduğunda",
+          "Çok hızlı döndüğünde",
+          "Kütlesi büyük ve sıkışık olduğunda",
+          "Çok soğuk olduğunda"
+        ],
+        "correct": "c",
+        "explanation": "Metinde bir cismin kütlesi ne kadar büyük ve sıkışıksa çekiminin o kadar güçlü olduğu yazıyor."
+      },
+      {
+        "question": "Samanyolu'nun merkezindeki kara delik ne kadar ağırdır?",
+        "options": [
+          "Dünya'dan iki kat ağır",
+          "Tam olarak Güneş kadar",
+          "Ay'dan biraz daha ağır",
+          "Güneş'ten milyonlarca kat ağır"
+        ],
+        "correct": "d",
+        "explanation": "Metinde merkezdeki kara deliğin Güneş'ten milyonlarca kat ağır olduğu yazıyor."
+      },
+      {
+        "question": "Metinde geçen \"kütleçekimi\" ne demektir?",
+        "options": [
+          "Cisimlerin birbirini kendine çekmesi",
+          "Yıldızların büyük bir patlama yaşaması",
+          "Işığın çok hızlı ilerlemesi",
+          "Gazların girdap gibi dönmesi"
+        ],
+        "correct": "a",
+        "explanation": "Metinde \"Kütleçekimi, cisimlerin birbirini kendine doğru çekmesidir\" yazıyor."
+      },
+      {
+        "question": "2019'daki görüntü farklı yerlerdeki teleskoplarla elde edildi. Buna göre hangi sonuca varabiliriz?",
+        "options": [
+          "Tek bir teleskop her şeyi görebilir",
+          "Büyük başarılar iş birliğiyle elde edilebilir",
+          "Kara delikler yalnızca gündüz görülür",
+          "Teleskoplar kara deliğin içini gösterir"
+        ],
+        "correct": "b",
+        "explanation": "Metinde görüntünün dünyanın farklı yerlerindeki teleskopların birlikte çalışmasıyla elde edildiği yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "ulug-bey-ve-semerkant-rasathanesi",
+    "questions": [
+      {
+        "question": "Uluğ Bey'in yaptırdığı rasathane nasıl bir yapıydı?",
+        "options": [
+          "Tek katlı ve kare biçiminde",
+          "Beş katlı ve üçgen biçiminde",
+          "İki katlı ve altıgen biçiminde",
+          "Üç katlı ve silindir biçiminde"
+        ],
+        "correct": "d",
+        "explanation": "Metinde üç katlı, silindir biçiminde görkemli bir rasathane yaptırıldığı yazıyor."
+      },
+      {
+        "question": "Rasathanenin kalıntıları hangi yıl yeniden bulundu?",
+        "options": [
+          "1908",
+          "1420",
+          "1070",
+          "1995"
+        ],
+        "correct": "a",
+        "explanation": "Metinde kalıntıların 1908'de bir arkeolog tarafından bulunduğu yazıyor."
+      },
+      {
+        "question": "Metne göre \"rasathane\" kelimesine en yakın anlamlı sözcük hangisidir?",
+        "options": [
+          "Medrese",
+          "Gözlemevi",
+          "Kütüphane",
+          "Çarşı"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Uluğ Bey'in çocukken eski bir gözlemevi gördüğü, sonra gökyüzü gözlemleri için rasathane yaptırdığı anlatılıyor."
+      },
+      {
+        "question": "Buldukları yıl uzunluğunun modern değerden bir dakikadan az farklı olması neyi gösterir?",
+        "options": [
+          "Teleskop kullandıklarını",
+          "Hesaplarının yanlış olduğunu",
+          "Ölçümlerinin çok hassas olduğunu",
+          "Gözlemlerini çabuk bitirdiklerini"
+        ],
+        "correct": "c",
+        "explanation": "Modern aletlerle ölçülen değere bu kadar yakın bir sonuç, yıllar süren gözlemlerin çok hassas yapıldığını gösterir."
+      }
+    ]
+  },
+  {
+    "slug": "yaya-gecidinde-dikkat",
+    "questions": [
+      {
+        "question": "Yanlarından geçen bisikletlinin başında ne vardı?",
+        "options": [
+          "Kask",
+          "Şapka",
+          "Kulaklık",
+          "Gözlük"
+        ],
+        "correct": "a",
+        "explanation": "Metinde bisikletlinin başında kaskı olduğu yazıyor."
+      },
+      {
+        "question": "Yaya geçidinde yerde ne vardı?",
+        "options": [
+          "Sarı oklar",
+          "Beyaz çizgiler",
+          "Kırmızı noktalar",
+          "Mavi kareler"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Yerde beyaz çizgiler var\" yazıyor."
+      },
+      {
+        "question": "Zeynep ile dedesi karşıya geçtikten sonra nereye geldiler?",
+        "options": [
+          "Parka",
+          "Eve",
+          "Okulun kapısına",
+          "Markete"
+        ],
+        "correct": "c",
+        "explanation": "Metinde karşıya geçtikten sonra okulun kapısına geldikleri yazıyor."
+      },
+      {
+        "question": "Park etmiş arabaların arasından neden geçmemeliyiz?",
+        "options": [
+          "Arabalar çok kirli olduğu için",
+          "Orası çok dar olduğu için",
+          "Arabaların alarmı çalacağı için",
+          "Sürücüler bizi orada göremeyeceği için"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Çünkü sürücüler onları orada göremez\" yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "muzede-hazine-avi",
+    "questions": [
+      {
+        "question": "Rehber Selin Hanım'ın elinde ne vardı?",
+        "options": [
+          "Bir müze haritası",
+          "Renkli kartlar",
+          "Bir el feneri",
+          "Bir anahtar"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Selin Hanım'ın elinde renkli kartlar olduğu yazıyor."
+      },
+      {
+        "question": "Çocuklar üçüncü kartı nerede buldular?",
+        "options": [
+          "Büyük bir küpün yanında",
+          "Müzenin giriş kapısında",
+          "Eski paraların sergilendiği vitrinin önünde",
+          "Heykellerin bulunduğu salonda"
+        ],
+        "correct": "c",
+        "explanation": "Metinde üçüncü kartın eski paraların sergilendiği vitrinin önünde bulunduğu yazıyor."
+      },
+      {
+        "question": "Metinde geçen \"ipucu\" ne demektir?",
+        "options": [
+          "Müzede sergilenen eski bir eser",
+          "Hazine kutusunun anahtarı",
+          "Gruptaki en küçük öğrenci",
+          "Bir şeyi bulmaya yardım eden işaret"
+        ],
+        "correct": "d",
+        "explanation": "Kartlardaki ipuçları çocukların hazineye ulaşmak için neyi araması gerektiğini gösteriyordu."
+      },
+      {
+        "question": "Selin Hanım'a göre müzede eserlere neden dokunulmamalıdır?",
+        "options": [
+          "Eserler eski olup kolay zarar görebileceği için",
+          "Eserler çok ağır olduğu için",
+          "Eserler satılık olduğu için",
+          "Eserler çok sıcak olduğu için"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Selin Hanım'ın \"Eserler çok eskidir ve kolayca zarar görebilir\" dediği yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "uyku-ve-beynimiz",
+    "questions": [
+      {
+        "question": "Bilim insanları beynin uykuda atıkları temizlemesini neye benzetir?",
+        "options": [
+          "Sabah gelen bir çöp kamyonuna",
+          "Evi süpüren bir robota",
+          "Gece çalışan bir temizlik ekibine",
+          "Kirli suyu akıtan bir boruya"
+        ],
+        "correct": "c",
+        "explanation": "Metinde bilim insanlarının bu işi gece çalışan bir temizlik ekibine benzettiği yazıyor."
+      },
+      {
+        "question": "Yunuslar nasıl uyur?",
+        "options": [
+          "Kumsala çıkıp uzanarak",
+          "Denizin dibinde kıpırdamadan",
+          "Hiç uyumadan yüzerek",
+          "Beyinlerinin bir yarısıyla uyuyarak"
+        ],
+        "correct": "d",
+        "explanation": "Metinde yunusların beyinlerinin bir yarısıyla uyurken diğer yarısıyla nefes almak için yüzeye çıktığı yazıyor."
+      },
+      {
+        "question": "\"Önemli olanları hafızaya yerleştirir, gereksiz olanları ayıklar.\" cümlesindeki \"ayıklar\" ne demektir?",
+        "options": [
+          "Seçip ayırır",
+          "Ezberler",
+          "Başkalarına anlatır",
+          "Yeniden toplar"
+        ],
+        "correct": "a",
+        "explanation": "Beyin önemli bilgileri saklar, gereksiz olanları ise seçip ayırır; ayıklamak budur."
+      },
+      {
+        "question": "Derin uyku çocukların büyümesi için neden önemlidir?",
+        "options": [
+          "Rüyaların hepsi derin uykuda görüldüğü için",
+          "Büyüme hormonu büyük ölçüde o sırada salgılandığı için",
+          "Derin uykuda gözler hızla hareket ettiği için",
+          "Derin uykuda beyin tamamen durduğu için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde çocukların büyümesine yardım eden hormonun önemli bir kısmının derin uykuda salgılandığı yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "dinozor-fosilleri-nasil-bulunur",
+    "questions": [
+      {
+        "question": "Metne göre kemiklerden başka neler fosilleşebilir?",
+        "options": [
+          "Deri ve kaslar",
+          "Gözler ve kulaklar",
+          "Kum ve çamur",
+          "Ayak izleri ve yumurtalar"
+        ],
+        "correct": "d",
+        "explanation": "Metinde yalnızca kemiklerin değil, ayak izleri ve yumurtaların da fosilleşebildiği yazıyor."
+      },
+      {
+        "question": "Dişlerin şekli hangi konuda ipucu verir?",
+        "options": [
+          "Dinozorun et mi ot mu yediği",
+          "Dinozorun kaç yaşında olduğu",
+          "Dinozorun ne renk olduğu",
+          "Dinozorun ne kadar hızlı koştuğu"
+        ],
+        "correct": "a",
+        "explanation": "Metinde dişlerin şeklinin dinozorun et mi ot mu yediği hakkında ipucu verdiği yazıyor."
+      },
+      {
+        "question": "Fosilleşme sırasında aşağıdakilerden hangisi önce olur?",
+        "options": [
+          "Katmanların sertleşip kayaya dönüşmesi",
+          "Bedenin çamur ya da kumla örtülmesi",
+          "Minerallerin kemiklere yerleşmesi",
+          "Kemiklerin taş gibi sertleşmesi"
+        ],
+        "correct": "b",
+        "explanation": "Metinde dinozor ölünce bedeninin önce çamur veya kumla örtüldüğü, sonra katmanların kayaya dönüştüğü anlatılıyor."
+      },
+      {
+        "question": "Paleontologlar neden genellikle çöl, vadi ve kayalık bölgelerde fosil arar?",
+        "options": [
+          "Orada dinozorlar hâlâ yaşadığı için",
+          "Orada toprak çok yumuşak olduğu için",
+          "Orada eski kaya katmanları açığa çıktığı için",
+          "Oralar laboratuvarlara yakın olduğu için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde bu bölgelerde eski kaya katmanlarının açığa çıktığı yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "hititler-ve-kades-antlasmasi",
+    "questions": [
+      {
+        "question": "Hititler neden \"bin tanrılı halk\" olarak anılır?",
+        "options": [
+          "Birçok halkın tanrılarını benimsedikleri için",
+          "Bin tane tapınak yaptıkları için",
+          "Bin kral tarafından yönetildikleri için",
+          "Bin kil tablet yazdıkları için"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Hititlerin pek çok farklı halkın tanrılarını benimsedikleri için böyle anıldığı yazıyor."
+      },
+      {
+        "question": "Kadeş Antlaşması'nda iki devlet neye söz verdi?",
+        "options": [
+          "Savaş arabalarını yakmaya",
+          "Birbirine saldırmamaya",
+          "Aynı dili konuşmaya",
+          "Başkentlerini birleştirmeye"
+        ],
+        "correct": "b",
+        "explanation": "Metinde iki devletin birbirine saldırmamaya söz verdiği yazıyor."
+      },
+      {
+        "question": "Kadeş Savaşı'ndan yaklaşık on beş yıl sonra ne oldu?",
+        "options": [
+          "Hattuşa'nın surları yapıldı",
+          "İki ordu Kadeş'te yeniden savaştı",
+          "İki devlet barış antlaşması imzaladı",
+          "Hititler Mısır'ı ele geçirdi"
+        ],
+        "correct": "c",
+        "explanation": "Metinde savaştan yaklaşık on beş yıl sonra bir barış antlaşması imzalandığı yazıyor."
+      },
+      {
+        "question": "Hattuşa'da bulunan kopya neden Akadca yazılmıştı?",
+        "options": [
+          "Hititlerin kendi dili olmadığı için",
+          "Mısırlılar yalnızca Akadca bildiği için",
+          "Kil tablete başka dil yazılamadığı için",
+          "Akadca o dönemin ortak diplomasi dili olduğu için"
+        ],
+        "correct": "d",
+        "explanation": "Metinde kopyanın o dönemin ortak diplomasi dili olan Akadcayla yazıldığı belirtiliyor."
+      }
+    ]
+  }
+]

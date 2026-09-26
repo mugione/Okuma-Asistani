@@ -1,0 +1,10 @@
+CREATE INDEX idx_reading_sessions_child ON reading_sessions(child_id);
+CREATE INDEX idx_reading_sessions_child_created ON reading_sessions(child_id, created_at);
+CREATE INDEX idx_reading_sessions_child_text_date ON reading_sessions(child_id, text_id, stat_date);
+CREATE INDEX idx_daily_stats_child_date ON daily_stats(child_id, date);
+CREATE INDEX idx_questions_text ON questions(text_id);
+CREATE INDEX idx_game_sessions_child_created ON game_sessions(child_id, created_at);
+CREATE INDEX idx_child_achievements_child ON child_achievements(child_id);
+CREATE INDEX idx_children_parent ON children(parent_id);
+CREATE INDEX idx_question_answers_session ON question_answers(session_id);
+CREATE INDEX idx_texts_difficulty ON texts(difficulty);

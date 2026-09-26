@@ -1,0 +1,1148 @@
+[
+  {
+    "slug": "kardesim-dogdu",
+    "title": "Kardeşim Doğdu",
+    "category": "Günlük Yaşam",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Benim adım Elif. Dokuz yaşındayım. Dün çok güzel bir gün yaşadım. Kardeşim doğdu!\n\nSabah babam beni okuldan aldı. Birlikte hastaneye gittik. Annem yatakta oturuyordu. Kucağında küçük bir bebek vardı. Babam gülümsedi ve 'Bu senin kardeşin Can' dedi.\n\nHemşire Can'ı tartıya koydu. Can üç kilo gelmişti. Babam bu anın fotoğrafını çekti. Ben de fotoğrafta kardeşimin yanında durdum. O gün hepimiz çok mutluyduk. Dedem ve ninem de telefonla aradı. Can'ı çok merak ediyorlardı. Yarın bizi görmeye gelecekler.\n\nCan çok küçüktü. Elleri minicikti. Gözlerini açıp bana baktı. Sonra esnedi ve uyudu. Parmağımı eline koydum. Can parmağımı sıkıca tuttu. İçim sevgiyle doldu.\n\nEve dönünce odamı düzenledim. Can için bir resim çizdim. Resimde dört kişilik ailemiz vardı. Resmi onun beşiğinin yanına astım.\n\nBebekler çok uyur. Sık sık da acıkır. Bazen gece ağlar. Annem biraz yorgun oluyor. Ben de ona yardım ediyorum. Can'ın bezlerini getiriyorum. Ona sessizce ninni söylüyorum.\n\nArtık ben bir ablayım. Can büyüyünce ona çok şey öğreteceğim. Birlikte top oynayacağız. Ona kitap okuyacağım. Kardeş sahibi olmak çok güzel!",
+    "questions": [
+      {
+        "question": "Elif'in yeni doğan kardeşinin adı nedir?",
+        "options": [
+          "Ali",
+          "Can",
+          "Emre",
+          "Deniz"
+        ],
+        "correct": "b",
+        "explanation": "Babası bebeği gösterip 'Bu senin kardeşin Can' diyor."
+      },
+      {
+        "question": "Can, Elif'in parmağını tutunca Elif ne hissetti?",
+        "options": [
+          "Korktu",
+          "Kızdı",
+          "Sıkıldı",
+          "İçi sevgiyle doldu"
+        ],
+        "correct": "d",
+        "explanation": "Metinde 'İçim sevgiyle doldu' yazıyor."
+      },
+      {
+        "question": "Elif, Can için çizdiği resmi nereye astı?",
+        "options": [
+          "Beşiğin yanına",
+          "Mutfak kapısına",
+          "Okul panosuna",
+          "Buzdolabına"
+        ],
+        "correct": "a",
+        "explanation": "Elif resmi Can'ın beşiğinin yanına astı."
+      },
+      {
+        "question": "Bu metinden Elif hakkında ne anlıyoruz?",
+        "options": [
+          "Kardeşini kıskanıyor",
+          "Bebeklerden hoşlanmıyor",
+          "Ailesine yardım etmeyi seven, sevecen bir abla",
+          "Hastaneden korkuyor"
+        ],
+        "correct": "c",
+        "explanation": "Elif annesine yardım ediyor, kardeşine ninni söylüyor ve abla olduğu için mutlu."
+      }
+    ]
+  },
+  {
+    "slug": "mahalle-pazarinda-alisveris",
+    "title": "Mahalle Pazarında Alışveriş",
+    "category": "Günlük Yaşam",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Her cumartesi mahallemizde pazar kurulur. Bu sabah annemle pazara gittik. Elimizde bir alışveriş listesi vardı. Bez çantalarımızı da unutmadık.\n\nPazar çok kalabalıktı. Satıcılar yüksek sesle bağırıyordu. 'Taze domates, tatlı çilek!' diyorlardı. Tezgâhlar rengârenk meyve ve sebzelerle doluydu.\n\nBir tezgâhta sarı muzlar vardı. Yanındaki tezgâhta mor patlıcanlar duruyordu. Çiçekçi teyze de saksı saksı çiçek satıyordu. Pazarın her köşesi başka bir renkteydi. Burnuma taze nane kokusu geldi. Annem bir demet nane de aldı.\n\nİlk önce listeye baktık. Listede domates, salatalık, elma ve peynir yazıyordu. Annem domatesleri tek tek seçti. Yumuşak olanları almadı. Ben de kırmızı elmaları seçtim.\n\nSonra peynirci amcaya gittik. Amca bize küçük bir parça peynir tattırdı. Peynir çok lezzetliydi. Annem yarım kilo aldı.\n\nParayı ben ödemek istedim. Annem bana para verdi. Satıcıya parayı uzattım. Satıcı bana para üstünü verdi. Paraları dikkatle saydım. Hesap doğruydu!\n\nEve dönerken çantalarımız ağırlaşmıştı. Ben de bir çantayı taşıdım. Annem bana teşekkür etti. Pazarda alışveriş yapmak çok eğlenceliydi. Hem anneme yardım ettim hem de hesap yapmayı öğrendim.",
+    "questions": [
+      {
+        "question": "Mahallede pazar hangi gün kuruluyor?",
+        "options": [
+          "Pazartesi",
+          "Çarşamba",
+          "Cumartesi",
+          "Pazar"
+        ],
+        "correct": "c",
+        "explanation": "Metin 'Her cumartesi mahallemizde pazar kurulur' diye başlıyor."
+      },
+      {
+        "question": "Annem domatesleri seçerken hangilerini almadı?",
+        "options": [
+          "Yumuşak olanları",
+          "Kırmızı olanları",
+          "Büyük olanları",
+          "Sert olanları"
+        ],
+        "correct": "a",
+        "explanation": "Annem yumuşak domatesleri almadı."
+      },
+      {
+        "question": "Satıcı para üstünü verince çocuk ne yaptı?",
+        "options": [
+          "Cebine koydu",
+          "Annesine verdi",
+          "Yere düşürdü",
+          "Paraları dikkatle saydı"
+        ],
+        "correct": "d",
+        "explanation": "Çocuk paraları dikkatle saydı ve hesabın doğru olduğunu gördü."
+      },
+      {
+        "question": "Çocuk bu pazar gezisinden ne kazandı?",
+        "options": [
+          "Yeni bir oyuncak",
+          "Hem yardım etti hem hesap yapmayı öğrendi",
+          "Bir arkadaş edindi",
+          "Satıcı olmaya karar verdi"
+        ],
+        "correct": "b",
+        "explanation": "Son cümlede anneye yardım ettiğini ve hesap yapmayı öğrendiğini söylüyor."
+      }
+    ]
+  },
+  {
+    "slug": "kayip-kopek-karamel",
+    "title": "Kayıp Köpek Karamel",
+    "category": "Macera",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Ali ile kız kardeşi Zeynep'in bir köpeği vardı. Köpeğin adı Karamel'di. Karamel kahverengi ve tüylü bir köpekti.\n\nBir gün bahçe kapısı açık kaldı. Karamel dışarı çıktı ve kayboldu. Ali ile Zeynep çok üzüldü. Hemen onu aramaya karar verdiler.\n\nÖnce annelerine haber verdiler. Annelerine sormadan hiçbir yere gitmediler. Anneleri de onlarla geldi. Zeynep, Karamel'in en sevdiği topu aldı. Ali de bir düdük aldı. Karamel düdük sesini çok iyi tanırdı.\n\nÖnce parka gittiler. Kaydırağın altına baktılar. Karamel orada değildi.\n\nParktaki çocuklara da sordular. 'Kahverengi bir köpek gördünüz mü?' dediler. Çocuklar görmediklerini söyledi. Zeynep'in gözleri doldu. Ali ona sarıldı. 'Üzülme, onu mutlaka bulacağız' dedi. Sonra yola devam ettiler. Sonra bakkala uğradılar. Bakkal amca, 'Kahverengi bir köpek fırına doğru koştu' dedi.\n\nKardeşler fırına koştular. Ali düdüğü öttürdü. Zeynep de topu havaya kaldırdı. Birden bir havlama duydular. Karamel fırının önünde oturuyordu! Fırıncı ona su vermişti.\n\nKaramel kardeşleri görünce kuyruğunu salladı. Zeynep onu sıkıca kucakladı. Ali fırıncıya teşekkür etti. Eve dönünce bahçe kapısını dikkatle kapattılar. Artık kapıyı hiç açık bırakmayacaklardı.",
+    "questions": [
+      {
+        "question": "Karamel nasıl kayboldu?",
+        "options": [
+          "Parkta kaçtı",
+          "Bahçe kapısı açık kaldı",
+          "Arabadan atladı",
+          "Okula gitti"
+        ],
+        "correct": "b",
+        "explanation": "Bahçe kapısı açık kalınca Karamel dışarı çıktı."
+      },
+      {
+        "question": "Karamel'in fırına gittiğini kim söyledi?",
+        "options": [
+          "Fırıncı",
+          "Anneleri",
+          "Öğretmen",
+          "Bakkal amca"
+        ],
+        "correct": "d",
+        "explanation": "Bakkal amca köpeğin fırına doğru koştuğunu söyledi."
+      },
+      {
+        "question": "Ali aramaya giderken yanına ne aldı?",
+        "options": [
+          "Bir düdük",
+          "Bir top",
+          "Bir fener",
+          "Bir tasma"
+        ],
+        "correct": "a",
+        "explanation": "Topu Zeynep aldı, Ali ise düdük aldı."
+      },
+      {
+        "question": "Kardeşler bu olaydan hangi dersi çıkardı?",
+        "options": [
+          "Köpeklerin fırını sevdiğini",
+          "Parka hiç gitmemek gerektiğini",
+          "Bahçe kapısını açık bırakmamak gerektiğini",
+          "Düdüğün gereksiz olduğunu"
+        ],
+        "correct": "c",
+        "explanation": "Eve dönünce kapıyı dikkatle kapattılar ve bir daha açık bırakmamaya karar verdiler."
+      }
+    ]
+  },
+  {
+    "slug": "yuzmeyi-ogrenen-deniz",
+    "title": "Yüzmeyi Öğrenen Deniz",
+    "category": "Spor",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Deniz sekiz yaşında bir çocuktu. Adı Deniz'di ama suyu hiç sevmezdi. Sudan biraz korkardı.\n\nBir yaz, babası onu yüzme kursuna yazdırdı. İlk gün Deniz havuzun kenarında durdu. Su çok derin görünüyordu. Kalbi hızlı hızlı atıyordu.\n\nYüzme öğretmeni Ayşe Hanım yanına geldi. 'Korkman çok normal. Yavaş yavaş öğreneceğiz' dedi. Deniz'e kolluk taktı. Önce havuzun sığ kısmına girdiler.\n\nİlk hafta Deniz sadece suda yürüdü. Sonra yüzünü suya soktu ve baloncuk çıkardı. Bu çok eğlenceliydi! İkinci hafta ayaklarını çırpmayı öğrendi. Bir tahtaya tutunarak ilerledi.\n\nBazen ağzına su kaçtı. Bazen çok yoruldu. Ama hiç vazgeçmedi. Her derste biraz daha cesur oldu.\n\nBir ay sonra büyük gün geldi. Deniz kolluk takmadan havuzun bir ucundan öbür ucuna yüzdü. Babası onu alkışladı. Ayşe Hanım da 'Harikasın!' dedi.\n\nO akşam Deniz dedesini aradı. Havuzda yüzdüğünü heyecanla anlattı. Dedesi çok sevindi. 'Yaz gelince birlikte denize gideceğiz' dedi. Deniz o günü sabırsızlıkla bekliyordu. Kolluk takmadan yüzecekti ama yine de büyüklerinin yanından ayrılmayacaktı.\n\nDeniz çok mutluydu. Artık sudan korkmuyordu. Korkularına adım adım yaklaşınca onları yenebileceğini öğrenmişti.",
+    "questions": [
+      {
+        "question": "Deniz başlangıçta sudan neden uzak duruyordu?",
+        "options": [
+          "Sudan biraz korkuyordu",
+          "Havuz kapalıydı",
+          "Mayosu yoktu",
+          "Hastaydı"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Deniz'in sudan biraz korktuğu yazıyor."
+      },
+      {
+        "question": "Öğretmen Ayşe Hanım ilk gün Deniz'e ne taktı?",
+        "options": [
+          "Gözlük",
+          "Bone",
+          "Kolluk",
+          "Palet"
+        ],
+        "correct": "c",
+        "explanation": "Ayşe Hanım Deniz'e kolluk taktı."
+      },
+      {
+        "question": "Deniz ikinci hafta ne öğrendi?",
+        "options": [
+          "Suya atlamayı",
+          "Ayaklarını çırpmayı",
+          "Sırtüstü yüzmeyi",
+          "Dalmayı"
+        ],
+        "correct": "b",
+        "explanation": "İkinci hafta ayaklarını çırpmayı öğrendi ve tahtaya tutunarak ilerledi."
+      },
+      {
+        "question": "Bu hikâyenin ana fikri nedir?",
+        "options": [
+          "Havuzlar çok derindir",
+          "Yüzmek sadece yazın yapılır",
+          "Babalar her zaman alkışlar",
+          "Sabır ve cesaretle korkular yenilebilir"
+        ],
+        "correct": "d",
+        "explanation": "Deniz vazgeçmeden adım adım ilerleyerek korkusunu yendi."
+      }
+    ]
+  },
+  {
+    "slug": "bulutlar-ve-yagmur-cesitleri",
+    "title": "Bulutlar ve Yağmur Çeşitleri",
+    "category": "Doğa",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Gökyüzüne baktığında pamuk gibi bulutlar görürsün. Peki bulutlar nasıl oluşur, hiç düşündün mü?\n\nGüneş denizleri, gölleri ve nehirleri ısıtır. Isınan suyun bir kısmı buhar olur ve havaya yükselir. Yükseklerde hava soğuktur. Soğuyan buhar, çok küçük su damlacıklarına dönüşür. Milyonlarca damlacık bir araya gelince bulut oluşur.\n\nBulutlar bize beyaz görünür, çünkü damlacıklar güneş ışığını yansıtır. Bir bulut çok kalınlaşınca ışık içinden geçemez. O zaman bulut gri ya da koyu görünür. Koyu bulutlar genellikle yağmurun yaklaştığını haber verir.\n\nBulutların farklı çeşitleri vardır. Kümülüs bulutları beyaz ve kabarıktır, genellikle güzel havalarda görülür. Sirrüs bulutları çok yüksekte olur ve tüy gibi görünür. Stratüs bulutları gökyüzünü gri bir örtü gibi kaplar. Kümülonimbüs bulutları ise çok büyük ve koyu renklidir. Bu bulutlar gök gürültülü fırtınalar getirir.\n\nBuluttaki damlacıklar birleşip büyür ve ağırlaşır. Hava artık onları taşıyamaz. Böylece yağış başlar. Damlalar çok küçükse çisenti olur. Büyükse sağanak yağmur yağar. Hava çok soğuksa su donar ve kar olarak yağar. Fırtına bulutlarında buz topları da oluşabilir. Bunlara dolu denir.\n\nYağan su yeniden denizlere ve nehirlere döner. Sonra yine buharlaşır. Bu döngü hiç durmaz. Bir dahaki sefere bulutlara bakınca hangi çeşit olduğunu tahmin etmeye çalış!",
+    "questions": [
+      {
+        "question": "Bulutlar neyden oluşur?",
+        "options": [
+          "Dumandan",
+          "Tozdan",
+          "Çok küçük su damlacıklarından",
+          "Pamuktan"
+        ],
+        "correct": "c",
+        "explanation": "Soğuyan buhar küçük damlacıklara dönüşür, milyonlarca damlacık bulutu oluşturur."
+      },
+      {
+        "question": "Gök gürültülü fırtınaları hangi bulutlar getirir?",
+        "options": [
+          "Kümülonimbüs",
+          "Sirrüs",
+          "Stratüs",
+          "Kümülüs"
+        ],
+        "correct": "a",
+        "explanation": "Büyük ve koyu kümülonimbüs bulutları fırtına getirir."
+      },
+      {
+        "question": "Fırtına bulutlarında oluşan buz toplarına ne denir?",
+        "options": [
+          "Çisenti",
+          "Sis",
+          "Kırağı",
+          "Dolu"
+        ],
+        "correct": "d",
+        "explanation": "Metinde bu buz toplarına dolu dendiği yazıyor."
+      },
+      {
+        "question": "Metne göre suyun yolculuğu neden 'hiç durmayan bir döngü'dür?",
+        "options": [
+          "Çünkü bulutlar hiç hareket etmez",
+          "Çünkü yağan su yeniden buharlaşıp tekrar bulut olur",
+          "Çünkü denizler hiç ısınmaz",
+          "Çünkü yağmur sadece bir kez yağar"
+        ],
+        "correct": "b",
+        "explanation": "Yağan su denizlere döner, yeniden buharlaşır ve süreç tekrarlanır."
+      }
+    ]
+  },
+  {
+    "slug": "magarada-okul-gezisi",
+    "title": "Mağarada Bir Okul Gezisi",
+    "category": "Macera",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Dördüncü sınıflar o sabah çok heyecanlıydı. Öğretmenleri Murat Bey onları bir mağara gezisine götürüyordu.\n\nMağaranın girişinde rehber Selin Hanım onları karşıladı. Herkese birer kask verdi. 'Grubunuzdan ayrılmayın ve yolun dışına çıkmayın' dedi.\n\nKaskların önünde küçük birer fener vardı. Çocuklar fenerlerini yaktı ve sıraya girdi. Defne en öndeydi, Emre de onun arkasındaydı. Herkes biraz heyecanlı, biraz da meraklıydı. Mağaranın ağzından içeri serin bir rüzgâr esiyordu.\n\nİçeri girince hava serinledi. Duvarlar nemliydi, tavandan su damlıyordu. Selin Hanım fenerini tavana tuttu. Tavandan aşağı sarkan sivri taşlar vardı. 'Bunlara sarkıt denir' dedi. Sonra yerden yukarı uzanan taşları gösterdi. 'Bunlar da dikit. Sudaki mineraller çok uzun yıllar boyunca birikerek bunları oluşturdu.'\n\nEmre iki taşın birleştiğini fark etti. 'Bakın, sarkıtla dikit birleşmiş!' diye bağırdı. Selin Hanım gülümsedi. 'Buna sütun diyoruz. Oluşması binlerce yıl sürer.'\n\nBiraz ilerleyince küçük bir yarasa gördüler. Yarasa tavanda baş aşağı uyuyordu. Çocuklar onu rahatsız etmemek için fısıldayarak konuştular.\n\nGezinin sonunda Selin Hanım fenerleri bir dakikalığına söndürdü. Her yer zifiri karanlık oldu. Sadece damlaların sesi duyuluyordu. Işıklar yanınca herkes alkışladı.\n\nDönüşte Defne defterine şöyle yazdı: 'Doğa, çok sabırlı bir sanatçı.'",
+    "questions": [
+      {
+        "question": "Tavandan aşağı doğru sarkan sivri taşlara ne denir?",
+        "options": [
+          "Dikit",
+          "Sarkıt",
+          "Sütun",
+          "Kaya"
+        ],
+        "correct": "b",
+        "explanation": "Selin Hanım tavandan sarkan taşlara sarkıt dendiğini anlattı."
+      },
+      {
+        "question": "Sarkıt ile dikit birleşince oluşan yapının adı nedir?",
+        "options": [
+          "Tünel",
+          "Kemer",
+          "Kule",
+          "Sütun"
+        ],
+        "correct": "d",
+        "explanation": "Selin Hanım 'Buna sütun diyoruz' dedi."
+      },
+      {
+        "question": "Çocuklar yarasayı görünce neden fısıldadılar?",
+        "options": [
+          "Onu rahatsız etmemek için",
+          "Korktukları için",
+          "Öğretmen kızdığı için",
+          "Yankı yapmasın diye"
+        ],
+        "correct": "a",
+        "explanation": "Metinde yarasayı rahatsız etmemek için fısıldadıkları yazıyor."
+      },
+      {
+        "question": "Defne'nin 'Doğa, çok sabırlı bir sanatçı' sözüyle ne anlatmak istediği düşünülebilir?",
+        "options": [
+          "Doğanın resim yaptığını",
+          "Mağaranın çok karanlık olduğunu",
+          "Mağaradaki güzel şekillerin çok uzun sürede oluştuğunu",
+          "Yarasaların çok sabırlı olduğunu"
+        ],
+        "correct": "c",
+        "explanation": "Sarkıt, dikit ve sütunlar binlerce yılda oluşur; Defne bu sabrı anlatıyor."
+      }
+    ]
+  },
+  {
+    "slug": "arilarin-bal-yapimi-ve-dansi",
+    "title": "Arıların Bal Yapımı ve Dansı",
+    "category": "Hayvanlar",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Kahvaltıda yediğimiz bal, küçük ama çok çalışkan böceklerin emeğidir. Bal arıları bu tatlı yiyeceği nasıl yapar?\n\nBir kovanda binlerce arı yaşar. Kovanda bir ana arı vardır ve yumurtaları o bırakır. İşçi arılar ise kovanı temizler, yavrulara bakar ve yiyecek toplar.\n\nBir işçi arı yaz aylarında yalnızca birkaç hafta yaşar. Bu kısa hayatında bir çay kaşığının çok küçük bir bölümü kadar bal yapar. Bir kavanoz bal için binlerce arının emeği gerekir. Yani balı yerken çok sayıda arıya teşekkür etmeliyiz.\n\nİşçi arılar çiçeklere uçar. Çiçeklerin içindeki tatlı sıvıyı emerler. Bu sıvıya nektar denir. Arılar nektarı bal midesi denen özel bir bölümde taşır. Kovana dönünce nektarı diğer arılara aktarırlar.\n\nArılar nektarı petekteki altıgen gözlere koyar. Sonra kanatlarını hızlı hızlı çırparak onu yelpazelerler. Böylece nektardaki suyun çoğu buharlaşır. Nektar koyulaşır ve bala dönüşür. Arılar gözlerin ağzını balmumuyla kapatır.\n\nArıların bir de şaşırtıcı dansı vardır. Güzel çiçekler bulan bir arı kovana döner ve dans eder. Çiçekler yakınsa daireler çizer. Uzaktaysa sekiz rakamına benzeyen bir yol izler ve gövdesini sallar. Bu dansla diğer arılara çiçeklerin yönünü ve uzaklığını anlatır.\n\nArılar çiçekten çiçeğe uçarken bitkilerin meyve vermesine de yardım eder. Bu yüzden arıları korumak çok önemlidir.",
+    "questions": [
+      {
+        "question": "Arıların çiçeklerden topladığı tatlı sıvının adı nedir?",
+        "options": [
+          "Balmumu",
+          "Polen",
+          "Şurup",
+          "Nektar"
+        ],
+        "correct": "d",
+        "explanation": "Çiçeklerin içindeki tatlı sıvıya nektar denir."
+      },
+      {
+        "question": "Arılar kanatlarını çırparak nektarı neden yelpazeler?",
+        "options": [
+          "Nektardaki su buharlaşsın diye",
+          "Kovanı ısıtmak için",
+          "Ana arıyı uyandırmak için",
+          "Çiçekleri çağırmak için"
+        ],
+        "correct": "a",
+        "explanation": "Yelpazeleme ile suyun çoğu buharlaşır ve nektar koyulaşarak bala dönüşür."
+      },
+      {
+        "question": "Çiçekler uzaktaysa arı nasıl bir dans yapar?",
+        "options": [
+          "Yerinde zıplar",
+          "Sadece daireler çizer",
+          "Sekiz rakamına benzeyen bir yol izleyip gövdesini sallar",
+          "Hiç dans etmez"
+        ],
+        "correct": "c",
+        "explanation": "Uzak çiçekler için sekize benzer bir yol izler ve gövdesini sallar."
+      },
+      {
+        "question": "Metne göre arıları korumak neden önemlidir?",
+        "options": [
+          "Arılar çok güzel dans ettiği için",
+          "Hem bal yaptıkları hem de bitkilerin meyve vermesine yardım ettikleri için",
+          "Kovanlar çok büyük olduğu için",
+          "Arılar insanlara kitap okuduğu için"
+        ],
+        "correct": "b",
+        "explanation": "Arılar bal üretir ve çiçekten çiçeğe uçarak bitkilerin meyve vermesine yardım eder."
+      }
+    ]
+  },
+  {
+    "slug": "miknatislarin-gizemi",
+    "title": "Mıknatısların Gizemi",
+    "category": "Bilim",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Buzdolabının kapağına yapışan süsleri hiç merak ettin mi? Onları orada tutan şey mıknatıstır. Mıknatıslar, bazı cisimleri dokunmadan kendine çeken ilginç nesnelerdir.\n\nHer mıknatısın iki ucu vardır. Bu uçlara kutup denir. Birine kuzey kutbu, diğerine güney kutbu adı verilir. İki mıknatısı birbirine yaklaştırırsan ilginç bir şey olur. Farklı kutuplar birbirini çeker, aynı kutuplar ise birbirini iter.\n\nMıknatıslar her şeyi çekmez. Demir çiviler ve ataşlar mıknatısa yapışır. Tahta, plastik, kâğıt ve cam ise çekilmez. Alüminyum gibi bazı metaller de mıknatısa yapışmaz.\n\nMıknatısın gücü bazı maddelerin içinden de geçebilir. Bir kâğıdın üzerine ataş koy ve kâğıdın altında bir mıknatısı gezdir. Ataş, mıknatısı takip ederek kâğıdın üzerinde hareket eder. Sanki sihirli bir el onu çekiyormuş gibi görünür!\n\nDünyamız da dev bir mıknatıs gibidir. Bu yüzden pusulalar işe yarar. Pusulanın iğnesi küçük bir mıknatıstır ve hep kuzey yönünü gösterir. Eskiden denizciler yollarını pusula sayesinde bulurdu.\n\nMıknatısları günlük hayatta birçok yerde kullanırız. Hoparlörlerde, dolap kapaklarında ve oyuncaklarda mıknatıs vardır. Bazı hızlı trenler bile mıknatıs gücüyle rayların üzerinde süzülür.\n\nEvde küçük bir deney yapabilirsin. Bir mıknatıs al ve odandaki eşyalara yaklaştır. Hangilerinin yapıştığını bir listeye yaz!",
+    "questions": [
+      {
+        "question": "Bir mıknatısın uçlarına ne ad verilir?",
+        "options": [
+          "Kutup",
+          "Kanat",
+          "İğne",
+          "Köşe"
+        ],
+        "correct": "a",
+        "explanation": "Mıknatısın iki ucuna kutup denir."
+      },
+      {
+        "question": "İki mıknatısın aynı kutupları birbirine yaklaşırsa ne olur?",
+        "options": [
+          "Birbirini çeker",
+          "Isınırlar",
+          "Birbirini iter",
+          "Kırılırlar"
+        ],
+        "correct": "c",
+        "explanation": "Aynı kutuplar birbirini iter, farklı kutuplar çeker."
+      },
+      {
+        "question": "Aşağıdakilerden hangisi mıknatısa yapışır?",
+        "options": [
+          "Plastik kaşık",
+          "Tahta kalem",
+          "Cam bardak",
+          "Demir çivi"
+        ],
+        "correct": "d",
+        "explanation": "Demir çiviler mıknatısa yapışır; tahta, plastik ve cam yapışmaz."
+      },
+      {
+        "question": "Pusulanın yön gösterebilmesinin sebebi nedir?",
+        "options": [
+          "İçinde pil olması",
+          "Dünya'nın dev bir mıknatıs gibi olması",
+          "Denizcilerin onu çevirmesi",
+          "Güneş ışığıyla çalışması"
+        ],
+        "correct": "b",
+        "explanation": "Dünya dev bir mıknatıs gibi olduğu için pusulanın mıknatıs iğnesi kuzeyi gösterir."
+      }
+    ]
+  },
+  {
+    "slug": "astronotlar-uzayda-nasil-yasar",
+    "title": "Astronotlar Uzayda Nasıl Yaşar?",
+    "category": "Uzay",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Uluslararası Uzay İstasyonu, Dünya'nın çevresinde dönen büyük bir laboratuvardır. Orada astronotlar aylarca yaşar ve çalışır. Peki uzayda günlük hayat nasıldır?\n\nUzay istasyonunda her şey havada süzülür. Astronotlar da yürümez, süzülerek ilerler. Bu yüzden eşyalarını cırt cırtlı bantlarla duvarlara tuttururlar. Yoksa kalem, kaşık ya da kitap uçup gider.\n\nUyumak da farklıdır. Astronotlar duvara bağlı uyku tulumlarının içine girer. Uzayda yukarı ya da aşağı yoktur. İstasyon Dünya'nın etrafında çok hızlı döner. Astronotlar bir günde on altı kez güneşin doğuşunu görür. Bu yüzden uyurken göz bandı takarlar.\n\nYemekler özel paketlerde gelir. Bazılarına su ekleyerek yemek hazırlarlar. Ekmek yerine genellikle lavaş yerler. Çünkü ekmek kırıntıları havada uçuşur ve makinelere zarar verebilir. İçeceklerini kapalı paketlerden pipetle içerler.\n\nTemizlik de farklıdır. Uzayda duş almak zordur, çünkü su damlaları her yere uçuşur. Astronotlar ıslak havlularla ve durulama gerektirmeyen özel şampuanlarla temizlenir. Dişlerini fırçaladıktan sonra diş macununu genellikle yutarlar ya da bir havluya tükürürler.\n\nUzayda kaslar ve kemikler az çalıştığı için zayıflayabilir. Bu nedenle astronotlar her gün yaklaşık iki saat spor yapar. Koşu bandına kemerlerle bağlanarak koşarlar.\n\nAstronotların hayatı zor ama çok heyecanlıdır. Pencereden bakınca mavi Dünyamızı görürler.",
+    "questions": [
+      {
+        "question": "Astronotlar eşyalarının uçup gitmemesi için ne yapar?",
+        "options": [
+          "Eşyaları dolaba kilitler",
+          "Cırt cırtlı bantlarla duvarlara tuttururlar",
+          "Eşyaları ıslatır",
+          "Hiç eşya kullanmazlar"
+        ],
+        "correct": "b",
+        "explanation": "Eşyalarını cırt cırtlı bantlarla duvarlara tuttururlar."
+      },
+      {
+        "question": "Astronotlar uzayda ekmek yerine genellikle ne yer?",
+        "options": [
+          "Kraker",
+          "Simit",
+          "Pasta",
+          "Lavaş"
+        ],
+        "correct": "d",
+        "explanation": "Ekmek kırıntıları uçuştuğu için lavaş tercih edilir."
+      },
+      {
+        "question": "Astronotlar her gün neden yaklaşık iki saat spor yapar?",
+        "options": [
+          "Kasları ve kemikleri zayıflamasın diye",
+          "Canları sıkıldığı için",
+          "Yarışmaya hazırlandıkları için",
+          "İstasyonu hareket ettirmek için"
+        ],
+        "correct": "a",
+        "explanation": "Uzayda kaslar ve kemikler az çalıştığı için zayıflayabilir."
+      },
+      {
+        "question": "Astronotların uyurken göz bandı takmalarının sebebi nedir?",
+        "options": [
+          "Gözleri ağrıdığı için",
+          "İstasyonda lamba olmadığı için",
+          "Bir günde birçok kez güneş doğup battığı için",
+          "Uzay çok soğuk olduğu için"
+        ],
+        "correct": "c",
+        "explanation": "İstasyon çok hızlı döndüğü için bir günde on altı kez güneş doğar; ışık uykuyu bölebilir."
+      }
+    ]
+  },
+  {
+    "slug": "yunuslarin-iletisimi",
+    "title": "Yunusların İletişimi",
+    "category": "Hayvanlar",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Yunuslar denizlerin en zeki ve en sosyal canlıları arasında yer alır. Genellikle gruplar halinde yaşarlar. Bu gruplarda avlanmak, yavrulara bakmak ve tehlikelerden korunmak için sürekli haberleşirler. Peki yunuslar birbirleriyle nasıl konuşur?\n\nYunuslar çok çeşitli sesler çıkarır. Islıkları, tıklamaları ve cıvıltıları bir arada kullanırlar. Bilim insanları, her yunusun kendine özgü bir ıslığı olduğunu keşfetmiştir. Bu ıslık bir çeşit isim gibidir. Yavru yunus, doğduktan sonraki ilk aylarda kendi ıslığını geliştirir. Diğer yunuslar onu bu ıslıkla tanır ve çağırır.\n\nYunusların çıkardığı seslerin bir kısmını insan kulağı duyamaz, çünkü bu sesler çok incedir. Bilim insanları bu sesleri özel su altı mikrofonlarıyla kaydeder. Sonra bilgisayarlarda inceleyerek hangi sesin hangi durumda kullanıldığını anlamaya çalışırlar.\n\nYunusların ekolokasyon denen özel bir yeteneği de vardır. Yunus hızlı tıklama sesleri çıkarır. Bu sesler suda ilerler, bir balığa ya da kayaya çarpıp geri döner. Yunus, geri gelen yankıyı dinleyerek nesnenin nerede olduğunu ve ne kadar büyük olduğunu anlar. Böylece bulanık ya da karanlık suda bile yolunu ve yiyeceğini bulabilir.\n\nYunuslar yalnızca sesle değil, vücut hareketleriyle de iletişim kurar. Sudan yükseğe sıçramak, kuyrukla suya vurmak ya da birbirine sürtünmek de mesaj taşır. Örneğin kuyrukla suya sert vurmak bazen bir uyarı anlamına gelir.\n\nYunusların dilini tam olarak çözmek için araştırmalar hâlâ sürüyor. Denizleri temiz tutmak ve gemi gürültüsünü azaltmak, bu harika hayvanların birbirini duyabilmesi için çok önemlidir.",
+    "questions": [
+      {
+        "question": "Her yunusun kendine özgü ıslığı neye benzetilmiştir?",
+        "options": [
+          "Bir şarkıya",
+          "Bir isme",
+          "Bir haritaya",
+          "Bir oyuna"
+        ],
+        "correct": "b",
+        "explanation": "Metinde bu ıslığın bir çeşit isim gibi olduğu söyleniyor."
+      },
+      {
+        "question": "Yunusların ekolokasyon yeteneği ne işe yarar?",
+        "options": [
+          "Daha hızlı yüzmeye",
+          "Suyun sıcaklığını ölçmeye",
+          "Yankıyı dinleyerek nesnelerin yerini ve büyüklüğünü anlamaya",
+          "Uzun süre uyumaya"
+        ],
+        "correct": "c",
+        "explanation": "Tıklama sesleri nesnelere çarpıp geri döner; yunus yankıyı dinleyerek nesneyi tanır."
+      },
+      {
+        "question": "Kuyrukla suya sert vurmak bazen ne anlama gelir?",
+        "options": [
+          "Uyarı",
+          "Selamlaşma",
+          "Uyku zamanı",
+          "Oyun daveti"
+        ],
+        "correct": "a",
+        "explanation": "Metinde bunun bazen bir uyarı anlamına geldiği yazıyor."
+      },
+      {
+        "question": "Metne göre gürültülü denizler yunuslar için neden sorun olabilir?",
+        "options": [
+          "Yunuslar gürültüden hoşlandığı için",
+          "Suyu ısıttığı için",
+          "Balıkları çoğalttığı için",
+          "Yunusların birbirini duymasını zorlaştırdığı için"
+        ],
+        "correct": "d",
+        "explanation": "Yunuslar sesle haberleştiği için gürültü birbirlerini duymalarını zorlaştırır."
+      }
+    ]
+  },
+  {
+    "slug": "ses-nasil-yayilir",
+    "title": "Ses Nasıl Yayılır?",
+    "category": "Bilim",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Bir arkadaşın sana seslendiğinde onun sesini nasıl duyarsın? Sesin ağızdan kulağa ulaşması aslında şaşırtıcı bir yolculuktur.\n\nSes, titreşimlerle oluşur. Bir gitar telini çektiğinde tel hızla ileri geri hareket eder. Konuşurken boğazındaki ses telleri de titreşir. Bu titreşimler çevredeki havayı iter ve hava parçacıkları birbirini dürtmeye başlar. Tıpkı göle atılan bir taşın oluşturduğu halkalar gibi, titreşim her yöne yayılır. Sonunda kulağımıza ulaşır ve kulak zarımızı titreştirir. Beynimiz bu titreşimi ses olarak algılar.\n\nSesler birbirinden farklıdır. Bazıları kalın, bazıları incedir. Bir cisim hızlı titreşirse ince ses, yavaş titreşirse kalın ses çıkar. Kuş cıvıltısı ince, davul sesi ise kalındır. Sesin şiddeti de değişebilir; fısıltı hafif, bağırış ise yüksek bir sestir.\n\nSesin yayılması için bir ortam gerekir. Ses havada, suda ve katı cisimlerde ilerleyebilir. Suda havadakinden yaklaşık dört kat daha hızlı yayılır. Katı cisimlerde ise çoğu zaman daha da hızlıdır. Kulağını bir masaya dayayıp masanın öbür ucuna hafifçe vurursan sesi çok net duyarsın.\n\nUzay ise sessizdir, çünkü orada sesi taşıyacak hava yoktur. Astronotlar bu yüzden uzay yürüyüşlerinde telsizle konuşur.\n\nSes hızlıdır ama ışık kadar hızlı değildir. Havada saniyede yaklaşık 340 metre yol alır. Bu yüzden fırtınada önce şimşeği görür, sonra gök gürültüsünü duyarız. Aradaki saniyeleri sayarak fırtınanın ne kadar uzakta olduğunu tahmin edebiliriz.\n\nYankı da sesin yayılmasıyla ilgilidir. Ses büyük bir duvara ya da dağa çarpınca geri döner. Böylece kendi sesimizi yeniden duyarız.",
+    "questions": [
+      {
+        "question": "Ses nasıl oluşur?",
+        "options": [
+          "Işıkla",
+          "Titreşimlerle",
+          "Rüzgârla",
+          "Elektrikle"
+        ],
+        "correct": "b",
+        "explanation": "Metin 'Ses, titreşimlerle oluşur' diyor."
+      },
+      {
+        "question": "Uzayda neden ses duyulmaz?",
+        "options": [
+          "Uzay çok soğuk olduğu için",
+          "Yıldızlar sesi yuttuğu için",
+          "Uzayda sesi taşıyacak hava olmadığı için",
+          "Astronotların kulakları kapalı olduğu için"
+        ],
+        "correct": "c",
+        "explanation": "Sesin yayılması için bir ortam gerekir, uzayda hava yoktur."
+      },
+      {
+        "question": "Fırtınada şimşeği gök gürültüsünden önce görmemizin sebebi nedir?",
+        "options": [
+          "Işığın sesten çok daha hızlı olması",
+          "Şimşeğin daha önce oluşması",
+          "Gözlerimizin kulaklarımızdan iyi olması",
+          "Gök gürültüsünün bulutlarda beklemesi"
+        ],
+        "correct": "a",
+        "explanation": "Ses hızlıdır ama ışık kadar hızlı değildir."
+      },
+      {
+        "question": "Ses aşağıdakilerin hangisinde havadakinden yaklaşık dört kat daha hızlı yayılır?",
+        "options": [
+          "Uzayda",
+          "Sisli havada",
+          "Boşlukta",
+          "Suda"
+        ],
+        "correct": "d",
+        "explanation": "Metinde ses suda havadakinden yaklaşık dört kat hızlı yayıldığı yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "volkanlar-ates-dagi",
+    "title": "Volkanlar",
+    "category": "Doğa",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Dünyamızın içi, sandığımızdan çok daha sıcaktır. Yerin derinliklerinde kayalar o kadar ısınır ki eriyerek magma denen koyu ve akışkan bir maddeye dönüşür. Magma, çevresindeki kayalardan daha hafif olduğu için yavaş yavaş yukarı doğru yükselir.\n\nMagma yeryüzündeki bir çatlaktan ya da açıklıktan dışarı çıktığında volkan patlaması olur. Yeryüzüne ulaşan magmaya artık lav denir. Lav, bin dereceyi aşan sıcaklıklarda akabilir. Patlama sırasında gökyüzüne kül, gaz ve taş parçaları da fırlar. Lav ve kül zamanla katman katman birikir. Böylece volkan dağları yüzyıllar içinde giderek büyür.\n\nVolkanların hepsi aynı değildir. Bazıları sık sık püskürür, bunlara etkin volkan denir. Bazıları uzun zamandır sessizdir ama bir gün yeniden uyanabilir. Bir kısmı ise çok uzun zamandır hiç püskürmemiştir ve sönmüş kabul edilir.\n\nDünyada bugün yüzlerce etkin volkan bulunur. Bunların pek çoğu Büyük Okyanus'un çevresinde yer alır. Bu bölgeye, volkanlarının çokluğu nedeniyle Ateş Çemberi adı verilir. Bazı volkanlar ise denizlerin altındadır ve biz onları göremeyiz.\n\nÜlkemizde de volkanik dağlar vardır. Ağrı Dağı, Erciyes Dağı ve Bitlis'teki Nemrut Dağı bunlardan bazılarıdır. Bu dağlar günümüzde püskürmüyor. Ancak geçmişteki patlamaları, çevrelerindeki toprağı ve kayaları şekillendirmiştir.\n\nVolkanlar korkutucu görünse de doğaya faydaları da vardır. Volkanik kül toprağı zenginleştirir ve bu toprakta bitkiler iyi yetişir. Bilim insanları etkin volkanları sürekli izler. Böylece bir patlama yaklaşırken insanlar önceden uyarılabilir.",
+    "questions": [
+      {
+        "question": "Yeryüzüne ulaşan magmaya ne ad verilir?",
+        "options": [
+          "Kül",
+          "Tüf",
+          "Lav",
+          "Buhar"
+        ],
+        "correct": "c",
+        "explanation": "Metinde yeryüzüne ulaşan magmaya lav dendiği yazıyor."
+      },
+      {
+        "question": "Sık sık püsküren volkanlara ne denir?",
+        "options": [
+          "Etkin volkan",
+          "Sönmüş volkan",
+          "Uyuyan dağ",
+          "Buzul"
+        ],
+        "correct": "a",
+        "explanation": "Sık sık püsküren volkanlara etkin volkan denir."
+      },
+      {
+        "question": "Aşağıdakilerden hangisi metinde adı geçen volkanik dağlardan biri değildir?",
+        "options": [
+          "Ağrı Dağı",
+          "Erciyes Dağı",
+          "Nemrut Dağı",
+          "Uludağ"
+        ],
+        "correct": "d",
+        "explanation": "Metinde Ağrı, Erciyes ve Nemrut dağları sayılıyor; Uludağ geçmiyor."
+      },
+      {
+        "question": "Metne göre volkanların doğaya faydası nedir?",
+        "options": [
+          "Havayı soğutmaları",
+          "Küllerinin toprağı zenginleştirmesi",
+          "Denizleri tatlandırmaları",
+          "Yağmuru durdurmaları"
+        ],
+        "correct": "b",
+        "explanation": "Volkanik kül toprağı zenginleştirir ve bitkiler iyi yetişir."
+      }
+    ]
+  },
+  {
+    "slug": "telefonun-kisa-tarihi",
+    "title": "Telefonun Kısa Tarihi",
+    "category": "Teknoloji",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Bugün cebimizdeki telefonla dünyanın öbür ucundaki biriyle görüntülü konuşabiliyoruz. Oysa yaklaşık 150 yıl önce uzaktaki birine haber ulaştırmak günler, hatta haftalar sürebiliyordu.\n\n1876 yılında Alexander Graham Bell telefonun patentini aldı. Aynı dönemde başka mucitler de benzer cihazlar üzerinde çalışıyordu. İlk telefonlar sesi elektrik sinyallerine çevirip teller aracılığıyla taşıyordu. Hattın öbür ucunda bu sinyaller yeniden sese dönüşüyordu.\n\nBell'in telefonla yaptığı ilk konuşmanın, yan odadaki yardımcısını çağırdığı kısa bir cümle olduğu anlatılır. O günlerde pek çok insan bu buluşa şaşkınlıkla baktı. Bir kutudan insan sesi gelmesi onlara neredeyse sihir gibi geliyordu.\n\nİlk zamanlarda telefonla birini aramak kolay değildi. Önce santraldeki bir görevliye bağlanılırdı. Görevli, kabloları elle takarak iki kişiyi birbirine bağlardı. Daha sonra çevirmeli telefonlar çıktı. İnsanlar numaraları, üzerinde delikler olan yuvarlak bir kadranı çevirerek arıyordu.\n\n1973 yılında ilk cep telefonu görüşmesi yapıldı. İlk cep telefonları bir tuğla kadar büyük ve ağırdı. Pilleri de çok çabuk bitiyordu. Yıllar geçtikçe telefonlar küçüldü ve kısa mesaj gönderebilir hale geldi.\n\n2000'li yıllarda akıllı telefonlar hayatımıza girdi. Dokunmatik ekranlı bu telefonlarla fotoğraf çekiyor, internette geziniyor, harita kullanıyor ve oyun oynuyoruz. Yani telefon artık yalnızca konuşmak için kullanılan bir araç değil.\n\nTelefonun hikâyesi, küçük adımların zamanla büyük değişimlere yol açtığını gösteriyor. Belki gelecekte bugünkü telefonlarımız da müzelerde sergilenecek!",
+    "questions": [
+      {
+        "question": "Alexander Graham Bell telefonun patentini hangi yıl aldı?",
+        "options": [
+          "1776",
+          "1876",
+          "1973",
+          "2007"
+        ],
+        "correct": "b",
+        "explanation": "Metinde 1876 yılı geçiyor."
+      },
+      {
+        "question": "İlk zamanlarda telefon görüşmelerini kim bağlıyordu?",
+        "options": [
+          "Santraldeki bir görevli",
+          "Postacı",
+          "Bilgisayar",
+          "Arayan kişinin kendisi"
+        ],
+        "correct": "a",
+        "explanation": "Santraldeki görevli kabloları elle takarak iki kişiyi bağlardı."
+      },
+      {
+        "question": "İlk cep telefonları neye benzetilmiştir?",
+        "options": [
+          "Bir kaleme",
+          "Bir saate",
+          "Bir kitaba",
+          "Bir tuğlaya"
+        ],
+        "correct": "d",
+        "explanation": "İlk cep telefonları bir tuğla kadar büyük ve ağırdı."
+      },
+      {
+        "question": "Metnin ana fikri aşağıdakilerden hangisidir?",
+        "options": [
+          "Telefonlar hiç değişmemiştir",
+          "Çevirmeli telefonlar en iyisidir",
+          "Telefon, zaman içinde küçük adımlarla büyük bir değişim geçirmiştir",
+          "Akıllı telefonlar sadece oyun içindir"
+        ],
+        "correct": "c",
+        "explanation": "Metin telefonun tellerden akıllı telefonlara uzanan değişimini anlatıyor."
+      }
+    ]
+  },
+  {
+    "slug": "satranc-bir-spor-mu",
+    "title": "Satranç Bir Spor mu?",
+    "category": "Spor",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Spor denince çoğumuzun aklına futbol, basketbol ya da koşu gelir. Peki masa başında oturarak oynanan satranç da bir spor sayılabilir mi?\n\nSatranç, iki kişi arasında 64 kareli bir tahta üzerinde oynanan bir strateji oyunudur. Her oyuncunun on altı taşı vardır. Amaç, rakibin şahını kaçamayacağı bir duruma getirmektir. Buna şah mat denir.\n\nSatrancın kökeninin yaklaşık bin beş yüz yıl önce Hindistan'a dayandığı düşünülür. Oyun daha sonra İran'a, oradan da dünyanın dört bir yanına yayıldı. Yüzyıllar boyunca kuralları biraz değişti ve bugünkü halini aldı.\n\nUluslararası Olimpiyat Komitesi satrancı bir spor dalı olarak tanımıştır. Dünya Satranç Federasyonu, dünyanın dört bir yanında turnuvalar düzenler. Ülkemizde de Türkiye Satranç Federasyonu vardır ve pek çok okulda satranç kulüpleri bulunur.\n\nSatranç bir zihin sporudur. Oyuncular her hamleden önce birçok olasılığı düşünür. Rakibin ne yapabileceğini tahmin eder ve plan yaparlar. Turnuvalarda tek bir oyun saatlerce sürebilir. Bu kadar uzun süre dikkatini toplamak insanı çok yorar. Bu yüzden usta satranççılar düzenli egzersiz yapar, iyi beslenir ve dinlenmeye özen gösterir.\n\nSatrancın da diğer sporlar gibi kuralları, hakemleri ve centilmenlik anlayışı vardır. Oyuncular oyundan önce ve sonra el sıkışır. Kaybeden oyuncu çoğu zaman rakibini tebrik eder.\n\nSatranç oynamak dikkatimizi, sabrımızı ve problem çözme becerimizi geliştirir. Yani satranç, kaslardan çok zihni çalıştıran gerçek bir spordur.",
+    "questions": [
+      {
+        "question": "Satranç tahtasında kaç kare vardır?",
+        "options": [
+          "16",
+          "32",
+          "48",
+          "64"
+        ],
+        "correct": "d",
+        "explanation": "Satranç 64 kareli bir tahta üzerinde oynanır."
+      },
+      {
+        "question": "Rakibin şahı kaçamayacak duruma gelince buna ne denir?",
+        "options": [
+          "Rok",
+          "Şah mat",
+          "Pat",
+          "Terfi"
+        ],
+        "correct": "b",
+        "explanation": "Metinde bu duruma şah mat dendiği yazıyor."
+      },
+      {
+        "question": "Usta satranççılar neden düzenli egzersiz yapar?",
+        "options": [
+          "Uzun oyunlarda dikkat toplamak insanı çok yorduğu için",
+          "Satranç taşları çok ağır olduğu için",
+          "Kurallar bunu zorunlu tuttuğu için",
+          "Turnuvalar koşarak oynandığı için"
+        ],
+        "correct": "a",
+        "explanation": "Saatlerce süren oyunlarda dikkatini toplamak çok yorucudur."
+      },
+      {
+        "question": "Yazarın satranç hakkındaki görüşü nedir?",
+        "options": [
+          "Satranç sadece bir masa oyunudur",
+          "Satranç çocuklar için uygun değildir",
+          "Satranç, zihni çalıştıran gerçek bir spordur",
+          "Satranç futboldan daha zordur"
+        ],
+        "correct": "c",
+        "explanation": "Son cümlede satrancın zihni çalıştıran gerçek bir spor olduğu söyleniyor."
+      }
+    ]
+  },
+  {
+    "slug": "marstaki-gezgin-robotlar",
+    "title": "Mars'taki Gezgin Robotlar",
+    "category": "Uzay",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Mars, Güneş'e uzaklık bakımından dördüncü gezegendir. Toprağındaki demir oksit nedeniyle kırmızı görünür, bu yüzden ona Kızıl Gezegen de denir. Mars'a henüz hiçbir insan ayak basmadı. Ancak orada yıllardır çalışan tekerlekli robotlar var. Bu robotlara gezgin ya da keşif aracı denir.\n\nİlk gezgin Sojourner, 1997 yılında Mars'a ulaştı. Bir mikrodalga fırın büyüklüğündeydi ve yakınındaki kayaları inceledi. 2004 yılında Spirit ve Opportunity adlı ikiz gezginler geldi. Opportunity'nin yalnızca üç ay çalışması planlanmıştı, fakat on dört yıldan uzun süre görev yaptı. Daha sonra araba büyüklüğündeki Curiosity ve Perseverance gezginleri Mars'a indi. Perseverance, yanında Ingenuity adında küçük bir helikopter de götürdü. Ingenuity, başka bir gezegende uçan ilk araç oldu.\n\nGezginler kameralarıyla fotoğraf çeker, robot kolları ve matkaplarıyla kayalardan örnek alır. İçlerindeki küçük laboratuvarlarda toprağı ve taşları inceler. Bilim insanları bu sayede Mars'ta çok eskiden nehirlerin ve göllerin bulunduğunu öğrendi.\n\nGezginleri bir uzaktan kumandalı araba gibi anında yönetmek mümkün değildir. Dünya'dan gönderilen bir mesajın Mars'a ulaşması, iki gezegenin konumuna göre birkaç dakikadan yirmi dakikadan fazlasına kadar sürebilir. Bu nedenle gezginler bazı kararları kendi başlarına verebilecek şekilde tasarlanır ve önlerindeki engelleri kendileri fark eder.\n\nMars'ta koşullar çok zordur. Gezegende soluyabileceğimiz hava yoktur, sıcaklık geceleri çok düşer ve bazen bütün gezegeni saran toz fırtınaları çıkar. Gezginler bu zorluklara dayanacak şekilde üretilir.\n\nBilim insanlarının en büyük sorusu, Mars'ta bir zamanlar yaşam olup olmadığıdır. Gezginlerin topladığı bilgiler bu soruya ve gelecekte insanların Mars'a yapacağı yolculuklara ışık tutuyor.",
+    "questions": [
+      {
+        "question": "Mars'a neden Kızıl Gezegen denir?",
+        "options": [
+          "Çok sıcak olduğu için",
+          "Toprağındaki demir oksit onu kırmızı gösterdiği için",
+          "Güneş'e en yakın gezegen olduğu için",
+          "Üzerinde kırmızı bitkiler olduğu için"
+        ],
+        "correct": "b",
+        "explanation": "Demir oksit nedeniyle Mars kırmızı görünür."
+      },
+      {
+        "question": "Mars'a ulaşan ilk gezginin adı nedir?",
+        "options": [
+          "Curiosity",
+          "Opportunity",
+          "Perseverance",
+          "Sojourner"
+        ],
+        "correct": "d",
+        "explanation": "İlk gezgin Sojourner 1997'de Mars'a ulaştı."
+      },
+      {
+        "question": "Ingenuity'yi özel yapan nedir?",
+        "options": [
+          "Başka bir gezegende uçan ilk araç olması",
+          "En büyük gezgin olması",
+          "Mars'a ilk inen araç olması",
+          "İçinde astronot taşıması"
+        ],
+        "correct": "a",
+        "explanation": "Ingenuity başka bir gezegende uçan ilk araç oldu."
+      },
+      {
+        "question": "Gezginlerin bazı kararları kendi başına verebilmesi neden gereklidir?",
+        "options": [
+          "Bilim insanları uyuduğu için",
+          "Mars'ta internet çok hızlı olduğu için",
+          "Mesajların Dünya'dan Mars'a ulaşması dakikalar sürdüğü için",
+          "Gezginler çok küçük olduğu için"
+        ],
+        "correct": "c",
+        "explanation": "Mesajlar gecikmeli ulaştığı için anlık kumanda mümkün değildir."
+      },
+      {
+        "question": "Gezginler sayesinde Mars hakkında ne öğrenildi?",
+        "options": [
+          "Mars'ta bugün ormanlar olduğu",
+          "Mars'ta geçmişte nehirler ve göller bulunduğu",
+          "Mars'ta insanların yaşadığı",
+          "Mars'ın Güneş'e en yakın gezegen olduğu"
+        ],
+        "correct": "b",
+        "explanation": "Bilim insanları Mars'ta çok eskiden nehirlerin ve göllerin bulunduğunu öğrendi."
+      }
+    ]
+  },
+  {
+    "slug": "uc-boyutlu-yazicilar",
+    "title": "3B Yazıcılar",
+    "category": "Teknoloji",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Evdeki yazıcılar kâğıda yazı ve resim basar. Peki bir yazıcının oyuncak, bardak ya da makine parçası basabildiğini düşünebiliyor musun? Üç boyutlu yazıcılar, yani 3B yazıcılar, tam olarak bunu yapar.\n\nHer şey bilgisayarda başlar. Önce özel bir programla nesnenin dijital bir modeli çizilir. Program bu modeli, üst üste binen yüzlerce ince dilime ayırır. Ardından yazıcı işe koyulur. En yaygın 3B yazıcılar, makaraya sarılmış plastik bir ipi eriterek çalışır. Isınan uç, erimiş plastiği tıpkı krema sıkar gibi ince bir çizgi halinde tablaya bırakır. Önce en alt katman çizilir ve plastik soğuyup sertleşir. Sonra hemen üstüne bir sonraki katman eklenir. Bu işlem katman katman tekrarlanır ve nesne yavaş yavaş yükselir. Küçük bir oyuncağın basılması bile birkaç saat sürebilir.\n\n3B yazıcılar yalnızca plastikle çalışmaz. Metal, beton, hatta çikolata kullanan modeller de vardır. Bazı ülkelerde 3B yazıcılarla küçük evler inşa edilmiştir. Doktorlar, hastalara tam uyan yapay eller ve bacaklar, yani protezler hazırlamak için bu teknolojiden yararlanır. Uluslararası Uzay İstasyonu'nda bile 3B yazıcılar denenmiştir. Böylece astronotlar bazı küçük parçaları Dünya'dan beklemek yerine istasyonda basabilir.\n\nOkullarda da 3B yazıcılar giderek yaygınlaşıyor. Öğrenciler bilgisayarda kendi anahtarlıklarını, oyun taşlarını ya da proje modellerini tasarlayıp basabiliyor. Böylece hem teknolojiyi hem de tasarım yapmayı öğreniyorlar.\n\nBu teknolojinin en güzel yanı, fikirlerin kısa sürede gerçeğe dönüşebilmesidir. Bir mucit tasarladığı parçayı basıp dener. Bir hata bulursa tasarımı düzeltip yeniden basar. Belki bir gün sen de kendi icadını bir 3B yazıcıyla üreteceksin.",
+    "questions": [
+      {
+        "question": "3B yazıcıyla bir nesne basmadan önce ilk olarak ne yapılır?",
+        "options": [
+          "Plastik ip kesilir",
+          "Nesnenin bilgisayarda dijital modeli çizilir",
+          "Tabla ısıtılır",
+          "Nesnenin fotoğrafı çekilir"
+        ],
+        "correct": "b",
+        "explanation": "Her şey bilgisayarda nesnenin dijital modelinin çizilmesiyle başlar."
+      },
+      {
+        "question": "Metinde yazıcının erimiş plastiği bırakması neye benzetilmiştir?",
+        "options": [
+          "Kalemle yazı yazmaya",
+          "Resim boyamaya",
+          "Krema sıkmaya",
+          "Kum dökmeye"
+        ],
+        "correct": "c",
+        "explanation": "Isınan uç, plastiği krema sıkar gibi ince bir çizgi halinde bırakır."
+      },
+      {
+        "question": "3B yazıcılar nesneleri nasıl oluşturur?",
+        "options": [
+          "Katman katman üst üste ekleyerek",
+          "Büyük bir bloğu keserek",
+          "Kalıba sıvı dökerek",
+          "Parçaları yapıştırarak"
+        ],
+        "correct": "a",
+        "explanation": "İşlem katman katman tekrarlanır ve nesne yavaş yavaş yükselir."
+      },
+      {
+        "question": "Doktorlar 3B yazıcıları ne için kullanır?",
+        "options": [
+          "İlaç yapmak için",
+          "Hastane yatağı basmak için",
+          "Aşı üretmek için",
+          "Hastalara uygun protezler hazırlamak için"
+        ],
+        "correct": "d",
+        "explanation": "Doktorlar hastalara tam uyan yapay el ve bacaklar hazırlar."
+      },
+      {
+        "question": "Yazara göre bu teknolojinin en güzel yanı nedir?",
+        "options": [
+          "Çok ucuz olması",
+          "Sessiz çalışması",
+          "Fikirlerin kısa sürede gerçeğe dönüşebilmesi",
+          "Sadece plastik kullanması"
+        ],
+        "correct": "c",
+        "explanation": "Son paragrafta en güzel yanın fikirleri hızla gerçeğe dönüştürmek olduğu söyleniyor."
+      }
+    ]
+  },
+  {
+    "slug": "truva-ve-tahta-at-efsanesi",
+    "title": "Truva ve Tahta At Efsanesi",
+    "category": "Tarih",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Çanakkale'de, Hisarlık adı verilen bir tepede çok eski bir şehrin kalıntıları bulunur. Burası Truva Antik Kenti'dir. Arkeologlar bu tepede, binlerce yıl boyunca birbirinin üzerine kurulmuş pek çok şehir katmanı ortaya çıkarmıştır. Kalıntıların en eskileri yaklaşık beş bin yıl öncesine uzanır. İlk büyük kazıları 1870'li yıllarda Heinrich Schliemann başlatmış, daha sonra pek çok bilim insanı çalışmaları sürdürmüştür. Truva, 1998 yılında UNESCO Dünya Mirası Listesi'ne alınmıştır.\n\nTruva'yı dünyaca ünlü yapan ise bir efsanedir. Bu efsane, eski Yunan şairi Homeros'a ait olduğu kabul edilen İlyada destanı ve sonradan anlatılan başka hikâyelerle yayılmıştır. Efsaneye göre Yunanlılar ile Truvalılar arasında on yıl süren bir savaş olmuştur. Truva'nın sağlam surları yüzünden Yunan ordusu bir türlü şehre girememiştir.\n\nHikâyeye göre Yunanlılar sonunda bir hile düşünür. Dev bir tahta at yapıp içine askerlerini saklarlar. Ardından atı şehrin önüne bırakır ve gemilerine binerek çekilmiş gibi yaparlar. Truvalılar savaşın bittiğini sanır ve atı bir zafer hediyesi gibi şehre sokarlar. Gece olunca atın içindeki askerler dışarı çıkar ve şehrin kapılarını açar. Böylece şehir ele geçirilir.\n\nTahta at hikâyesinin gerçekten yaşanıp yaşanmadığını bilmiyoruz. Tarihçiler bunu bir efsane olarak kabul eder. Yine de kazılar, Truva'nın gerçek bir şehir olduğunu ve tarih boyunca birkaç kez yıkılıp yeniden kurulduğunu göstermiştir.\n\nBugün Truva'yı ziyaret edenler eski surları ve yapıların kalıntılarını görebilir. Ören yerinde, içine girilebilen büyük bir tahta at maketi de bulunur. Bu efsane bize her görünene hemen inanmamamız gerektiğini hatırlatır.",
+    "questions": [
+      {
+        "question": "Truva Antik Kenti hangi ilimizdedir?",
+        "options": [
+          "İzmir",
+          "Çanakkale",
+          "Antalya",
+          "Bursa"
+        ],
+        "correct": "b",
+        "explanation": "Truva, Çanakkale'deki Hisarlık tepesindedir."
+      },
+      {
+        "question": "Efsaneye göre Yunan askerleri şehre nasıl girdi?",
+        "options": [
+          "Surları yıkarak",
+          "Tünel kazarak",
+          "Dev bir tahta atın içine saklanarak",
+          "Gemilerle nehirden geçerek"
+        ],
+        "correct": "c",
+        "explanation": "Askerler tahta atın içine saklandı ve gece dışarı çıkıp kapıları açtı."
+      },
+      {
+        "question": "Tahta at hikâyesi hakkında hangisi doğrudur?",
+        "options": [
+          "Tarihçiler bunu bir efsane olarak kabul eder",
+          "Kazılarda gerçek tahta at bulunmuştur",
+          "Hikâye geçen yüzyılda uydurulmuştur",
+          "At hâlâ Truva'da saklanmaktadır"
+        ],
+        "correct": "a",
+        "explanation": "Metinde tarihçilerin tahta at hikâyesini efsane olarak kabul ettiği belirtiliyor."
+      },
+      {
+        "question": "Kazılar Truva hakkında neyi göstermiştir?",
+        "options": [
+          "Şehrin hiç var olmadığını",
+          "Şehrin sadece bir kez kurulduğunu",
+          "Şehrin denizin altında olduğunu",
+          "Gerçek bir şehir olduğunu ve birkaç kez yıkılıp yeniden kurulduğunu"
+        ],
+        "correct": "d",
+        "explanation": "Kazılarda üst üste kurulmuş şehir katmanları bulunmuştur."
+      },
+      {
+        "question": "Truvalıların hatası neydi?",
+        "options": [
+          "Surlarını çok yüksek yapmaları",
+          "Görünüşe aldanıp atı sorgulamadan şehre almaları",
+          "Savaşa hiç katılmamaları",
+          "Gemileri yakmaları"
+        ],
+        "correct": "b",
+        "explanation": "Savaşın bittiğini sanıp atı şehre soktular; bu yüzden efsane görünene hemen inanmamayı hatırlatır."
+      }
+    ]
+  },
+  {
+    "slug": "kapadokya-ve-peri-bacalari",
+    "title": "Kapadokya ve Peri Bacaları",
+    "category": "Keşif",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Nevşehir ve çevresini kapsayan Kapadokya bölgesi, dünyanın en ilginç manzaralarından birine sahiptir. Burada şapka takmış gibi görünen sivri kaya kuleleri yükselir. Bu kayalara peri bacası denir. Peki bu tuhaf şekiller nasıl oluştu?\n\nMilyonlarca yıl önce bölgedeki Erciyes, Hasan ve Göllü dağları etkin volkanlardı. Bu volkanlar püskürdükçe çevreye kalın kül ve lav tabakaları yayıldı. Kül tabakaları zamanla sıkışarak tüf adı verilen yumuşak bir kayaya dönüştü. Tüfün üzerinde yer yer daha sert kaya katmanları da oluştu.\n\nSonra rüzgâr, yağmur ve eriyen karlar işe koyuldu. Su ve rüzgâr, yumuşak tüfü yavaş yavaş aşındırdı. Ancak sert kaya parçalarının altında kalan kısımlar daha az aşındı. Böylece tepesinde sert bir kaya şapkası taşıyan uzun sütunlar ortaya çıktı. Bu süreç çok uzun zaman aldı ve bugün de devam ediyor.\n\nTüf kolay oyulabilen bir kaya olduğu için insanlar burada yaratıcı çözümler buldu. Kayaları oyarak evler, kiliseler ve güvercinlikler yaptılar. Derinkuyu ve Kaymaklı gibi yerlerde yerin katlarca altına inen yeraltı şehirleri kazdılar. Bu şehirlerde havalandırma bacaları, ahırlar ve depolar bile vardı. Tehlike anlarında insanlar hayvanlarıyla birlikte bu şehirlere sığınırdı. Girişler, içeriden yuvarlanan büyük taş kapılarla kapatılırdı.\n\nGünümüzde Kapadokya'yı her yıl çok sayıda turist ziyaret ediyor. Sabahın erken saatlerinde gökyüzünü dolduran rengârenk sıcak hava balonları bölgenin simgesi haline geldi. Göreme ve Kapadokya'nın kayalık alanları 1985 yılında UNESCO Dünya Mirası Listesi'ne alındı. Doğa ile insan emeğinin buluştuğu bu eşsiz yeri korumak hepimizin görevidir.",
+    "questions": [
+      {
+        "question": "Volkanik kül tabakaları sıkışınca hangi kaya oluştu?",
+        "options": [
+          "Mermer",
+          "Granit",
+          "Tüf",
+          "Kireç taşı"
+        ],
+        "correct": "c",
+        "explanation": "Kül tabakaları sıkışarak tüf adı verilen yumuşak kayaya dönüştü."
+      },
+      {
+        "question": "Peri bacalarının tepesindeki 'şapka' neden oluşmuştur?",
+        "options": [
+          "Sert kaya parçalarının altındaki kısımlar daha az aşındığı için",
+          "İnsanlar taşları üst üste koyduğu için",
+          "Kar yağışı donduğu için",
+          "Kuşlar yuva yaptığı için"
+        ],
+        "correct": "a",
+        "explanation": "Sert kaya, altındaki yumuşak tüfü aşınmaya karşı korudu."
+      },
+      {
+        "question": "Metinde adı geçen yeraltı şehirleri hangileridir?",
+        "options": [
+          "Göreme ve Ürgüp",
+          "Efes ve Bergama",
+          "Hasan ve Göllü",
+          "Derinkuyu ve Kaymaklı"
+        ],
+        "correct": "d",
+        "explanation": "Derinkuyu ve Kaymaklı yeraltı şehirleri olarak anılıyor."
+      },
+      {
+        "question": "İnsanların Kapadokya'da kayaları oyarak ev yapabilmesinin sebebi nedir?",
+        "options": [
+          "Bölgede hiç ağaç olmaması",
+          "Tüfün kolay oyulabilen bir kaya olması",
+          "Kayaların içinin boş olması",
+          "Volkanların hâlâ etkin olması"
+        ],
+        "correct": "b",
+        "explanation": "Tüf yumuşak ve kolay oyulabilen bir kayadır."
+      },
+      {
+        "question": "Metnin ana fikri aşağıdakilerden hangisidir?",
+        "options": [
+          "Kapadokya sadece balonlarıyla ünlüdür",
+          "Volkanlar tehlikeli olduğu için uzak durmalıyız",
+          "Kapadokya, doğanın ve insan emeğinin birlikte şekillendirdiği korunması gereken eşsiz bir yerdir",
+          "Peri bacaları insanlar tarafından yapılmıştır"
+        ],
+        "correct": "c",
+        "explanation": "Metin hem doğal oluşumu hem de insan yapılarını anlatıp korunma çağrısıyla bitiyor."
+      }
+    ]
+  },
+  {
+    "slug": "gobeklitepe-tarihin-sifir-noktasi",
+    "title": "Göbeklitepe",
+    "category": "Tarih",
+    "difficulty": 5,
+    "grade_level": 4,
+    "content": "Şanlıurfa'nın yakınlarındaki bir tepede, insanlık tarihine bakışımızı değiştiren bir keşif yapıldı. Burası Göbeklitepe'dir. Araştırmalar, buradaki yapıların yaklaşık on iki bin yıl önce inşa edilmeye başlandığını gösteriyor. Bu da onların Mısır piramitlerinden yedi bin yıldan daha eski olduğu anlamına gelir.\n\nGöbeklitepe'de, ortasında iki büyük dikilitaş bulunan ve çevresi başka taşlarla çevrelenmiş yuvarlak yapılar vardır. Dikilitaşlar T harfine benzer ve bazılarının yüksekliği beş metreyi aşar. Taşların üzerine tilki, yaban domuzu, yılan, akbaba ve akrep gibi hayvanların kabartmaları ustalıkla işlenmiştir. Bu kabartmalar, o dönemin insanlarının çevrelerindeki hayvanları çok dikkatli gözlemlediğini gösterir. Bazı dikilitaşlara kollar ve eller oyulmuştur; bu da taşların insana benzeyen varlıkları temsil ettiğini düşündürür.\n\nBu keşfi bu kadar önemli kılan şey, yapıları kimlerin inşa ettiğidir. Göbeklitepe'yi yapan insanlar henüz tarım yapmıyordu. Onlar avcı-toplayıcıydı; yiyeceklerini avlanarak ve yabani bitkileri toplayarak buluyorlardı. Uzun süre bilim insanları, bu kadar büyük yapıların ancak insanlar yerleşik hayata geçip tarım yapmaya başladıktan sonra inşa edilebileceğini düşünüyordu. Göbeklitepe bu görüşü sorgulatmıştır. Belki de insanları bir araya getiren ortak inançlar ve toplantılar, yerleşik hayatın başlamasına katkıda bulunmuştur.\n\nTonlarca ağırlıktaki taşların metal aletler olmadan, yalnızca taş aletlerle yontulup taşınması da büyük bir iş birliği gerektiriyordu. Bu durum, o dönemin insanlarının sanıldığından çok daha örgütlü olduğunu gösteriyor.\n\nGöbeklitepe'nin ne amaçla kullanıldığı hâlâ tartışılıyor. Bazı araştırmacılar burayı insanların toplanıp törenler yaptığı bir buluşma yeri olarak görüyor. Kimileri ise çevrede insanların yaşadığını gösteren izlere dikkat çekiyor. Yeni kazılar bu sorulara yanıt arıyor.\n\nGöbeklitepe'deki kazılar 1995 yılında başladı ve hâlâ sürüyor. Alanın yalnızca küçük bir bölümü gün ışığına çıkarılmıştır. 2018 yılında UNESCO Dünya Mirası Listesi'ne alınan bu eşsiz yer, geçmişimize dair daha pek çok sırrı saklıyor olabilir.",
+    "questions": [
+      {
+        "question": "Göbeklitepe'deki yapılar yaklaşık kaç yıl önce inşa edilmeye başlanmıştır?",
+        "options": [
+          "Bin yıl önce",
+          "Dört bin yıl önce",
+          "On iki bin yıl önce",
+          "Yüz bin yıl önce"
+        ],
+        "correct": "c",
+        "explanation": "Araştırmalar yapıların yaklaşık on iki bin yıl önce inşa edilmeye başlandığını gösteriyor."
+      },
+      {
+        "question": "Göbeklitepe'deki dikilitaşlar hangi harfe benzer?",
+        "options": [
+          "T",
+          "L",
+          "O",
+          "Y"
+        ],
+        "correct": "a",
+        "explanation": "Dikilitaşlar T harfine benzer."
+      },
+      {
+        "question": "Göbeklitepe'yi yapan insanlar nasıl yaşıyordu?",
+        "options": [
+          "Büyük şehirlerde ticaret yaparak",
+          "Buğday ekip hasat ederek",
+          "Hayvan sürüleri besleyerek",
+          "Avlanarak ve yabani bitkiler toplayarak"
+        ],
+        "correct": "d",
+        "explanation": "Onlar avcı-toplayıcıydı, henüz tarım yapmıyorlardı."
+      },
+      {
+        "question": "Göbeklitepe, bilim insanlarının hangi eski düşüncesini sorgulatmıştır?",
+        "options": [
+          "İnsanların hayvan resmi yapamayacağını",
+          "Büyük yapıların ancak tarıma geçildikten sonra yapılabileceğini",
+          "Taş aletlerin hiç kullanılmadığını",
+          "Mısır piramitlerinin en yeni yapılar olduğunu"
+        ],
+        "correct": "b",
+        "explanation": "Avcı-toplayıcıların bu yapıları inşa etmesi, tarımdan önce büyük yapılar yapılamayacağı görüşünü sorgulattı."
+      },
+      {
+        "question": "Taşların metal alet olmadan yontulup taşınması o dönemin insanları hakkında ne gösterir?",
+        "options": [
+          "Çok örgütlü olduklarını ve iş birliği yaptıklarını",
+          "Tek başlarına yaşadıklarını",
+          "Taşlara ilgi duymadıklarını",
+          "Metal aletleri sakladıklarını"
+        ],
+        "correct": "a",
+        "explanation": "Metin bu işin büyük iş birliği gerektirdiğini ve insanların sanıldığından örgütlü olduğunu söylüyor."
+      }
+    ]
+  },
+  {
+    "slug": "amazon-yagmur-ormanlari",
+    "title": "Amazon Yağmur Ormanları",
+    "category": "Keşif",
+    "difficulty": 5,
+    "grade_level": 4,
+    "content": "Güney Amerika'nın büyük bir bölümünü kaplayan Amazon, dünyanın en büyük tropikal yağmur ormanıdır. Bu dev orman dokuz ülkenin topraklarına yayılır, ancak en büyük kısmı Brezilya'dadır. Ormanın içinden, taşıdığı su miktarı bakımından dünyanın en büyük nehri olan Amazon Nehri akar.\n\nYağmur ormanları adını, neredeyse her gün yağan bol yağmurdan alır. Ekvatora yakın olduğu için burada hava yıl boyunca sıcak ve nemlidir. Bu koşullar bitkilerin hızla büyümesini sağlar. Amazon'daki ağaçlar birbirine o kadar yakındır ki yapraklarından oluşan kalın bir örtü gökyüzünü neredeyse tamamen kapatır. Bu örtüye orman tacı denir. Güneş ışığının büyük bölümü bu tabakada kaldığı için ormanın zemini gündüz bile loştur.\n\nOrmanda yaşam farklı katlarda sürer. Ağaçların tepelerinde kuşlar, maymunlar ve kelebekler dolaşır. Orta katlarda sarmaşıklar ve ağaçlara tutunan bitkiler bulunur. Loş zeminde ise karıncalar, böcekler ve mantarlar düşen yaprakları çürüterek toprağa karıştırır.\n\nAmazon, inanılmaz bir canlı çeşitliliğine ev sahipliği yapar. Dünyadaki bitki ve hayvan türlerinin önemli bir kısmı burada yaşar. Jaguarlar, tembel hayvanlar, rengârenk papağanlar, zehirli ok kurbağaları ve pembe nehir yunusları bunlardan yalnızca birkaçıdır. Bilim insanları hemen hemen her yıl burada yeni türler keşfetmektedir. Ayrıca ormanda binlerce yıldır yaşayan ve doğayla uyum içinde bir hayat süren yerli halklar bulunur.\n\nAmazon'un önemi yalnızca kendi bölgesiyle sınırlı değildir. Milyarlarca ağaç, havadaki karbondioksitin bir kısmını tutar ve oksijen üretir. Orman ayrıca yağmurların oluşumunu etkileyerek geniş bir bölgenin iklimini dengelemeye yardımcı olur.\n\nNe yazık ki Amazon'un bazı bölümleri tarım arazisi açmak ve kereste elde etmek için kesiliyor. Bu durum hem hayvanların yaşam alanlarını hem de dünya iklimini tehdit ediyor. Ormanı korumak, gelecek nesiller için alınabilecek en değerli kararlardan biridir.",
+    "questions": [
+      {
+        "question": "Amazon yağmur ormanlarının en büyük kısmı hangi ülkededir?",
+        "options": [
+          "Brezilya",
+          "Meksika",
+          "Arjantin",
+          "Şili"
+        ],
+        "correct": "a",
+        "explanation": "Orman dokuz ülkeye yayılır, en büyük kısmı Brezilya'dadır."
+      },
+      {
+        "question": "Ağaçların yapraklarından oluşan ve gökyüzünü kapatan kalın örtüye ne denir?",
+        "options": [
+          "Orman zemini",
+          "Orman tacı",
+          "Nehir yatağı",
+          "Sis perdesi"
+        ],
+        "correct": "b",
+        "explanation": "Metinde bu örtüye orman tacı dendiği yazıyor."
+      },
+      {
+        "question": "Ormanın zemini gündüz bile neden loştur?",
+        "options": [
+          "Sürekli sis olduğu için",
+          "Güneş hiç doğmadığı için",
+          "Hayvanlar ışığı engellediği için",
+          "Güneş ışığının büyük bölümü orman tacında kaldığı için"
+        ],
+        "correct": "d",
+        "explanation": "Kalın yaprak örtüsü güneş ışığının çoğunu tutar."
+      },
+      {
+        "question": "Aşağıdakilerden hangisi metinde Amazon'da yaşadığı söylenen canlılardan biri değildir?",
+        "options": [
+          "Jaguar",
+          "Tembel hayvan",
+          "Kutup ayısı",
+          "Pembe nehir yunusu"
+        ],
+        "correct": "c",
+        "explanation": "Kutup ayısı soğuk bölgelerde yaşar; metinde geçmez."
+      },
+      {
+        "question": "Metne göre Amazon'u korumak neden bütün dünya için önemlidir?",
+        "options": [
+          "Sadece turistler için güzel bir yer olduğu için",
+          "Karbondioksiti tutup oksijen ürettiği ve iklimi dengelemeye yardım ettiği için",
+          "Dünyanın en soğuk yeri olduğu için",
+          "Orada hiç insan yaşamadığı için"
+        ],
+        "correct": "b",
+        "explanation": "Amazon'un etkisi kendi bölgesiyle sınırlı değildir; iklimi ve havayı etkiler."
+      }
+    ]
+  }
+]

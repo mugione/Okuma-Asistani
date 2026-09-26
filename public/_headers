@@ -1,0 +1,17 @@
+# Cloudflare Workers Static Assets – statik dosyalar için güvenlik başlıkları.
+# (API yanıtlarının başlıkları worker/index.ts içinde ayarlanır.)
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
+  Cross-Origin-Opener-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

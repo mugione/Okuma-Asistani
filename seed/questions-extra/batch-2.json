@@ -1,0 +1,1227 @@
+[
+  {
+    "slug": "bahcedeki-elma-agaci",
+    "questions": [
+      {
+        "question": "Bahçedeki elma ağacını kim dikmiş?",
+        "options": [
+          "Anne",
+          "Dede",
+          "Baba",
+          "Komşu"
+        ],
+        "correct": "b",
+        "explanation": "Metnin başında \"Bu ağacı dedem yıllar önce dikmiş.\" denir."
+      },
+      {
+        "question": "Anne, bahçedeki elmalardan ne yapar?",
+        "options": [
+          "Pasta",
+          "Komposto",
+          "Meyve suyu",
+          "Reçel"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Annem bu elmalardan nefis bir reçel yapar.\" yazar."
+      },
+      {
+        "question": "\"Kışın dalları çıplak görünür.\" cümlesinde \"çıplak\" ne demektir?",
+        "options": [
+          "Yapraksız",
+          "Kırık",
+          "Islak",
+          "Çiçekli"
+        ],
+        "correct": "a",
+        "explanation": "Bir önceki cümlede kışın ağacın hiç yaprağı kalmadığı söylenir; çıplak, yapraksız demektir."
+      },
+      {
+        "question": "Çocuk büyüyünce neden bir elma ağacı dikmek istiyor olabilir?",
+        "options": [
+          "Elmaları pazarda satmak istediği için",
+          "Dedesinin ağacı kesileceği için",
+          "Torunları da onun gölgesinde otursun diye",
+          "Bahçesi çok boş göründüğü için"
+        ],
+        "correct": "c",
+        "explanation": "Son paragrafta \"Belki bir gün benim torunlarım da onun gölgesinde oturur.\" der."
+      }
+    ]
+  },
+  {
+    "slug": "kayip-harita",
+    "questions": [
+      {
+        "question": "Kerem ile Selin neden tavan arasını keşfetmeye karar verdi?",
+        "options": [
+          "Babaanneleri onlardan istediği için",
+          "Kayıp bir oyuncağı aradıkları için",
+          "Yağmur yüzünden dışarı çıkamadıkları için",
+          "Tavan arasından ses geldiği için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde yağmur yağmaya başladığı ve dışarı çıkamayan kardeşlerin tavan arasını keşfetmeye karar verdiği anlatılır."
+      },
+      {
+        "question": "Teneke kutunun içinden neler çıktı?",
+        "options": [
+          "Bilyeler, tahta düdük ve bir mektup",
+          "Altın paralar ve eski bir yüzük",
+          "Eski fotoğraflar ve bir kalem",
+          "Bir oyuncak bebek ve bir kitap"
+        ],
+        "correct": "a",
+        "explanation": "Kutunun içinde renkli bilyeler, bir tahta düdük ve katlanmış bir mektup vardı."
+      },
+      {
+        "question": "Kardeşler bahçeye çıkınca önce ne yaptı?",
+        "options": [
+          "Ağacın dibini kazdılar",
+          "Teneke kutuyu açtılar",
+          "Mektubu okudular",
+          "Eski kuyuyu buldular"
+        ],
+        "correct": "d",
+        "explanation": "Haritaya göre önce eski kuyuyu bulmaları gerekiyordu; sonra on adım sağa yürüyüp ağaca geldiler."
+      },
+      {
+        "question": "Mektup kaç yıl önce yazılmıştı?",
+        "options": [
+          "On yıl önce",
+          "Elli yıl önce",
+          "Yirmi yıl önce",
+          "Yüz yıl önce"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Üstelik tam elli yıl önce!\" denir."
+      }
+    ]
+  },
+  {
+    "slug": "suyun-yolculugu",
+    "questions": [
+      {
+        "question": "Metne göre \"buharlaşmak\" ne demektir?",
+        "options": [
+          "Gaz hâlden sıvı hâline geçmek",
+          "Sıvı hâlden katı hâline geçmek",
+          "Toprağın içine süzülmek",
+          "Sıvı hâlden gaz hâline geçmek"
+        ],
+        "correct": "d",
+        "explanation": "Metinde buharlaşma, suyun sıvı hâlden gaz hâline geçerek su buharına dönüşmesi olarak açıklanır."
+      },
+      {
+        "question": "Metnin başına göre bugün içtiğimiz su neyle ilgili olabilir?",
+        "options": [
+          "İlk insanların kazdığı kuyuyla",
+          "Bir dinozorun içtiği suyla",
+          "Uzaydan gelen buz parçalarıyla",
+          "Yeni oluşan bir bulutla"
+        ],
+        "correct": "b",
+        "explanation": "İlk paragrafta içtiğimiz suyun milyonlarca yıl önce bir dinozorun içtiği su olabileceği söylenir."
+      },
+      {
+        "question": "Toprağa süzülen su nereye karışır?",
+        "options": [
+          "Bulutlara",
+          "Deniz tuzuna",
+          "Yer altı sularına",
+          "Havadaki toza"
+        ],
+        "correct": "c",
+        "explanation": "Metinde suyun bir kısmının toprağa süzülerek yer altı sularına karıştığı yazar."
+      },
+      {
+        "question": "Buluttaki damlalar neden sonunda yeryüzüne düşer?",
+        "options": [
+          "Birleşip büyüdükçe ağırlaştıkları için",
+          "Güneş onları çok ısıttığı için",
+          "Rüzgâr tamamen durduğu için",
+          "Bulutlar ısınıp kaybolduğu için"
+        ],
+        "correct": "a",
+        "explanation": "Damlacıklar birleşip büyüdükçe ağırlaşır ve hava onları artık taşıyamaz."
+      }
+    ]
+  },
+  {
+    "slug": "yapraklar-neden-sararir",
+    "questions": [
+      {
+        "question": "Fotosentez sırasında bitkiler havaya hangi gazı verir?",
+        "options": [
+          "Oksijen",
+          "Karbondioksit",
+          "Su buharı",
+          "Azot"
+        ],
+        "correct": "a",
+        "explanation": "Metinde bitkilerin karbondioksiti alıp soluduğumuz oksijeni verdiği anlatılır."
+      },
+      {
+        "question": "Bazı ağaçların yaprakları sonbaharda neden kırmızıya döner?",
+        "options": [
+          "Klorofil miktarı arttığı için",
+          "Yapraklar çok su içtiği için",
+          "Sonbaharda oluşan yeni maddeler sayesinde",
+          "Güneş ışığı daha güçlü olduğu için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde bazı ağaç yapraklarının sonbaharda oluşan yeni maddeler sayesinde kırmızıya döndüğü yazar."
+      },
+      {
+        "question": "Sonbaharda aşağıdakilerden hangisi en son olur?",
+        "options": [
+          "Günler kısalır, havalar soğur",
+          "Ağaçlar yapraklarını döker",
+          "Yapraklardaki klorofil azalır",
+          "Sarı ve turuncu renkler ortaya çıkar"
+        ],
+        "correct": "b",
+        "explanation": "Metinde önce günler kısalır, klorofil azalır, renkler ortaya çıkar; \"Bir süre sonra ağaçlar yapraklarını döker.\""
+      },
+      {
+        "question": "Ağaçların kışa yapraksız girmesi onlara nasıl yarar sağlar?",
+        "options": [
+          "Daha çok besin üretirler",
+          "Daha hızlı büyürler",
+          "Daha çok ışık alırlar",
+          "Daha az su kaybederler"
+        ],
+        "correct": "d",
+        "explanation": "Metne göre yapraksız ağaçlar soğuk kış aylarında daha az su kaybeder ve adeta dinlenir."
+      }
+    ]
+  },
+  {
+    "slug": "kutuplara-yolculuk",
+    "questions": [
+      {
+        "question": "Kuzey Kutbu'nun çevresindeki bölgeye ne ad verilir?",
+        "options": [
+          "Antarktika",
+          "Tundra",
+          "Sibirya",
+          "Arktik"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Kuzey Kutbu'nun çevresindeki bölgeye Arktik denir.\" yazar."
+      },
+      {
+        "question": "Türkiye hangi yıldan bu yana Antarktika'ya düzenli bilimsel seferler düzenliyor?",
+        "options": [
+          "2007",
+          "2012",
+          "2017",
+          "2020"
+        ],
+        "correct": "c",
+        "explanation": "Metinde Türkiye'nin 2017 yılından bu yana Antarktika'ya düzenli seferler düzenlediği belirtilir."
+      },
+      {
+        "question": "\"Dünya'mızın en soğuk ve en ıssız yerleri\" ifadesinde \"ıssız\" ne demektir?",
+        "options": [
+          "Kimsenin yaşamadığı, boş",
+          "Çok karanlık ve gölgeli",
+          "Rüzgârı sert ve fırtınalı",
+          "Buzla tamamen kaplı"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Antarktika'da kalıcı olarak yaşayan insan olmadığı anlatılır; ıssız, kimsenin yaşamadığı yer demektir."
+      },
+      {
+        "question": "Bilim insanları iklim değişikliğinin kutupları nasıl etkilediğini neden dikkatle izler?",
+        "options": [
+          "Kutuplarda yeni şehirler kurmak istedikleri için",
+          "Kutup buzları dünya ikliminin dengesi için önemli olduğu için",
+          "Penguenlerin sayısını artırmak istedikleri için",
+          "Kutuplara turist getirmek istedikleri için"
+        ],
+        "correct": "b",
+        "explanation": "Son paragrafta kutuplardaki buzların dünya ikliminin dengesi için çok önemli olduğu, bu yüzden izlendiği söylenir."
+      }
+    ]
+  },
+  {
+    "slug": "kardesim-dogdu",
+    "questions": [
+      {
+        "question": "Can doğduğunda kaç kilo geldi?",
+        "options": [
+          "İki kilo",
+          "Üç kilo",
+          "Dört kilo",
+          "Beş kilo"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Can üç kilo gelmişti.\" yazar."
+      },
+      {
+        "question": "Elif'i okuldan kim aldı?",
+        "options": [
+          "Babası",
+          "Annesi",
+          "Dedesi",
+          "Ninesi"
+        ],
+        "correct": "a",
+        "explanation": "Metinde \"Sabah babam beni okuldan aldı.\" denir."
+      },
+      {
+        "question": "Elif eve dönünce ilk ne yaptı?",
+        "options": [
+          "Ninni söyledi",
+          "Top oynadı",
+          "Kitap okudu",
+          "Odasını düzenledi"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Eve dönünce odamı düzenledim.\" yazar; resmi de bundan sonra çizer."
+      },
+      {
+        "question": "Anne neden biraz yorgun oluyor?",
+        "options": [
+          "Hastanede çok yürüdüğü için",
+          "Evi baştan temizlediği için",
+          "Bebek sık acıkıp gece ağladığı için",
+          "Misafirleri ağırladığı için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde bebeklerin sık sık acıktığı ve bazen gece ağladığı, bu yüzden annenin yorgun olduğu anlatılır."
+      }
+    ]
+  },
+  {
+    "slug": "bulutlar-ve-yagmur-cesitleri",
+    "questions": [
+      {
+        "question": "Tüy gibi görünen ve çok yüksekte olan bulutlar hangisidir?",
+        "options": [
+          "Kümülüs",
+          "Stratüs",
+          "Sirrüs",
+          "Kümülonimbüs"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Sirrüs bulutları çok yüksekte olur ve tüy gibi görünür.\" yazar."
+      },
+      {
+        "question": "Koyu bulutlar genellikle neyi haber verir?",
+        "options": [
+          "Havanın ısınacağını",
+          "Yağmurun yaklaştığını",
+          "Rüzgârın duracağını",
+          "Güneşin açacağını"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Koyu bulutlar genellikle yağmurun yaklaştığını haber verir.\" denir."
+      },
+      {
+        "question": "Metne göre \"çisenti\" nedir?",
+        "options": [
+          "Büyük damlalarla yağan yağmur",
+          "Buz topları hâlinde yağış",
+          "Gökyüzünü kaplayan gri bulut",
+          "Çok küçük damlalarla yağan yağmur"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Damlalar çok küçükse çisenti olur.\" yazar."
+      },
+      {
+        "question": "Bulutlar bize neden beyaz görünür?",
+        "options": [
+          "Damlacıklar güneş ışığını yansıttığı için",
+          "İçlerinde kar biriktiği için",
+          "Çok yüksekte oldukları için",
+          "Rüzgâr onları temizlediği için"
+        ],
+        "correct": "a",
+        "explanation": "Metinde bulutların beyaz görünmesinin sebebinin damlacıkların güneş ışığını yansıtması olduğu söylenir."
+      }
+    ]
+  },
+  {
+    "slug": "astronotlar-uzayda-nasil-yasar",
+    "questions": [
+      {
+        "question": "Astronotlar uzay istasyonunda nasıl uyur?",
+        "options": [
+          "Duvara bağlı uyku tulumlarında",
+          "Yere serilen yumuşak yataklarda",
+          "Tavana asılı hamaklarda",
+          "Oturdukları koltuklarda"
+        ],
+        "correct": "a",
+        "explanation": "Metinde astronotların duvara bağlı uyku tulumlarının içine girdiği anlatılır."
+      },
+      {
+        "question": "Astronotlar içeceklerini nasıl içer?",
+        "options": [
+          "Açık bardaklardan yudumlayarak",
+          "Küçük kaşıklarla",
+          "Şişeden doğrudan dökerek",
+          "Kapalı paketlerden pipetle"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"İçeceklerini kapalı paketlerden pipetle içerler.\" yazar."
+      },
+      {
+        "question": "\"Astronotlar yürümez, süzülerek ilerler.\" cümlesinde \"süzülerek ilerlemek\" ne demektir?",
+        "options": [
+          "Koşarak hızla gitmek",
+          "Havada kayar gibi hareket etmek",
+          "Emekleyerek yol almak",
+          "Zıplayarak ilerlemek"
+        ],
+        "correct": "b",
+        "explanation": "Uzay istasyonunda her şeyin havada süzüldüğü anlatılır; astronotlar da havada kayar gibi hareket eder."
+      },
+      {
+        "question": "Uzayda duş almak neden zordur?",
+        "options": [
+          "İstasyonda hiç su olmadığı için",
+          "Su çok soğuk olduğu için",
+          "Su damlaları her yere uçuştuğu için",
+          "Duş almaya zaman kalmadığı için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Uzayda duş almak zordur, çünkü su damlaları her yere uçuşur.\" denir."
+      }
+    ]
+  },
+  {
+    "slug": "telefonun-kisa-tarihi",
+    "questions": [
+      {
+        "question": "İlk cep telefonu görüşmesi hangi yıl yapıldı?",
+        "options": [
+          "1876",
+          "1973",
+          "1950",
+          "2000"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"1973 yılında ilk cep telefonu görüşmesi yapıldı.\" yazar."
+      },
+      {
+        "question": "Çevirmeli telefonlarda numaralar nasıl aranırdı?",
+        "options": [
+          "Ekrandaki tuşlara dokunularak",
+          "Görevliye numara söylenerek",
+          "Bir kol aşağı çekilerek",
+          "Delikli yuvarlak bir kadran çevrilerek"
+        ],
+        "correct": "d",
+        "explanation": "Metinde insanların numaraları üzerinde delikler olan yuvarlak bir kadranı çevirerek aradığı anlatılır."
+      },
+      {
+        "question": "Aşağıdakilerden hangisi diğerlerinden daha sonra ortaya çıkmıştır?",
+        "options": [
+          "Akıllı telefonlar",
+          "Çevirmeli telefonlar",
+          "İlk cep telefonları",
+          "Santralle bağlanan telefonlar"
+        ],
+        "correct": "a",
+        "explanation": "Metne göre akıllı telefonlar 2000'li yıllarda, diğerlerinden sonra hayatımıza girmiştir."
+      },
+      {
+        "question": "İnsanlar telefon buluşuna neden şaşkınlıkla baktı?",
+        "options": [
+          "Telefon çok pahalı olduğu için",
+          "Telefonun sesi çok yüksek olduğu için",
+          "Bir kutudan insan sesi gelmesi sihir gibi geldiği için",
+          "Telefonu kullanmak yasak olduğu için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde bir kutudan insan sesi gelmesinin insanlara neredeyse sihir gibi geldiği söylenir."
+      }
+    ]
+  },
+  {
+    "slug": "truva-ve-tahta-at-efsanesi",
+    "questions": [
+      {
+        "question": "Truva'daki ilk büyük kazıları kim başlatmıştır?",
+        "options": [
+          "Homeros",
+          "Galileo",
+          "Heinrich Schliemann",
+          "Alexander Bell"
+        ],
+        "correct": "c",
+        "explanation": "Metinde ilk büyük kazıları 1870'li yıllarda Heinrich Schliemann'ın başlattığı yazar."
+      },
+      {
+        "question": "Truva hangi yıl UNESCO Dünya Mirası Listesi'ne alınmıştır?",
+        "options": [
+          "1998",
+          "1870",
+          "1987",
+          "2019"
+        ],
+        "correct": "a",
+        "explanation": "Metinde \"Truva, 1998 yılında UNESCO Dünya Mirası Listesi'ne alınmıştır.\" denir."
+      },
+      {
+        "question": "\"Truva'nın sağlam surları\" ifadesinde \"sur\" ne demektir?",
+        "options": [
+          "Şehrin ortasındaki büyük meydan",
+          "Şehre su taşıyan kanal",
+          "Kralın yaşadığı büyük saray",
+          "Şehri çevreleyen koruyucu duvar"
+        ],
+        "correct": "d",
+        "explanation": "Surlar yüzünden Yunan ordusunun şehre giremediği anlatılır; sur, şehri çevreleyen koruyucu duvardır."
+      },
+      {
+        "question": "Efsaneye göre Yunanlılar neden bir hile düşündü?",
+        "options": [
+          "Gemileri batmak üzere olduğu için",
+          "Sağlam surlar yüzünden şehre giremedikleri için",
+          "Truvalılarla barış yapmak istedikleri için",
+          "Askerleri savaşmaktan korktuğu için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Truva'nın sağlam surları yüzünden ordunun şehre giremediği, sonunda bir hile düşündüğü anlatılır."
+      }
+    ]
+  },
+  {
+    "slug": "penguenler-yuzen-kuslar",
+    "questions": [
+      {
+        "question": "Penguenler neyle beslenir?",
+        "options": [
+          "Ot, yaprak ve meyve",
+          "Böcek, solucan ve tohum",
+          "Fare, kurbağa ve yılan",
+          "Balık, kalamar ve küçük karides"
+        ],
+        "correct": "d",
+        "explanation": "Metinde penguenlerin balık, kalamar ve küçük karides yediği yazar."
+      },
+      {
+        "question": "Penguen yavruları kalabalıkta anne ve babasını nasıl bulur?",
+        "options": [
+          "Kokularından tanıyarak",
+          "Seslerinden tanıyarak",
+          "Renklerinden tanıyarak",
+          "Boylarından tanıyarak"
+        ],
+        "correct": "b",
+        "explanation": "Metinde her yavrunun anne ve babasının sesini tanıdığı ve onları sesinden bulduğu anlatılır."
+      },
+      {
+        "question": "İmparator penguenlerinde anne yumurtladıktan sonra ne yapar?",
+        "options": [
+          "Yumurtayı ayaklarında taşır",
+          "Buzda karnı üstünde kayar",
+          "Yiyecek bulmak için denize gider",
+          "Yeni bir yuva yapmaya başlar"
+        ],
+        "correct": "c",
+        "explanation": "Metinde anne penguenin yumurtladıktan sonra yiyecek bulmak için denize gittiği yazar."
+      },
+      {
+        "question": "Penguenler neden bazen karınlarının üstüne yatıp buzda kayar?",
+        "options": [
+          "Daha hızlı ilerlemek için",
+          "Karınlarını ısıtmak için",
+          "Yavrularını saklamak için",
+          "Uyumaya hazırlanmak için"
+        ],
+        "correct": "a",
+        "explanation": "Metinde karınları üstünde kaydıklarında daha hızlı ilerledikleri söylenir."
+      }
+    ]
+  },
+  {
+    "slug": "caretta-caretta-kaplumbagalari",
+    "questions": [
+      {
+        "question": "Caretta caretta Türkçede hangi adla da bilinir?",
+        "options": [
+          "İribaş deniz kaplumbağası",
+          "Yeşil deniz kaplumbağası",
+          "Dev kara kaplumbağası",
+          "Benekli su kaplumbağası"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Türkçede iribaş deniz kaplumbağası olarak da bilindiği yazar."
+      },
+      {
+        "question": "Caretta yumurtaları kumun altında yaklaşık ne kadar kalır?",
+        "options": [
+          "İki hafta",
+          "Bir yıl",
+          "İki ay",
+          "Altı ay"
+        ],
+        "correct": "c",
+        "explanation": "Metinde yumurtaların yaklaşık iki ay sıcak kumun altında kaldığı belirtilir."
+      },
+      {
+        "question": "Dişi caretta kumsala çıkınca önce ne yapar?",
+        "options": [
+          "Yumurtaların üstünü kumla örter",
+          "Kumu kazarak bir çukur açar",
+          "Denize geri döner",
+          "Yavrularını bekler"
+        ],
+        "correct": "b",
+        "explanation": "Metinde dişi carettanın önce arka ayaklarıyla kumu kazarak çukur açtığı, sonra yumurta bıraktığı anlatılır."
+      },
+      {
+        "question": "Metne göre caretta yavruları hakkında hangi sonuca varabiliriz?",
+        "options": [
+          "Anneleri onları denize kadar taşır",
+          "İlk yıllarını kumsalda geçirirler",
+          "Babaları onlara yiyecek getirir",
+          "Doğduklarında annelerinden yardım almazlar"
+        ],
+        "correct": "d",
+        "explanation": "Metinde anne kaplumbağanın yavrularını hiç görmediği, yavruların kendi başlarının çaresine baktığı yazar."
+      }
+    ]
+  },
+  {
+    "slug": "kuyruklu-yildizlar",
+    "questions": [
+      {
+        "question": "\"Kuyruklu yıldız\" adının \"yanıltıcı\" olduğu söyleniyor. Burada \"yanıltıcı\" ne demektir?",
+        "options": [
+          "Çok parlak ve göz alıcı",
+          "Çok eski ve unutulmuş",
+          "Söylemesi çok zor olan",
+          "Yanlış bir düşünceye yol açan"
+        ],
+        "correct": "d",
+        "explanation": "Metinde bu cisimlerin adı yıldız olsa da aslında yıldız olmadıkları söylenir; ad insanları yanlış düşündürür."
+      },
+      {
+        "question": "Halley kuyruklu yıldızı yaklaşık kaç yılda bir Dünya'dan görülebilir?",
+        "options": [
+          "26 yılda bir",
+          "50 yılda bir",
+          "76 yılda bir",
+          "100 yılda bir"
+        ],
+        "correct": "c",
+        "explanation": "Metinde Halley'in yaklaşık her 76 yılda bir Dünya'dan görülebildiği yazar."
+      },
+      {
+        "question": "Bazı meteor yağmurları nasıl oluşur?",
+        "options": [
+          "Kuyruklu yıldız tozları havamızda yanarak parlar",
+          "Yıldızlar parçalanarak Dünya'ya düşer",
+          "Güneş rüzgârı bulutları aydınlatır",
+          "Ay'dan kopan taşlar denize düşer"
+        ],
+        "correct": "a",
+        "explanation": "Metinde Dünya'nın kuyruklu yıldız tozlarının arasından geçtiği, parçaların havamıza girip yanarak parladığı anlatılır."
+      },
+      {
+        "question": "Güneş Sistemi'nin çok uzak bölgelerindeki kuyruklu yıldızların neden kuyruğu yoktur?",
+        "options": [
+          "Orada hiç toz bulunmadığı için",
+          "Güneş'ten çok uzak oldukları için ısınmazlar",
+          "Kuyruklarını başka cisimler kopardığı için",
+          "Orada çok hızlı döndükleri için"
+        ],
+        "correct": "b",
+        "explanation": "Metne göre kuyruk, Güneş'e yaklaşıp ısınınca oluşur; uzak ve soğuk bölgelerde bu olmaz."
+      }
+    ]
+  },
+  {
+    "slug": "geleneksel-turk-okculugu",
+    "questions": [
+      {
+        "question": "Geleneksel Türk okçuluğu hangi yıl UNESCO listesine alındı?",
+        "options": [
+          "1998",
+          "2019",
+          "2009",
+          "2015"
+        ],
+        "correct": "b",
+        "explanation": "Metinde 2019 yılında UNESCO'nun Somut Olmayan Kültürel Miras Listesi'ne alındığı yazar."
+      },
+      {
+        "question": "Menzil atışı neye dayanır?",
+        "options": [
+          "Oku olabildiğince uzağa göndermeye",
+          "Oku hedefin tam ortasına atmaya",
+          "Atın üstünden hedefi vurmaya",
+          "En çok oku en kısa sürede atmaya"
+        ],
+        "correct": "a",
+        "explanation": "Metinde \"Menzil atışı, oku olabildiğince uzağa göndermeye dayanır.\" denir."
+      },
+      {
+        "question": "Metne göre \"zihgir\" nedir?",
+        "options": [
+          "Okların konulduğu deri çanta",
+          "Yayın iki ucunu bağlayan ip",
+          "Rekor yerine dikilen taş",
+          "Başparmağı korumak için takılan yüzük"
+        ],
+        "correct": "d",
+        "explanation": "Metinde okçuların kirişi çekerken başparmaklarını korumak için taktıkları yüzüğe zihgir dendiği yazar."
+      },
+      {
+        "question": "Orta Asya'da yaşayan Türkler için ok ve yay neden önemliydi?",
+        "options": [
+          "Şehirlerde yarışmalar düzenleniyordu",
+          "Ticarette para yerine kullanılıyordu",
+          "Avlanmak ve kendilerini korumak için gerekliydi",
+          "Evlerin süslenmesinde kullanılıyordu"
+        ],
+        "correct": "c",
+        "explanation": "Metinde ok ve yayın bozkırda yaşayan Türkler için hem avlanmak hem de kendini korumak için önemli olduğu yazar."
+      }
+    ]
+  },
+  {
+    "slug": "mimar-sinan",
+    "questions": [
+      {
+        "question": "Sinan hangi yıl Osmanlı Devleti'nin baş mimarı oldu?",
+        "options": [
+          "1490",
+          "1588",
+          "1538",
+          "1575"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"1538 yılında Osmanlı Devleti'nin baş mimarı oldu.\" yazar."
+      },
+      {
+        "question": "Mimar Sinan öldükten sonra nereye gömüldü?",
+        "options": [
+          "Selimiye Camii'nin bahçesine",
+          "Süleymaniye yakınındaki sade bir türbeye",
+          "Doğduğu Ağırnas köyüne",
+          "Edirne'deki büyük bir medreseye"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Süleymaniye Camii'nin yakınında kendi tasarladığı sade bir türbeye gömüldüğü yazar."
+      },
+      {
+        "question": "Sinan'ın hayatında aşağıdakilerden hangisi en önce olmuştur?",
+        "options": [
+          "Baş mimar olması",
+          "Elli yıl baş mimarlık yapması",
+          "Hayatını kaybetmesi",
+          "Yeniçeri ocağına katılması"
+        ],
+        "correct": "d",
+        "explanation": "Metne göre Sinan gençliğinde yeniçeri ocağına katıldı; baş mimarlık 1538'de başladı, 1588'de öldü."
+      },
+      {
+        "question": "Sinan'ın yanında pek çok öğrenci yetiştirmesinin sonucu ne oldu?",
+        "options": [
+          "Bilgisi sonraki kuşaklara aktarıldı",
+          "Daha az eser yapmak zorunda kaldı",
+          "Baş mimarlık görevini bıraktı",
+          "Bütün camileri öğrencileri yaptı"
+        ],
+        "correct": "a",
+        "explanation": "Metinde \"Böylece Sinan'ın bilgisi, öğrencileri aracılığıyla sonraki kuşaklara aktarıldı.\" denir."
+      }
+    ]
+  },
+  {
+    "slug": "baykuslar-gece-avcilari",
+    "questions": [
+      {
+        "question": "Baykuşun çanak gibi yüzü ne işe yarar?",
+        "options": [
+          "Sesleri kulaklarına taşır",
+          "Yağmuru üstünden akıtır",
+          "Gözlerini güneşten korur",
+          "Avını korkutup kaçırır"
+        ],
+        "correct": "a",
+        "explanation": "Metinde baykuşun yüzünün bir çanak gibi olduğu ve sesleri kulaklarına taşıdığı yazar."
+      },
+      {
+        "question": "Dünyada kaç baykuş türü vardır?",
+        "options": [
+          "Yirmiden az",
+          "Elli kadar",
+          "Bin kadar",
+          "İki yüzden fazla"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Dünyada iki yüzden fazla baykuş türü vardır.\" denir."
+      },
+      {
+        "question": "Baykuş avını gördükten sonra ilk ne yapar?",
+        "options": [
+          "Ağacına geri döner",
+          "Aşağı süzülür",
+          "Avını bütün olarak yutar",
+          "Kemikleri ağzından çıkarır"
+        ],
+        "correct": "b",
+        "explanation": "Metinde \"Baykuş avını görünce aşağı süzülür.\" yazar; sonra pençeleriyle yakalar ve ağacına döner."
+      },
+      {
+        "question": "Baykuşlar çiftçilere nasıl yardım eder?",
+        "options": [
+          "Tarlaları gece bekleyerek",
+          "Tohumları toprağa gömerek",
+          "Tarlalardaki fareleri avlayarak",
+          "Böcekleri yuvalarına taşıyarak"
+        ],
+        "correct": "c",
+        "explanation": "Metinde baykuşların tarlalardaki fareleri avlayarak çiftçilere yardım ettiği anlatılır."
+      }
+    ]
+  },
+  {
+    "slug": "saturnun-halkalari",
+    "questions": [
+      {
+        "question": "Satürn, Güneş'in çevresindeki bir turunu yaklaşık kaç yılda tamamlar?",
+        "options": [
+          "Bir yılda",
+          "Otuz yılda",
+          "On yılda",
+          "Yüz yılda"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Satürn'ün bir turunu yaklaşık otuz yılda tamamladığı yazar."
+      },
+      {
+        "question": "Satürn'ün halkalarının kalınlığı birçok yerde ne kadardır?",
+        "options": [
+          "Bir kilometre kadar",
+          "Yüz metre kadar",
+          "Bir metre kadar",
+          "On metre kadar"
+        ],
+        "correct": "d",
+        "explanation": "Metinde halkaların birçok yerde yalnızca on metre kadar kalın olduğu belirtilir."
+      },
+      {
+        "question": "\"Görkemli halkalar\" ifadesinde \"görkemli\" ne demektir?",
+        "options": [
+          "Çok büyük ve göz alıcı",
+          "Küçük ve sönük",
+          "Eski ve kırık",
+          "Karanlık ve korkutucu"
+        ],
+        "correct": "a",
+        "explanation": "Metinde halkaların Satürn'ü diğer gezegenlerden ayıran en önemli özellik olduğu ve çok güzel göründüğü anlatılır; görkemli, büyük ve göz alıcı demektir."
+      },
+      {
+        "question": "Satürn'ün büyük bir havuzda suyun üstünde yüzebileceği söylenmesinden ne anlıyoruz?",
+        "options": [
+          "Yüzeyinin tamamen suyla kaplı olduğunu",
+          "Halkalarının suya benzediğini",
+          "Çok büyük olmasına rağmen çok hafif olduğunu",
+          "Dünya'ya çok yakın olduğunu"
+        ],
+        "correct": "c",
+        "explanation": "Metinde Satürn'ün dev bir gezegen olduğu ama o kadar hafif olduğu ki suyun üstünde yüzebileceği söylenir."
+      }
+    ]
+  },
+  {
+    "slug": "dronlar",
+    "questions": [
+      {
+        "question": "Dronlar enerjilerini genellikle nereden alır?",
+        "options": [
+          "Benzin deposundan",
+          "Rüzgârdan",
+          "Şarj edilebilen pillerden",
+          "Güneş panellerinden"
+        ],
+        "correct": "c",
+        "explanation": "Metinde dronların enerjilerini genellikle şarj edilebilen pillerden aldığı yazar."
+      },
+      {
+        "question": "Orman yangınlarında dronlar ne işe yarar?",
+        "options": [
+          "Yangının nereye ilerlediğini gösterir",
+          "Yangını tek başına söndürür",
+          "İnsanları yangından taşır",
+          "Ağaçları suyla sular"
+        ],
+        "correct": "a",
+        "explanation": "Metinde \"Orman yangınlarında dronlar yangının nereye ilerlediğini gösterir.\" denir."
+      },
+      {
+        "question": "\"Önceden verilen bir rotayı kendi kendine izleyebilir\" cümlesinde \"rota\" ne demektir?",
+        "options": [
+          "Hız ayarı",
+          "Pil gücü",
+          "Kamera açısı",
+          "İzlenecek yol"
+        ],
+        "correct": "d",
+        "explanation": "Cümlede dronun önceden belirlenen bir yolu kendi kendine takip ettiği anlatılır; rota, izlenecek yoldur."
+      },
+      {
+        "question": "Dronlara neden \"insansız hava aracı\" da denir?",
+        "options": [
+          "Çok küçük oldukları için",
+          "İçlerinde pilot olmadığı için",
+          "İnsanları taşıyamadıkları için",
+          "Sadece gece uçtukları için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde dronların içinde pilot olmayan uçan araçlar olduğu ve bu yüzden insansız hava aracı dendiği yazar."
+      }
+    ]
+  },
+  {
+    "slug": "ormanda-pusulayla-yon-bulma",
+    "questions": [
+      {
+        "question": "Hikâye izci kampının kaçıncı gününde geçiyor?",
+        "options": [
+          "İlk gününde",
+          "İkinci gününde",
+          "Son gününde",
+          "Üçüncü gününde"
+        ],
+        "correct": "d",
+        "explanation": "Metin \"İzci kampının üçüncü günüydü.\" cümlesiyle başlar."
+      },
+      {
+        "question": "Ayşe'ye göre pusulanın iğnesini ne yönlendirir?",
+        "options": [
+          "Rüzgârın estiği yön",
+          "Dünya'nın büyük bir mıknatıs gibi olması",
+          "Güneş'in gökyüzündeki yeri",
+          "Ağaçların gölgesi"
+        ],
+        "correct": "b",
+        "explanation": "Ayşe, Dünya'nın büyük bir mıknatıs gibi olduğunu ve pusulanın iğnesini yönlendirdiğini söyler."
+      },
+      {
+        "question": "Patika ikiye ayrılmadan önce aşağıdakilerden hangisi oldu?",
+        "options": [
+          "Çocuklar çeşmeyi buldular",
+          "Çocuklar sularını içip dinlendiler",
+          "Kerem yıldırım çarpmış çamı işaretledi",
+          "Grup kampa ilk dönen grup oldu"
+        ],
+        "correct": "c",
+        "explanation": "Kerem çamı yolda işaretledi; \"Bir süre sonra patika ikiye ayrıldı.\" Diğerleri daha sonra olur."
+      },
+      {
+        "question": "Çocuklar dönüşte neden güneybatıya doğru yürüdüler?",
+        "options": [
+          "Gelirken izledikleri yönün tam tersi olduğu için",
+          "O yol daha kolay olduğu için",
+          "Murat Bey onlara öyle söylediği için",
+          "Çeşmenin suyu o yöne aktığı için"
+        ],
+        "correct": "a",
+        "explanation": "Metinde dönüşte gelirken izledikleri yönün tam tersine, yani güneybatıya yürüdükleri yazar."
+      }
+    ]
+  },
+  {
+    "slug": "gps-nasil-calisir",
+    "questions": [
+      {
+        "question": "Dünya'nın çevresinde yaklaşık kaç GPS uydusu dolaşır?",
+        "options": [
+          "Otuz kadar",
+          "Dört kadar",
+          "Yüz kadar",
+          "Bin kadar"
+        ],
+        "correct": "a",
+        "explanation": "Metinde otuz kadar GPS uydusunun dolaştığı yazar."
+      },
+      {
+        "question": "Ambulanslar GPS sayesinde ne yapabilir?",
+        "options": [
+          "Hastaları uzaktan muayene eder",
+          "Trafik ışıklarını değiştirir",
+          "Hastalara en kısa yoldan ulaşır",
+          "Daha az yakıtla çalışır"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Ambulanslar hastalara en kısa yoldan ulaşır.\" denir."
+      },
+      {
+        "question": "\"GPS'in kalbi, uzaydaki uydulardır.\" cümlesinde \"kalbi\" ne anlama gelir?",
+        "options": [
+          "En küçük parçası",
+          "En önemli parçası",
+          "En eski parçası",
+          "En pahalı parçası"
+        ],
+        "correct": "b",
+        "explanation": "Metin GPS'in uydular olmadan çalışamayacağını anlatır; burada kalp, en önemli parça anlamındadır."
+      },
+      {
+        "question": "Konumu bulmak için neden tek bir uydunun uzaklığını bilmek yetmez?",
+        "options": [
+          "Tek uydunun sinyali Dünya'ya ulaşamaz",
+          "Uydular sadece gece sinyal gönderir",
+          "Tek uydunun saati hiç çalışmaz",
+          "Tek noktayı bulmak için üç uydunun uzaklığı gerekir"
+        ],
+        "correct": "d",
+        "explanation": "Metinde ancak üç uydunun uzaklığı bilindiğinde bu uzaklıkların kesiştiği tek bir nokta kaldığı anlatılır."
+      }
+    ]
+  },
+  {
+    "slug": "kar-taneleri",
+    "questions": [
+      {
+        "question": "Ela kar tanesine neyle yakından bakıyor?",
+        "options": [
+          "Dürbünle",
+          "Gözlükle",
+          "Aynayla",
+          "Büyüteçle"
+        ],
+        "correct": "d",
+        "explanation": "Metinde Ela'nın \"Hemen büyüteçle yakından\" baktığı yazar."
+      },
+      {
+        "question": "Kar yağınca çocuklar ne yapar?",
+        "options": [
+          "Evde oturup resim çizer",
+          "Kızakla denize gider",
+          "Kardan adam yapıp kar topu oynar",
+          "Bahçeye çiçek diker"
+        ],
+        "correct": "c",
+        "explanation": "Metinde kar yağınca çocukların kardan adam yaptığı ve kar topu oynadığı anlatılır."
+      },
+      {
+        "question": "Ela'nın eldivenindeki kar tanesine en sonunda ne oldu?",
+        "options": [
+          "Eriyip su damlası oldu",
+          "Rüzgârla uçup gitti",
+          "Büyüyüp kar topu oldu",
+          "Donup buza döndü"
+        ],
+        "correct": "a",
+        "explanation": "Metnin sonunda kar tanesinin birden eridiği ve küçük bir su damlası olduğu yazar."
+      },
+      {
+        "question": "Her kar tanesinin şekli neden biraz farklıdır?",
+        "options": [
+          "Her biri farklı bir buluttan geldiği için",
+          "Her biri gökyüzünde farklı bir yoldan geçtiği için",
+          "Yere farklı hızlarla düştükleri için",
+          "Çocuklar onları farklı tuttuğu için"
+        ],
+        "correct": "b",
+        "explanation": "Metinde her kar tanesinin farklı bir yoldan geçtiği ve yolda sıcaklık ile nemin değiştiği anlatılır."
+      }
+    ]
+  },
+  {
+    "slug": "flamingolar-ve-gediz-deltasi",
+    "questions": [
+      {
+        "question": "Flamingolar nasıl beslenir?",
+        "options": [
+          "Havada uçarken böcek yakalayarak",
+          "Başlarını suya ters çevirip suyu süzerek",
+          "Suya dalıp büyük balıklar avlayarak",
+          "Karada gezip tohum toplayarak"
+        ],
+        "correct": "b",
+        "explanation": "Metinde flamingoların başlarını suya ters çevirip gagalarıyla çamurlu suyu süzdüğü anlatılır."
+      },
+      {
+        "question": "Flamingolar yuvalarını nasıl kurar?",
+        "options": [
+          "Çamurdan küçük tepecikler yaparak",
+          "Ağaç dallarına çubuk dizerek",
+          "Kayaların arasına tüy sererek",
+          "Kumda derin çukurlar kazarak"
+        ],
+        "correct": "a",
+        "explanation": "Metinde flamingoların çamurdan küçük tepecikler yaparak yuva kurduğu yazar."
+      },
+      {
+        "question": "\"Delta, göç eden kuşlar için önemli bir mola yeridir.\" cümlesinde \"mola yeri\" ne demektir?",
+        "options": [
+          "Kuşların doğduğu ilk yer",
+          "Kuşların kışı geçirdiği yer",
+          "Kuşların avlandığı tehlikeli yer",
+          "Yolculukta dinlenmek için durulan yer"
+        ],
+        "correct": "d",
+        "explanation": "Sonraki cümlede uzun yolculuk yapan kuşların burada dinlenip beslendiği anlatılır."
+      },
+      {
+        "question": "Bilim insanlarına göre flamingolar neden sık sık tek ayak üstünde durur?",
+        "options": [
+          "Suyu daha iyi süzmek için",
+          "Yavrularını korumak için",
+          "Enerji ve vücut ısısı korumak için",
+          "Daha uzun görünmek için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde bu duruşun onların enerji ve vücut ısısı korumasına yardım ettiğinin düşünüldüğü yazar."
+      }
+    ]
+  },
+  {
+    "slug": "ormanlar-ve-oksijen",
+    "questions": [
+      {
+        "question": "Ülkemizin yaklaşık ne kadarı ormanlarla kaplıdır?",
+        "options": [
+          "Yarısı",
+          "Dörtte üçü",
+          "Üçte biri",
+          "Onda biri"
+        ],
+        "correct": "c",
+        "explanation": "Metinde \"Ülkemizin yaklaşık üçte biri ormanlarla kaplıdır.\" yazar."
+      },
+      {
+        "question": "Akdeniz'de hangi ormanlar bulunur?",
+        "options": [
+          "Kayın ormanları",
+          "Kızılçam ormanları",
+          "Ladin ormanları",
+          "Meşe ormanları"
+        ],
+        "correct": "b",
+        "explanation": "Metinde Akdeniz'de kızılçam ormanlarının bulunduğu yazar."
+      },
+      {
+        "question": "Metne göre \"fotosentez\" nedir?",
+        "options": [
+          "Ağaç köklerinin toprağı tutması",
+          "Yaprakların havadaki tozu tutması",
+          "Ormanların havayı serinletmesi",
+          "Bitkinin ışıkla su ve karbondioksitten besin yapması"
+        ],
+        "correct": "d",
+        "explanation": "Metinde bitkinin ışık yardımıyla su ve karbondioksitten besin yapmasına fotosentez dendiği anlatılır."
+      },
+      {
+        "question": "Ormanda derin nefes alınca neden ferah hissederiz?",
+        "options": [
+          "Ağaçlar havayı temizlediği için",
+          "Ormanda hava hep soğuk olduğu için",
+          "Ormanda hiç rüzgâr esmediği için",
+          "Ormanda çok kuş bulunduğu için"
+        ],
+        "correct": "a",
+        "explanation": "Metnin başında ferahlığın nedenlerinden birinin ağaçların havayı temizlemesi olduğu söylenir."
+      }
+    ]
+  },
+  {
+    "slug": "gunes-panelleri-ve-temiz-enerji",
+    "questions": [
+      {
+        "question": "Güneş ışığı panel hücrelerine çarptığında ne olur?",
+        "options": [
+          "İçlerindeki küçük parçacıklar hareket etmeye başlar",
+          "Hücreler ısınıp erimeye başlar",
+          "Hücrelerin rengi beyaza döner",
+          "Paneller hemen soğumaya başlar"
+        ],
+        "correct": "a",
+        "explanation": "Metinde ışık hücrelere çarptığında içlerindeki çok küçük parçacıkların hareket etmeye başladığı ve elektrik akımı oluştuğu yazar."
+      },
+      {
+        "question": "Uzayda elektriğini güneş panellerinden sağlayanlar hangileridir?",
+        "options": [
+          "Roketler ve uzay mekikleri",
+          "Yıldızlar ve gezegenler",
+          "Teleskoplar ve radarlar",
+          "Uydular ve Uluslararası Uzay İstasyonu"
+        ],
+        "correct": "d",
+        "explanation": "Metinde uzaydaki uyduların ve Uluslararası Uzay İstasyonu'nun elektriğini güneş panellerinden sağladığı yazar."
+      },
+      {
+        "question": "\"Bu yakıtlar bir gün tükenebilir.\" cümlesinde \"tükenmek\" ne demektir?",
+        "options": [
+          "Fiyatı artmak",
+          "Bitip hiç kalmamak",
+          "Daha çok üretilmek",
+          "Başka yere taşınmak"
+        ],
+        "correct": "b",
+        "explanation": "Cümlede kömür ve petrolün bir gün bitebileceği, Güneş'in ise parlamaya devam edeceği anlatılır."
+      },
+      {
+        "question": "Güneş panelleri bulutlu günlerde neden daha az elektrik üretir?",
+        "options": [
+          "Bulutlar panelleri ıslattığı için",
+          "Bataryalar o gün çalışmadığı için",
+          "Panellere daha az güneş ışığı ulaştığı için",
+          "Havada daha çok duman olduğu için"
+        ],
+        "correct": "c",
+        "explanation": "Paneller Güneş ışığını elektriğe dönüştürür; bulutlu günde daha az ışık geldiği için daha az elektrik üretilir."
+      }
+    ]
+  },
+  {
+    "slug": "nemrut-dagi",
+    "questions": [
+      {
+        "question": "Nemrut Dağı yaklaşık kaç metre yüksekliktedir?",
+        "options": [
+          "1.250 metre",
+          "2.150 metre",
+          "3.500 metre",
+          "850 metre"
+        ],
+        "correct": "b",
+        "explanation": "Metinde dağın yaklaşık 2.150 metre yüksekliğinde olduğu yazar."
+      },
+      {
+        "question": "Teraslardaki heykellerin yanında hangi hayvan heykelleri bulunur?",
+        "options": [
+          "At ve deve",
+          "Boğa ve kurt",
+          "Kuğu ve geyik",
+          "Kartal ve aslan"
+        ],
+        "correct": "d",
+        "explanation": "Metinde \"Heykellerin yanında kartal ve aslan heykelleri de bulunur.\" denir."
+      },
+      {
+        "question": "\"Anıtsal bir mezar alanı\" ifadesinde \"anıtsal\" ne demektir?",
+        "options": [
+          "Anıt gibi büyük ve etkileyici",
+          "Küçük ve gösterişsiz",
+          "Yer altına gizlenmiş",
+          "Yeni ve modern"
+        ],
+        "correct": "a",
+        "explanation": "Metinde kralın zirvede elli metrelik bir tepe ve dev heykellerle çevrili büyük bir mezar alanı yaptırdığı anlatılır."
+      },
+      {
+        "question": "Gün doğumunu izlemeye gelenler neden yanlarına kalın giysiler alır?",
+        "options": [
+          "Patikada dikenli bitkiler olduğu için",
+          "Heykellere dokunmak yasak olduğu için",
+          "Zirvede hava yazın bile serin olabildiği için",
+          "Zirvede sık sık yağmur yağdığı için"
+        ],
+        "correct": "c",
+        "explanation": "Metinde zirvede havanın yazın bile serin olabileceği, bu yüzden kalın giysi alındığı yazar."
+      }
+    ]
+  }
+]

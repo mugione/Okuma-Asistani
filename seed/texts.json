@@ -1,0 +1,780 @@
+[
+  {
+    "slug": "seviye-testi",
+    "title": "Elif'in Yeni Komşusu",
+    "category": "Günlük Yaşam",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Elif, dokuz yaşında neşeli bir kızdı. Annesi ve küçük kardeşi Can ile birlikte mavi bir apartmanda oturuyordu. Bir cumartesi sabahı, kapının önünde büyük kutular gördü. Karşı daireye yeni bir aile taşınıyordu.\n\nKutuların arasında Elif'in yaşlarında bir kız vardı. Kız, elindeki saksıyı dikkatle taşıyordu. Saksıda küçük, sarı bir çiçek açmıştı. Elif hemen yanına gitti ve gülümseyerek \"Merhaba, benim adım Elif. Sana yardım edebilir miyim?\" dedi.\n\nKızın adı Zeynep'ti. Ailesiyle birlikte başka bir şehirden gelmişlerdi. Zeynep burada hiç kimseyi tanımıyordu ve biraz üzgündü. Elif ile konuşunca yüzü aydınlandı. İki kız birlikte hafif kutuları merdivenlerden yukarı taşıdılar. Can da oyuncak kamyonuyla küçük bir kutuyu getirmeye çalıştı. Herkes ona gülümsedi.\n\nÖğleden sonra Elif'in annesi bir tepsi kurabiye pişirdi. Elif ve Can, kurabiyeleri yeni komşularına götürdüler. Zeynep'in annesi çok sevindi ve onlara teşekkür etti. Zeynep de Elif'e sarı çiçekli saksısından küçük bir fidan hediye etti.\n\nO akşam Elif, fidanı penceresinin önüne koydu. Her sabah onu sulamaya karar verdi. Artık hem yeni bir çiçeği hem de yeni bir arkadaşı vardı.",
+    "questions": [
+      {
+        "question": "Karşı daireye kim taşınıyordu?",
+        "options": ["Elif'in teyzesi", "Yeni bir aile", "Bir öğretmen", "Yaşlı bir adam"],
+        "correct": "b",
+        "explanation": "Metinde karşı daireye yeni bir ailenin taşındığı söyleniyor."
+      },
+      {
+        "question": "Zeynep elinde ne taşıyordu?",
+        "options": ["Bir kedi", "Bir kitap", "Bir saksı", "Bir top"],
+        "correct": "c",
+        "explanation": "Zeynep, içinde sarı bir çiçek olan saksıyı dikkatle taşıyordu."
+      },
+      {
+        "question": "Zeynep neden biraz üzgündü?",
+        "options": ["Burada hiç kimseyi tanımıyordu", "Oyuncağı kırılmıştı", "Çiçeği solmuştu", "Kutular çok ağırdı"],
+        "correct": "a",
+        "explanation": "Zeynep başka bir şehirden gelmişti ve burada kimseyi tanımıyordu."
+      },
+      {
+        "question": "Elif'in annesi yeni komşular için ne yaptı?",
+        "options": ["Çorba pişirdi", "Çiçek aldı", "Pasta satın aldı", "Kurabiye pişirdi"],
+        "correct": "d",
+        "explanation": "Elif'in annesi bir tepsi kurabiye pişirdi, çocuklar da onları komşulara götürdü."
+      },
+      {
+        "question": "Metnin ana fikri nedir?",
+        "options": ["Taşınmak çok yorucudur.", "Yeni gelenlere yardım etmek güzel dostluklar kurar.", "Çiçekler her gün sulanmalıdır.", "Kardeşler hep oyun oynar."],
+        "correct": "b",
+        "explanation": "Elif, yeni komşusuna yardım ederek yeni bir arkadaş kazandı."
+      }
+    ]
+  },
+  {
+    "slug": "minik-kedi-pamuk",
+    "title": "Minik Kedi Pamuk",
+    "category": "Hayvanlar",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Ayşe'nin beyaz bir kedisi var. Kedinin adı Pamuk. Pamuk çok küçük ve çok tatlı. Tüyleri yumuşacık, gözleri yeşil.\n\nPamuk sabahları erkenden uyanır. Ayşe'nin yatağına zıplar. Kuyruğunu sallar ve miyavlar. Bu, onun günaydın deme şekli. Ayşe gülerek uyanır ve Pamuk'u sever.\n\nPamuk oyun oynamayı çok sever. En sevdiği oyuncak kırmızı bir yün yumağı. Ayşe yumağı yere atar. Pamuk hemen koşar ve yumağı yakalar. Bazen yumak halının altına kaçar. Pamuk onu bulana kadar arar.\n\nPamuk'un sevdiği bir yer de var. Bu yer, güneşli pencerenin kenarı. Öğleden sonra orada uzanır ve uyur. Güneş tüylerini ısıtır.\n\nKediler çok temiz hayvanlardır. Pamuk da her gün kendini diliyle yalar. Böylece tüylerini temizler. Ayşe de onun tüylerini yumuşak bir tarakla tarar.\n\nPamuk'un bir mama kabı ve bir su kabı var. Ayşe her gün kapları doldurur. Suyun temiz olmasına dikkat eder. Çünkü hayvanlar da bizim gibi temiz suya ihtiyaç duyar.\n\nAkşam olunca Pamuk yorulur. Ayşe'nin kucağına kıvrılır. Mırıl mırıl ses çıkarır. Kediler mutlu olunca böyle mırlar. Ayşe, Pamuk'un en iyi arkadaşı olduğunu bilir.",
+    "questions": [
+      {
+        "question": "Pamuk'un gözleri ne renktir?",
+        "options": ["Mavi", "Kahverengi", "Yeşil", "Sarı"],
+        "correct": "c",
+        "explanation": "Metinde Pamuk'un gözlerinin yeşil olduğu yazıyor."
+      },
+      {
+        "question": "Pamuk'un en sevdiği oyuncak hangisidir?",
+        "options": ["Kırmızı bir yün yumağı", "Küçük bir top", "Bir tüy", "Bir fare oyuncağı"],
+        "correct": "a",
+        "explanation": "Pamuk'un en sevdiği oyuncak kırmızı bir yün yumağıdır."
+      },
+      {
+        "question": "Ayşe su kabının temiz olmasına neden dikkat eder?",
+        "options": ["Kap güzel görünsün diye", "Annesi kızmasın diye", "Pamuk suyla oynasın diye", "Hayvanlar da temiz suya ihtiyaç duyduğu için"],
+        "correct": "d",
+        "explanation": "Metinde hayvanların da bizim gibi temiz suya ihtiyaç duyduğu söyleniyor."
+      },
+      {
+        "question": "Kediler mutlu olduklarında ne yapar?",
+        "options": ["Tıslar", "Mırlar", "Saklanır", "Havlar"],
+        "correct": "b",
+        "explanation": "Kediler mutlu olunca mırıl mırıl ses çıkarır, yani mırlar."
+      }
+    ]
+  },
+  {
+    "slug": "bahcedeki-elma-agaci",
+    "title": "Bahçedeki Elma Ağacı",
+    "category": "Doğa",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Dedemin bahçesinde büyük bir elma ağacı var. Bu ağacı dedem yıllar önce dikmiş. Şimdi ağaç evden bile daha uzun.\n\nİlkbaharda ağacın dalları beyaz ve pembe çiçeklerle dolar. Arılar çiçeklere konar. Vızır vızır uçarak çiçekten çiçeğe gider. Dedem arıların ağaca yardım ettiğini söyler. Arılar olmasa elmalar da olmazmış.\n\nYazın çiçekler dökülür. Yerlerinde küçük, yeşil elmalar belirir. Güneş parladıkça elmalar büyür. Yağmur yağdıkça ağaç su içer. Ben de ağacın gölgesinde oturup kitap okurum. Kuşlar dallarda şarkı söyler.\n\nSonbahar gelince elmalar kıpkırmızı olur. Dedemle birlikte sepetleri alırız. Alçak dallardaki elmaları ben toplarım. Yüksek dallardakileri dedem merdivenle toplar. Sepetlerimiz kısa sürede dolar. Annem bu elmalardan nefis bir reçel yapar.\n\nKışın ağacın hiç yaprağı kalmaz. Dalları çıplak görünür. Kar yağınca dallar beyaz bir örtüyle kaplanır. Ama dedem ağacın uyuduğunu söyler. Bahar gelince yeniden uyanacakmış.\n\nBen de büyüyünce kendi bahçeme bir elma ağacı dikmek istiyorum. Onu her gün sulayacağım. Belki bir gün benim torunlarım da onun gölgesinde oturur.",
+    "questions": [
+      {
+        "question": "İlkbaharda ağacın dalları neyle dolar?",
+        "options": ["Kırmızı elmalarla", "Beyaz ve pembe çiçeklerle", "Sarı yapraklarla", "Karla"],
+        "correct": "b",
+        "explanation": "İlkbaharda dallar beyaz ve pembe çiçeklerle dolar."
+      },
+      {
+        "question": "Yüksek dallardaki elmaları kim toplar?",
+        "options": ["Annem", "Arılar", "Ben", "Dedem"],
+        "correct": "d",
+        "explanation": "Yüksek dallardaki elmaları dede merdivenle toplar."
+      },
+      {
+        "question": "Dede, kışın ağaç için ne söyler?",
+        "options": ["Ağacın uyuduğunu", "Ağacın hasta olduğunu", "Ağacın kuruduğunu", "Ağacın büyüdüğünü"],
+        "correct": "a",
+        "explanation": "Dede, kışın ağacın uyuduğunu ve baharda uyanacağını söyler."
+      },
+      {
+        "question": "Metnin ana fikri nedir?",
+        "options": ["Elma reçeli çok lezzetlidir.", "Arılar insanları sokar.", "Elma ağacı her mevsim değişir ve bize çok şey verir.", "Kışın kar yağar."],
+        "correct": "c",
+        "explanation": "Metin, elma ağacının dört mevsimde nasıl değiştiğini anlatıyor."
+      }
+    ]
+  },
+  {
+    "slug": "top-oynamayi-seviyorum",
+    "title": "Top Oynamayı Seviyorum",
+    "category": "Spor",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Benim adım Emre. Ben futbol oynamayı çok seviyorum. Her hafta sonu arkadaşlarımla parkta top oynarız. Park, evimize çok yakın.\n\nÖnce iki takım kurarız. Bir takımda beş kişi, öbür takımda da beş kişi olur. Kaleleri taşlarla belirleriz. Sonra oyun başlar.\n\nBen genellikle kaleci olurum. Topu tutmak için sağa sola atlarım. Bazen yere düşerim ama hemen kalkarım. Kaleci olmak dikkat ister. Gözümü hiç toptan ayırmam.\n\nArkadaşım Deniz çok hızlı koşar. Topu alınca kimse ona yetişemez. Geçen hafta tam üç gol attı. Hepimiz onu alkışladık. Ama Deniz, gollerin takımın başarısı olduğunu söyledi. Çünkü ona pası biz vermiştik.\n\nMaçtan önce mutlaka ısınırız. Biraz koşar, kollarımızı ve bacaklarımızı esnetiriz. Böylece kaslarımız incinmez. Ablam bize ısınma hareketlerini öğretti. Maçtan sonra da bol bol su içeriz.\n\nBazen kazanırız, bazen kaybederiz. Kaybettiğimizde üzülürüz ama küsmeyiz. Maç bitince rakip takımla el sıkışırız. Babam bana sporun en güzel yanının dostluk olduğunu öğretti. Ben de buna inanıyorum. Haftaya yine parkta buluşacağız.",
+    "questions": [
+      {
+        "question": "Emre maçlarda genellikle hangi görevde oynar?",
+        "options": ["Hakem", "Forvet", "Kaleci", "Seyirci"],
+        "correct": "c",
+        "explanation": "Emre, genellikle kaleci olduğunu söylüyor."
+      },
+      {
+        "question": "Deniz geçen hafta kaç gol attı?",
+        "options": ["Üç", "İki", "Bir", "Dört"],
+        "correct": "a",
+        "explanation": "Metinde Deniz'in tam üç gol attığı yazıyor."
+      },
+      {
+        "question": "Çocuklar maçtan önce neden ısınır?",
+        "options": ["Daha çok gol atmak için", "Üşümemek için", "Hakemi beklemek için", "Kasları incinmesin diye"],
+        "correct": "d",
+        "explanation": "Isınma hareketleri sayesinde kaslarının incinmediği söyleniyor."
+      },
+      {
+        "question": "Metnin ana fikri nedir?",
+        "options": ["Kaleci olmak kolaydır.", "Sporun en güzel yanı dostluktur.", "Her maçı kazanmak gerekir.", "Park evden uzaktır."],
+        "correct": "b",
+        "explanation": "Emre, sporun en güzel yanının dostluk olduğuna inanıyor."
+      }
+    ]
+  },
+  {
+    "slug": "pazar-kahvaltisi",
+    "title": "Pazar Kahvaltısı",
+    "category": "Günlük Yaşam",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Pazar günleri bizim evde çok güzel geçer. Çünkü o gün herkes evdedir. Kimse erkenden işe ya da okula gitmez.\n\nSabah ilk uyanan babamdır. Mutfağa gidip çayı demler. Çayın kokusu bütün eve yayılır. Sonra annem uyanır ve yumurtaları haşlar.\n\nAblam ile ben de sofrayı hazırlarız. Önce masaya temiz bir örtü sereriz. Tabakları, çatalları ve bardakları dizeriz. Ablam peyniri ve zeytinleri küçük kaselere koyar. Ben de domatesleri ve salatalıkları yıkarım. Annem onları dilimler.\n\nKahvaltıda taze ekmek de olmalı. Babam köşedeki fırından sıcacık ekmek alır. Ekmeğin kabuğu çıtır çıtırdır.\n\nHepimiz masaya oturunca sohbet başlar. Babam hafta boyunca neler yaptığımızı sorar. Ben okulda öğrendiğim şiiri okurum. Ablam resim kursundan bahseder. Annem de bize küçükken yaşadığı komik bir olayı anlatır. Hepimiz kahkahalarla güleriz.\n\nKahvaltı bitince masayı birlikte toplarız. Ben tabakları mutfağa taşırım. Ablam masayı siler. Babam bulaşıkları yıkar, annem de kurular. İş birlikte yapılınca çabucak biter.\n\nPazar kahvaltısı benim en sevdiğim andır. Çünkü o sofrada hepimiz bir aradayız.",
+    "questions": [
+      {
+        "question": "Pazar sabahı evde ilk kim uyanır?",
+        "options": ["Annem", "Babam", "Ablam", "Ben"],
+        "correct": "b",
+        "explanation": "Metinde sabah ilk uyananın baba olduğu yazıyor."
+      },
+      {
+        "question": "Babam ekmeği nereden alır?",
+        "options": ["Marketten", "Pazardan", "Komşudan", "Köşedeki fırından"],
+        "correct": "d",
+        "explanation": "Baba, köşedeki fırından sıcacık ekmek alır."
+      },
+      {
+        "question": "Kahvaltıdan sonra masayı kim siler?",
+        "options": ["Ablam", "Babam", "Annem", "Ben"],
+        "correct": "a",
+        "explanation": "Kahvaltıdan sonra masayı abla siler."
+      },
+      {
+        "question": "Metnin ana fikri nedir?",
+        "options": ["Çay en güzel içecektir.", "Pazar günü okula gidilmez.", "Ailece birlikte vakit geçirmek güzeldir.", "Bulaşık yıkamak zordur."],
+        "correct": "c",
+        "explanation": "Anlatıcı, pazar kahvaltısını ailesiyle bir arada olduğu için sever."
+      }
+    ]
+  },
+  {
+    "slug": "ayi-taniyalim",
+    "title": "Ay'ı Tanıyalım",
+    "category": "Uzay",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Geceleri gökyüzüne baktığımızda en parlak gördüğümüz gök cismi genellikle Ay'dır. Ay, Dünya'nın çevresinde dönen doğal bir uydudur. Dünya'mızın yalnızca bir tane doğal uydusu vardır.\n\nAy çok parlak görünür ama aslında kendi ışığı yoktur. Güneş'ten gelen ışığı yansıtır. Tıpkı karanlık bir odada el fenerinin ışığını yansıtan bir ayna gibi.\n\nAy'ın şekli her gece biraz değişiyormuş gibi görünür. Bazen ince bir hilal, bazen yarım bir daire, bazen de yuvarlak bir dolunay görürüz. Aslında Ay'ın şekli hiç değişmez. Değişen, Güneş ışığının aydınlattığı kısmın bizden ne kadar göründüğüdür. Ay'ın bu evreleri yaklaşık bir ayda tamamlanır.\n\nAy, Dünya'dan yaklaşık 384 bin kilometre uzaktadır. Bir arabayla hiç durmadan gitsek oraya ulaşmamız aylar sürerdi. Ay'da hava yoktur. Bu yüzden orada rüzgâr esmez, yağmur yağmaz. Gökyüzü gündüz bile kapkara görünür.\n\n1969 yılında Neil Armstrong, Ay'a ayak basan ilk insan oldu. Astronotların bıraktığı ayak izleri hâlâ oradadır. Çünkü Ay'da izleri silecek rüzgâr ya da yağmur yoktur. Bu izler milyonlarca yıl bozulmadan kalabilir.\n\nBu akşam pencereden Ay'a bakın. Bakalım bugün hangi evrede? Hilal mi, yarım ay mı, yoksa dolunay mı?",
+    "questions": [
+      {
+        "question": "Ay'ın parlak görünmesini sağlayan ışık nereden gelir?",
+        "options": ["Kendi ateşinden", "Yıldızlardan", "Güneş'ten", "Dünya'daki lambalardan"],
+        "correct": "c",
+        "explanation": "Ay'ın kendi ışığı yoktur, Güneş'ten gelen ışığı yansıtır."
+      },
+      {
+        "question": "Ay'a ayak basan ilk insan kimdir?",
+        "options": ["Neil Armstrong", "Yuri Gagarin", "Isaac Newton", "Galileo"],
+        "correct": "a",
+        "explanation": "1969 yılında Neil Armstrong, Ay'a ayak basan ilk insan oldu."
+      },
+      {
+        "question": "Astronotların ayak izleri Ay'da neden silinmez?",
+        "options": ["Ay'ın toprağı çok sert olduğu için", "İzleri koruyan bir cam olduğu için", "Ay çok soğuk olduğu için", "İzleri silecek rüzgâr ve yağmur olmadığı için"],
+        "correct": "d",
+        "explanation": "Ay'da hava olmadığı için rüzgâr esmez, yağmur yağmaz."
+      },
+      {
+        "question": "Ay'ın şekli neden değişiyormuş gibi görünür?",
+        "options": ["Ay her gece küçülüp büyüdüğü için", "Aydınlanan kısmını bizden farklı gördüğümüz için", "Bulutlar Ay'ı kestiği için", "Ay kendi ışığını açıp kapattığı için"],
+        "correct": "b",
+        "explanation": "Ay'ın şekli değişmez; değişen, aydınlanan kısmın bizden ne kadar göründüğüdür."
+      }
+    ]
+  },
+  {
+    "slug": "kayip-harita",
+    "title": "Kayıp Harita",
+    "category": "Macera",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Kerem ile Selin, yaz tatilini köyde, babaannelerinin yanında geçiriyordu. Bir öğleden sonra yağmur yağmaya başladı. Dışarı çıkamayan iki kardeş, evin tavan arasını keşfetmeye karar verdi.\n\nTavan arası tozlu eşyalarla doluydu. Eski bir sandığın içinde, sararmış bir kâğıt buldular. Kâğıdın üzerinde elle çizilmiş bir harita vardı. Haritada evin bahçesi, bir kuyu ve büyük bir ağaç görülüyordu. Ağacın yanına kırmızı kalemle bir çarpı işareti konmuştu.\n\n\"Bu bir hazine haritası!\" diye bağırdı Selin. Yağmur dinince hemen bahçeye koştular. Haritaya göre önce eski kuyuyu bulmaları gerekiyordu. Kuyu, bahçenin arka köşesindeydi. Oradan on adım sağa yürüdüler ve kocaman bir ceviz ağacının önüne geldiler.\n\nKerem küçük bir kürekle ağacın dibini kazmaya başladı. Biraz sonra kürek sert bir şeye çarptı. Topraktan paslı, küçük bir teneke kutu çıktı. Kardeşler heyecanla kutuyu açtılar. İçinde renkli bilyeler, bir tahta düdük ve katlanmış bir mektup vardı.\n\nMektubu babaanneleri yazmıştı. Üstelik tam elli yıl önce! Mektupta şöyle diyordu: \"Bu kutuyu bulan çocuk, benim en sevdiğim oyuncaklarıma artık sen iyi bak.\"\n\nKardeşler kutuyu babaannelerine götürdüler. Babaanneleri kutuyu görünce gözleri doldu ve gülümsedi. O akşam onlara çocukluğunu, oynadığı oyunları ve arkadaşlarını anlattı. Kerem ile Selin, en büyük hazinenin bu güzel anılar olduğunu anladılar.",
+    "questions": [
+      {
+        "question": "Kardeşler haritayı nerede buldular?",
+        "options": ["Tavan arasındaki eski bir sandıkta", "Bahçedeki kuyuda", "Babaannelerinin çantasında", "Ceviz ağacının dibinde"],
+        "correct": "a",
+        "explanation": "Harita, tavan arasındaki eski bir sandığın içindeydi."
+      },
+      {
+        "question": "Teneke kutu hangi ağacın dibinden çıktı?",
+        "options": ["Elma ağacının", "Çınar ağacının", "Ceviz ağacının", "Kiraz ağacının"],
+        "correct": "c",
+        "explanation": "Kardeşler kocaman bir ceviz ağacının dibini kazdılar."
+      },
+      {
+        "question": "Kutudaki mektubu kim yazmıştı?",
+        "options": ["Selin", "Köyün muhtarı", "Kerem'in öğretmeni", "Babaanneleri"],
+        "correct": "d",
+        "explanation": "Mektubu elli yıl önce babaanneleri yazmıştı."
+      },
+      {
+        "question": "Kardeşler neden en büyük hazinenin anılar olduğunu düşündüler?",
+        "options": ["Kutuda altın olmadığı için hayal kırıklığına uğradılar.", "Kutu, babaannelerinin çocukluğunu ve güzel hatıralarını ortaya çıkardı.", "Bilyeler çok eskiydi.", "Harita yanlış çizilmişti."],
+        "correct": "b",
+        "explanation": "Kutu sayesinde babaanneleri onlara çocukluğunu anlattı ve bu onları çok mutlu etti."
+      }
+    ]
+  },
+  {
+    "slug": "robot-tobi",
+    "title": "Robot Tobi",
+    "category": "Teknoloji",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Bu yıl okulumuzda bir robotik kulübü açıldı. Öğretmenimiz Ahmet Bey, ilk gün masaya küçük, tekerlekli bir robot koydu. Robotun iki yuvarlak gözü ve parlak mavi bir gövdesi vardı. Ona hep birlikte Tobi adını verdik.\n\nAhmet Bey bize robotların kendi kendine düşünemediğini anlattı. \"Robotlar, insanların verdiği komutlara göre hareket eder,\" dedi. \"Bu komutların sırasına da kod denir.\" Kod yazmak, robota adım adım ne yapacağını söylemek demekti.\n\nİlk görevimiz Tobi'yi sınıfın kapısına götürmekti. Tabletteki renkli blokları sıraya dizdik: \"İleri git\", \"Sola dön\", \"İleri git\". Sonra başlat düğmesine bastık. Ama Tobi sola değil, sağa döndü ve dolabın önünde durdu. Hepimiz güldük.\n\nKodumuzu tekrar inceledik. Meğer yanlışlıkla \"Sağa dön\" bloğunu seçmişiz. Ahmet Bey, \"Hata yapmak öğrenmenin bir parçasıdır. Mühendisler de kodlarını defalarca dener,\" dedi. Bloğu değiştirdik ve yeniden denedik. Bu kez Tobi tam kapının önünde durdu. Sınıfça alkışladık.\n\nTobi'nin önünde küçük bir de sensör vardı. Sensör, robotun gözü gibi çalışıyordu. Önüne bir engel çıkınca Tobi bunu algılıyor ve duruyordu. Böylece hiçbir yere çarpmıyordu.\n\nArtık her hafta Tobi'ye yeni görevler veriyoruz. Geçen hafta onu bir labirentten çıkardık. Ben büyüyünce insanlara yardım eden robotlar yapmak istiyorum.",
+    "questions": [
+      {
+        "question": "Ahmet Bey'e göre kod nedir?",
+        "options": ["Robotun adı", "Robotun pili", "Komutların sırası", "Tabletin şifresi"],
+        "correct": "c",
+        "explanation": "Ahmet Bey, komutların sırasına kod dendiğini anlattı."
+      },
+      {
+        "question": "Tobi ilk denemede neden sağa döndü?",
+        "options": ["Çocuklar yanlışlıkla \"Sağa dön\" bloğunu seçmişti.", "Tobi'nin pili bitmişti.", "Sensör bozulmuştu.", "Kapı kapalıydı."],
+        "correct": "a",
+        "explanation": "Kodu incelediklerinde yanlış bloğu seçtiklerini fark ettiler."
+      },
+      {
+        "question": "Tobi'nin sensörü ne işe yarar?",
+        "options": ["Müzik çalar", "Işık yakar", "Konuşmasını sağlar", "Önündeki engelleri algılar"],
+        "correct": "d",
+        "explanation": "Sensör, önüne engel çıkınca Tobi'nin durmasını sağlıyordu."
+      },
+      {
+        "question": "Ahmet Bey hata yapmak hakkında ne düşünüyor?",
+        "options": ["Hata yapmak utanç vericidir.", "Hata yapmak öğrenmenin bir parçasıdır.", "Mühendisler hiç hata yapmaz.", "Hata yapan tekrar denememelidir."],
+        "correct": "b",
+        "explanation": "Ahmet Bey, hata yapmanın öğrenmenin bir parçası olduğunu söyledi."
+      }
+    ]
+  },
+  {
+    "slug": "kumsalda-kesif",
+    "title": "Kumsalda Bir Keşif",
+    "category": "Keşif",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Deniz, cumartesi sabahı babasıyla birlikte kumsala gitti. Yanına bir kova, bir büyüteç ve küçük bir defter aldı. Bugün bir kâşif gibi kumsalı inceleyecekti.\n\nİlk olarak kıyıya vuran deniz kabuklarını topladı. Kabukların bazıları sarmal şeklindeydi, bazıları da yelpaze gibiydi. Babası bu kabukların bir zamanlar küçük deniz canlılarının evi olduğunu anlattı. Canlılar büyüdükçe kabukları da onlarla birlikte büyürmüş.\n\nSonra kayaların arasında hareket eden bir şey gördü. Bu küçük bir yengeçti! Yengeç, öne doğru değil yana doğru yürüyordu. Deniz onu büyüteçle dikkatlice izledi ama dokunmadı. Babası, yengecin korkunca kıskaçlarını kaldırdığını söyledi. Deniz defterine bir yengeç resmi çizdi.\n\nKıyıda yeşil ve kahverengi yosunlar da vardı. Yosunlar denizdeki birçok canlı için hem yiyecek hem de saklanma yeri oluyordu. Deniz, yosunların dokunulunca kaygan olduğunu fark etti.\n\nKeşfin sonunda Deniz'in gözüne kumda parlayan bir şey çarptı. Yaklaşınca bunun plastik bir şişe olduğunu gördü. Biraz ötede bir poşet ve birkaç kapak daha vardı. Deniz çok üzüldü. Çünkü bu çöpler denizdeki canlılara zarar verebilirdi. Kaplumbağalar poşetleri yiyecek sanıp yutabilirdi.\n\nDeniz ve babası çöpleri toplayıp çöp kutusuna attılar. Deniz defterine son bir not yazdı: \"Kumsal, birçok canlının evidir. Onu temiz tutmalıyız.\"",
+    "questions": [
+      {
+        "question": "Deniz kumsala giderken yanına neler aldı?",
+        "options": ["Top, havlu ve şapka", "Kova, büyüteç ve defter", "Olta, kova ve kürek", "Kitap, kalem ve dürbün"],
+        "correct": "b",
+        "explanation": "Deniz yanına bir kova, bir büyüteç ve küçük bir defter aldı."
+      },
+      {
+        "question": "Yengeç nasıl yürüyordu?",
+        "options": ["Öne doğru", "Geriye doğru", "Zıplayarak", "Yana doğru"],
+        "correct": "d",
+        "explanation": "Metinde yengecin öne değil yana doğru yürüdüğü yazıyor."
+      },
+      {
+        "question": "Deniz kumsalda çöp görünce neden üzüldü?",
+        "options": ["Çöpler denizdeki canlılara zarar verebileceği için", "Kumsal çirkin göründüğü için", "Oyun oynayacak yer kalmadığı için", "Babası kızdığı için"],
+        "correct": "a",
+        "explanation": "Deniz, çöplerin deniz canlılarına zarar verebileceğini biliyordu."
+      },
+      {
+        "question": "Metnin ana fikri nedir?",
+        "options": ["Yengeçler tehlikeli hayvanlardır.", "Deniz kabukları toplamak eğlencelidir.", "Kumsal birçok canlının evidir ve temiz tutulmalıdır.", "Yosunlar kaygandır."],
+        "correct": "c",
+        "explanation": "Deniz'in son notu metnin ana fikrini özetliyor."
+      }
+    ]
+  },
+  {
+    "slug": "karincalarin-gizli-dunyasi",
+    "title": "Karıncaların Gizli Dünyası",
+    "category": "Hayvanlar",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Bahçede yürürken yerde uzun bir çizgi hâlinde ilerleyen karıncaları hiç fark ettiniz mi? Bu minik canlılar, göründüklerinden çok daha düzenli ve çalışkan bir hayat sürer.\n\nKarıncalar koloni adı verilen büyük gruplar hâlinde yaşar. Bir kolonide birkaç yüz karınca olabileceği gibi milyonlarca karınca da olabilir. Her koloninin bir kraliçesi vardır. Kraliçe karıncanın görevi yumurta bırakmaktır. Koloninin geri kalanı ise çoğunlukla işçi karıncalardan oluşur.\n\nİşçi karıncaların pek çok görevi vardır. Bazıları yiyecek arar, bazıları yuvayı temizler, bazıları da yumurtalarla ve yavrularla ilgilenir. Bazı işçiler ise yuvanın girişinde bekçilik yapar. Böylece herkes kendi işini yaparak koloninin yaşamasına yardım eder.\n\nPeki karıncalar neden hep aynı yoldan tek sıra hâlinde yürür? Yiyecek bulan bir karınca, yuvaya dönerken yere özel bir koku bırakır. Diğer karıncalar bu kokuyu takip ederek yiyeceğe ulaşır. Yani karıncalar, burnumuzun alamayacağı kokulardan yapılmış görünmez yollar çizer.\n\nKarıncalar boylarına göre inanılmaz derecede güçlüdür. Bazı türler kendi ağırlıklarının onlarca katı yükü taşıyabilir. Bir insan bunu yapmaya kalksa bir arabayı sırtında taşıması gerekirdi!\n\nKarıncaların yuvaları da çok ilginçtir. Toprağın altında birbirine bağlanan tüneller ve odalar bulunur. Bazı odalar yiyecek deposu, bazıları ise yavru odası olarak kullanılır.\n\nBir dahaki sefere bir karınca gördüğünüzde onu ezmeden izleyin. Belki de o an koloni için önemli bir görevi yerine getiriyordur.",
+    "questions": [
+      {
+        "question": "Kraliçe karıncanın görevi nedir?",
+        "options": ["Yiyecek aramak", "Yumurta bırakmak", "Yuvayı korumak", "Tünel kazmak"],
+        "correct": "b",
+        "explanation": "Metinde kraliçe karıncanın görevinin yumurta bırakmak olduğu yazıyor."
+      },
+      {
+        "question": "Karıncalar neden tek sıra hâlinde aynı yoldan yürür?",
+        "options": ["Kraliçe onlara yolu gösterdiği için", "Gözleri çok iyi gördüğü için", "Yere bırakılan özel kokuyu takip ettikleri için", "Yol en kısa olduğu için"],
+        "correct": "c",
+        "explanation": "Yiyecek bulan karınca yere koku bırakır, diğerleri bu kokuyu izler."
+      },
+      {
+        "question": "Karınca yuvasında neler bulunur?",
+        "options": ["Birbirine bağlı tüneller ve odalar", "Yalnızca tek bir büyük oda", "Yapraklardan yapılmış duvarlar", "Su dolu havuzlar"],
+        "correct": "a",
+        "explanation": "Toprağın altında birbirine bağlanan tüneller ve odalar bulunur."
+      },
+      {
+        "question": "Metnin ana fikri nedir?",
+        "options": ["Karıncalar insanlara zarar verir.", "Karıncalar yalnız yaşamayı sever.", "Karıncalar yalnızca yaz aylarında çalışır.", "Karıncalar iş birliği içinde, düzenli bir hayat sürer."],
+        "correct": "d",
+        "explanation": "Metin, karıncaların görev paylaşımını ve düzenli yaşamını anlatıyor."
+      }
+    ]
+  },
+  {
+    "slug": "suyun-yolculugu",
+    "title": "Suyun Yolculuğu",
+    "category": "Bilim",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Bugün içtiğiniz bir bardak su, belki de milyonlarca yıl önce bir dinozorun içtiği suyun ta kendisi. Kulağa şaşırtıcı gelse de bu mümkün. Çünkü Dünya'daki su hiç kaybolmaz, yalnızca durmadan yolculuk eder. Bu yolculuğa su döngüsü denir.\n\nYolculuk, Güneş'in denizleri, gölleri ve nehirleri ısıtmasıyla başlar. Isınan suyun bir kısmı buharlaşır. Yani sıvı hâlden gaz hâline geçerek gözle göremediğimiz su buharına dönüşür. Su buharı, sıcak havayla birlikte gökyüzüne yükselir.\n\nYükseklere çıktıkça hava soğur. Soğuyan su buharı, minicik su damlacıklarına dönüşür. Bu olaya yoğuşma denir. Milyarlarca damlacık bir araya gelince bulutlar oluşur. Soğuk bir bardağın dış yüzeyinde biriken damlalar da aynı olayın küçük bir örneğidir.\n\nBuluttaki damlacıklar birleşip büyüdükçe ağırlaşır. Sonunda hava onları taşıyamaz ve damlalar yeryüzüne düşer. Buna yağış denir. Hava çok soğuksa yağış kar ya da dolu olarak iner.\n\nYere düşen suyun bir kısmı nehirlere ve göllere akar. Bir kısmı toprağa süzülerek yer altı sularına karışır. Bitkiler de kökleriyle bu sudan faydalanır. Sonunda suyun büyük bölümü yeniden denizlere ulaşır. Güneş onu tekrar ısıtır ve yolculuk baştan başlar.\n\nSu döngüsü sayesinde Dünya'daki bütün canlılar suya ulaşabilir. Ancak Dünya'daki suyun çok büyük bir kısmı tuzlu deniz suyudur. İçebileceğimiz temiz su ise oldukça azdır. Bu yüzden suyu dikkatli kullanmak, musluğu gereksiz yere açık bırakmamak hepimizin görevidir.",
+    "questions": [
+      {
+        "question": "Su buharının soğuyarak minicik su damlacıklarına dönüşmesine ne denir?",
+        "options": ["Buharlaşma", "Yağış", "Yoğuşma", "Donma"],
+        "correct": "c",
+        "explanation": "Metinde bu olaya yoğuşma dendiği açıklanıyor."
+      },
+      {
+        "question": "Suyun yolculuğu neyle başlar?",
+        "options": ["Güneş'in suyu ısıtmasıyla", "Kar yağmasıyla", "Rüzgârın esmesiyle", "Bitkilerin su içmesiyle"],
+        "correct": "a",
+        "explanation": "Yolculuk, Güneş'in denizleri, gölleri ve nehirleri ısıtmasıyla başlar."
+      },
+      {
+        "question": "Hava çok soğuksa yağış nasıl iner?",
+        "options": ["Sis olarak", "Buhar olarak", "Yalnızca yağmur olarak", "Kar ya da dolu olarak"],
+        "correct": "d",
+        "explanation": "Hava çok soğukken yağış kar ya da dolu olarak iner."
+      },
+      {
+        "question": "Metne göre suyu neden dikkatli kullanmalıyız?",
+        "options": ["Su döngüsü durduğu için", "İçebileceğimiz temiz su az olduğu için", "Su çok pahalı olduğu için", "Denizler kuruduğu için"],
+        "correct": "b",
+        "explanation": "Dünya'daki suyun çoğu tuzludur, içilebilir temiz su azdır."
+      }
+    ]
+  },
+  {
+    "slug": "catalhoyuk",
+    "title": "Çatalhöyük: Kapısı Çatıda Olan Evler",
+    "category": "Tarih",
+    "difficulty": 3,
+    "grade_level": 4,
+    "content": "Konya Ovası'nda, bugünkü Çumra ilçesinin yakınında çok eski bir yerleşim yeri bulunur. Adı Çatalhöyük'tür. Bilim insanlarına göre burada yaklaşık dokuz bin yıl önce insanlar yaşıyordu. Bu da Çatalhöyük'ü dünyanın bilinen en eski yerleşim yerlerinden biri yapar.\n\nÇatalhöyük'ün evleri, bugünkü evlerimize hiç benzemiyordu. Evler kerpiçten, yani çamur ve samanın karıştırılıp kurutulmasıyla yapılan tuğlalardan inşa edilmişti. En ilginç özelliği ise evlerin birbirine bitişik olmasıydı. Evlerin arasında sokak yoktu!\n\nPeki insanlar evlerine nasıl giriyordu? Cevap çok şaşırtıcı: Çatıdan! Her evin çatısında bir açıklık vardı. İnsanlar bu açıklıktan ahşap bir merdivenle aşağı iner, evlerine öyle girerlerdi. Çatılar aynı zamanda bir sokak gibi kullanılırdı. Komşular çatıların üzerinde yürüyerek birbirlerini ziyaret ederdi.\n\nEvlerin içinde yemek pişirmek için ocaklar, oturmak ve uyumak için yükseltilmiş sekiler bulunurdu. Duvarlar bazen kırmızı boyayla yapılmış resimlerle süslenirdi. Bu resimlerde hayvanlar, avcılar ve el izleri görülür.\n\nÇatalhöyük halkı tarım yapmayı da biliyordu. Buğday ve arpa yetiştirir, koyun ve keçi beslerlerdi. Böylece yiyecek bulmak için sürekli yer değiştirmek zorunda kalmadılar. Bir yere yerleşip orada yaşamaya başlamak, insanlık tarihinde çok önemli bir adımdır.\n\nÇatalhöyük, 2012 yılında UNESCO Dünya Mirası Listesi'ne alındı. Arkeologlar burada hâlâ kazı yapmakta ve yeni bilgiler bulmaktadır. Bugün burayı ziyaret edenler, binlerce yıl önce yaşamış insanların günlük hayatını yakından görebilir.",
+    "questions": [
+      {
+        "question": "Çatalhöyük'te insanlar evlerine nasıl girerdi?",
+        "options": ["Ön kapıdan", "Çatıdaki açıklıktan merdivenle", "Pencereden atlayarak", "Yer altındaki tünellerden"],
+        "correct": "b",
+        "explanation": "Her evin çatısında bir açıklık vardı ve insanlar merdivenle aşağı inerdi."
+      },
+      {
+        "question": "Çatalhöyük'ün evleri neyle yapılmıştı?",
+        "options": ["Taş ve mermerle", "Ahşap ve camla", "Demir ve betonla", "Kerpiçle"],
+        "correct": "d",
+        "explanation": "Evler, çamur ve samandan yapılan kerpiç tuğlalarla inşa edilmişti."
+      },
+      {
+        "question": "Çatalhöyük halkı neden sürekli yer değiştirmek zorunda kalmadı?",
+        "options": ["Tarım yapıp hayvan besledikleri için", "Evleri çok büyük olduğu için", "Başka yerler çok soğuk olduğu için", "Yürümeyi sevmedikleri için"],
+        "correct": "a",
+        "explanation": "Buğday ve arpa yetiştirip koyun ve keçi besledikleri için yiyecekleri yanlarındaydı."
+      },
+      {
+        "question": "Çatalhöyük hangi ilimizdedir?",
+        "options": ["İzmir", "Ankara", "Konya", "Trabzon"],
+        "correct": "c",
+        "explanation": "Çatalhöyük, Konya Ovası'nda, Çumra ilçesi yakınındadır."
+      }
+    ]
+  },
+  {
+    "slug": "maratonun-hikayesi",
+    "title": "Maratonun Hikâyesi",
+    "category": "Spor",
+    "difficulty": 3,
+    "grade_level": 4,
+    "content": "Maraton, 42 kilometre 195 metre uzunluğunda bir koşu yarışıdır. Bugün dünyanın pek çok şehrinde maratonlar düzenlenir. İstanbul Maratonu ise koşucuların Asya'dan Avrupa'ya geçtiği, kıtalar arasında koşulan ender yarışlardan biridir. Peki bu yarışın adı nereden geliyor?\n\nMaraton, adını Yunanistan'daki Maraton adlı bir ovadan alır. Anlatılan bir efsaneye göre yaklaşık iki bin beş yüz yıl önce burada büyük bir savaş olmuştur. Savaş bittikten sonra Filipides adında bir haberci, zafer haberini Atina şehrine ulaştırmak için yola çıkmıştır. Hiç durmadan yaklaşık kırk kilometre koşmuş ve haberi vermiştir. Efsaneye göre haberci, bu büyük çabanın ardından bitkin bir hâlde yere yığılmıştır.\n\nTarihçiler bu hikâyenin tam olarak böyle yaşanıp yaşanmadığından emin değildir. Ama efsane o kadar sevilmiştir ki yüzyıllar boyunca anlatılmaya devam etmiştir.\n\n1896 yılında Atina'da ilk modern Olimpiyat Oyunları düzenlendi. Düzenleyiciler, bu eski efsaneyi anmak için Maraton'dan Atina'ya uzanan bir koşu yarışı eklediler. Böylece maraton yarışı doğmuş oldu. Yarışın bugünkü uzunluğu ise ilk kez 1908 Londra Olimpiyatları'nda kullanıldı, daha sonra da resmî mesafe olarak kabul edildi.\n\nMaraton koşmak büyük bir dayanıklılık ister. Koşucular aylarca antrenman yapar, dengeli beslenir ve bol su içer. Yarış sırasında enerjilerini dikkatli kullanmaları gerekir. Çok hızlı başlayan bir koşucu, bitişe varmadan yorulabilir.\n\nMaratonda herkes birinci olmak için koşmaz. Birçok kişi için asıl amaç, kendi sınırlarını zorlamak ve yarışı bitirebilmektir. Bitiş çizgisini geçen her koşucu, kendi zaferini kazanmış olur.",
+    "questions": [
+      {
+        "question": "Maraton yarışı adını nereden alır?",
+        "options": ["Ünlü bir koşucudan", "Bir Yunan tanrısından", "Yunanistan'daki bir ovadan", "İstanbul'daki bir semtten"],
+        "correct": "c",
+        "explanation": "Maraton, adını Yunanistan'daki Maraton Ovası'ndan alır."
+      },
+      {
+        "question": "İlk modern Olimpiyat Oyunları ne zaman ve nerede yapıldı?",
+        "options": ["1896'da Atina'da", "1908'de Londra'da", "1900'de Paris'te", "1896'da İstanbul'da"],
+        "correct": "a",
+        "explanation": "İlk modern Olimpiyat Oyunları 1896 yılında Atina'da düzenlendi."
+      },
+      {
+        "question": "Metinde Filipides'in hikâyesi için ne söyleniyor?",
+        "options": ["Kesin olarak yaşanmış bir olaydır.", "Kesin olarak yaşandığı bilinmeyen bir efsanedir.", "Bir çizgi filmden alınmıştır.", "1908 yılında yaşanmıştır."],
+        "correct": "b",
+        "explanation": "Tarihçiler hikâyenin böyle yaşanıp yaşanmadığından emin değildir; bu bir efsanedir."
+      },
+      {
+        "question": "Metne göre birçok maraton koşucusunun asıl amacı nedir?",
+        "options": ["Para ödülü kazanmak", "Herkesi geçmek", "Madalya toplamak", "Kendi sınırlarını zorlamak ve yarışı bitirmek"],
+        "correct": "d",
+        "explanation": "Birçok koşucu için asıl amaç kendi sınırlarını zorlamak ve yarışı bitirmektir."
+      }
+    ]
+  },
+  {
+    "slug": "fenerdeki-firtinali-gece",
+    "title": "Fenerdeki Fırtınalı Gece",
+    "category": "Macera",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Ege kıyısındaki küçük bir adada, yaşlı bir deniz feneri vardı. Fenerin bekçisi Hasan Dede'ydi. On yaşındaki torunu Mert, o yaz dedesinin yanında kalıyordu. Mert her akşam dedesiyle birlikte fenerin döner merdivenlerini tırmanır, büyük lambanın yanmasını izlerdi.\n\nHasan Dede, fenerin gemiler için çok önemli olduğunu anlatırdı. \"Karanlıkta kaptanlar kayalıkları göremez,\" derdi. \"Fenerin ışığı onlara nereden uzak durmaları gerektiğini gösterir.\"\n\nBir gece adaya şiddetli bir fırtına geldi. Rüzgâr uğulduyor, dalgalar kayalara çarpıyordu. Tam o sırada elektrikler kesildi ve fenerin lambası söndü. Mert pencereden baktığında uzakta, dalgaların arasında küçük bir balıkçı teknesinin ışığını gördü. Tekne, ada kıyısındaki tehlikeli kayalıklara doğru ilerliyordu.\n\nHasan Dede hemen harekete geçti. \"Çabuk, jeneratörü çalıştırmama yardım et!\" dedi. Mert korkuyordu ama cesaretini topladı. Yağmurun altında el feneriyle dedesinin önünü aydınlattı. Birlikte depoya ulaştılar. Dede jeneratörü çalıştırmaya uğraşırken Mert de ona gereken aletleri uzattı.\n\nBirkaç denemeden sonra jeneratör homurdanarak çalıştı. Fenerin lambası yeniden parladı ve güçlü ışık denizi taradı. Balıkçı teknesi hemen yön değiştirdi ve kayalıklardan uzaklaşarak limana doğru ilerledi.\n\nErtesi sabah balıkçı, elinde taze balıklarla fenere geldi ve teşekkür etti. Hasan Dede, Mert'in omzuna elini koydu. \"Bu gece gerçek bir fener bekçisi gibiydin,\" dedi. Mert, cesaretin korkmamak değil, korksa da doğru olanı yapmak olduğunu öğrenmişti.",
+    "questions": [
+      {
+        "question": "Hasan Dede'ye göre fener gemiler için neden önemlidir?",
+        "options": ["Kaptanlara tehlikeli kayalıkları gösterdiği için", "Gemilere yakıt verdiği için", "Balıkları kıyıya çektiği için", "Saatin kaç olduğunu gösterdiği için"],
+        "correct": "a",
+        "explanation": "Fenerin ışığı kaptanlara nereden uzak durmaları gerektiğini gösterir."
+      },
+      {
+        "question": "Fenerin lambası neden söndü?",
+        "options": ["Ampul patladığı için", "Hasan Dede lambayı kapattığı için", "Elektrikler kesildiği için", "Lambaya su girdiği için"],
+        "correct": "c",
+        "explanation": "Fırtına sırasında elektrikler kesildi ve lamba söndü."
+      },
+      {
+        "question": "Mert dedesine nasıl yardım etti?",
+        "options": ["Balıkçıya telefon etti", "El feneriyle yolu aydınlattı ve aletleri uzattı", "Tekneye yüzerek gitti", "Lambayı tamir etti"],
+        "correct": "b",
+        "explanation": "Mert, el feneriyle dedesinin önünü aydınlattı ve ona aletleri uzattı."
+      },
+      {
+        "question": "Mert bu olaydan ne öğrendi?",
+        "options": ["Fırtınaların hiç tehlikeli olmadığını", "Balık tutmanın kolay olduğunu", "Jeneratörün nasıl yapıldığını", "Cesaretin, korksa da doğru olanı yapmak olduğunu"],
+        "correct": "d",
+        "explanation": "Metnin sonunda Mert'in cesaretle ilgili öğrendiği açıkça yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "yapraklar-neden-sararir",
+    "title": "Yapraklar Neden Sararır?",
+    "category": "Doğa",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Sonbaharda parklarda yürürken ayaklarımızın altında hışırdayan sarı, turuncu ve kırmızı yapraklar görürüz. Oysa yazın aynı ağaçlar yemyeşildi. Peki yapraklar neden renk değiştirir?\n\nBu sorunun cevabı yaprakların içinde saklıdır. Yapraklarda klorofil adı verilen yeşil bir madde bulunur. Klorofil, bitkinin Güneş ışığını kullanarak kendi besinini üretmesini sağlar. Bitkiler bu sırada havadaki karbondioksiti alır ve bizim soluduğumuz oksijeni verir. Bu olaya fotosentez denir. Yazın yapraklarda çok fazla klorofil olduğu için yapraklar yeşil görünür.\n\nAslında yaprakların içinde sarı ve turuncu renkli başka maddeler de vardır. Ancak yazın klorofilin güçlü yeşil rengi bu renkleri gizler.\n\nSonbahar gelince günler kısalır ve havalar soğur. Ağaçlar artık eskisi kadar Güneş ışığı alamaz. Bu yüzden klorofil üretmeyi yavaş yavaş bırakırlar. Yapraklardaki klorofil azaldıkça yeşil renk kaybolur. Böylece yaz boyunca saklanan sarı ve turuncu renkler ortaya çıkar. Bazı ağaçların yaprakları ise sonbaharda oluşan yeni maddeler sayesinde kırmızıya döner.\n\nBir süre sonra ağaçlar yapraklarını döker. Bu, kışa hazırlanmanın bir yoludur. Yapraksız kalan ağaçlar soğuk kış aylarında daha az su kaybeder ve adeta dinlenir. Dökülen yapraklar da boşa gitmez. Toprağın üzerinde çürüyerek toprağı besler ve küçük canlılara yuva olur.\n\nİlkbahar geldiğinde dallarda yeni tomurcuklar belirir. Ağaçlar yeniden klorofil üretmeye başlar ve doğa tekrar yeşile bürünür. Böylece doğanın bu güzel döngüsü her yıl yeniden tekrarlanır.",
+    "questions": [
+      {
+        "question": "Yapraklara yeşil rengini veren madde hangisidir?",
+        "options": ["Oksijen", "Klorofil", "Karbondioksit", "Su"],
+        "correct": "b",
+        "explanation": "Yapraklarda bulunan klorofil yeşil renklidir."
+      },
+      {
+        "question": "Ağaçlar sonbaharda neden klorofil üretmeyi bırakır?",
+        "options": ["Yapraklar yaşlandığı için", "Yağmur çok yağdığı için", "Kuşlar yaprakları yediği için", "Günler kısalıp daha az Güneş ışığı aldıkları için"],
+        "correct": "d",
+        "explanation": "Sonbaharda günler kısalır ve ağaçlar eskisi kadar Güneş ışığı alamaz."
+      },
+      {
+        "question": "Dökülen yapraklara ne olur?",
+        "options": ["Çürüyerek toprağı besler", "Rüzgârla uzaya uçar", "Yeniden dallara yapışır", "Taşa dönüşür"],
+        "correct": "a",
+        "explanation": "Dökülen yapraklar toprağın üzerinde çürüyerek toprağı besler."
+      },
+      {
+        "question": "Yapraklardaki sarı ve turuncu renkler yazın neden görünmez?",
+        "options": ["Yazın bu renkler hiç yoktur.", "Güneş bu renkleri soldurur.", "Klorofilin güçlü yeşil rengi onları gizler.", "Yapraklar yazın çok küçüktür."],
+        "correct": "c",
+        "explanation": "Sarı ve turuncu maddeler yazın da vardır ama yeşil klorofil onları gizler."
+      }
+    ]
+  },
+  {
+    "slug": "gunes-sisteminde-yolculuk",
+    "title": "Güneş Sistemi'nde Bir Yolculuk",
+    "category": "Uzay",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Hayal gücümüzü kullanarak bir uzay gemisine bindiğimizi düşünelim. Yolculuğumuz Güneş Sistemi'nin merkezinden, yani Güneş'ten başlıyor. Güneş aslında bir yıldızdır. Bize diğer yıldızlardan çok daha büyük ve parlak görünmesinin nedeni, Dünya'ya çok daha yakın olmasıdır. Güneş'in içine yaklaşık bir milyon Dünya sığabilir. Işığı ve ısısı olmasaydı gezegenimizde yaşam mümkün olmazdı.\n\nGüneş'in çevresinde sekiz gezegen döner. Güneş'e en yakın gezegen Merkür'dür. Merkür en küçük gezegendir ve Güneş'in çevresini çok hızlı dolaşır. Bir yılı yalnızca 88 gün sürer. İkinci gezegen Venüs'tür. Venüs, Güneş'e Merkür kadar yakın olmamasına rağmen en sıcak gezegendir. Çünkü kalın atmosferi, ısıyı bir battaniye gibi hapseder.\n\nÜçüncü sırada evimiz Dünya bulunur. Bildiğimiz kadarıyla yaşamın olduğu tek gezegen burasıdır. Sıvı suyun bulunması, uygun sıcaklık ve soluduğumuz hava, Dünya'yı özel yapar. Dördüncü gezegen Mars'tır. Toprağındaki paslı demir tozları nedeniyle kırmızı görünür. Bilim insanları, Mars'a robot araçlar göndererek orada geçmişte su olup olmadığını araştırmaktadır.\n\nMars'ı geçtikten sonra dev gezegenlere ulaşırız. Jüpiter, Güneş Sistemi'nin en büyük gezegenidir. Yüzeyinde yüzyıllardır dinmeyen dev bir fırtına vardır. Satürn ise buz ve kaya parçalarından oluşan muhteşem halkalarıyla tanınır. Onları, soğuk ve uzak gezegenler Uranüs ile Neptün izler. Neptün'de Güneş Sistemi'nin en hızlı rüzgârları eser.\n\nBu gezegenler arasındaki mesafeler akıl almaz derecede büyüktür. Güneş'ten çıkan ışık, saniyede yaklaşık üç yüz bin kilometre hızla ilerlediği hâlde Dünya'ya ancak sekiz dakikada ulaşır.\n\nHayali uzay yolculuğumuz burada bitiyor. Ama evren, keşfedilmeyi bekleyen sayısız sırla dolu.",
+    "questions": [
+      {
+        "question": "Güneş Sistemi'nin en sıcak gezegeni hangisidir?",
+        "options": ["Merkür", "Mars", "Venüs", "Jüpiter"],
+        "correct": "c",
+        "explanation": "Metinde Venüs'ün en sıcak gezegen olduğu yazıyor."
+      },
+      {
+        "question": "Venüs, Güneş'e daha yakın olan Merkür'den neden daha sıcaktır?",
+        "options": ["Kalın atmosferi ısıyı hapsettiği için", "Daha büyük olduğu için", "Üzerinde yanardağlar olduğu için", "Daha yavaş döndüğü için"],
+        "correct": "a",
+        "explanation": "Venüs'ün kalın atmosferi ısıyı bir battaniye gibi hapseder."
+      },
+      {
+        "question": "Mars neden kırmızı görünür?",
+        "options": ["Çok sıcak olduğu için", "Toprağındaki paslı demir tozları nedeniyle", "Üzerinde kırmızı bitkiler olduğu için", "Güneş'e en yakın gezegen olduğu için"],
+        "correct": "b",
+        "explanation": "Mars'ın toprağındaki paslı demir tozları ona kırmızı rengini verir."
+      },
+      {
+        "question": "Güneş'ten çıkan ışık Dünya'ya yaklaşık kaç dakikada ulaşır?",
+        "options": ["Bir dakikada", "Otuz dakikada", "Altmış dakikada", "Sekiz dakikada"],
+        "correct": "d",
+        "explanation": "Işık çok hızlı olmasına rağmen Dünya'ya ancak sekiz dakikada ulaşır."
+      },
+      {
+        "question": "Güneş, bize diğer yıldızlardan neden daha büyük ve parlak görünür?",
+        "options": ["Evrenin en büyük yıldızı olduğu için", "Gezegen olduğu için", "Dünya'ya çok daha yakın olduğu için", "Yalnızca gündüz parladığı için"],
+        "correct": "c",
+        "explanation": "Güneş de bir yıldızdır; bize çok daha yakın olduğu için büyük ve parlak görünür."
+      }
+    ]
+  },
+  {
+    "slug": "piri-reis-haritasi",
+    "title": "Piri Reis ve Ünlü Haritası",
+    "category": "Tarih",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Günümüzde bir yere gitmek istediğimizde telefonumuzdaki haritaya bakmamız yeterli. Uydular sayesinde dünyanın her köşesini görebiliyoruz. Peki uyduların, uçakların, hatta fotoğraf makinelerinin bile olmadığı zamanlarda haritalar nasıl çiziliyordu? Bu sorunun en ünlü cevaplarından biri, Osmanlı denizcisi Piri Reis'tir.\n\nPiri Reis, yaklaşık 1470 yılında Gelibolu'da doğdu. Gençliğinde, ünlü denizci amcası Kemal Reis'in yanında denizlere açıldı. Akdeniz'in limanlarını, adalarını ve kıyılarını yakından tanıdı. Gördüğü her yeri dikkatle inceliyor, notlar alıyordu.\n\n1513 yılında Piri Reis, bugün dünyaca ünlü olan haritasını çizdi. Harita, ceylan derisi üzerine renkli mürekkeplerle çizilmişti. Haritada Avrupa'nın ve Afrika'nın batı kıyıları, Atlas Okyanusu ve Güney Amerika'nın kıyıları yer alıyordu. O yıllarda Amerika kıtası Avrupalılar tarafından yeni tanınmaya başlamıştı. Bu nedenle harita, döneminin en dikkat çekici çalışmalarından biri kabul edilir.\n\nPiri Reis bu haritayı hazırlarken yirmi kadar eski haritadan yararlandığını yazmıştır. Bunların arasında Kristof Kolomb'un çizdiği bir haritanın da bulunduğunu belirtmiştir. Yani Piri Reis, farklı kaynaklardan gelen bilgileri karşılaştırarak birleştiren titiz bir bilim insanı gibi çalışmıştır.\n\nPiri Reis, 1521 yılında Kitab-ı Bahriye adlı eserini de tamamladı. Bu kitap, denizciler için hazırlanmış bir rehberdi. Kitapta limanlar, rüzgârlar, sığ yerler ve tehlikeli kayalıklar hakkında ayrıntılı bilgiler ve çizimler vardı. Denizciler bu bilgiler sayesinde daha güvenli yolculuk yapabiliyordu.\n\nÜnlü haritanın günümüze ulaşan parçası, 1929 yılında Topkapı Sarayı'nda bulundu. Bugün hâlâ orada özenle korunmaktadır. UNESCO, haritanın çiziminin beş yüzüncü yılı nedeniyle 2013 yılını Piri Reis Yılı ilan etti.",
+    "questions": [
+      {
+        "question": "Piri Reis'in 1513 yılındaki haritası neyin üzerine çizilmişti?",
+        "options": ["Kâğıdın", "Ceylan derisinin", "Tahta bir levhanın", "İpek kumaşın"],
+        "correct": "b",
+        "explanation": "Harita, ceylan derisi üzerine renkli mürekkeplerle çizilmişti."
+      },
+      {
+        "question": "Kitab-ı Bahriye nasıl bir eserdir?",
+        "options": ["Bir masal kitabı", "Bir yemek kitabı", "Bir şiir kitabı", "Denizciler için hazırlanmış bir rehber"],
+        "correct": "d",
+        "explanation": "Kitab-ı Bahriye; limanlar, rüzgârlar ve tehlikeli yerler hakkında bilgi veren bir denizcilik rehberidir."
+      },
+      {
+        "question": "Haritanın günümüze ulaşan parçası nerede bulundu?",
+        "options": ["Topkapı Sarayı'nda", "Gelibolu'da bir evde", "Bir gemi enkazında", "Yurt dışındaki bir müzede"],
+        "correct": "a",
+        "explanation": "Harita parçası 1929 yılında Topkapı Sarayı'nda bulundu."
+      },
+      {
+        "question": "Piri Reis'in çalışma yöntemi hakkında hangisi söylenebilir?",
+        "options": ["Hiçbir kaynağa bakmadan çizmiştir.", "Haritayı uydu fotoğraflarından çizmiştir.", "Farklı kaynakları karşılaştırarak titizlikle çalışmıştır.", "Haritayı yalnızca hayal gücüyle çizmiştir."],
+        "correct": "c",
+        "explanation": "Piri Reis, yirmi kadar eski haritadan yararlanıp bilgileri karşılaştırmıştır."
+      }
+    ]
+  },
+  {
+    "slug": "internet-nasil-calisir",
+    "title": "İnternet Nasıl Çalışır?",
+    "category": "Teknoloji",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Bir videoyu izlemek, bir oyunu oynamak ya da uzaktaki bir akrabamızla görüntülü konuşmak için internete bağlanırız. Birkaç saniye içinde başka bir şehirden, hatta başka bir kıtadan bilgiler ekranımıza gelir. Peki bu bilgiler bize nasıl ulaşıyor?\n\nİnternet, dünyanın dört bir yanındaki milyonlarca bilgisayarın birbirine bağlanmasıyla oluşan dev bir ağdır. Bu ağı, birbirine bağlı yolların oluşturduğu kocaman bir haritaya benzetebiliriz. Bilgiler de bu yollarda yolculuk eden araçlar gibidir.\n\nİnternette gönderilen her bilgi, yola çıkmadan önce paket adı verilen küçük parçalara bölünür. Örneğin bir fotoğraf, yüzlerce minik pakete ayrılır. Her paketin üzerinde, tıpkı bir mektup zarfındaki gibi, nereden gelip nereye gideceğini gösteren bir adres yazılıdır. Paketler bazen farklı yollardan gider ama hedefe ulaşınca bilgisayar onları doğru sırayla birleştirir. Böylece fotoğraf ekranımızda eksiksiz görünür.\n\nBu paketler nasıl taşınır? Evlerimizde bilgiler çoğunlukla modemden cihazlarımıza kablosuz olarak iletilir. Ancak uzun mesafelerde genellikle kablolar kullanılır. Hatta okyanusların dibinde, kıtaları birbirine bağlayan binlerce kilometrelik fiber optik kablolar vardır. Bu kablolar bilgileri ışık sinyalleri hâlinde son derece hızlı taşır.\n\nİzlediğimiz videolar ve ziyaret ettiğimiz siteler, sunucu adı verilen güçlü bilgisayarlarda saklanır. Bir siteye girmek istediğimizde bilgisayarımız sunucuya bir istek gönderir. Sunucu da istenen bilgileri paketler hâlinde bize yollar. Bütün bunlar göz açıp kapayıncaya kadar gerçekleşir.\n\nİnternet bize öğrenmek ve iletişim kurmak için harika fırsatlar sunar. Ama onu güvenli kullanmak da önemlidir. Kişisel bilgilerimizi tanımadığımız kişilerle paylaşmamalı, bir sorunla karşılaştığımızda mutlaka bir büyüğümüze haber vermeliyiz.",
+    "questions": [
+      {
+        "question": "İnternette bir bilgi gönderilmeden önce ne olur?",
+        "options": ["Paket adı verilen küçük parçalara bölünür", "Kâğıda yazdırılır", "Bir kutuya konur", "Renkli ışıklara boyanır"],
+        "correct": "a",
+        "explanation": "Her bilgi yola çıkmadan önce paket adı verilen küçük parçalara bölünür."
+      },
+      {
+        "question": "Okyanusların dibinde kıtaları birbirine bağlayan nedir?",
+        "options": ["Tüneller", "Uydular", "Fiber optik kablolar", "Denizaltılar"],
+        "correct": "c",
+        "explanation": "Okyanus diplerinde binlerce kilometrelik fiber optik kablolar vardır."
+      },
+      {
+        "question": "Metne göre sunucu nedir?",
+        "options": ["İnternet faturası", "Bir oyun türü", "Evdeki modem", "Videoların ve sitelerin saklandığı güçlü bilgisayar"],
+        "correct": "d",
+        "explanation": "Videolar ve siteler, sunucu adı verilen güçlü bilgisayarlarda saklanır."
+      },
+      {
+        "question": "İnterneti güvenli kullanmak için ne yapmalıyız?",
+        "options": ["Şifremizi arkadaşlarımıza söylemeliyiz.", "Kişisel bilgilerimizi tanımadığımız kişilerle paylaşmamalıyız.", "Her gördüğümüz bağlantıya tıklamalıyız.", "Sorunları kimseye anlatmamalıyız."],
+        "correct": "b",
+        "explanation": "Metinde kişisel bilgileri tanımadığımız kişilerle paylaşmamamız gerektiği söyleniyor."
+      }
+    ]
+  },
+  {
+    "slug": "kutuplara-yolculuk",
+    "title": "Kutuplara Yolculuk",
+    "category": "Keşif",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Dünya'mızın en soğuk ve en ıssız yerleri, kutup bölgeleridir. Gezegenimizin en kuzeyinde Kuzey Kutbu, en güneyinde ise Güney Kutbu bulunur. Bu iki bölge birbirine benzese de aralarında önemli farklar vardır.\n\nKuzey Kutbu'nun çevresindeki bölgeye Arktik denir. Kuzey Kutbu bir kara parçası üzerinde değildir. Donmuş bir okyanusun, yani Arktik Okyanusu'nun ortasındadır. Deniz buzlarının üzerinde kutup ayıları dolaşır. Kalın kürkleri ve derilerinin altındaki yağ tabakası onları soğuktan korur.\n\nGüney Kutbu ise Antarktika adlı bir kıtanın üzerindedir. Antarktika'nın neredeyse tamamı kalın bir buz tabakasıyla örtülüdür. Bu buz bazı yerlerde birkaç kilometre kalınlığa ulaşır. Dünya'da ölçülen en düşük sıcaklıklar da bu kıtada kaydedilmiştir. Penguenler bu bölgenin en tanınmış canlılarıdır. İlginçtir ki kutup ayıları ile penguenler doğada hiç karşılaşmaz, çünkü biri kuzeyde, diğeri güneyde yaşar.\n\nKutuplarda gece ve gündüz de alıştığımızdan farklıdır. Dünya'nın ekseni eğik olduğu için kutuplarda yaz aylarında Güneş hiç batmaz. Kış aylarında ise aylarca doğmaz. Yani kutuplarda bir yılın yaklaşık altı ayı gündüz, altı ayı gece gibidir.\n\nAntarktika'da kalıcı olarak yaşayan insan yoktur. Ancak pek çok ülkenin bilim insanları burada kurulan araştırma istasyonlarında çalışır. Buzun içindeki eski hava kabarcıklarını inceleyerek binlerce yıl önceki iklim hakkında bilgi edinirler. Türkiye de 2017 yılından bu yana Antarktika'ya düzenli olarak bilimsel seferler düzenlemektedir.\n\nKutuplardaki buzlar, dünya ikliminin dengesi için çok önemlidir. Bu yüzden bilim insanları, iklim değişikliğinin kutupları nasıl etkilediğini dikkatle izlemektedir.",
+    "questions": [
+      {
+        "question": "Kuzey Kutbu nerede bulunur?",
+        "options": ["Bir kıtanın ortasında", "Donmuş bir okyanusun ortasında", "Yüksek bir dağın tepesinde", "Bir adanın üzerinde"],
+        "correct": "b",
+        "explanation": "Kuzey Kutbu, donmuş Arktik Okyanusu'nun ortasındadır."
+      },
+      {
+        "question": "Kutup ayıları ile penguenler doğada neden hiç karşılaşmaz?",
+        "options": ["Penguenler kutup ayılarından saklandığı için", "İkisi de kış uykusuna yattığı için", "Kutup ayıları yüzemediği için", "Biri kuzeyde, diğeri güneyde yaşadığı için"],
+        "correct": "d",
+        "explanation": "Kutup ayıları kuzeyde, penguenler ise güneyde yaşar."
+      },
+      {
+        "question": "Kutuplarda yaz aylarında ne olur?",
+        "options": ["Güneş hiç batmaz", "Güneş hiç doğmaz", "Bütün buzlar erir", "Her gün yağmur yağar"],
+        "correct": "a",
+        "explanation": "Dünya'nın ekseni eğik olduğu için kutuplarda yazın Güneş hiç batmaz."
+      },
+      {
+        "question": "Bilim insanları buzun içindeki eski hava kabarcıklarını neden inceler?",
+        "options": ["İçme suyu elde etmek için", "Penguenleri saymak için", "Binlerce yıl önceki iklimi öğrenmek için", "Yeni buz yapmak için"],
+        "correct": "c",
+        "explanation": "Bu kabarcıklar, geçmişteki iklim hakkında bilgi verir."
+      }
+    ]
+  },
+  {
+    "slug": "isik-ve-renkler",
+    "title": "Işık ve Renkler",
+    "category": "Bilim",
+    "difficulty": 5,
+    "grade_level": 4,
+    "content": "Güneşli bir günde yağmur yağarken gökyüzünde beliren gökkuşağını izlemek, doğanın sunduğu en güzel manzaralardan biridir. Kırmızıdan mora uzanan bu renk şeridi, ışığın bize anlattığı büyüleyici bir hikâyenin parçasıdır. Bu hikâyeyi anlamak için önce ışığın ne olduğunu düşünmemiz gerekir.\n\nIşık, evrende bilinen en hızlı şeydir. Saniyede yaklaşık üç yüz bin kilometre yol alır. Bu hızla giden bir ışık ışını, yalnızca bir saniyede Dünya'nın çevresini yedi kereden fazla dolaşabilir. Işık sayesinde çevremizdeki nesneleri görürüz. Çünkü bir nesneden yansıyan ışık gözümüze ulaşır ve beynimiz bu bilgiyi bir görüntüye dönüştürür.\n\nGüneş'ten gelen ışığı beyaz ya da renksiz olarak algılarız. Oysa bu ışık aslında birçok rengin karışımıdır. Bunu deneylerle açıklayan ilk bilim insanlarından biri İngiliz bilim insanı Isaac Newton'dır. Newton, karanlık bir odaya giren ince bir güneş ışınının önüne prizma adı verilen üçgen biçimli bir cam parçası koydu. Işık prizmadan geçerken kırıldı ve duvarda kırmızı, turuncu, sarı, yeşil, mavi ve mor renklerden oluşan bir şerit belirdi. Newton böylece beyaz ışığın renklere ayrılabildiğini gösterdi.\n\nGökkuşağı da benzer şekilde oluşur. Havadaki milyonlarca yağmur damlası, küçük birer prizma gibi davranır. Güneş ışığı damlalara girip çıkarken kırılır ve renklerine ayrılır. Bu yüzden gökkuşağını görebilmek için Güneş'in arkamızda, yağmurun ise önümüzde olması gerekir.\n\nPeki bir elma neden kırmızı görünür? Elmanın yüzeyi, üzerine düşen ışıktaki renklerin çoğunu emer, yalnızca kırmızıyı yansıtır. Gözümüze ulaşan bu kırmızı ışık, elmayı kırmızı görmemizi sağlar. Beyaz nesneler bütün renkleri yansıtırken siyah nesneler neredeyse hepsini emer. Güneşli bir günde siyah bir tişörtün beyaz bir tişörtten daha çok ısınmasının nedeni de budur.\n\nKısacası çevremizdeki renkli dünya, ışık ile nesneler arasındaki sessiz bir iş birliğinin sonucudur.",
+    "questions": [
+      {
+        "question": "Beyaz ışığın renklere ayrılabildiğini prizma deneyiyle gösteren bilim insanı kimdir?",
+        "options": ["Galileo Galilei", "Albert Einstein", "Isaac Newton", "Marie Curie"],
+        "correct": "c",
+        "explanation": "Newton, prizma deneyiyle beyaz ışığın renklere ayrılabildiğini gösterdi."
+      },
+      {
+        "question": "Metne göre prizma nedir?",
+        "options": ["Üçgen biçimli bir cam parçası", "Bir çeşit mercek gözlük", "Işık üreten bir lamba", "Renkli bir boya"],
+        "correct": "a",
+        "explanation": "Metinde prizmanın üçgen biçimli bir cam parçası olduğu açıklanıyor."
+      },
+      {
+        "question": "Gökkuşağını görebilmek için Güneş ve yağmur nerede olmalıdır?",
+        "options": ["İkisi de önümüzde olmalıdır.", "Güneş önümüzde, yağmur arkamızda olmalıdır.", "İkisi de arkamızda olmalıdır.", "Güneş arkamızda, yağmur önümüzde olmalıdır."],
+        "correct": "d",
+        "explanation": "Metinde Güneş'in arkamızda, yağmurun önümüzde olması gerektiği yazıyor."
+      },
+      {
+        "question": "Bir elma neden kırmızı görünür?",
+        "options": ["Kendi içinden kırmızı ışık çıkardığı için", "Yalnızca kırmızı ışığı yansıtıp diğerlerini emdiği için", "Bütün renkleri yansıttığı için", "Bütün renkleri emdiği için"],
+        "correct": "b",
+        "explanation": "Elma, renklerin çoğunu emer ve yalnızca kırmızıyı yansıtır."
+      },
+      {
+        "question": "Güneşli bir günde siyah tişört neden daha çok ısınır?",
+        "options": ["Işığın neredeyse tamamını emdiği için", "Kumaşı daha kalın olduğu için", "Işığın tamamını yansıttığı için", "Rüzgârı tuttuğu için"],
+        "correct": "a",
+        "explanation": "Siyah nesneler ışığın neredeyse tamamını emer, bu yüzden daha çok ısınır."
+      }
+    ]
+  },
+  {
+    "slug": "hezarfen-efsanesi",
+    "title": "Hezarfen Ahmed Çelebi Efsanesi",
+    "category": "Tarih",
+    "difficulty": 5,
+    "grade_level": 4,
+    "content": "İnsanlar binlerce yıl boyunca gökyüzünde süzülen kuşları hayranlıkla izlemiş ve bir gün onlar gibi uçabilmeyi hayal etmiştir. Bu hayali gerçekleştirmeye çalıştığı anlatılanlar arasında, ülkemizde en çok bilinen isimlerden biri Hezarfen Ahmed Çelebi'dir.\n\nHezarfen Ahmed Çelebi'nin on yedinci yüzyılda İstanbul'da yaşadığı anlatılır. \"Hezarfen\" kelimesi, \"bin fenli\" yani pek çok bilgiye ve beceriye sahip kişi anlamına gelir. Onun hakkında bildiklerimizin neredeyse tamamı, ünlü gezgin Evliya Çelebi'nin Seyahatname adlı eserinden gelir. Evliya Çelebi, Hezarfen'in uçuşunu kitabında kısa bir bölüm hâlinde anlatmıştır.\n\nAnlatılana göre Hezarfen, uçmadan önce uzun süre kuşları gözlemlemiştir. Kanatlarının hareketini ve rüzgârı nasıl kullandıklarını incelemiş, kendine kartal kanatlarını andıran bir çift kanat hazırlamıştır. Denemelerini önce Okmeydanı'nda yapmıştır. Sonra bir gün, rüzgârın uygun olduğu bir anda, Galata Kulesi'nin tepesinden atlamıştır. Evliya Çelebi'ye göre Hezarfen, İstanbul Boğazı'nın üzerinden süzülerek karşı kıyıda, Üsküdar'daki Doğancılar Meydanı'na inmiştir.\n\nHikâyeye göre bu uçuşu izleyen Padişah IV. Murad, Hezarfen'i bir kese altınla ödüllendirmiştir. Ancak böylesine yetenekli birinin tehlikeli olabileceğini düşünerek onu Cezayir'e göndermiştir.\n\nBugün tarihçiler, bu uçuşun anlatıldığı gibi gerçekleşip gerçekleşmediğinden emin değildir. Galata Kulesi ile Doğancılar arasındaki mesafe üç kilometreden fazladır ve olayı doğrulayan başka bir kaynak bulunmamaktadır. Bu nedenle Hezarfen'in uçuşu, kesin bir tarihî olaydan çok bir efsane olarak kabul edilir.\n\nYine de bu efsane, önemli bir düşünceyi anlatır: Büyük buluşlar, merak eden, gözlem yapan ve cesurca deneyen insanların hayalleriyle başlar. Nitekim anlatılan uçuştan yaklaşık 270 yıl sonra, 1903 yılında Wright kardeşler motorlu bir uçakla havalanmayı başardı. İstanbul'daki küçük bir havalimanına Hezarfen'in adının verilmiş olması da bu hayale duyulan saygının bir göstergesidir.",
+    "questions": [
+      {
+        "question": "\"Hezarfen\" kelimesi ne anlama gelir?",
+        "options": ["Kuş gibi uçan", "Bin fenli, yani pek çok bilgiye ve beceriye sahip", "Cesur savaşçı", "Kule bekçisi"],
+        "correct": "b",
+        "explanation": "Metinde Hezarfen kelimesinin \"bin fenli\" anlamına geldiği açıklanıyor."
+      },
+      {
+        "question": "Hezarfen hakkındaki bilgilerin neredeyse tamamı hangi kaynaktan gelir?",
+        "options": ["Piri Reis'in Kitab-ı Bahriye'sinden", "Padişahın mektuplarından", "Gazete haberlerinden", "Evliya Çelebi'nin Seyahatname'sinden"],
+        "correct": "d",
+        "explanation": "Bilgilerimizin neredeyse tamamı Evliya Çelebi'nin Seyahatname adlı eserinden gelir."
+      },
+      {
+        "question": "Anlatılana göre Hezarfen nereye inmiştir?",
+        "options": ["Üsküdar'daki Doğancılar Meydanı'na", "Okmeydanı'na", "Galata Kulesi'nin bahçesine", "Cezayir'e"],
+        "correct": "a",
+        "explanation": "Evliya Çelebi'ye göre Hezarfen, Üsküdar'daki Doğancılar Meydanı'na inmiştir."
+      },
+      {
+        "question": "Hezarfen'in uçuşu neden bir efsane olarak kabul edilir?",
+        "options": ["Hezarfen hiç yaşamadığı için", "Uçuş bir masal kitabında anlatıldığı için", "Olayı doğrulayan başka bir kaynak olmadığı ve mesafe çok uzun olduğu için", "Wright kardeşler bunu yalanladığı için"],
+        "correct": "c",
+        "explanation": "Mesafe üç kilometreden fazladır ve olayı doğrulayan başka bir kaynak yoktur."
+      },
+      {
+        "question": "Metnin ana fikri nedir?",
+        "options": ["Galata Kulesi çok yüksektir.", "Padişahlar mucitleri hep ödüllendirmiştir.", "Uçmak çok tehlikeli bir iştir.", "Büyük buluşlar merak eden ve cesurca deneyen insanların hayalleriyle başlar."],
+        "correct": "d",
+        "explanation": "Metnin son bölümü, efsanenin anlattığı bu önemli düşünceyi vurguluyor."
+      }
+    ]
+  },
+  {
+    "slug": "yildizlarin-yasami",
+    "title": "Yıldızların Yaşamı",
+    "category": "Uzay",
+    "difficulty": 5,
+    "grade_level": 4,
+    "content": "Açık bir gecede şehir ışıklarından uzak bir yerde gökyüzüne bakarsak binlerce yıldız görebiliriz. Bu yıldızlar gökyüzünde hep aynı yerde duruyormuş gibi görünür. Oysa her yıldızın, tıpkı canlılar gibi, bir doğuşu, uzun bir yaşamı ve bir sonu vardır. Yalnız bir yıldızın yaşamı milyonlarca, hatta milyarlarca yıl sürer.\n\nYıldızlar, uzayda bulutsu adı verilen dev gaz ve toz bulutlarının içinde doğar. Bulutsunun bazı bölgelerinde gaz ve toz, kütle çekimi sayesinde yavaş yavaş bir araya toplanır. Madde sıkıştıkça ısınır. Merkezdeki sıcaklık milyonlarca dereceye ulaştığında hidrojen atomları birleşerek helyuma dönüşmeye başlar. Bu olay büyük bir enerji açığa çıkarır ve yeni bir yıldız parlamaya başlar.\n\nGüneş'imiz de böyle doğmuş orta büyüklükte bir yıldızdır. Yaklaşık 4,6 milyar yaşındadır ve bilim insanlarına göre yaklaşık beş milyar yıl daha parlamaya devam edecektir. Yakıtı azaldığında Güneş şişerek kırmızı bir deve dönüşecek, ardından dış katmanlarını uzaya savuracaktır. Geriye beyaz cüce adı verilen küçük ve zamanla sönükleşen bir yıldız kalacaktır.\n\nGüneş'ten çok daha büyük kütleli yıldızların sonu ise çok daha görkemlidir. Bu yıldızlar yakıtlarını daha hızlı tüketir ve yaşamlarını süpernova adı verilen dev bir patlamayla bitirir. Bir süpernova, kısa bir süre için koca bir galaksi kadar parlak görünebilir. Patlamadan geriye son derece yoğun bir nötron yıldızı ya da ışığın bile kaçamadığı bir kara delik kalabilir.\n\nYıldızların yaşamı bizim için de önemlidir. Vücudumuzdaki karbon, soluduğumuz havadaki oksijen ve kanımızdaki demir gibi elementler, çok uzun zaman önce yıldızların içinde oluşmuştur. Bu elementler, yaşamını tamamlayan yıldızların uzaya saçtığı maddelerle yeni yıldızlara ve gezegenlere taşınmıştır. Bu yüzden bazı bilim insanları, hepimizin aslında yıldız tozundan yapıldığını söyler.\n\nBir dahaki sefere yıldızlara baktığınızda, onların bizim çok uzak akrabalarımız olduğunu hatırlayın.",
+    "questions": [
+      {
+        "question": "Yıldızlar nerede doğar?",
+        "options": ["Bulutsu adı verilen dev gaz ve toz bulutlarında", "Gezegenlerin içinde", "Kara deliklerin merkezinde", "Ay'ın yüzeyinde"],
+        "correct": "a",
+        "explanation": "Yıldızlar, bulutsu adı verilen dev gaz ve toz bulutlarının içinde doğar."
+      },
+      {
+        "question": "Güneş yaklaşık kaç yaşındadır?",
+        "options": ["Beş bin yaşında", "Bir milyon yaşında", "4,6 milyar yaşında", "Yüz milyar yaşında"],
+        "correct": "c",
+        "explanation": "Metinde Güneş'in yaklaşık 4,6 milyar yaşında olduğu yazıyor."
+      },
+      {
+        "question": "Güneş'ten çok daha büyük kütleli yıldızlar yaşamlarını nasıl bitirir?",
+        "options": ["Yavaşça soğuyarak", "Gezegene dönüşerek", "Buz tutarak", "Süpernova adı verilen dev bir patlamayla"],
+        "correct": "d",
+        "explanation": "Büyük kütleli yıldızlar yaşamlarını süpernova patlamasıyla bitirir."
+      },
+      {
+        "question": "Bazı bilim insanları neden hepimizin yıldız tozundan yapıldığını söyler?",
+        "options": ["Geceleri yıldızlara baktığımız için", "Vücudumuzdaki bazı elementler yıldızların içinde oluştuğu için", "Uzaydan toz yağdığı için", "Güneş bizi ısıttığı için"],
+        "correct": "b",
+        "explanation": "Karbon, oksijen ve demir gibi elementler yıldızların içinde oluşmuştur."
+      },
+      {
+        "question": "Metne göre Güneş'in yaşamının sonunda geriye ne kalacaktır?",
+        "options": ["Bir kara delik", "Bir nötron yıldızı", "Bir beyaz cüce", "Yeni bir gezegen"],
+        "correct": "c",
+        "explanation": "Güneş dış katmanlarını savurduktan sonra geriye bir beyaz cüce kalacaktır."
+      }
+    ]
+  }
+]

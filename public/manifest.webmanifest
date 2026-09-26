@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "OkuHız – Akıllı Okuma Antrenörü",
+  "short_name": "OkuHız",
+  "description": "Çocuklar için akıllı okuma antrenörü: okuma hızı, doğru okuma ve okuduğunu anlama.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fffcf5",
+  "theme_color": "#0f9f8f",
+  "categories": ["education", "kids", "books"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Günlük antrenman", "short_name": "Antrenman", "url": "/antrenman", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Kütüphane", "url": "/kutuphane", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

@@ -1,0 +1,23 @@
+# Bağımlılıklar ve çıktılar
+node_modules/
+dist/
+coverage/
+
+# Wrangler yerel durumu (yerel D1 veritabanı dahil)
+.wrangler/
+
+# Gizli bilgiler – ASLA commit etmeyin
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+
+# Editör / işletim sistemi / yerel araç ayarları
+.DS_Store
+*.log
+.vscode/
+.idea/
+.claude/settings.local.json

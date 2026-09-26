@@ -1,0 +1,742 @@
+[
+  {
+    "slug": "penguenler-yuzen-kuslar",
+    "title": "Penguenler: Yüzen Kuşlar",
+    "category": "Hayvanlar",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Penguenler çok sevimli kuşlardır. Onların da tüyleri ve gagaları vardır. Ama penguenler uçamaz. Kanatları küçük ve serttir.\n\nPenguenler uçamaz ama çok iyi yüzer. Kanatlarını su altında kürek gibi kullanırlar. Suyun içinde hızla ilerlerler. Balık, kalamar ve küçük karides yerler.\n\nPenguenlerin çoğu dünyanın güney tarafında yaşar. Bazıları buzlarla kaplı soğuk yerlerde yaşar. Bazıları ise daha ılık kıyılarda yaşar. Yani her penguen karda yaşamaz.\n\nPenguenlerin tüyleri sık ve yağlıdır. Derilerinin altında kalın bir yağ tabakası vardır. Bu sayede soğuk suda üşümezler. Çok soğuk günlerde yan yana sokulurlar. Böylece birbirlerini ısıtırlar.\n\nEn büyük penguen türü imparator penguenidir. Anne penguen bir yumurta yumurtlar. Sonra yiyecek bulmak için denize gider. Baba penguen yumurtayı ayaklarının üstünde taşır. Karnındaki sıcak deri ile yumurtayı örter. Haftalarca bekler. Yavru çıkınca anne de geri döner.\n\nPenguenler karada paytak paytak yürür. Bazen karınlarının üstüne yatıp buzda kayarlar. Böylece daha hızlı ilerlerler.\n\nPenguenler kalabalık gruplar hâlinde yaşar. Her yavru, anne ve babasının sesini tanır. Kalabalığın içinde bile onları sesinden bulur.",
+    "questions": [
+      {
+        "question": "Penguenler kanatlarını ne için kullanır?",
+        "options": ["Uçmak için", "Su altında yüzmek için", "Yuva yapmak için", "Yiyecek taşımak için"],
+        "correct": "b",
+        "explanation": "Metinde penguenlerin kanatlarını su altında kürek gibi kullandığı yazıyor."
+      },
+      {
+        "question": "Penguenler soğuk suda neden üşümez?",
+        "options": ["Sürekli hareket ettikleri için", "Suya hiç girmedikleri için", "Tüyleri sık ve yağlı, derilerinin altında yağ tabakası olduğu için", "Sıcak yiyecekler yedikleri için"],
+        "correct": "c",
+        "explanation": "Sık ve yağlı tüyler ile kalın yağ tabakası penguenleri soğuktan korur."
+      },
+      {
+        "question": "İmparator penguenlerinde yumurtayı ayaklarının üstünde kim taşır?",
+        "options": ["Anne penguen", "Yavru penguen", "Başka bir kuş", "Baba penguen"],
+        "correct": "d",
+        "explanation": "Anne denize gidince yumurtayı baba penguen ayaklarının üstünde taşır."
+      },
+      {
+        "question": "Metne göre aşağıdakilerden hangisi doğrudur?",
+        "options": ["Her penguen karlı ve buzlu yerlerde yaşamaz.", "Penguenler çok yükseğe uçabilir.", "Penguenler yalnızca bitki yer.", "Penguenler dünyanın kuzeyinde yaşar."],
+        "correct": "a",
+        "explanation": "Metinde bazı penguenlerin ılık kıyılarda yaşadığı, yani her penguenin karda yaşamadığı anlatılıyor."
+      }
+    ]
+  },
+  {
+    "slug": "dislerimizi-neden-fircalariz",
+    "title": "Dişlerimizi Neden Fırçalarız?",
+    "category": "Günlük Yaşam",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Sabah oldu. Ela yüzünü yıkadı. Sonra diş fırçasını aldı. Annesi ona gülümsedi.\n\nEla sordu: “Anne, dişlerimizi neden fırçalıyoruz?”\n\nAnnesi anlattı: “Ağzımızda çok küçük canlılar var. Onlara bakteri denir. Onları gözle göremeyiz. Biz şekerli şeyler yeriz. Bakteriler de bu şekerle beslenir. Sonra dişlere zarar veren bir asit yaparlar. Bu asit dişleri yavaş yavaş aşındırır. Dişte küçük delikler oluşur. Buna diş çürüğü denir.”\n\nEla şaşırdı. “Fırçalayınca ne olur?” diye sordu.\n\n“Fırça, dişlerdeki yemek artıklarını temizler. Bakteriler de azalır. Böylece dişlerimiz sağlıklı kalır.”\n\nAnnesi birkaç kural daha söyledi. Dişler günde iki kez fırçalanmalı. Bir kez sabah kahvaltıdan sonra, bir kez de gece yatmadan önce. Her fırçalama yaklaşık iki dakika sürmeli. Ön dişler, arka dişler ve dişlerin iç yüzü unutulmamalı. Diş fırçası da birkaç ayda bir yenilenmeli. Şekerli yiyecekleri az yemek de dişleri korur. Yılda iki kez diş doktoruna gitmek de önemlidir.\n\nEla fırçasına bezelye tanesi kadar macun sürdü. Aynaya bakarak dikkatlice fırçaladı. Sonra kocaman gülümsedi. “Bakteriler, bugün sizi yendim!” dedi.",
+    "questions": [
+      {
+        "question": "Ağızdaki bakteriler neyle beslenir?",
+        "options": ["Şekerli yiyeceklerle", "Sadece sudan", "Diş macunuyla", "Havayla"],
+        "correct": "a",
+        "explanation": "Annesi bakterilerin şekerli şeylerle beslendiğini anlatıyor."
+      },
+      {
+        "question": "Dişler günde kaç kez fırçalanmalıdır?",
+        "options": ["Bir kez", "Hiç", "İki kez", "Beş kez"],
+        "correct": "c",
+        "explanation": "Metinde dişlerin sabah ve gece olmak üzere günde iki kez fırçalanması gerektiği yazıyor."
+      },
+      {
+        "question": "Her fırçalama yaklaşık ne kadar sürmelidir?",
+        "options": ["On saniye", "İki dakika", "Yarım saat", "Bir saat"],
+        "correct": "b",
+        "explanation": "Annesi her fırçalamanın yaklaşık iki dakika sürmesi gerektiğini söylüyor."
+      },
+      {
+        "question": "Bu metin en çok ne anlatıyor?",
+        "options": ["Ela'nın okula nasıl gittiğini", "Diş macununun nasıl yapıldığını", "Annenin kahvaltı hazırlamasını", "Dişleri fırçalamanın çürükleri önlediğini"],
+        "correct": "d",
+        "explanation": "Metnin ana fikri, fırçalamanın bakterileri azaltarak dişleri çürükten korumasıdır."
+      }
+    ]
+  },
+  {
+    "slug": "bayram-ziyareti",
+    "title": "Bayram Ziyareti",
+    "category": "Günlük Yaşam",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Bugün bayramın ilk günü. Mert erkenden uyandı. Yeni gömleğini giydi. Kardeşi Zeynep de kırmızı elbisesini giydi.\n\nKahvaltıdan sonra aile arabaya bindi. Önce dedeyle nineyi ziyaret edeceklerdi. Mert yolda çok heyecanlıydı. Dedesini uzun zamandır görmemişti.\n\nKapıyı ninesi açtı. Herkes birbirine sarıldı. “Bayramınız kutlu olsun!” dediler. Mert dedesinin elini öptü ve alnına koydu. Dedesi onu sevgiyle kucakladı.\n\nSalonda güzel bir sofra hazırdı. Masada tatlı, lokum ve çay vardı. Ninesi Mert'e bir mendil hediye etti. Zeynep'e de küçük bir bebek verdi. Çocuklar çok sevindi. Dedesi de onlara eski bayramları anlattı. Eskiden çocuklar kapı kapı dolaşır, şeker toplarmış. Mert bu hikâyeyi çok sevdi.\n\nSonra komşu Hatice Teyze geldi. Yanında torunu Can da vardı. Can, Mert'in yaşındaydı. İki çocuk hemen bahçeye çıktı. Top oynadılar, çok güldüler.\n\nAkşam olunca vedalaşma zamanı geldi. Mert dedesine sıkıca sarıldı. “Seni çok seviyorum dede” dedi. Dedesi gülümsedi. “Bayramlar birlikte olmak için güzeldir” dedi.\n\nEve dönerken Mert düşündü. En güzel hediye mendil değildi. En güzel hediye, sevdikleriyle geçirdiği zamandı.",
+    "questions": [
+      {
+        "question": "Aile bayramın ilk günü önce kimi ziyaret etti?",
+        "options": ["Öğretmeni", "Dedeyle nineyi", "Hatice Teyze'yi", "Teyzesini"],
+        "correct": "b",
+        "explanation": "Metinde ailenin önce dedeyle nineyi ziyaret ettiği yazıyor."
+      },
+      {
+        "question": "Ninesi Mert'e ne hediye etti?",
+        "options": ["Bir top", "Bir bebek", "Bir kitap", "Bir mendil"],
+        "correct": "d",
+        "explanation": "Ninesi Mert'e bir mendil, Zeynep'e bir bebek verdi."
+      },
+      {
+        "question": "Can kimdir?",
+        "options": ["Hatice Teyze'nin torunu", "Mert'in ağabeyi", "Mert'in öğretmeni", "Zeynep'in sınıf arkadaşı"],
+        "correct": "a",
+        "explanation": "Hatice Teyze yanında torunu Can ile gelmişti."
+      },
+      {
+        "question": "Mert'e göre en güzel hediye neydi?",
+        "options": ["Yeni gömleği", "Masadaki lokumlar", "Sevdikleriyle geçirdiği zaman", "Bahçedeki top"],
+        "correct": "c",
+        "explanation": "Metnin sonunda Mert en güzel hediyenin sevdikleriyle geçirdiği zaman olduğunu düşünüyor."
+      }
+    ]
+  },
+  {
+    "slug": "basketbolun-icadi",
+    "title": "Basketbol Nasıl İcat Edildi?",
+    "category": "Spor",
+    "difficulty": 1,
+    "grade_level": 2,
+    "content": "Basketbol çok sevilen bir spordur. Peki bu oyunu kim buldu? Hikâyesi yüz yıldan daha eskidir.\n\nYıl 1891'di. Amerika'da bir okulda James Naismith adında bir öğretmen vardı. Kış gelmişti. Hava çok soğuktu. Öğrenciler dışarıda oynayamıyordu. Salonda sıkılıyorlardı.\n\nNaismith yeni bir oyun düşündü. Bu oyun kapalı bir salonda oynanabilmeliydi. Güvenli ve eğlenceli de olmalıydı.\n\nNaismith iki şeftali sepeti buldu. Sepetleri salonun iki ucuna, yükseğe astı. Öğrencilere bir top verdi. Amaç, topu sepetin içine atmaktı. Oyunun adı da buradan geldi. İngilizcede sepete “basket”, topa “ball” denir.\n\nİlk oyunlarda sepetin altı kapalıydı. Top içeri girince biri merdivene çıkardı. Topu sepetten alırdı. Sonra oyun devam ederdi. Bir süre sonra sepetin altı açıldı. Böylece top kendi kendine aşağı düştü.\n\nNaismith oyun için on üç kural yazdı. Zamanla kurallar değişti. Sepetin yerini demir çember ve file aldı. Bir süre sonra çemberin arkasına bir de tahta eklendi. Top bu tahtaya çarpıp potaya girebiliyordu.\n\nBugün basketbol dünyanın her yerinde oynanıyor. Okullarda, parklarda ve büyük salonlarda oynanıyor. Hepsi bir öğretmenin güzel fikriyle başladı.",
+    "questions": [
+      {
+        "question": "Basketbolu kim icat etti?",
+        "options": ["Bir futbolcu", "Bir doktor", "James Naismith adında bir öğretmen", "Bir okul müdürü"],
+        "correct": "c",
+        "explanation": "Metinde oyunu öğretmen James Naismith'in bulduğu yazıyor."
+      },
+      {
+        "question": "Naismith neden yeni bir oyun düşündü?",
+        "options": ["Hava soğuk olduğu için öğrenciler dışarıda oynayamıyordu.", "Öğrenciler futboldan hiç hoşlanmıyordu.", "Okulda hiç top yoktu.", "Bir yarışma kazanmak istiyordu."],
+        "correct": "a",
+        "explanation": "Kış olduğu için öğrenciler dışarıda oynayamıyor ve salonda sıkılıyordu."
+      },
+      {
+        "question": "İlk basketbol oyununda pota yerine ne kullanıldı?",
+        "options": ["Kova", "Çember", "Kutu", "Şeftali sepeti"],
+        "correct": "d",
+        "explanation": "Naismith salonun iki ucuna şeftali sepetleri astı."
+      },
+      {
+        "question": "İlk oyunlarda birinin merdivene çıkması neden gerekiyordu?",
+        "options": ["Salonun ışıklarını açmak için", "Sepetin altı kapalı olduğu için topu almak gerekiyordu", "Sepetleri boyamak için", "Oyuncuları izlemek için"],
+        "correct": "b",
+        "explanation": "Sepetin altı kapalı olduğundan top içeride kalıyordu; biri merdivenle çıkıp alıyordu."
+      }
+    ]
+  },
+  {
+    "slug": "caretta-caretta-kaplumbagalari",
+    "title": "Caretta Caretta Deniz Kaplumbağaları",
+    "category": "Hayvanlar",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Caretta caretta, denizlerde yaşayan büyük bir kaplumbağa türüdür. Türkçede iribaş deniz kaplumbağası olarak da bilinir. Sırtındaki kabuk kahverengi ve kırmızımsıdır. Yetişkin bir caretta, bir metreye yakın uzunlukta olabilir.\n\nBu kaplumbağalar hayatlarının çoğunu denizde geçirir. Güçlü çeneleriyle yengeç, midye ve denizanası yerler. Ancak dişi kaplumbağalar yumurtlamak için karaya çıkar. Çoğu zaman kendi doğdukları kumsala geri dönerler. Bilim insanları, bu yolu nasıl bulduklarını hâlâ araştırmaktadır.\n\nYaz gecelerinde dişi caretta kumsala sessizce çıkar. Arka ayaklarıyla kumu kazarak bir çukur açar. Çukura yüze yakın yumurta bırakır. Sonra üzerini kumla örter ve denize geri döner. Bir dişi, aynı yaz içinde birkaç kez karaya çıkıp farklı yuvalar yapabilir. Anne kaplumbağa yavrularını hiç görmez; yavrular kendi başlarının çaresine bakar.\n\nYumurtalar yaklaşık iki ay sıcak kumun altında kalır. Kumun sıcaklığı çok önemlidir. Sıcak kumda daha çok dişi, serin kumda daha çok erkek yavru çıkar. Yavrular genellikle gece yumurtadan çıkar. Ay ışığının denizdeki parıltısına doğru yürürler.\n\nTürkiye'nin Akdeniz ve Ege kıyıları carettaların önemli yuvalama alanlarıdır. Muğla Dalyan'daki İztuzu ve Antalya'daki Patara kumsalları bunlardan ikisidir. Kumsallardaki parlak ışıklar yavruların yolunu şaşırtabilir. Bu yüzden yuvalama kumsallarında gece ışık yakmamak, kumda çukur kazmamak ve çöp bırakmamak gerekir.",
+    "questions": [
+      {
+        "question": "Dişi caretta kaplumbağaları neden karaya çıkar?",
+        "options": ["Güneşlenmek için", "Yumurtlamak için", "Yiyecek bulmak için", "Uyumak için"],
+        "correct": "b",
+        "explanation": "Metinde dişilerin yumurtlamak için karaya çıktığı yazıyor."
+      },
+      {
+        "question": "Yavruların dişi ya da erkek olmasını ne etkiler?",
+        "options": ["Annenin büyüklüğü", "Denizin rengi", "Kumun sıcaklığı", "Yumurtanın şekli"],
+        "correct": "c",
+        "explanation": "Sıcak kumda daha çok dişi, serin kumda daha çok erkek yavru çıkar."
+      },
+      {
+        "question": "Yavrular yumurtadan çıkınca neye doğru yürür?",
+        "options": ["Ay ışığının denizdeki parıltısına", "Kumsaldaki ağaçlara", "Annelerinin sesine", "En yakın kayalara"],
+        "correct": "a",
+        "explanation": "Yavrular ay ışığının denizdeki parıltısına doğru yürür."
+      },
+      {
+        "question": "Yuvalama kumsallarında gece ışık yakılmaması neden önemlidir?",
+        "options": ["Kumsal daha güzel göründüğü için", "Elektrik pahalı olduğu için", "Balıklar ışıktan korktuğu için", "Parlak ışıklar yavruların denizi bulmasını zorlaştırdığı için"],
+        "correct": "d",
+        "explanation": "Yavrular ay ışığını izleyerek denize gider; parlak ışıklar onların yolunu şaşırtır."
+      }
+    ]
+  },
+  {
+    "slug": "buz-neden-suda-yuzer",
+    "title": "Buz Neden Suda Yüzer?",
+    "category": "Bilim",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Bir bardak suya buz koyduğunda ne olur? Buz dibe batmaz, suyun üstünde yüzer. Oysa buz da sudan yapılmıştır. Peki neden batmaz?\n\nBu sorunun cevabı suyun çok özel bir davranışında saklıdır. Maddelerin çoğu soğuyunca büzülür, yani daha az yer kaplar. Su da soğudukça önce biraz büzülür. Ama donarken tam tersi olur. Su donup buza dönüşürken genleşir, yani daha çok yer kaplar.\n\nSu, gözle görülemeyecek kadar küçük parçacıklardan oluşur. Sıvı suda bu parçacıklar birbirine yakın durur ve serbestçe hareket eder. Su donunca parçacıklar düzenli bir şekilde dizilir. Bu dizilişte aralarında boşluklar kalır. Bu yüzden aynı miktardaki su, buz olunca daha fazla yer kaplar. Aynı büyüklükteki bir buz parçası, sudan daha hafif olur ve yüzer.\n\nBunu evde görebilirsin. Ağzı açık plastik bir kabı ağzına kadar suyla doldur ve dondurucuya koy. Ertesi gün buzun kabın ağzından taştığını görürsün. Kışın dışarıda unutulan su dolu cam şişelerin çatlamasının sebebi de budur. Donan su genleşir ve şişeyi içeriden iter.\n\nBuzun yüzmesi doğa için çok önemlidir. Kışın göllerin yüzeyi donar. Üstteki buz tabakası, alttaki suyu bir örtü gibi korur. Böylece balıklar ve diğer canlılar buzun altındaki suda yaşamaya devam eder.",
+    "questions": [
+      {
+        "question": "Su donup buza dönüşürken ne olur?",
+        "options": ["Genleşir ve daha çok yer kaplar.", "Büzülür ve küçülür.", "Rengi değişir.", "Tamamen kaybolur."],
+        "correct": "a",
+        "explanation": "Metinde suyun donarken genleştiği, yani daha çok yer kapladığı anlatılıyor."
+      },
+      {
+        "question": "Buzun içinde boşluklar olmasının sebebi nedir?",
+        "options": ["Buza hava pompalanması", "Suyun içindeki kum", "Buzun çok hızlı erimesi", "Parçacıkların donarken düzenli dizilmesi"],
+        "correct": "d",
+        "explanation": "Su donunca parçacıklar düzenli dizilir ve aralarında boşluklar kalır."
+      },
+      {
+        "question": "Ağzına kadar dolu kap dondurucuya konursa ertesi gün ne görülür?",
+        "options": ["Suyun azaldığı", "Buzun kabın ağzından taştığı", "Kabın boşaldığı", "Suyun hiç donmadığı"],
+        "correct": "b",
+        "explanation": "Su donarken genleştiği için buz kabın ağzından taşar."
+      },
+      {
+        "question": "Buzun yüzmesi göllerde yaşayan canlılar için neden önemlidir?",
+        "options": ["Balıkların buzun üstünde yürümesini sağlar.", "Gölün suyunu ısıtıp kaynatır.", "Buz üstte kalıp alttaki suyu korur, canlılar yaşamaya devam eder.", "Göldeki bütün suyu dondurur."],
+        "correct": "c",
+        "explanation": "Buz tabakası bir örtü gibi alttaki suyu korur ve canlılar orada yaşar."
+      }
+    ]
+  },
+  {
+    "slug": "bir-adada-kamp",
+    "title": "Bir Adada Kamp",
+    "category": "Macera",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Deniz ve kuzeni Arda, yaz tatilinde aileleriyle birlikte küçük bir adaya gittiler. Adaya bir tekneyle yarım saatte ulaştılar. Burada ne ev ne de market vardı. Sadece çam ağaçları, kayalar ve masmavi bir deniz vardı.\n\nİlk iş çadırları kurmaktı. Babası, çadırın rüzgârın az estiği düz bir yere kurulması gerektiğini anlattı. Arda kazıkları çaktı, Deniz de ipleri gerdi. Kısa sürede iki çadır hazır oldu.\n\nÖğleden sonra kıyı boyunca yürüdüler. Kayaların arasında küçük yengeçler, dipte renkli balıklar gördüler. Deniz bir martı tüyü buldu ve defterine yapıştırdı. Arda ise gördüğü her canlıyı küçük resimlerle defterine çizdi.\n\nAkşam olunca hava serinledi. Annesi, ateşin yalnızca kamp alanındaki taş ocakta yakılabileceğini hatırlattı. Ocağın yanına da bir kova su koydular. Ateşin başında oturup mısır pişirdiler.\n\nGece gökyüzü inanılmaz görünüyordu. Şehirde görünmeyen binlerce yıldız parlıyordu. Babası onlara Büyükayı takımyıldızını gösterdi. Deniz, yedi parlak yıldızın bir kepçeye benzediğini fark etti. Arda ise kayan bir yıldız gördü ve heyecanla bağırdı. Sonra çadırlarına girip dalgaların sesiyle uyudular.\n\nErtesi sabah adadan ayrılmadan önce çocuklar etrafı dikkatle dolaştı. Bütün çöpleri torbalara topladılar. Arda, “Adayı bulduğumuz gibi bırakmalıyız” dedi. Deniz başını salladı. Bu tatil, ikisinin de en güzel macerası olmuştu.",
+    "questions": [
+      {
+        "question": "Babasına göre çadır nereye kurulmalıydı?",
+        "options": ["Denizin hemen kenarına", "En yüksek kayanın üstüne", "Rüzgârın az estiği düz bir yere", "Ağaçların dallarına"],
+        "correct": "c",
+        "explanation": "Babası çadırın rüzgârın az estiği düz bir yere kurulması gerektiğini söyledi."
+      },
+      {
+        "question": "Deniz kıyıda ne buldu?",
+        "options": ["Bir martı tüyü", "Bir deniz kabuğu", "Bir şişe", "Bir yengeç"],
+        "correct": "a",
+        "explanation": "Deniz bir martı tüyü buldu ve defterine yapıştırdı."
+      },
+      {
+        "question": "Babası gece çocuklara hangi takımyıldızını gösterdi?",
+        "options": ["Kuğu", "Avcı", "Aslan", "Büyükayı"],
+        "correct": "d",
+        "explanation": "Metinde babanın Büyükayı takımyıldızını gösterdiği yazıyor."
+      },
+      {
+        "question": "Arda'nın “Adayı bulduğumuz gibi bırakmalıyız” sözü ne anlatıyor?",
+        "options": ["Adaya bir daha gelmek istemediğini", "Doğaya saygı gösterip geride çöp bırakmamak gerektiğini", "Adada ev yapmak istediğini", "Çadırları adada unutmak istediğini"],
+        "correct": "b",
+        "explanation": "Çocuklar çöpleri topladı; Arda doğayı temiz ve bozulmamış bırakmaktan söz ediyor."
+      }
+    ]
+  },
+  {
+    "slug": "robot-supurge-ve-sensorler",
+    "title": "Robot Süpürge ve Sensörler",
+    "category": "Teknoloji",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Bazı evlerde yerleri kendi kendine temizleyen küçük, yuvarlak robotlar vardır. Bunlara robot süpürge denir. Peki bu robotlar duvara çarpmadan, merdivenden düşmeden nasıl dolaşır? Bu işin sırrı sensörlerdedir.\n\nSensör, çevredeki bir değişikliği algılayan küçük bir parçadır. Bizim gözlerimiz, kulaklarımız ve derimiz de birer sensör gibi çalışır. Robot süpürgede de farklı işler yapan birçok sensör bulunur.\n\nRobotun ön tarafında bir tampon vardır. Robot bir koltuğa ya da duvara hafifçe dokunduğunda tampon içeri doğru itilir. Tamponun arkasındaki sensör bunu fark eder. Robot hemen durur ve başka bir yöne döner.\n\nRobotun altında ise uçurum sensörleri bulunur. Bu sensörler yere doğru gözle görülmeyen bir ışık gönderir. Işık yerden yansıyıp geri dönerse zemin vardır. Işık geri dönmezse önünde bir boşluk, örneğin bir merdiven vardır. Robot o yöne gitmez.\n\nBazı gelişmiş robotlar ışınlarla odayı tarar ve evin haritasını çıkarır. Böylece hangi yerleri temizlediğini hatırlar. Şarjı azalınca da kendi şarj istasyonunu bulup oraya döner. Bazı robotların fırçalarının yanında toz sensörü de vardır. Bu sensör çok kirli bir yer fark ederse robot orayı daha uzun süre temizler.\n\nRobot süpürgeler çok akıllı görünür. Ama aslında sensörlerden gelen bilgilere göre karar veren programlarla çalışırlar.",
+    "questions": [
+      {
+        "question": "Sensör nedir?",
+        "options": ["Robotun tekerleği", "Çevredeki bir değişikliği algılayan parça", "Robotun toz haznesi", "Robotun şarj kablosu"],
+        "correct": "b",
+        "explanation": "Metinde sensörün çevredeki bir değişikliği algılayan küçük bir parça olduğu yazıyor."
+      },
+      {
+        "question": "Robot bir duvara hafifçe dokunduğunda ne olur?",
+        "options": ["Robot hemen kapanır.", "Robot yüksek sesle öter.", "Robot duvarı itmeye devam eder.", "Tampon itilir, sensör fark eder ve robot yön değiştirir."],
+        "correct": "d",
+        "explanation": "Tamponun arkasındaki sensör çarpmayı fark eder, robot durur ve başka yöne döner."
+      },
+      {
+        "question": "Uçurum sensörünün gönderdiği ışık geri dönmezse bu ne demektir?",
+        "options": ["Önde bir boşluk, örneğin merdiven vardır.", "Zemin çok temizdir.", "Robotun şarjı bitmiştir.", "Odada kimse yoktur."],
+        "correct": "a",
+        "explanation": "Işık geri dönmüyorsa önde zemin yoktur, yani bir boşluk vardır."
+      },
+      {
+        "question": "Bu metnin ana fikri nedir?",
+        "options": ["Robot süpürgeler çok pahalıdır.", "Robot süpürgeler insanlar gibi düşünür.", "Robot süpürgeler sensörlerden gelen bilgilerle hareket eder.", "Robot süpürgeler yalnızca halıyı temizler."],
+        "correct": "c",
+        "explanation": "Metin, robotun sensörlerden gelen bilgilere göre nasıl karar verdiğini anlatıyor."
+      }
+    ]
+  },
+  {
+    "slug": "kuyruklu-yildizlar",
+    "title": "Kuyruklu Yıldızlar",
+    "category": "Uzay",
+    "difficulty": 2,
+    "grade_level": 3,
+    "content": "Bazen gökyüzünde uzun, parlak bir kuyruğu olan bir cisim görülür. İnsanlar bunlara kuyruklu yıldız der. Ama bu ad biraz yanıltıcıdır. Kuyruklu yıldızlar aslında yıldız değildir.\n\nKuyruklu yıldızlar buz, toz ve kayadan oluşan gök cisimleridir. Bu yüzden bilim insanları onlara “kirli kartopu” der. Çoğu, Güneş Sistemi'nin çok uzak ve soğuk bölgelerinde bulunur. Orada kuyrukları yoktur. Sadece karanlık bir buz topu gibi dolaşırlar.\n\nBazı kuyruklu yıldızlar, Güneş'in etrafında uzun ve basık bir yolda döner. Güneş'e yaklaştıkça ısınırlar. Buzları gaza dönüşür, tozlar da etrafa yayılır. Böylece çevrelerinde parlak bir bulut ve uzun bir kuyruk oluşur. Bu kuyruk milyonlarca kilometre uzunluğa ulaşabilir. İlginçtir ki kuyruk her zaman Güneş'in ters yönünü gösterir. Çünkü Güneş'ten gelen rüzgâr ve ışık, gazı ve tozu geriye doğru iter.\n\nKuyruklu yıldızlar arkalarında küçük toz parçaları bırakır. Dünya bu tozların arasından geçerken parçalar havamıza girer ve yanarak parlar. Gökyüzünde gördüğümüz bazı meteor yağmurları böyle oluşur.\n\nEn ünlü kuyruklu yıldızlardan biri Halley kuyruklu yıldızıdır. Halley, yaklaşık her 76 yılda bir Dünya'dan görülebilir. En son 1986 yılında görülmüştü. Bir dahaki gelişi 2061 yılında olacak. Belki sen de o gün gökyüzüne bakıp onu görebilirsin!",
+    "questions": [
+      {
+        "question": "Kuyruklu yıldızlar nelerden oluşur?",
+        "options": ["Sadece ateşten", "Sıcak gazdan", "Buz, toz ve kayadan", "Metal ve camdan"],
+        "correct": "c",
+        "explanation": "Metinde kuyruklu yıldızların buz, toz ve kayadan oluştuğu yazıyor."
+      },
+      {
+        "question": "Kuyruklu yıldızın kuyruğu nasıl oluşur?",
+        "options": ["Güneş'e yaklaşınca ısınır, buzu gaza dönüşür ve toz yayılır.", "Başka bir yıldıza çarpınca oluşur.", "Dünya'nın havası onu boyar.", "Uzaydaki rüzgâr onu dondurur."],
+        "correct": "a",
+        "explanation": "Güneş'e yaklaşan kuyruklu yıldız ısınır; gaz ve toz kuyruğu oluşturur."
+      },
+      {
+        "question": "Kuyruk hangi yönü gösterir?",
+        "options": ["Her zaman Dünya'yı", "Her zaman Ay'ı", "Rastgele bir yönü", "Her zaman Güneş'in ters yönünü"],
+        "correct": "d",
+        "explanation": "Güneş'ten gelen rüzgâr ve ışık gazı ve tozu geriye ittiği için kuyruk Güneş'in ters yönündedir."
+      },
+      {
+        "question": "Metne göre Halley kuyruklu yıldızı bir dahaki sefere ne zaman görülecek?",
+        "options": ["1986 yılında", "2061 yılında", "Her yıl", "Hiçbir zaman"],
+        "correct": "b",
+        "explanation": "Metinde Halley'in bir dahaki gelişinin 2061 yılında olacağı yazıyor."
+      }
+    ]
+  },
+  {
+    "slug": "kayip-anahtarin-gizemi",
+    "title": "Kayıp Anahtarın Gizemi",
+    "category": "Macera",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Pazartesi sabahı okul kütüphanesinin kapısı açılamadı. Kütüphane görevlisi Nermin Hanım bütün çantasını karıştırdı ama anahtarı bulamadı. Oysa cuma günü anahtarı her zamanki gibi çekmecesine koyduğundan emindi.\n\nDördüncü sınıftan Defne, Kerem ve Yusuf bu haberi duyunca heyecanlandılar. Kendilerine “Minik Dedektifler” adını takmışlardı ve uzun zamandır çözülecek bir gizem arıyorlardı. Teneffüste hemen işe koyuldular.\n\nÖnce Nermin Hanım'la konuştular. Kerem her şeyi not defterine yazdı. Nermin Hanım, cuma günü kütüphaneden çıkmadan önce öğretmenler odasına uğradığını ve orada bir süre çiçekleri suladığını anlattı.\n\nDefne, “Belki anahtar orada düşmüştür” dedi. Üç arkadaş öğretmenler odasına gitti ve izin alarak etrafa baktı. Masaların altında da dolapların arkasında da hiçbir şey yoktu. Kerem hayal kırıklığıyla defterini kapatmak üzereydi. Ama Defne, “Dedektifler hemen pes etmez, her köşeye bakmalıyız” diyerek onları cesaretlendirdi.\n\nYusuf pencerenin önündeki büyük saksının yanında durdu. Toprağın üstünde minik pati izleri vardı. “Bakın, toprak burada biraz kazılmış gibi” dedi. Tam o sırada okulun kedisi Tarçın, saksının arkasından fırladı.\n\nDefne gülümsedi. “Tarçın parlak şeylerle oynamayı çok sever” dedi. Dikkatlice toprağın arasına baktılar. Anahtar, yeşil kurdelesiyle birlikte orada duruyordu! Anlaşılan anahtar, Nermin Hanım çiçekleri sularken cebinden düşmüş, Tarçın da onu oyuncak sanıp saksıya sürüklemişti.\n\nNermin Hanım çocuklara içtenlikle teşekkür etti. Kerem defterine son notu yazdı: “Gizem çözüldü. En önemli ipucu: Dikkatli bakmak!”",
+    "questions": [
+      {
+        "question": "Nermin Hanım cuma günü anahtarı nereye koyduğunu düşünüyordu?",
+        "options": ["Cebine", "Çekmecesine", "Saksıya", "Kapının üstüne"],
+        "correct": "b",
+        "explanation": "Metinde Nermin Hanım'ın anahtarı her zamanki gibi çekmecesine koyduğundan emin olduğu yazıyor."
+      },
+      {
+        "question": "Kerem dedektiflik çalışmasında ne yaptı?",
+        "options": ["Kediyi yakaladı", "Çiçekleri suladı", "Kütüphanenin kapısını açtı", "Her şeyi not defterine yazdı"],
+        "correct": "d",
+        "explanation": "Kerem konuşmaları ve bulguları not defterine yazdı."
+      },
+      {
+        "question": "Yusuf saksının yanında ne fark etti?",
+        "options": ["Pati izleri ve kazılmış toprak", "Yere düşmüş bir kitap", "Kırık bir cam", "Islak ayak izleri"],
+        "correct": "a",
+        "explanation": "Yusuf toprağın üstünde minik pati izleri ve kazılmış bir yer gördü."
+      },
+      {
+        "question": "Anahtar saksıya nasıl gitmişti?",
+        "options": ["Rüzgâr onu uçurmuştu.", "Bir öğrenci saklamıştı.", "Nermin Hanım'ın cebinden düşmüş, kedi Tarçın onu saksıya sürüklemişti.", "Nermin Hanım onu bilerek oraya koymuştu."],
+        "correct": "c",
+        "explanation": "Anahtar çiçekler sulanırken düşmüş, Tarçın da onu oyuncak sanıp saksıya götürmüştü."
+      },
+      {
+        "question": "Çocukların gizemi çözmesini asıl sağlayan neydi?",
+        "options": ["Şans eseri anahtarı bulmaları", "Soru sorup dikkatle ipuçlarını izlemeleri", "Öğretmenlerin onlara yardım etmesi", "Kütüphanenin kapısını kırmaları"],
+        "correct": "b",
+        "explanation": "Çocuklar önce bilgi topladılar, sonra dikkatli bakarak pati izlerini fark ettiler."
+      }
+    ]
+  },
+  {
+    "slug": "pamukkale-travertenleri",
+    "title": "Pamukkale'nin Beyaz Basamakları",
+    "category": "Doğa",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Denizli'deki Pamukkale'yi uzaktan görenler, bir tepenin karla kaplandığını sanabilir. Ama o bembeyaz görüntü kar değildir. Bu beyaz basamaklara traverten denir. Pamukkale adını da bu pamuk gibi beyaz görüntüden alır.\n\nTravertenlerin oluşumu binlerce yıl sürmüştür. Yerin derinliklerinde ısınan sular, kayaların arasından geçerken içlerine kalsiyum adı verilen bir madde karışır. Bu sıcak ve mineralli su yeryüzüne çıkıp tepenin yamacından aşağı akar. Su havayla karşılaşınca içindeki mineraller yavaş yavaş dibe çöker ve katılaşır. Bu beyaz tortu kat kat birikerek basamaklar ve küçük havuzlar oluşturur. Bu durum, çaydanlığın dibinde biriken beyaz kirece benzer ama çok daha büyük ölçüdedir.\n\nPamukkale'nin hemen yanında Hierapolis adında antik bir kent bulunur. Yaklaşık iki bin yıl önce insanlar, şifalı olduğuna inandıkları sıcak sulardan yararlanmak için buraya gelirdi. Kentin tiyatrosu, hamamları ve sokakları bugün hâlâ görülebilir. Burada ayrıca, dibinde eski sütun parçalarının durduğu sıcak su dolu bir antik havuz da vardır. Ziyaretçiler bu havuzda, tarihî kalıntıların arasında yüzebilir.\n\nTravertenlerin rengi günün saatine göre de değişir. Gün batımında beyaz basamaklar pembe ve turuncu tonlara bürünür. Havuzlardaki su ise gökyüzünün mavisini yansıtır.\n\nPamukkale ve Hierapolis, 1988 yılında UNESCO Dünya Mirası Listesi'ne alındı. Travertenler çok hassastır. Ayakkabılar beyaz yüzeyi aşındırabilir ve kirletebilir. Bu yüzden ziyaretçiler travertenlerin üzerinde yalnızca çıplak ayakla ve izin verilen yollarda yürüyebilir. Böylece bu doğa harikası gelecek kuşaklar için korunur.",
+    "questions": [
+      {
+        "question": "Pamukkale'deki beyaz basamaklara ne ad verilir?",
+        "options": ["Buzul", "Kum tepesi", "Traverten", "Kar örtüsü"],
+        "correct": "c",
+        "explanation": "Metinde bu beyaz basamaklara traverten dendiği yazıyor."
+      },
+      {
+        "question": "Sıcak suya yerin altında hangi madde karışır?",
+        "options": ["Kalsiyum", "Tuz", "Demir", "Şeker"],
+        "correct": "a",
+        "explanation": "Su kayaların arasından geçerken içine kalsiyum karışır."
+      },
+      {
+        "question": "Hierapolis nedir?",
+        "options": ["Bir göl", "Bir dağ", "Yeni kurulmuş bir şehir", "Pamukkale'nin yanındaki antik bir kent"],
+        "correct": "d",
+        "explanation": "Hierapolis, Pamukkale'nin hemen yanındaki yaklaşık iki bin yıllık antik bir kenttir."
+      },
+      {
+        "question": "Pamukkale ve Hierapolis hangi yıl UNESCO Dünya Mirası Listesi'ne alındı?",
+        "options": ["1958", "1988", "2008", "2018"],
+        "correct": "b",
+        "explanation": "Metinde 1988 yılında listeye alındığı belirtiliyor."
+      },
+      {
+        "question": "Ziyaretçilerin travertenlerde çıplak ayakla yürümesinin amacı nedir?",
+        "options": ["Suyun daha sıcak hissedilmesi", "Daha hızlı yürüyebilmek", "Ayakkabıların ıslanmaması", "Hassas beyaz yüzeyin aşınıp kirlenmemesi"],
+        "correct": "d",
+        "explanation": "Ayakkabılar travertenleri aşındırıp kirletebildiği için bu kural konmuştur."
+      }
+    ]
+  },
+  {
+    "slug": "mevsimler-neden-olusur",
+    "title": "Mevsimler Neden Oluşur?",
+    "category": "Doğa",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Yazın havalar sıcak, günler uzundur. Kışın ise havalar soğur, güneş erkenden batar. Peki mevsimler neden oluşur? Pek çok kişi bunun, Dünya'nın Güneş'e bazen yaklaşıp bazen uzaklaşmasından kaynaklandığını düşünür. Ama asıl sebep başkadır.\n\nDünya, kendi etrafında hayali bir eksen üzerinde döner. Bu eksen dik değil, yaklaşık 23,5 derece eğiktir. Dünya bir yıl boyunca Güneş'in etrafında dolanırken bu eğiklik hiç değişmez. Bu yüzden yılın bir döneminde Dünya'nın kuzey yarısı Güneş'e doğru eğik olur, başka bir döneminde ise Güneş'ten uzağa eğik olur.\n\nKuzey yarım küre Güneş'e doğru eğildiğinde, güneş ışınları buraya daha dik gelir. Dik gelen ışınlar yeri daha çok ısıtır. Günler de uzar. İşte bu dönem yazdır. Altı ay sonra kuzey yarım küre Güneş'ten uzağa eğilir. Işınlar yeryüzüne daha yatık gelir, aynı ışık daha geniş bir alana yayılır ve daha az ısıtır. Günler kısalır ve kış gelir. İlkbahar ve sonbahar ise bu iki durum arasındaki geçiş dönemleridir.\n\nBunu bir el feneriyle deneyebilirsin. Feneri bir kâğıda dik tutarsan küçük ve parlak bir daire oluşur. Eğik tutarsan ışık geniş ve soluk bir alana yayılır.\n\nİlginç olan şu ki Türkiye'de yaz yaşanırken Avustralya'da kış yaşanır. Çünkü iki ülke farklı yarım kürelerdedir. Kuzey yarım küre Güneş'e doğru eğikken güney yarım küre Güneş'ten uzağa eğiktir. Bu yüzden Avustralya'daki çocuklar yılbaşını bazen denize girerek kutlar.",
+    "questions": [
+      {
+        "question": "Metne göre pek çok kişi mevsimlerin sebebi hakkında neyi yanlış düşünür?",
+        "options": ["Ay'ın Dünya'yı ısıttığını", "Dünya'nın Güneş'e yaklaşıp uzaklaştığını", "Rüzgârın mevsimleri getirdiğini", "Bulutların güneşi kapattığını"],
+        "correct": "b",
+        "explanation": "Metin, mevsimlerin Güneş'e yaklaşıp uzaklaşmaktan kaynaklanmadığını belirtiyor."
+      },
+      {
+        "question": "Dünya'nın ekseni yaklaşık kaç derece eğiktir?",
+        "options": ["5 derece", "45 derece", "90 derece", "23,5 derece"],
+        "correct": "d",
+        "explanation": "Metinde eksenin yaklaşık 23,5 derece eğik olduğu yazıyor."
+      },
+      {
+        "question": "Yazın havalar neden daha sıcaktır?",
+        "options": ["Güneş ışınları daha dik gelip yeri daha çok ısıttığı için", "Dünya daha hızlı döndüğü için", "Güneş daha büyük olduğu için", "Gece hiç olmadığı için"],
+        "correct": "a",
+        "explanation": "Dik gelen ışınlar yeri daha çok ısıtır ve günler de uzar."
+      },
+      {
+        "question": "El feneri deneyi neyi göstermektedir?",
+        "options": ["Fenerin pilinin ne kadar dayandığını", "Işığın renklerini", "Eğik gelen ışığın daha geniş alana yayılıp daha soluk olduğunu", "Kâğıdın ışığı yansıttığını"],
+        "correct": "c",
+        "explanation": "Eğik tutulan fenerin ışığı geniş ve soluk bir alana yayılır; kışın güneş ışınları da böyledir."
+      },
+      {
+        "question": "Türkiye'de yaz yaşanırken Avustralya'da neden kış yaşanır?",
+        "options": ["Avustralya Güneş'e daha uzak olduğu için", "İki ülke farklı yarım kürelerde olduğu için", "Avustralya'da hiç güneş doğmadığı için", "Avustralya çok küçük olduğu için"],
+        "correct": "b",
+        "explanation": "Bir yarım küre Güneş'e doğru eğikken diğeri Güneş'ten uzağa eğiktir."
+      }
+    ]
+  },
+  {
+    "slug": "geleneksel-turk-okculugu",
+    "title": "Geleneksel Türk Okçuluğu",
+    "category": "Spor",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Okçuluk, Türklerin binlerce yıldır uğraştığı bir spordur. Orta Asya'nın geniş bozkırlarında yaşayan Türkler için ok ve yay, hem avlanmak hem de kendini korumak için önemliydi. Usta atlı okçular, dörtnala giden atın üzerinden bile hedefi vurabiliyordu.\n\nTürk yayı, dünyanın en ünlü yaylarından biridir. Bu yay tek bir tahtadan yapılmaz. Ağaç, hayvan boynuzu ve hayvan sinirinin özel bir tutkalla birleştirilmesiyle hazırlanır. Bu parçaların her biri yaya farklı bir güç katar. Türk yayı kısa ve hafif olmasına rağmen oku çok uzaklara fırlatabilir. Bir yayın yapımı bazen bir yıldan uzun sürerdi, çünkü tutkalın ve katmanların kuruması için sabırla beklemek gerekirdi.\n\nOsmanlı döneminde İstanbul'da Okmeydanı adında büyük bir alan vardı. Okçular burada antrenman yapar ve menzil atışlarında yarışırdı. Menzil atışı, oku olabildiğince uzağa göndermeye dayanır. Bir okçu rekor kırdığında, okun düştüğü yere menzil taşı dikilirdi. Bu taşların bazıları bugün hâlâ durmaktadır.\n\nOkçuluk yalnızca bir spor olarak görülmezdi. Okçulardan sabırlı, dürüst ve saygılı olmaları beklenirdi. Usta okçular öğrencilerine atış tekniklerinin yanında bu değerleri de öğretirdi. Bir öğrencinin yayı eline alabilmesi için yıllarca çalışması ve ustasının iznini alması gerekirdi. Okçuların yay kirişini çekerken başparmaklarını korumak için taktıkları yüzüğe “zihgir” denirdi.\n\nGeleneksel Türk okçuluğu, 2019 yılında UNESCO'nun Somut Olmayan Kültürel Miras Listesi'ne alındı. Bugün pek çok kulüpte çocuklar ve yetişkinler bu köklü sporu öğrenmeye devam ediyor.",
+    "questions": [
+      {
+        "question": "Türk yayı hangi malzemelerden yapılır?",
+        "options": ["Sadece demirden", "Plastik ve camdan", "Tek bir tahtadan", "Ağaç, boynuz ve hayvan sinirinden"],
+        "correct": "d",
+        "explanation": "Türk yayı ağaç, boynuz ve sinirin özel tutkalla birleştirilmesiyle yapılır."
+      },
+      {
+        "question": "Okmeydanı hangi şehirdeydi?",
+        "options": ["İstanbul", "Bursa", "Konya", "Edirne"],
+        "correct": "a",
+        "explanation": "Metinde Osmanlı döneminde İstanbul'da Okmeydanı adında bir alan olduğu yazıyor."
+      },
+      {
+        "question": "Menzil taşı ne zaman dikilirdi?",
+        "options": ["Bir okçu ilk kez yay tuttuğunda", "Bir yay tamamlandığında", "Bir okçu rekor kırdığında, okun düştüğü yere", "Her bayramda meydanın ortasına"],
+        "correct": "c",
+        "explanation": "Rekor kırıldığında okun düştüğü yere menzil taşı dikilirdi."
+      },
+      {
+        "question": "Bir Türk yayının yapımı neden uzun sürerdi?",
+        "options": ["Ustalar çok yavaş çalıştığı için", "Tutkalın ve katmanların kuruması beklendiği için", "Malzemeler çok uzaktan geldiği için", "Yaylar çok büyük olduğu için"],
+        "correct": "b",
+        "explanation": "Tutkal ve katmanların kuruması için sabırla beklemek gerekirdi."
+      },
+      {
+        "question": "Metne göre geleneksel okçuluk neden yalnızca bir spor değildi?",
+        "options": ["Okçulara sabır, dürüstlük ve saygı gibi değerler de öğretilirdi.", "Okçular sadece para kazanmak için yarışırdı.", "Okçuluk yalnızca savaşta yapılırdı.", "Okçular hiç antrenman yapmazdı."],
+        "correct": "a",
+        "explanation": "Usta okçular atış tekniklerinin yanında sabır, dürüstlük ve saygıyı da öğretirdi."
+      }
+    ]
+  },
+  {
+    "slug": "ruzgar-turbinleri",
+    "title": "Rüzgâr Türbinleri",
+    "category": "Teknoloji",
+    "difficulty": 3,
+    "grade_level": 3,
+    "content": "Tepelerde ya da deniz kıyısında dev pervanelere benzeyen beyaz kuleler görmüşsündür. Bunlara rüzgâr türbini denir. Rüzgâr türbinleri, esen rüzgârın gücünü elektriğe dönüştüren makinelerdir.\n\nBir rüzgâr türbininin üç temel bölümü vardır: uzun bir kule, genellikle üç kanattan oluşan bir pervane ve kanatların arkasındaki makine gövdesi. Rüzgâr estiğinde kanatlara çarpar ve onları döndürür. Kanatlar, gövdenin içindeki bir mile bağlıdır. Dönen mil, jeneratör adı verilen bir makineyi çalıştırır. Jeneratör de hareketi elektriğe çevirir. Üretilen elektrik kablolarla şehirlere, evlere ve okullara ulaşır.\n\nTürbinler neden bu kadar yüksektir? Çünkü yerden yükseldikçe rüzgâr daha güçlü ve daha düzenli eser. Bazı türbinlerin kanatları elli metreden bile uzundur. Büyük kanatlar daha fazla rüzgâr yakalar ve daha çok elektrik üretir. Türbinin tepesindeki gövde, rüzgârın yönüne göre dönebilir. Böylece kanatlar her zaman rüzgârı en iyi yakalayacak şekilde durur. Fırtına çok şiddetlenirse türbin zarar görmemek için kendini durdurur.\n\nRüzgâr türbinlerinin en büyük faydası, elektrik üretirken havayı kirleten duman çıkarmamasıdır. Ayrıca rüzgâr tükenmeyen bir enerji kaynağıdır. Bu yüzden rüzgâr enerjisine yenilenebilir enerji denir. Ancak rüzgâr her zaman aynı hızda esmez. Rüzgâr durduğunda türbinler de durur. Bu nedenle rüzgâr enerjisi, güneş ve su gibi başka enerji kaynaklarıyla birlikte kullanılır.\n\nTürkiye'de özellikle Ege ve Marmara bölgelerinde, rüzgârın sık estiği yerlerde pek çok rüzgâr türbini bulunur. İzmir, Balıkesir ve Çanakkale bu yerlerden bazılarıdır.",
+    "questions": [
+      {
+        "question": "Türbinde hareketi elektriğe çeviren makinenin adı nedir?",
+        "options": ["Pervane", "Kule", "Jeneratör", "Kablo"],
+        "correct": "c",
+        "explanation": "Metinde dönen milin jeneratörü çalıştırdığı ve jeneratörün hareketi elektriğe çevirdiği yazıyor."
+      },
+      {
+        "question": "Rüzgâr türbinleri neden çok yüksek yapılır?",
+        "options": ["Yükseklerde rüzgâr daha güçlü ve düzenli estiği için", "Uzaktan güzel göründükleri için", "Kuşlar yakına gelmesin diye", "Yerde yeterli yer olmadığı için"],
+        "correct": "a",
+        "explanation": "Yerden yükseldikçe rüzgâr daha güçlü ve daha düzenli eser."
+      },
+      {
+        "question": "Rüzgâr türbinlerinin en büyük faydası nedir?",
+        "options": ["Çok sessiz çalışmaları", "Hiç bakım gerektirmemeleri", "Rüzgârı durdurmaları", "Havayı kirleten duman çıkarmadan elektrik üretmeleri"],
+        "correct": "d",
+        "explanation": "Metinde en büyük faydanın havayı kirletmeden elektrik üretmek olduğu yazıyor."
+      },
+      {
+        "question": "Rüzgâr enerjisi neden başka enerji kaynaklarıyla birlikte kullanılır?",
+        "options": ["Rüzgâr enerjisi çok tehlikeli olduğu için", "Rüzgâr her zaman aynı hızda esmediği için", "Türbinler yalnızca geceleri çalıştığı için", "Rüzgâr bir gün tükeneceği için"],
+        "correct": "b",
+        "explanation": "Rüzgâr durunca türbinler de durur; bu yüzden başka kaynaklar da gerekir."
+      }
+    ]
+  },
+  {
+    "slug": "uluslararasi-uzay-istasyonu",
+    "title": "Uluslararası Uzay İstasyonu",
+    "category": "Uzay",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Gece gökyüzüne baktığında hızla ilerleyen, yanıp sönmeyen parlak bir nokta görebilirsin. Bu nokta bir uçak değil, Uluslararası Uzay İstasyonu olabilir. İstasyon, Dünya'nın yaklaşık 400 kilometre yukarısında dolaşan dev bir laboratuvardır.\n\nUzay istasyonu tek bir parça hâlinde fırlatılmadı. İlk parçası 1998 yılında uzaya gönderildi. Ardından yıllar boyunca farklı roketlerle yeni bölümler taşındı ve bunlar uzayda birbirine eklendi. Bir yapboz gibi adım adım tamamlanan istasyon, bugün aşağı yukarı bir futbol sahası büyüklüğündedir. Amerika Birleşik Devletleri, Rusya, Japonya, Kanada ve birçok Avrupa ülkesi bu projede birlikte çalıştı.\n\nİstasyon, Dünya'nın çevresini yaklaşık 90 dakikada bir dolaşır. Bu nedenle içindeki astronotlar bir günde on altı kez gün doğumu ve gün batımı izler. İstasyonda insanlar ve eşyalar havada süzülür. Astronotlar uyku tulumlarını duvara bağlayarak uyur, yiyeceklerini özel paketlerden yer. Kaslarının ve kemiklerinin zayıflamaması için her gün yaklaşık iki saat spor yapmaları gerekir. İstasyonda su çok değerlidir. Bu yüzden astronotların nefesindeki nem ve kullanılmış su özel makinelerle temizlenerek yeniden içme suyuna dönüştürülür. Yiyecek, hava ve malzemeler ise Dünya'dan gönderilen kargo araçlarıyla düzenli olarak istasyona taşınır.\n\nAstronotlar burada Dünya'da yapılması zor olan pek çok deney gerçekleştirir. Bitkilerin ağırlıksız ortamda nasıl büyüdüğünü, insan vücudunun uzayda nasıl değiştiğini ve yeni malzemelerin nasıl davrandığını incelerler. Bu bilgiler, gelecekte Ay'a ve Mars'a yapılacak uzun yolculukların hazırlığına yardımcı olur.\n\n2024 yılının ocak ayında Alper Gezeravcı, Uluslararası Uzay İstasyonu'na giden ilk Türk astronot oldu. Gezeravcı istasyonda iki haftadan fazla kalarak birçok bilimsel deney yaptı.",
+    "questions": [
+      {
+        "question": "Uzay istasyonu Dünya'nın yaklaşık kaç kilometre yukarısında dolaşır?",
+        "options": ["40 kilometre", "400 kilometre", "4.000 kilometre", "40.000 kilometre"],
+        "correct": "b",
+        "explanation": "Metinde istasyonun yaklaşık 400 kilometre yukarıda dolaştığı yazıyor."
+      },
+      {
+        "question": "Uzay istasyonu nasıl kuruldu?",
+        "options": ["Tek bir roketle bütün hâlinde fırlatıldı.", "Ay'da yapılıp Dünya'nın çevresine getirildi.", "Tek bir ülke tarafından bir yılda yapıldı.", "Parça parça uzaya taşınıp orada birleştirildi."],
+        "correct": "d",
+        "explanation": "Bölümler yıllar boyunca farklı roketlerle taşındı ve uzayda birbirine eklendi."
+      },
+      {
+        "question": "Astronotlar bir günde neden on altı kez gün doğumu izler?",
+        "options": ["İstasyon Dünya'nın çevresini yaklaşık 90 dakikada bir dolaştığı için", "Uzayda Güneş çok hızlı hareket ettiği için", "İstasyonun pencereleri çok büyük olduğu için", "Astronotlar hiç uyumadığı için"],
+        "correct": "a",
+        "explanation": "Her 90 dakikalık turda bir gün doğumu ve bir gün batımı yaşanır."
+      },
+      {
+        "question": "Astronotların her gün spor yapması neden gereklidir?",
+        "options": ["Yarışmalara hazırlanmak için", "İstasyonu ısıtmak için", "Kaslarının ve kemiklerinin zayıflamaması için", "Uykularını getirmek için"],
+        "correct": "c",
+        "explanation": "Ağırlıksız ortamda kaslar ve kemikler zayıflayabildiği için spor yapmaları gerekir."
+      },
+      {
+        "question": "Uzay istasyonuna giden ilk Türk astronot kimdir?",
+        "options": ["Nasuh Mahruki", "Alper Gezeravcı", "Piri Reis", "Cahit Arf"],
+        "correct": "b",
+        "explanation": "Alper Gezeravcı 2024 yılının ocak ayında istasyona giden ilk Türk astronot oldu."
+      }
+    ]
+  },
+  {
+    "slug": "bitkiler-nasil-beslenir",
+    "title": "Bitkiler Nasıl Beslenir?",
+    "category": "Bilim",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Hayvanlar ve insanlar karnı acıktığında yemek yer. Peki bitkiler nasıl beslenir? Bir ağacın ağzı olmadığı hâlde nasıl büyüyüp kocaman olabildiğini hiç düşündün mü? Bitkiler besinlerini dışarıdan hazır almaz, onları kendileri üretir. Bu olaya fotosentez denir.\n\nFotosentez kelimesi “ışıkla birleştirme” anlamına gelir. Bu işlem için bitkinin üç şeye ihtiyacı vardır: güneş ışığı, su ve karbondioksit. Bitki, suyu kökleriyle topraktan emer. Su, gövdedeki ince borular sayesinde yapraklara kadar taşınır. Karbondioksit ise havada bulunan bir gazdır. Yaprakların yüzeyindeki gözle görülemeyecek kadar küçük deliklerden içeri girer.\n\nYapraklarda klorofil adında yeşil bir madde bulunur. Bitkilere yeşil rengini veren de budur. Klorofil, güneş ışığını yakalayan minik bir güneş paneli gibi çalışır. Bitki bu ışığın enerjisini kullanarak suyu ve karbondioksiti birleştirir ve şeker üretir. Bu şeker bitkinin besinidir. Bitki onu büyümek, çiçek açmak ve meyve vermek için kullanır. Hemen kullanmadığı şekeri ise nişastaya çevirerek köklerinde, tohumlarında ya da yumrularında saklar. Patatesin ve buğday tanesinin içindeki nişasta, bitkinin bu şekilde depoladığı besindir. Yani bir patates yediğimizde aslında güneş ışığıyla üretilmiş bir enerjiyi yemiş oluruz.\n\nFotosentez sırasında bitki, oksijen gazını da havaya bırakır. Soluduğumuz oksijenin önemli bir bölümü karadaki bitkilerden ve denizlerdeki minik yosunlardan gelir. Yani bitkiler yalnızca kendilerini değil, dolaylı olarak bütün canlıları besler. Yediğimiz sebzeler, meyveler ve tahıllar da fotosentez sayesinde oluşur.\n\nBir saksı bitkisini karanlık bir dolapta birkaç gün bırakırsan yapraklarının sararıp solduğunu görürsün. Çünkü ışık olmadan bitki kendi besinini üretemez.",
+    "questions": [
+      {
+        "question": "Fotosentez için bitkinin hangi üç şeye ihtiyacı vardır?",
+        "options": ["Güneş ışığı, su ve karbondioksit", "Toprak, taş ve kum", "Oksijen, şeker ve tuz", "Rüzgâr, kar ve gölge"],
+        "correct": "a",
+        "explanation": "Metinde fotosentez için güneş ışığı, su ve karbondioksit gerektiği yazıyor."
+      },
+      {
+        "question": "Klorofilin görevi nedir?",
+        "options": ["Suyu topraktan çekmek", "Bitkiyi böceklerden korumak", "Güneş ışığını yakalamak", "Kökleri büyütmek"],
+        "correct": "c",
+        "explanation": "Klorofil, güneş ışığını yakalayan minik bir güneş paneli gibi çalışır."
+      },
+      {
+        "question": "Su yapraklara nasıl ulaşır?",
+        "options": ["Yağmurla doğrudan yapraklara yağar.", "Havadan yaprak deliklerine girer.", "Çiçeklerden aşağı akar.", "Köklerle emilir ve gövdedeki ince borularla taşınır."],
+        "correct": "d",
+        "explanation": "Su kökler tarafından emilir ve gövdedeki borularla yapraklara taşınır."
+      },
+      {
+        "question": "Fotosentez sırasında bitki havaya hangi gazı bırakır?",
+        "options": ["Karbondioksit", "Oksijen", "Duman", "Buhar"],
+        "correct": "b",
+        "explanation": "Metinde bitkinin fotosentez sırasında oksijeni havaya bıraktığı yazıyor."
+      },
+      {
+        "question": "Karanlık dolapta bırakılan bitkinin yaprakları neden sararır?",
+        "options": ["Dolap çok soğuk olduğu için", "Bitki çok fazla su içtiği için", "Dolapta çok fazla oksijen olduğu için", "Işık olmadan bitki besinini üretemediği için"],
+        "correct": "d",
+        "explanation": "Fotosentez ışık gerektirir; ışıksız kalan bitki besin üretemez."
+      }
+    ]
+  },
+  {
+    "slug": "mimar-sinan",
+    "title": "Mimar Sinan",
+    "category": "Tarih",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Mimar Sinan, Türk tarihinin en büyük mimarlarından biridir. Yaklaşık 1490 yılında Kayseri yakınlarındaki Ağırnas köyünde doğdu. Gençliğinde İstanbul'a getirildi ve yeniçeri ocağına katıldı. Burada marangozluk ve yapı işlerini öğrendi.\n\nSinan, uzun yıllar orduyla birlikte seferlere katıldı. Bu seferlerde köprüler, gemiler ve başka yapılar inşa etti. Bir seferde ordunun geniş bir nehri geçmesi gerektiğinde, kısa sürede sağlam bir köprü kurarak herkesi şaşırttı. Gittiği yerlerde gördüğü binaları dikkatle inceledi ve onlardan pek çok şey öğrendi.\n\n1538 yılında Osmanlı Devleti'nin baş mimarı oldu. Bu görevi yaklaşık elli yıl boyunca sürdürdü. Bu süre içinde camiler, köprüler, medreseler, hamamlar, çeşmeler ve aşevleri dahil olmak üzere üç yüzden fazla eser yaptı. Onun yapılarının pek çoğu bugün hâlâ ayaktadır. Sinan tek başına çalışmazdı; yanında yetiştirdiği pek çok usta ve öğrenci vardı. Sultanahmet Camii'nin mimarı Sedefkâr Mehmed Ağa, onun ekolünden yetişen mimarlardandır. Böylece Sinan'ın bilgisi, öğrencileri aracılığıyla sonraki kuşaklara aktarıldı.\n\nSinan'ın en ünlü eserlerinden biri İstanbul'daki Süleymaniye Camii'dir. Ancak o, Edirne'deki Selimiye Camii'ni kendi ustalık eseri olarak görmüştür. Selimiye'nin kocaman kubbesi, taşıyıcı ayaklar üzerinde sanki havada duruyormuş gibi görünür. Sinan, yapılarında sesin iyi duyulmasına, içeriye bol ışık girmesine ve binaların depremlere dayanıklı olmasına da büyük önem verirdi.\n\nMimar Sinan 1588 yılında hayatını kaybetti. İstanbul'da, Süleymaniye Camii'nin yakınında kendi tasarladığı sade bir türbeye gömüldü. Aradan yüzyıllar geçmesine rağmen eserleri, mimarlık öğrencilerine ilham vermeye devam ediyor.",
+    "questions": [
+      {
+        "question": "Mimar Sinan nerede doğdu?",
+        "options": ["İstanbul'da", "Edirne'de", "Kayseri yakınlarındaki Ağırnas köyünde", "Bursa'da"],
+        "correct": "c",
+        "explanation": "Metinde Sinan'ın Kayseri yakınlarındaki Ağırnas köyünde doğduğu yazıyor."
+      },
+      {
+        "question": "Sinan orduyla katıldığı seferlerde neler yaptı?",
+        "options": ["Köprüler, gemiler ve başka yapılar inşa etti.", "Sadece kitap yazdı.", "Askerlere yemek pişirdi.", "Harita çizdi."],
+        "correct": "a",
+        "explanation": "Seferlerde köprüler, gemiler ve başka yapılar inşa ettiği anlatılıyor."
+      },
+      {
+        "question": "Sinan hangi eserini ustalık eseri olarak görmüştür?",
+        "options": ["Süleymaniye Camii", "Şehzade Camii", "Bir köprüyü", "Selimiye Camii"],
+        "correct": "d",
+        "explanation": "Metinde Sinan'ın Edirne'deki Selimiye Camii'ni ustalık eseri olarak gördüğü yazıyor."
+      },
+      {
+        "question": "Sinan baş mimarlığı döneminde yaklaşık kaç eser yaptı?",
+        "options": ["Otuzdan az", "Üç yüzden fazla", "Tam yüz", "Bin beş yüz"],
+        "correct": "b",
+        "explanation": "Metinde üç yüzden fazla eser yaptığı belirtiliyor."
+      },
+      {
+        "question": "Sinan'ın yapılarının pek çoğunun bugün hâlâ ayakta olmasının sebeplerinden biri ne olabilir?",
+        "options": ["Hiç kullanılmamış olmaları", "Çok küçük yapılmış olmaları", "Sinan'ın depreme dayanıklılığa önem vermesi", "Hepsinin yeniden yapılmış olması"],
+        "correct": "c",
+        "explanation": "Metinde Sinan'ın binaların depremlere dayanıklı olmasına önem verdiği anlatılıyor."
+      }
+    ]
+  },
+  {
+    "slug": "everest-tirmanisi",
+    "title": "Everest'e Tırmanış",
+    "category": "Keşif",
+    "difficulty": 4,
+    "grade_level": 4,
+    "content": "Everest, dünyanın en yüksek dağıdır. Asya'daki Himalaya Dağları'nda, Nepal ile Çin sınırında yer alır. Zirvesi deniz seviyesinden yaklaşık 8.849 metre yüksekliktedir. Bu, yolcu uçaklarının uçtuğu yüksekliğe oldukça yakındır.\n\nEverest'e tırmanmak çok zordur. Yükseldikçe hava soğur ve rüzgâr şiddetlenir. Zirvede sıcaklık eksi otuz derecenin altına düşebilir. Ama en büyük zorluk havanın incelmesidir. Yüksek yerlerde soluduğumuz havada daha az oksijen bulunur. Bu yüzden dağcılar çabucak yorulur, baş ağrısı çeker ve düşünmekte zorlanabilir. Birçok dağcı yanında oksijen tüpü taşır. Ayrıca özel kıyafetler, kalın eldivenler ve buzda kaymamak için ayakkabılarına takılan dişli demirler kullanırlar. Yol üzerindeki derin buz yarıklarını ise alüminyum merdivenler ve sabitlenmiş halatlar yardımıyla dikkatle geçerler.\n\nDağcılar, vücutlarının yüksekliğe alışması için acele etmez. Önce ana kampta birkaç hafta kalırlar. Sonra daha yüksekteki kamplara çıkıp tekrar aşağı inerler. Bu gidip gelmeler, vücudun az oksijene uyum sağlamasına yardım eder. Bu zorlu yolculukta onlara çoğu zaman Şerpalar eşlik eder. Şerpalar, Himalayalarda yaşayan ve dağları çok iyi tanıyan bir halktır.\n\nEverest'in zirvesine ilk kez 1953 yılında Yeni Zelandalı Edmund Hillary ile Şerpa dağcı Tenzing Norgay ulaştı. İkisi birlikte çalışarak ve birbirlerine güvenerek bu başarıyı elde etti. Türkiye'den Everest zirvesine ilk çıkan kişi ise 1995 yılında Nasuh Mahruki oldu.\n\nGünümüzde her yıl yüzlerce dağcı Everest'e tırmanmaya çalışıyor. Bu kalabalık, dağda çöp sorununu da beraberinde getirdi. Artık dağcılardan, yanlarında götürdükleri çöpleri geri getirmeleri isteniyor.",
+    "questions": [
+      {
+        "question": "Everest'in zirvesi deniz seviyesinden yaklaşık kaç metre yüksektir?",
+        "options": ["2.849 metre", "5.849 metre", "8.849 metre", "12.849 metre"],
+        "correct": "c",
+        "explanation": "Metinde zirvenin yaklaşık 8.849 metre yükseklikte olduğu yazıyor."
+      },
+      {
+        "question": "Metne göre Everest'e tırmanmanın en büyük zorluğu nedir?",
+        "options": ["Havadaki oksijenin azalması", "Yolların çok kalabalık olması", "Vahşi hayvanlar", "Dağın çok uzakta olması"],
+        "correct": "a",
+        "explanation": "Metinde en büyük zorluğun havanın incelmesi, yani oksijenin azalması olduğu belirtiliyor."
+      },
+      {
+        "question": "Dağcılar neden yüksek kamplara çıkıp tekrar aşağı iner?",
+        "options": ["Unuttukları eşyaları almak için", "Manzarayı izlemek için", "Şerpalarla buluşmak için", "Vücutlarının az oksijene uyum sağlaması için"],
+        "correct": "d",
+        "explanation": "Bu gidip gelmeler vücudun yüksekliğe ve az oksijene alışmasını sağlar."
+      },
+      {
+        "question": "Everest'in zirvesine ilk kez hangi yıl ulaşıldı?",
+        "options": ["1923", "1953", "1995", "2003"],
+        "correct": "b",
+        "explanation": "Edmund Hillary ve Tenzing Norgay zirveye 1953 yılında ulaştı."
+      },
+      {
+        "question": "Hillary ve Tenzing'in başarısı bize en çok neyi gösterir?",
+        "options": ["İş birliği ve güvenin zor hedeflere ulaştırdığını", "Dağcılığın kolay bir iş olduğunu", "Yalnız başına tırmanmanın daha iyi olduğunu", "Oksijen tüpüne gerek olmadığını"],
+        "correct": "a",
+        "explanation": "Metinde ikisinin birlikte çalışarak ve birbirine güvenerek başardığı vurgulanıyor."
+      }
+    ]
+  },
+  {
+    "slug": "kasgarli-mahmud-ve-divanu-lugatit-turk",
+    "title": "Kaşgarlı Mahmud ve Divanu Lugati't-Türk",
+    "category": "Tarih",
+    "difficulty": 5,
+    "grade_level": 4,
+    "content": "Yaklaşık bin yıl önce, Orta Asya'daki Kaşgar şehrinde yetişen Mahmud adında bir bilgin, hayatını Türk dilini araştırmaya adadı. Bugün onu Kaşgarlı Mahmud adıyla tanıyoruz. Onun yazdığı Divanu Lugati't-Türk, Türk dilinin bilinen en eski ve en önemli sözlüklerinden biri kabul edilir.\n\nKaşgarlı Mahmud, yaşadığı 11. yüzyılda Türkçenin giderek önem kazandığını görüyordu. Türkler geniş topraklarda etkili olmuştu ve başka milletler de bu dili öğrenmek istiyordu. Mahmud, özellikle Arapça konuşanların Türkçeyi öğrenebilmesi için kapsamlı bir eser hazırlamaya karar verdi. Kitabın adı, kabaca “Türk dillerinin divanı”, yani Türkçe kelimelerin bir araya toplandığı büyük bir kitap anlamına gelir.\n\nMahmud bu işi yalnızca masa başında yapmakla yetinmedi. Yıllarca Türk boylarının yaşadığı şehirleri, köyleri ve yaylaları dolaştı. İnsanlarla sohbet etti, aynı kelimenin farklı boylarda nasıl söylendiğini dikkatle not aldı. Böylece kelimelerin yalnızca kitaplardaki değil, insanların günlük konuşmasındaki hâlini de kayda geçirdi.\n\nEserini 1070'li yıllarda Bağdat'ta tamamladı. Divanu Lugati't-Türk'te binlerce kelimenin anlamının yanı sıra atasözleri, şiirler ve günlük hayata dair bilgiler de yer alır. Bu nedenle kitap, o dönemde yaşayan Türklerin neler yediğini, nasıl eğlendiğini ve nelere değer verdiğini anlatan bir hazine gibidir. Kitapta ayrıca Türk boylarının yaşadığı yerleri gösteren, yuvarlak biçimli bir dünya haritası da bulunur. Kaşgarlı Mahmud, kelimeleri açıklarken çoğu zaman bir atasözü ya da kısa bir şiirle örnek verir. Bu yöntem, okuyucunun kelimenin cümle içinde nasıl kullanıldığını kolayca kavramasını sağlar ve bugün de iyi sözlüklerde uygulanır.\n\nBu değerli eserin günümüze ulaşan yalnızca tek bir el yazması nüshası vardır. Bu nüsha, yüzyıllar sonra İstanbul'da bir sahafta bulunmuş ve bugün Millet Kütüphanesi'nde korunmaktadır. Kaşgarlı Mahmud'un sabırlı emeği sayesinde, bin yıl önce konuşulan Türkçeyi bugün hâlâ inceleyebiliyoruz.",
+    "questions": [
+      {
+        "question": "Kaşgarlı Mahmud Divanu Lugati't-Türk'ü hazırlarken özellikle kimlerin Türkçe öğrenmesini amaçlamıştı?",
+        "options": ["Çinlilerin", "Arapça konuşanların", "Avrupalıların", "Türk çocuklarının"],
+        "correct": "b",
+        "explanation": "Metinde Mahmud'un özellikle Arapça konuşanların Türkçeyi öğrenmesi için eseri hazırladığı yazıyor."
+      },
+      {
+        "question": "Kaşgarlı Mahmud kelimeleri nasıl topladı?",
+        "options": ["Eski kitapları kopyalayarak", "Başka bir sözlüğü çevirerek", "Öğrencilerine sorarak", "Türk boylarını dolaşıp insanların konuşmalarını not alarak"],
+        "correct": "d",
+        "explanation": "Yıllarca Türk boylarının yaşadığı yerleri dolaştı ve kelimeleri insanların ağzından not etti."
+      },
+      {
+        "question": "Divanu Lugati't-Türk'te kelimelerin anlamlarından başka neler bulunur?",
+        "options": ["Atasözleri, şiirler, günlük hayat bilgileri ve bir dünya haritası", "Matematik problemleri", "Yemek tarifleri ve resimli masallar", "Yalnızca kral listeleri"],
+        "correct": "a",
+        "explanation": "Kitapta atasözleri, şiirler, günlük hayata dair bilgiler ve yuvarlak bir dünya haritası vardır."
+      },
+      {
+        "question": "Eserin günümüze ulaşan nüshası hakkında hangisi doğrudur?",
+        "options": ["Yüzlerce nüshası vardır.", "Hiçbir nüshası kalmamıştır.", "Tek bir el yazması nüshası vardır ve Millet Kütüphanesi'nde korunur.", "Tek nüshası Bağdat'ta bir müzededir."],
+        "correct": "c",
+        "explanation": "Eserin tek el yazması nüshası İstanbul'da bulunmuş ve Millet Kütüphanesi'nde korunmaktadır."
+      },
+      {
+        "question": "Metinde kitabın bir hazineye benzetilmesinin sebebi nedir?",
+        "options": ["Kitabın altınla süslenmiş olması", "Kitabın çok pahalıya satılması", "Kitabın gizli bir yerde saklanmış olması", "Kitabın o dönemin Türklerinin yaşamını ve değerlerini de anlatması"],
+        "correct": "d",
+        "explanation": "Kitap kelimelerin yanında Türklerin ne yediğini, nasıl eğlendiğini ve neye değer verdiğini de anlatır."
+      }
+    ]
+  },
+  {
+    "slug": "okyanusun-derinlikleri",
+    "title": "Okyanusun Derinlikleri",
+    "category": "Keşif",
+    "difficulty": 5,
+    "grade_level": 4,
+    "content": "Dünya yüzeyinin üçte ikisinden fazlası okyanuslarla kaplıdır. Buna rağmen okyanus tabanının büyük bir bölümü hâlâ ayrıntılı olarak keşfedilmemiştir. Hatta okyanus tabanının haritası, Ay yüzeyinin haritası kadar ayrıntılı çıkarılamamıştır. Peki bu keşfi bu kadar zorlaştıran nedir?\n\nİlk zorluk karanlıktır. Güneş ışığı suya girdikçe yavaş yavaş zayıflar. Yaklaşık iki yüz metreden sonra ortam alacakaranlığa döner, bin metrenin altında ise neredeyse hiç ışık kalmaz. Bu derinliklerde bitkiler yaşayamaz, çünkü fotosentez için gereken ışık yoktur.\n\nİkinci zorluk basınçtır. Üstteki suyun ağırlığı, derine inildikçe her şeyin üzerine giderek daha fazla bastırır. Okyanusun en derin yerlerindeki basınç, başparmağımızın üzerinde birkaç tonluk bir yük taşımaya benzer. Bu yüzden derinlere yalnızca çok sağlam yapılmış özel denizaltılar ve robotlar inebilir.\n\nOkyanusların bilinen en derin noktası, Pasifik Okyanusu'ndaki Mariana Çukuru'nda yer alan Challenger Derinliği'dir. Burası yaklaşık 11 bin metre derinliktedir; yani Everest Dağı buraya yerleştirilse bile zirvesi suyun altında kalırdı. İnsanlar bu noktaya ilk kez 1960 yılında Trieste adlı dalış aracıyla ulaştı. Aracın içindeki iki kişi, dibe inmek için yaklaşık beş saat boyunca karanlığın içinde yavaşça alçaldı. Bugün ise bilim insanları çoğu zaman insansız robotlar gönderiyor; bu robotlar kameralarıyla görüntü çekiyor ve örnekler topluyor.\n\nBütün bu zor koşullara rağmen derinlikler cansız değildir. Karanlık sularda kendi ışığını üreten balıklar, denizanaları ve kalamarlar yaşar. Canlıların ışık üretmesine biyolüminesans denir. Örneğin fener balığı, başının önündeki ışıklı uzantıyla avını kendine çeker. Bazı bölgelerde ise okyanus tabanındaki sıcak su kaynaklarının çevresinde, güneş ışığına hiç ihtiyaç duymadan yaşayan canlı toplulukları bulunur.\n\nBilim insanları her yıl derinliklerde daha önce hiç görülmemiş yeni türler keşfediyor. Okyanuslar, Dünya'nın hâlâ sırlarla dolu en büyük keşif alanlarından biri olmaya devam ediyor.",
+    "questions": [
+      {
+        "question": "Okyanusun çok derin bölgelerinde neden bitki yaşamaz?",
+        "options": ["Su çok tuzlu olduğu için", "Balıklar bütün bitkileri yediği için", "Fotosentez için gereken güneş ışığı olmadığı için", "Su çok sıcak olduğu için"],
+        "correct": "c",
+        "explanation": "Bin metrenin altında neredeyse hiç ışık kalmaz; bitkiler ışık olmadan besin üretemez."
+      },
+      {
+        "question": "Challenger Derinliği yaklaşık kaç metre derinliktedir?",
+        "options": ["11 bin metre", "1 bin metre", "200 metre", "50 bin metre"],
+        "correct": "a",
+        "explanation": "Metinde Challenger Derinliği'nin yaklaşık 11 bin metre derinlikte olduğu yazıyor."
+      },
+      {
+        "question": "Metindeki Everest karşılaştırması neyi anlatmak için yapılmıştır?",
+        "options": ["Everest'in denizin içinde olduğunu", "Dağcıların dalış da yaptığını", "Everest'in aslında alçak bir dağ olduğunu", "Challenger Derinliği'nin Everest'in yüksekliğinden bile daha derin olduğunu"],
+        "correct": "d",
+        "explanation": "Everest buraya konsa bile zirvesi suyun altında kalırdı; yani çukur Everest'ten daha derindir."
+      },
+      {
+        "question": "Biyolüminesans nedir?",
+        "options": ["Suyun basıncı", "Canlıların kendi ışığını üretmesi", "Okyanus tabanının haritası", "Bir dalış aracının adı"],
+        "correct": "b",
+        "explanation": "Metinde canlıların ışık üretmesine biyolüminesans dendiği açıklanıyor."
+      },
+      {
+        "question": "Bu metnin ana fikri nedir?",
+        "options": ["Okyanuslar tamamen keşfedilmiştir.", "Derin denizlerde hiç canlı yaşamaz.", "Okyanus derinlikleri zor koşullarına rağmen canlılarla ve keşfedilmeyi bekleyen sırlarla doludur.", "Denizaltılar okyanusu kirletir."],
+        "correct": "c",
+        "explanation": "Metin karanlık ve basınç gibi zorlukları anlatırken derinliklerin canlılarla ve sırlarla dolu olduğunu vurguluyor."
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  // OkuHız – Cloudflare Workers (Free plan) yapılandırması.
+  // R2, KV, Durable Objects veya ücretli servis KULLANILMAZ. Sadece Workers + Static Assets + D1.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "okuhiz",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-01",
+  "observability": { "enabled": true },
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "okuhiz-db",
+      // scripts/setup-cloudflare.mjs tarafından Cloudflare'dan otomatik alınıp yazılır.
+      "database_id": "33606df9-7b0f-4dce-bd23-05dabc8dae2e",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
