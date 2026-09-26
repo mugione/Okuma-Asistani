@@ -66,6 +66,14 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 </td>
 <td width="50%" valign="top">
 
+### ⏱️ 1 Dakika Okuma Testi
+- Sözlü okuma akıcılığı ölçümü (ORF benzeri): çocuk 60 saniye sesli okur
+- Süre dolunca **sesli uyarı + titreşim**, metin donar, çocuk son okuduğu kelimeye dokunur
+- Süre dolmadan bitirirse "Bitirdim" ile süre durur, hız gerçek süreye göre hesaplanır
+- Yetişkin dinlediyse hata sayısı girilir → **dakikada doğru okunan kelime (WCPM)**
+- Sonuçlar backend'de hesaplanır ve doğrulanır; geçmiş, rekor ve ebeveyn panelinde tablo
+- XP: test +10 · rekor +10 · metni dakika dolmadan bitirme +5 · rozetler: İlk Dakika, Rekor Kırıcı, Düzenli Ölçüm, Dakikada 60 / 80 / 100 / 120
+
 ### 🎮 Kelime oyunları (6)
 - ✅ **Doğru mu Yanlış mı?** 90 saniyede kısa cümleleri oku, doğru/yanlış diye karar ver. Sessiz okuma akıcılığı testlerindeki (TOSREC) göreve dayanır; yanlış cevaplar net puandan düşer
 - 🔗 **Kelime Zinciri:** boşluksuz yazılmış kelimeleri ayır (`kedikuşbalık` → kedi · kuş · balık). Kelime tanıma akıcılığı testlerindeki (TOSWRF) göreve dayanır
@@ -83,7 +91,7 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 <td width="50%" valign="top">
 
 ### 🏆 Oyunlaştırma
-- ⭐ XP, 🌟 1–3 yıldız, 🔥 günlük seri, 🏅 15 rozet
+- ⭐ XP, 🌟 1–3 yıldız, 🔥 günlük seri, 🏅 22 rozet
 - 🚫 **Sıralama tablosu yok, çocuklar birbiriyle karşılaştırılmaz**
 - 🦊 8 hazır SVG avatar: baykuş, kedi, tilki, ayı, tavşan, panda, aslan, kurbağa
 
@@ -314,6 +322,9 @@ Tüm yanıtlar aynı biçimdedir:
 | `POST` | `/api/reading/:id/finish` | Süre (+ isteğe bağlı hata sayısı) → WPM, XP, tekrar karşılaştırması |
 | `POST` | `/api/reading/:id/answers` | Cevaplar → anlama skoru, yıldız, yeni hedef |
 | `POST` | `/api/games/result` | Oyun sonucu |
+| `POST` | `/api/minute/start` | 1 dakika testi başlat (seviyeye uygun metin seçilir) |
+| `POST` | `/api/minute/:id/finish` | Süre, okunan kelime, isteğe bağlı hata → WCPM, rekor, XP, rozet |
+| `GET` | `/api/children/:id/minute-tests` | 1 dakika testi geçmişi ve en iyi sonuç |
 
 </details>
 
@@ -336,7 +347,7 @@ okuhiz/
 <details>
 <summary><b>🗄️ Veritabanı tabloları</b></summary>
 
-`parents` · `auth_sessions` · `children` · `texts` · `questions` · `reading_sessions` · `question_answers` · `game_sessions` · `achievements` · `child_achievements` · `daily_stats`
+`parents` · `auth_sessions` · `children` · `texts` · `questions` · `reading_sessions` · `question_answers` · `game_sessions` · `minute_tests` · `achievements` · `child_achievements` · `daily_stats`
 
 `daily_stats`, okuma ve oyun oturumlarından her kayıtta yeniden hesaplanan bir özettir (`UNIQUE(child_id, date)`). Günler Türkiye saatine (UTC+3) göre belirlenir.
 

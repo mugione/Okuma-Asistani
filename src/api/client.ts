@@ -7,6 +7,9 @@ import type {
   FinishReadingResult,
   GameResultResponse,
   GameType,
+  MinuteTestHistory,
+  MinuteTestResult,
+  MinuteTestStart,
   Parent,
   ProgressData,
   ReadHistoryItem,
@@ -88,6 +91,10 @@ export const api = {
     request<FinishReadingResult>("POST", `/api/reading/${sessionId}/finish`, body),
   submitAnswers: (sessionId: string, answers: { questionId: number; selectedOption: string }[]) =>
     request<SubmitAnswersResult>("POST", `/api/reading/${sessionId}/answers`, { answers }),
+  startMinuteTest: (childId: string) => request<MinuteTestStart>("POST", "/api/minute/start", { childId }),
+  finishMinuteTest: (testId: string, body: { durationSeconds: number; wordsRead: number; errorCount?: number | null; finishedText: boolean }) =>
+    request<MinuteTestResult>("POST", `/api/minute/${testId}/finish`, body),
+  minuteHistory: (childId: string) => request<MinuteTestHistory>("GET", `/api/children/${childId}/minute-tests`),
   gameResult: (body: {
     childId: string;
     gameType: GameType;

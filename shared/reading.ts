@@ -129,6 +129,11 @@ export function calculateStars(comprehension: number | null, accuracy: number | 
   return 1;
 }
 
+/** 1 Dakika Okuma Testi. */
+export const MINUTE_TEST_SECONDS = 60;
+/** Süre dolunca bitirildiyse kabul edilen en kısa süre (saat farkı/gecikme payı). */
+export const MINUTE_TEST_MIN_TIMED_SECONDS = 55;
+
 export const XP = {
   readingCompleted: 10,
   comprehensionBonus: 10,
@@ -137,6 +142,9 @@ export const XP = {
   repeatReading: 5,
   gameCompleted: 5,
   gameAccuracyBonus: 5,
+  minuteTest: 10,
+  minuteRecord: 10,
+  minuteFinishedText: 5,
 } as const;
 
 /** Tekrarlı okumada ilk okumaya göre akıcılık artışı (%). */

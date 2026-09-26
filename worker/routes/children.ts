@@ -26,6 +26,7 @@ import {
 } from "../../shared/reading";
 import type { AppEnv } from "../env";
 import { loadChildForActor } from "../lib/access";
+import { minuteHistory } from "./minute";
 import { all, first, newId, nowIso } from "../lib/db";
 import { ApiError, notFound, ok, parse, readJson } from "../lib/http";
 
@@ -275,6 +276,11 @@ children.get("/:id/reading-history", async (c) => {
     child.id,
   );
   return ok(c, list);
+});
+
+children.get("/:id/minute-tests", async (c) => {
+  const child = await loadChildForActor(c, c.req.param("id"));
+  return ok(c, await minuteHistory(c.env.DB, child.id));
 });
 
 children.get("/:id/achievements", async (c) => {

@@ -153,8 +153,52 @@ function ChildDashboard({ child }: { child: Child }) {
         <Card className="text-center font-bold text-ink/55">Bu aralıkta henüz okuma yok.</Card>
       )}
 
+      <MinuteTestCard child={child} />
       <ChildSettings child={child} />
     </div>
+  );
+}
+
+/** 1 Dakika Okuma Testi sonuçları (tarih aralığından bağımsız, son 20 test). */
+function MinuteTestCard({ child }: { child: Child }) {
+  const { data } = useAsync(() => api.minuteHistory(child.id), [child.id]);
+  if (!data || data.count === 0) return null;
+  const last = data.items[0];
+  return (
+    <Card className="overflow-x-auto">
+      <h2 className="text-lg font-black">1 Dakika Okuma Testi</h2>
+      <p className="mb-3 text-sm font-semibold text-ink/55">
+        Sözlü okuma akıcılığı ölçümü: 1 dakikada okunan kelime sayısı. Hata sayısı girildiyse "doğru kelime/dk" gösterilir.
+        Tek bir sonuçtan çok, zaman içindeki eğilime bakın.
+      </p>
+      <div className="mb-3 grid grid-cols-3 gap-3">
+        <Tile icon={<Trophy className="size-4" />} label="En iyi" value={fmt(data.best)} />
+        <Tile icon={<Gauge className="size-4" />} label="Son test" value={fmt(last.wcpm)} />
+        <Tile icon={<BookOpen className="size-4" />} label="Test sayısı" value={String(data.count)} />
+      </div>
+      <table className="w-full min-w-[480px] text-left text-sm">
+        <thead className="text-ink/50">
+          <tr>
+            <th className="py-2 font-bold">Tarih</th>
+            <th className="font-bold">Metin</th>
+            <th className="text-right font-bold">Kelime</th>
+            <th className="text-right font-bold">Kelime/dk</th>
+            <th className="text-right font-bold">Doğruluk</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.items.slice(0, 10).map((m) => (
+            <tr key={m.id} className="border-t border-ink/5 font-semibold">
+              <td className="py-2 tabular-nums">{new Date(m.completed_at).toLocaleDateString("tr-TR", { day: "numeric", month: "short" })}</td>
+              <td>{m.title}{m.is_record ? " 🏆" : ""}</td>
+              <td className="text-right tabular-nums">{m.words_read}{m.finished_text ? " (tamamı)" : ""}</td>
+              <td className="text-right tabular-nums">{Math.round(m.wcpm)}</td>
+              <td className="text-right tabular-nums">{fmt(m.accuracy_percentage, "%")}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </Card>
   );
 }
 

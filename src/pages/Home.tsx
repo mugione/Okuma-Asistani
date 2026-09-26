@@ -1,4 +1,4 @@
-import { Award, BookOpen, Brain, Flame, Gamepad2, Gauge, Play, Star, Target, Trophy } from "lucide-react";
+import { Award, BookOpen, Brain, Flame, Gamepad2, Gauge, Play, Star, Target, Timer, Trophy } from "lucide-react";
 import { api } from "../api/client";
 import { InstallCard } from "../components/InstallCard";
 import { Layout } from "../components/Layout";
@@ -64,8 +64,9 @@ export function Home() {
             <Stat icon={<Trophy className="size-8 text-grape-500" />} value={data.totalStars} label="yıldız" />
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-2">
             <Tile to="/kutuphane" icon={<BookOpen className="size-9" />} title="Kütüphane" sub="Metin seç ve oku" tone="bg-coral-100 text-coral-700" />
+            <Tile to="/dakika-testi" icon={<Timer className="size-9" />} title="1 Dakika Testi" sub="Dakikada kaç kelime?" tone="bg-grape-100 text-grape-700" />
             <Tile to="/oyunlar" icon={<Gamepad2 className="size-9" />} title="Kelime Oyunları" sub="Göz ve dikkat" tone="bg-brand-50 text-brand-700" />
             <Tile to="/rozetler" icon={<Award className="size-9" />} title="Rozetlerim" sub="Kazandıkların" tone="bg-sun-100 text-sun-700" />
           </div>

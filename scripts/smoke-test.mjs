@@ -81,6 +81,14 @@ check("Çocuk profili güncelleme", upd.json.data?.avatar === "avatar-5", upd.js
 const today = await call("GET", `/api/children/${childId}/today`);
 check("Bugün ekranı", today.json.success && today.json.data.placementTextId, today.json);
 
+// 1 Dakika Testi: iki test şimdi başlar, gerçekçi süre geçtikten sonra bitirilir.
+const minuteStartedAt = Date.now();
+const m1 = await call("POST", "/api/minute/start", { childId });
+const m2 = await call("POST", "/api/minute/start", { childId });
+check("1 dakika testi başlatma", m1.status === 201 && m1.json.data?.seconds === 60 && m2.json.data?.text?.id !== m1.json.data?.text?.id, m1.json);
+const mEarly = await call("POST", `/api/minute/${m1.json.data.testId}/finish`, { durationSeconds: 30, wordsRead: 40, finishedText: false });
+check("1 dakika testi: süre dolmadan bitirilemez", mEarly.status === 400, mEarly.json);
+
 // Seviye testi
 const placementId = today.json.data.placementTextId;
 const placement = await call("GET", `/api/texts/${placementId}`);
@@ -126,10 +134,27 @@ const progress = await call("GET", `/api/children/${childId}/progress?range=30`)
 check("Gelişim serisi", progress.json.data?.points.length === 30 && progress.json.data.points.at(-1).wpm === expectedWpm, progress.json);
 const t2 = await call("GET", `/api/children/${childId}/today`);
 check("Günlük özet + seri", t2.json.data?.streak === 1 && t2.json.data.child.placement_completed === 1 && t2.json.data.today.trainingDone, t2.json);
+// 1 dakika testlerini bitir (süre dolması ≥55 sn gerektirir; sunucu geçen süreyi de kontrol eder).
+while (Date.now() - minuteStartedAt < 46_000) await sleep(500);
+const mTimed = await call("POST", `/api/minute/${m1.json.data.testId}/finish`, { durationSeconds: 60, wordsRead: 90, errorCount: 3, finishedText: false });
+check("1 dakika testi: süre dolunca (90 kelime, 3 hata → 87 doğru/dk)", mTimed.json.data?.wcpm === 87 && mTimed.json.data?.wpm === 90 && mTimed.json.data?.xpEarned >= 10, mTimed.json);
+const wc2 = m2.json.data.text.word_count;
+const badWords = await call("POST", `/api/minute/${m2.json.data.testId}/finish`, { durationSeconds: 55, wordsRead: wc2 - 5, finishedText: true });
+check("1 dakika testi: 'bitirdim' ise tüm kelimeler okunmuş olmalı", badWords.status === 400, badWords.json);
+const mDone = await call("POST", `/api/minute/${m2.json.data.testId}/finish`, { durationSeconds: 55, wordsRead: wc2, finishedText: true });
+check("1 dakika testi: metni erken bitirme + rekor", mDone.json.data?.finishedText === true && mDone.json.data?.isRecord === true && mDone.json.data?.previousBest === 87, mDone.json);
+const mh = await call("GET", `/api/children/${childId}/minute-tests`);
+check("1 dakika testi geçmişi", mh.json.data?.count === 2 && mh.json.data?.best === mDone.json.data?.wcpm, mh.json);
+
 const hist = await call("GET", `/api/children/${childId}/reading-history`);
 check("Okuma geçmişi (seviye testi hariç)", hist.json.success && Array.isArray(hist.json.data) && hist.json.data.length === 0, hist.json);
 const ach = await call("GET", `/api/children/${childId}/achievements`);
 check("Rozetler", ach.json.data?.some((a) => a.id === "first_reading" && a.earned_at), ach.json);
+check(
+  "1 dakika rozetleri (İlk Dakika, Rekor Kırıcı)",
+  ["minute_first", "minute_record", "minute_60"].every((id) => ach.json.data?.some((a) => a.id === id && a.earned_at)),
+  ach.json.data?.filter((a) => a.id.startsWith("minute")),
+);
 
 // Soru havuzu: normal okumada havuzdan QUESTIONS_PER_SESSION soru gelir.
 const poolText = texts.json.data.find((t) => t.slug === "kar-taneleri") ?? texts.json.data[1];

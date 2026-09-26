@@ -195,6 +195,46 @@ export interface ProgressData {
   recentSessions: RecentSession[];
 }
 
+export interface MinuteTestStart {
+  testId: string;
+  startedAt: string;
+  seconds: number;
+  text: { id: number; title: string; content: string; word_count: number; difficulty: number };
+}
+
+export interface MinuteTestResult {
+  testId: string;
+  wordsRead: number;
+  durationSeconds: number;
+  wpm: number;
+  wcpm: number;
+  accuracy: number | null;
+  finishedText: boolean;
+  isRecord: boolean;
+  previousBest: number | null;
+  previous: number | null;
+  xpEarned: number;
+  newAchievements: Achievement[];
+}
+
+export interface MinuteTestHistoryItem {
+  id: string;
+  title: string;
+  wcpm: number;
+  wpm: number;
+  accuracy_percentage: number | null;
+  words_read: number;
+  finished_text: number;
+  is_record: number;
+  completed_at: string;
+}
+
+export interface MinuteTestHistory {
+  best: number | null;
+  count: number;
+  items: MinuteTestHistoryItem[];
+}
+
 export type GameType = "word_catch" | "sentence_recall" | "missing_word" | "sentence_verify" | "word_chain" | "syllables";
 
 export interface GameResultResponse {

@@ -3,25 +3,31 @@ import {
   BookOpen,
   Brain,
   CalendarCheck,
+  CalendarClock,
   Compass,
   Flame,
   Footprints,
   Gamepad2,
+  Gauge,
   Library,
   Lightbulb,
   Moon,
   Mountain,
   Repeat,
+  Rocket,
   Star,
+  Timer,
   TrendingUp,
+  Trophy,
   Type,
+  Zap,
   type LucideIcon,
 } from "lucide-react";
 
 /** D1'de saklanan rozet ikon adlarını Lucide bileşenlerine eşler (yalnızca kullanılanlar paketlenir). */
 const ICONS: Record<string, LucideIcon> = {
-  BookOpen, Brain, CalendarCheck, Compass, Flame, Footprints, Gamepad2, Library, Lightbulb, Moon, Mountain, Repeat, Star,
-  TrendingUp, Type,
+  BookOpen, Brain, CalendarCheck, CalendarClock, Compass, Flame, Footprints, Gamepad2, Gauge, Library, Lightbulb, Moon,
+  Mountain, Repeat, Rocket, Star, Timer, TrendingUp, Trophy, Type, Zap,
 };
 
 export function AchievementIcon({ name, className }: { name: string; className?: string }) {

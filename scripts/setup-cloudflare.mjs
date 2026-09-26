@@ -206,6 +206,7 @@ wrangler(
     `DELETE FROM question_answers WHERE session_id IN (SELECT rs.id FROM reading_sessions rs JOIN children c ON c.id = rs.child_id JOIN parents p ON p.id = c.parent_id WHERE p.name = 'Duman Testi');
      DELETE FROM reading_sessions WHERE child_id IN (SELECT c.id FROM children c JOIN parents p ON p.id = c.parent_id WHERE p.name = 'Duman Testi');
      DELETE FROM game_sessions WHERE child_id IN (SELECT c.id FROM children c JOIN parents p ON p.id = c.parent_id WHERE p.name = 'Duman Testi');
+     DELETE FROM minute_tests WHERE child_id IN (SELECT c.id FROM children c JOIN parents p ON p.id = c.parent_id WHERE p.name = 'Duman Testi');
      DELETE FROM child_achievements WHERE child_id IN (SELECT c.id FROM children c JOIN parents p ON p.id = c.parent_id WHERE p.name = 'Duman Testi');
      DELETE FROM daily_stats WHERE child_id IN (SELECT c.id FROM children c JOIN parents p ON p.id = c.parent_id WHERE p.name = 'Duman Testi');
      DELETE FROM children WHERE parent_id IN (SELECT id FROM parents WHERE name = 'Duman Testi');

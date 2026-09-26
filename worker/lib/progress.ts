@@ -20,17 +20,19 @@ export function refreshDailyStatsStmt(db: D1Database, childId: string, date: str
       `INSERT INTO daily_stats (child_id, date, reading_minutes, words_read, sessions_completed,
          average_wpm, average_accuracy, average_comprehension, xp_earned)
        SELECT ?1, ?2,
-         (COALESCE(r.secs, 0) + COALESCE(g.secs, 0)) / 60.0,
-         COALESCE(r.words, 0), COALESCE(r.cnt, 0),
+         (COALESCE(r.secs, 0) + COALESCE(g.secs, 0) + COALESCE(m.secs, 0)) / 60.0,
+         COALESCE(r.words, 0) + COALESCE(m.words, 0), COALESCE(r.cnt, 0),
          r.avg_wpm, r.avg_acc, r.avg_comp,
-         COALESCE(r.xp, 0) + COALESCE(g.xp, 0)
+         COALESCE(r.xp, 0) + COALESCE(g.xp, 0) + COALESCE(m.xp, 0)
        FROM
          (SELECT SUM(duration_seconds) secs, SUM(word_count) words, COUNT(*) cnt,
                  ROUND(AVG(wpm), 1) avg_wpm, ROUND(AVG(accuracy_percentage), 1) avg_acc,
                  ROUND(AVG(comprehension_percentage), 1) avg_comp, SUM(xp_earned) xp
             FROM reading_sessions WHERE child_id = ?1 AND stat_date = ?2 AND completed_at IS NOT NULL) r,
          (SELECT SUM(duration_seconds) secs, SUM(xp_earned) xp
-            FROM game_sessions WHERE child_id = ?1 AND stat_date = ?2) g
+            FROM game_sessions WHERE child_id = ?1 AND stat_date = ?2) g,
+         (SELECT SUM(duration_seconds) secs, SUM(words_read) words, SUM(xp_earned) xp
+            FROM minute_tests WHERE child_id = ?1 AND stat_date = ?2 AND completed_at IS NOT NULL) m
        WHERE true -- SQLite: INSERT…SELECT ile ON CONFLICT arasındaki ayrıştırma belirsizliğini giderir
        ON CONFLICT (child_id, date) DO UPDATE SET
          reading_minutes = excluded.reading_minutes,
@@ -45,6 +47,9 @@ export function refreshDailyStatsStmt(db: D1Database, childId: string, date: str
 }
 
 interface Metrics {
+  minute_tests: number;
+  minute_records: number;
+  minute_best: number;
   readings: number;
   perfect_comprehension: number;
   good_comprehension: number;
@@ -65,6 +70,9 @@ export async function awardAchievements(
   const metrics = await first<Metrics>(
     db,
     `SELECT
+       (SELECT COUNT(*) FROM minute_tests WHERE child_id = ?1 AND completed_at IS NOT NULL) minute_tests,
+       (SELECT COUNT(*) FROM minute_tests WHERE child_id = ?1 AND is_record = 1) minute_records,
+       (SELECT COALESCE(MAX(wcpm), 0) FROM minute_tests WHERE child_id = ?1 AND completed_at IS NOT NULL) minute_best,
        (SELECT COUNT(*) FROM reading_sessions WHERE child_id = ?1 AND completed_at IS NOT NULL) readings,
        (SELECT COUNT(*) FROM reading_sessions WHERE child_id = ?1 AND comprehension_percentage >= 100) perfect_comprehension,
        (SELECT COUNT(*) FROM reading_sessions WHERE child_id = ?1 AND comprehension_percentage >= 80) good_comprehension,
