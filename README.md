@@ -58,21 +58,24 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 - **Seviye testi:** kısa bir metin ve 5 soruyla başlangıç hedefi belirlenir
 - **3 okuma modu**
   - 📄 *Normal:* çocuk kendi hızında okur
-  - 🖍️ *Kelime takip:* kelimeler hedef hızda vurgulanır; süre hece sayısına göre dağıtılır (uzun kelimeye daha çok süre), virgülde +150 ms, noktada +300 ms
-  - 🧩 *Kelime grupları:* seviyeye göre 2–4 kelimelik anlamlı gruplar
+  - 🖍️ *Kelime takip:* kelimeler hedef hızda vurgulanır; süre hece sayısına göre dağıtılır (uzun kelimeye daha çok süre), noktalamadan sonra hıza göre bekleme (virgülde en az 150 ms, cümle sonunda en az 300 ms; yavaş hızlarda orantılı olarak uzar, paragraf sonunda daha uzun)
+  - 🧩 *Kelime grupları:* metin Türkçe dil bilgisine göre anlam öbeklerine bölünür ([`shared/chunking.ts`](shared/chunking.ts)): noktalama, paragraf ve tırnak sınırları hiç aşılmaz; "bir/bu/her" ve sayılar sonraki kelimeden, "de/da, ki, mi, için, gibi, önce…" önceki kelimeden, birleşik fiiller ("ziyaret etmek") birbirinden ayrılmaz; zarf-fiil ve hâl ekleri doğal sınır sayılır. Öbek uzunluğu seviyeye göre 2–4 kelime. Kurallar 102 metnin tamamında otomatik testle doğrulanır
 - **Tekrarlı okuma:** aynı metin günde 3 kez okunabilir
   > *"İlk okumaya göre %21 daha akıcı okudun."*
 
 </td>
 <td width="50%" valign="top">
 
-### 🎮 Kelime oyunları
+### 🎮 Kelime oyunları (6)
+- ✅ **Doğru mu Yanlış mı?** 90 saniyede kısa cümleleri oku, doğru/yanlış diye karar ver. Sessiz okuma akıcılığı testlerindeki (TOSREC) göreve dayanır; yanlış cevaplar net puandan düşer
+- 🔗 **Kelime Zinciri:** boşluksuz yazılmış kelimeleri ayır (`kedikuşbalık` → kedi · kuş · balık). Kelime tanıma akıcılığı testlerindeki (TOSWRF) göreve dayanır
+- 🧱 **Heceleri Birleştir:** karışık heceleri sıraya diz. Heceler Türkçe kurallarına göre otomatik bölünür
 - 👁️ **Kelimeyi Yakala:** kelime kısa süre görünür; doğru bildikçe süre kısalır (250–1500 ms)
 - 💬 **Cümleyi Hatırla:** cümleyi oku, ayrıntıyı hatırla
 - 🧩 **Eksik Kelime:** boşluğa anlamca ve dilbilgisi olarak uyan kelimeyi seç
 
 ### ⏱️ Günlük antrenman (10 dk)
-2 dk oyun → 4 dk okuma → 2 dk tekrar → 2 dk sorular
+2 dk ısınma oyunu (her gün farklı) → 4 dk okuma → 2 dk tekrar → 2 dk sorular
 
 </td>
 </tr>
@@ -98,6 +101,12 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 <tr>
 <td width="50%" valign="top">
 
+### 🔑 Hesap ve cihazlar
+- **Kullanıcı adı + şifre**, e-posta gerekmez
+- Aynı hesapla telefon, tablet ve bilgisayardan gelişim takip edilir
+- İsterseniz hesapsız, "sadece bu cihaz" modunda başlayıp sonra hesap ekleyebilirsiniz
+- Şifre değiştirme (diğer cihazlardaki oturumları kapatır) ve çıkış
+
 ### 📱 PWA
 - Ana ekrana eklenir, tam ekran açılır
 - İnternet yokken de açılır (uygulama kabuğu önbellekte)
@@ -109,7 +118,8 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 ### 📚 İçerik
 - **101** özgün Türkçe metin (+ seviye testi) · **10** kategori
 - Uzay, Hayvanlar, Bilim, Doğa, Macera, Spor, Teknoloji, Günlük Yaşam, Tarih, Keşif
-- **447** anlama sorusu · **100** oyun maddesi · zorluk **1–5**
+- **846** anlama sorusu: her metnin 8–9 soruluk havuzu var, her okumada **5 soru** seçilir; tekrar okumada farklı sorular gelir
+- **530** oyun maddesi (150 kelime · 100 cümle · 100 eksik kelime · 180 doğru/yanlış cümlesi); kelime zinciri ve hece oyunları 600'ü aşkın kelimelik sözlükten otomatik üretilir
 - Kütüphanede okunan metinler ✅ farklı renkte, en iyi yıldızıyla gösterilir; "Yeni / Okuduklarım", zorluk ve kategori filtreleri
 
 </td>
@@ -258,13 +268,14 @@ workers.dev alt alanınız yoksa betik onu da kaydeder (Workers Scripts: Edit iz
 <tr><td>🧮</td><td><b>Skorlar backend'de hesaplanır.</b> İstemci yalnızca süreyi gönderir; WPM, D1'deki kelime sayısından hesaplanır. Doğru cevaplar istemciye hiç gönderilmez. 350 WPM üzeri okuma "metni atlama" sayılıp reddedilir.</td></tr>
 <tr><td>🛡️</td><td><b>Sıkı CSP ve güvenlik başlıkları:</b> satır içi betik yok, çerçeveleme yasak, <code>nosniff</code>, HSTS (<a href="public/_headers"><code>public/_headers</code></a>, <code>hono/secure-headers</code>).</td></tr>
 <tr><td>🚦</td><td><b>Kötüye kullanıma karşı:</b> IP başına hız sınırı, 16 KB istek sınırı, yazma isteklerinde <code>Origin</code> kontrolü, Zod doğrulaması, parametreli SQL.</td></tr>
+<tr><td>🔑</td><td><b>Şifreler:</b> PBKDF2-SHA256 + tuz + gizli "pepper" (Worker secret) ile saklanır. Oturum token'larının yalnızca SHA-256 özeti tutulur. Girişte IP ve kullanıcı adı başına deneme sınırı vardır; hatalı giriş mesajı kullanıcı adının var olup olmadığını belli etmez.</td></tr>
 <tr><td>👶</td><td><b>Veri minimizasyonu:</b> e-posta, şifre, ses kaydı ve fotoğraf toplanmaz. Üçüncü taraflara istek gitmez. Service worker çocuk verisini önbelleğe almaz.</td></tr>
 <tr><td>🔒</td><td><b>Gizli bilgiler repoda yok:</b> token yalnızca ortam değişkeninde veya <code>.env</code> dosyasında durur. CI secret kullanmaz ve deploy yapmaz.</td></tr>
 </table>
 
 Tehdit modeli ve açık bildirme için 👉 **[SECURITY.md](SECURITY.md)**
 
-> ⚠️ **MVP notu:** Şifre yoktur. Ebeveyn kimliği tarayıcıda saklanan, tahmin edilemeyen bir UUID'dir ve `X-Parent-Id` başlığıyla gönderilir. Cihaza erişen kişi o ailenin verilerini de görebilir. Gerçek kimlik doğrulama eklemek için yalnızca [`worker/index.ts`](worker/index.ts) ve [`worker/lib/access.ts`](worker/lib/access.ts) değişir.
+> ℹ️ **Hesapsız mod:** "Sadece bu cihaz" seçildiğinde şifre yoktur; aile kimliği tarayıcıda saklanan, tahmin edilemeyen bir UUID'dir (`X-Parent-Id`). Kullanıcı adı ve şifre belirlendiği anda bu kimlik geçersizleşir ve yalnızca oturum token'ı (`Authorization: Bearer`) kabul edilir.
 
 ---
 
@@ -283,7 +294,13 @@ Tüm yanıtlar aynı biçimdedir:
 | Yöntem | Yol | Açıklama |
 |:---:|---|---|
 | `GET` | `/api/health` | Sağlık durumu ve D1 bağlantısı |
-| `POST` | `/api/parents` | Aile oluştur (yalnızca ad) |
+| `POST` | `/api/auth/register` | Kullanıcı adı + şifreyle aile oluştur → oturum token'ı |
+| `POST` | `/api/auth/login` | Giriş → oturum token'ı |
+| `POST` | `/api/auth/credentials` | Hesapsız aileye kullanıcı adı ve şifre ekle |
+| `POST` | `/api/auth/password` | Şifre değiştir (diğer oturumlar kapanır) |
+| `POST` | `/api/auth/logout` | Çıkış (oturumu sil) |
+| `GET` | `/api/auth/me` | Oturumdaki aile ve çocukları |
+| `POST` | `/api/parents` | Hesapsız ("sadece bu cihaz") aile oluştur |
 | `GET` | `/api/parents/:id` | Aile ve çocukları |
 | `POST` | `/api/children` | Çocuk profili oluştur |
 | `GET` `PUT` | `/api/children/:id` | Profili getir / güncelle (ad, sınıf, avatar, hedef WPM) |
@@ -293,7 +310,7 @@ Tüm yanıtlar aynı biçimdedir:
 | `GET` | `/api/children/:id/reading-history` | Okunan metinler: kaç kez, en iyi hız ve anlama |
 | `GET` | `/api/children/:id/achievements` | Kazanılan ve kilitli rozetler |
 | `GET` | `/api/texts` · `/api/texts/:id` | Metin listesi / metin ve sorular (cevaplar hariç) |
-| `POST` | `/api/reading/start` | Okuma oturumu başlat |
+| `POST` | `/api/reading/start` | Okuma oturumu başlat → havuzdan seçilen 5 soru |
 | `POST` | `/api/reading/:id/finish` | Süre (+ isteğe bağlı hata sayısı) → WPM, XP, tekrar karşılaştırması |
 | `POST` | `/api/reading/:id/answers` | Cevaplar → anlama skoru, yıldız, yeni hedef |
 | `POST` | `/api/games/result` | Oyun sonucu |
@@ -319,7 +336,7 @@ okuhiz/
 <details>
 <summary><b>🗄️ Veritabanı tabloları</b></summary>
 
-`parents` · `children` · `texts` · `questions` · `reading_sessions` · `question_answers` · `game_sessions` · `achievements` · `child_achievements` · `daily_stats`
+`parents` · `auth_sessions` · `children` · `texts` · `questions` · `reading_sessions` · `question_answers` · `game_sessions` · `achievements` · `child_achievements` · `daily_stats`
 
 `daily_stats`, okuma ve oyun oturumlarından her kayıtta yeniden hesaplanan bir özettir (`UNIQUE(child_id, date)`). Günler Türkiye saatine (UTC+3) göre belirlenir.
 

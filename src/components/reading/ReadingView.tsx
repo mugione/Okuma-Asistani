@@ -52,10 +52,10 @@ export function ReadingView({ content, mode, targetWpm, level, onFinish, resumeS
       finish();
       return;
     }
-    const t = setTimeout(() => setStep((s) => s + 1), stepDuration(tokens, chunks[step], bases));
+    const t = setTimeout(() => setStep((s) => s + 1), stepDuration(tokens, chunks[step], bases, targetWpm));
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [paced, watch.running, step, chunks, tokens, bases]);
+  }, [paced, watch.running, step, chunks, tokens, bases, targetWpm]);
 
   useEffect(() => {
     activeRef.current?.scrollIntoView({ block: "center", behavior: "smooth" });

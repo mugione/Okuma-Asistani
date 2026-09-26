@@ -1,7 +1,11 @@
 import { CheckCircle2, PartyPopper } from "lucide-react";
 import { useState } from "react";
 import { api } from "../api/client";
+import type { GameSummary } from "../components/games/GameShell";
+import { SentenceVerify } from "../components/games/SentenceVerify";
+import { Syllables } from "../components/games/Syllables";
 import { WordCatch } from "../components/games/WordCatch";
+import { WordChain } from "../components/games/WordChain";
 import { Layout } from "../components/Layout";
 import { MODES } from "../components/reading/ModePicker";
 import { ReadingFlow } from "../components/reading/ReadingFlow";
@@ -37,9 +41,16 @@ export function Training() {
       {(today.loading || text.loading) && <Spinner />}
       {(today.error || text.error) && <ErrorBox message={today.error ?? text.error!} />}
 
-      {today.data && step === "game" && (
-        <WordCatch initialDisplayMs={today.data.wordCatchDisplayMs} rounds={10} doneLabel="Okumaya Geç" onDone={() => setStep("reading")} />
-      )}
+      {today.data && step === "game" && (() => {
+        // Isınma oyunu her gün değişir (≈2 dk).
+        const done = (_: GameSummary) => setStep("reading");
+        const level = child?.current_level ?? 2;
+        const day = Math.floor(Date.parse(`${today.data.date}T00:00:00Z`) / 86_400_000) % 4;
+        if (day === 1) return <SentenceVerify level={level} doneLabel="Okumaya Geç" onDone={done} />;
+        if (day === 2) return <WordChain level={level} rounds={6} doneLabel="Okumaya Geç" onDone={done} />;
+        if (day === 3) return <Syllables level={level} rounds={8} doneLabel="Okumaya Geç" onDone={done} />;
+        return <WordCatch initialDisplayMs={today.data.wordCatchDisplayMs} rounds={10} doneLabel="Okumaya Geç" onDone={done} />;
+      })()}
 
       {step === "reading" && text.data && (
         <>

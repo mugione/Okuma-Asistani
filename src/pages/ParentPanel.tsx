@@ -1,15 +1,15 @@
-import { BookOpen, Brain, Clock, Download, Gauge, Info, Lock, Plus, Share, Target, Trophy, Type } from "lucide-react";
+import { BookOpen, Brain, Clock, Gauge, Info, Lock, Plus, Target, Trophy, Type } from "lucide-react";
 import { useMemo, useState } from "react";
 import type { Child, StatsRange } from "../../shared/api-types";
 import { TARGET_WPM_MAX, TARGET_WPM_MIN } from "../../shared/reading";
 import { api } from "../api/client";
 import { AccountCard } from "../components/AccountCard";
+import { InstallCard } from "../components/InstallCard";
 import { Avatar, AvatarPicker } from "../components/Avatar";
 import { Layout } from "../components/Layout";
 import { ComprehensionChart, WpmChart } from "../components/ProgressCharts";
 import { Button, Card, ErrorBox, PageTitle, Spinner } from "../components/ui";
 import { useApp, useAsync } from "../lib/app-state";
-import { useInstallPrompt } from "../lib/pwa";
 import { Link } from "../lib/router";
 
 const RANGES: { id: StatsRange; label: string }[] = [
@@ -219,27 +219,6 @@ function ChildSettings({ child }: { child: Child }) {
   );
 }
 
-function InstallCard() {
-  const install = useInstallPrompt();
-  if (install.installed || (!install.canPrompt && !install.ios)) return null;
-  return (
-    <Card className="mb-4 flex flex-wrap items-center gap-3 !p-4">
-      <Download className="size-6 text-brand-600" aria-hidden />
-      <div className="min-w-0 flex-1">
-        <p className="font-black">OkuHız'ı ana ekrana ekleyin</p>
-        <p className="text-sm font-semibold text-ink/55">
-          {install.ios ? (
-            <>Safari'de <Share className="inline size-4 align-text-bottom" aria-label="Paylaş" /> düğmesine, ardından "Ana Ekrana Ekle"ye dokunun.</>
-          ) : (
-            "Uygulama gibi tam ekran açılır; internet yokken de açılabilir."
-          )}
-        </p>
-      </div>
-      {install.canPrompt && <Button size="sm" onClick={install.prompt}>Yükle</Button>}
-    </Card>
-  );
-}
-
 export function ParentPanel() {
   const { children, child: activeChild } = useApp();
   const [passed, setPassed] = useState(false);
@@ -268,7 +247,7 @@ export function ParentPanel() {
             </Link>
           </div>
           <AccountCard />
-          <InstallCard />
+          <InstallCard className="mb-4" />
           <Card className="mb-4 flex gap-3 !bg-grape-100 !p-4 text-sm font-semibold text-grape-700">
             <Info className="size-5 shrink-0" aria-hidden />
             <p>

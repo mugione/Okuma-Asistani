@@ -1,0 +1,904 @@
+{
+  "sentenceVerify": [
+    {
+      "sentence": "Balıklar yüzgeçleriyle yüzer.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Kar çok sıcaktır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Kuşların kanatları vardır.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Balıklar ağaçlarda yuva yapar.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Köpekler havlayarak ses çıkarır.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Güneş geceleri doğar.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Kar beyaz renklidir.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Yılanların uzun bacakları vardır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Yıldızlar gökyüzünde parlar.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Tavşanlar kanat çırparak uçar.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Buz çok soğuktur.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Şeker tuzlu bir yiyecektir.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Ateş çok sıcaktır.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Burnumuzla müzik dinleriz.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "İnekler süt verir.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Bir yılda üç gün vardır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Atlar hızlı koşar.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Dondurma çok sıcaktır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "İnsanın iki gözü vardır.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Sandalyeler şarkı söyler.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Limon ekşi bir meyvedir.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Kalemle saçımızı tarayız.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Bal tatlı bir yiyecektir.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Trenler gökyüzünde uçar.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Gece gökyüzü karanlıktır.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Şapkayı ayağımıza takarız.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Tavuklar yumurta yumurtlar.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Domates mavi renklidir.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Yağmur buluttan yağar.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Elma bir hayvandır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Kulaklarımızla sesleri duyarız.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Köpekler kitap okur.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Gözlerimizle etrafı görürüz.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Uçurtmalar denizin dibinde uçar.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Ağaçların yaprakları olur.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Portakal kare şeklindedir.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Kalemle yazı yazarız.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "İnekler yumurta yumurtlar.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Koyunlar yün verir.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Kaplumbağalar çok hızlı koşar.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Bir haftada yedi gün vardır.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Bebekler dedelerden yaşlıdır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Tavşanlar havuç yer.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Taş çok yumuşaktır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Çimenler yeşil renklidir.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Bir elimizde on parmak vardır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Uçaklar gökyüzünde uçar.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Buzdolabı yiyecekleri pişirir.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Fil çok büyük bir hayvandır.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Makasla su içeriz.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Ayakkabıyı ayağımıza giyeriz.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Ağaçlar yürüyerek gezer.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Su içince susuzluğumuz geçer.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Kardan adam güneşte büyür.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Kurbağalar zıplayarak ilerler.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Arılar süt verir.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Yazın hava sıcak olur.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Tüy taştan ağırdır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Karınca küçük bir böcektir.",
+      "answer": true,
+      "level": 1
+    },
+    {
+      "sentence": "Balonlar taştan yapılır.",
+      "answer": false,
+      "level": 1
+    },
+    {
+      "sentence": "Kışın hava genellikle yazdan daha soğuk olur.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Tavşanlar yuvalarını bulutların üstüne yapar.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Balıklar suyun içinde yaşar ve yüzer.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Buz sıcak fırının içinde daha da büyür.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Kuşlar yuvalarını çoğunlukla ağaç dallarına yapar.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Sınıfta tahtaya kalem yerine kaşıkla yazarız.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Buz sıcak bir yerde kısa sürede erir.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Yağmur yağınca yerler tamamen kupkuru olur.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Dişlerimizi diş fırçası ile temizleriz.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Kışın ağaçların dallarında kocaman karpuzlar yetişir.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Kedilerin yumuşak tüyleri ve bıyıkları vardır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Otobüsler su altında balıklar gibi yüzer.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Öğretmenler okulda öğrencilere ders anlatır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Çorbayı içmek için çatal kullanırız.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Şemsiye bizi yağmurdan korumaya yarar.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Salyangozlar arabalardan daha hızlı gider.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Güneş sabah doğar, akşam batar.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Kediler sabahları horoz gibi öterek bizi uyandırır.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Sonbaharda ağaçların yaprakları sararıp dökülür.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Kışın kar yağınca insanlar denize girip güneşlenir.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "İlkbaharda bahçelerde birçok renkli çiçek açar.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Karınca, atlardan çok daha ağır bir hayvandır.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Bisikletlerin genellikle iki tekerleği vardır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Bebekler doğar doğmaz koşup konuşmaya başlar.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Ekmek undan yapılan bir yiyecektir.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Kar taneleri yazın sıcak günlerde yağar.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Kaplumbağalar sırtlarında sert bir kabuk taşır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Peynir, tahtadan yapılan bir yiyecektir.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Köpekler kuyruklarını sallayarak sevindiklerini gösterir.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Resim çizmek için kalem yerine çorba kullanırız.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Yazın insanlar genellikle ince giysiler giyer.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Ördekler gölde yüzmek yerine ağaçta meyve toplar.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Aslan, kediden çok daha büyük bir hayvandır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Balinalar küçük bir kavanozun içine sığar.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Çoğu insan gece uyur ve sabah uyanır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Portakallar ağaç yerine denizin dibinde yetişir.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Su kaynayınca buhar olup havaya yükselir.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Tencere ile saçımızı düzgünce tararız.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Sütten peynir ve yoğurt yapılır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Kulaklarımızla renkleri ve resimleri görürüz.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Kitapları okumak için harfleri bilmemiz gerekir.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Bir saatte yalnızca iki dakika vardır.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Örümcekler ağ örerek böcek yakalar.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Televizyonu açmak için onu suyla doldururuz.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Denizlerin suyu tuzlu bir tada sahiptir.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Kelebekler uçmak için tekerleklerini kullanır.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Portakal suyu portakal sıkılarak yapılır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Tavuklar ağaçta portakal gibi yetişir.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Makas ile kâğıdı kolayca ikiye kesebiliriz.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Atlar ahırda uyumak yerine bulutların üstünde uyur.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Koşunca kalbimiz daha hızlı atmaya başlar.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Buzdolabının içi yanan fırından daha sıcaktır.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Bir yılda on iki ay vardır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Kar yağınca yerler kırmızıya boyanır.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Buzdolabı yiyecekleri soğuk tutmaya yarar.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Ağaçlar köklerini gökyüzüne doğru uzatır.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Karanlıkta görmek için lambayı yakarız.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Ayakkabılarımızı ellerimize eldiven gibi giyeriz.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Kelebeklerin çok renkli ve ince kanatları vardır.",
+      "answer": true,
+      "level": 2
+    },
+    {
+      "sentence": "Karpuzun içi taş gibi sert ve kurudur.",
+      "answer": false,
+      "level": 2
+    },
+    {
+      "sentence": "Arılar, çiçeklerden topladıkları nektarı kovanlarında tatlı bir bala dönüştürür.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Fırının içine koyduğumuz buz kalıpları pişince sıcak bir ekmeğe dönüşür.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Kışın hava soğuk olduğu için dışarı çıkarken kalın montlarımızı giyeriz.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Yağmur yağdıktan sonra gökyüzünde bazen kocaman bir fil sürüsü uçar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Güneş battıktan sonra hava yavaş yavaş kararır ve gece başlar.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Okul çantamızı sırtımıza değil, başımızın üstüne şapka gibi takarız.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Tohumlar toprağa ekilip sulanınca zamanla filizlenerek büyümeye başlar.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Kediler geceleri ağaçlara tırmanıp kuşlar gibi yumurta yumurtlar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Bir bardak suyu buzluğa koyarsak bir süre sonra buza dönüşür.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Yemek yedikten sonra dişlerimizi fırçalamak için tarak kullanırız.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Bebekler büyüdükçe boyları uzar ve yavaş yavaş konuşmayı öğrenirler.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Bir kitabı okumak için sayfalarını makasla kesip suya atarız.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Yağmur yağdıktan sonra bazen gökyüzünde renkli bir gökkuşağı görebiliriz.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Bir ağacın yaprakları, sonbaharda dökülünce hemen kuşlara dönüşüp uçar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Tırtıllar bir süre kozada kaldıktan sonra rengarenk kelebeklere dönüşür.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Karpuzlar, yazın güneşli günlerde gökyüzünden yağmur gibi yağar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Sıcak bir çorbayı içmeden önce biraz soğumasını bekleriz.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "İnekler çayırda otladıktan sonra kanatlarını açıp gökyüzüne doğru uçar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Anne kuşlar, yumurtadan yeni çıkan yavrularını gagalarıyla besler.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Sabahları ayakkabılarımızı giymeden önce içlerine sıcak çorba doldururuz.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Okulda teneffüs zili çalınca öğrenciler bahçeye çıkıp oyun oynar.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Karanlık bir odada bir şeyi görmek için ışığı kapatıp gözlerimizi yumarız.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Denizde yüzen gemiler insanları ve yükleri bir yerden başka yere taşır.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Küçük karıncalar koca filleri sırtlarına alarak yuvalarına kadar taşır.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Kar yağdığında çocuklar kardan adam yapıp kartopu oynayabilir.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Sabah kahvaltısında içtiğimiz süt, tavukların verdiği bir içecektir.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Ellerimizi sabunla yıkamak, üzerlerindeki kiri ve mikropları temizler.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Bir haftanın içinde otuz tane pazartesi günü bulunur.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Zürafalar uzun boyunları sayesinde ağaçların en üstteki yapraklarını yiyebilir.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Bahçedeki çiçekler, akşam olunca köklerinden çıkıp evlere yürüyerek gider.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Uçaklar, insanları çok uzak şehirlere kısa sürede götürebilen araçlardır.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Oyun parkındaki kaydıraktan kayan çocuklar aşağı değil, yukarı doğru kayar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Dolunay olduğu geceler Ay gökyüzünde yuvarlak bir tabak gibi görünür.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Fareler, kocaman filleri görünce onları kolayca yakalayıp yer.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Ağaçlar büyüdükçe gövdeleri kalınlaşır ve dalları daha da uzar.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Ekmeği kesmek için bıçak yerine yumuşak bir yastık kullanırız.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "İnsanlar kitap okuyarak yeni bilgiler öğrenir ve farklı hikâyeler keşfeder.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Kuşlar kanatlarını çırparak değil, kulaklarını sallayarak havada uçar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Filler, hortumlarını kullanarak su içer ve yiyeceklerini ağızlarına götürür.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Yağmur damlaları yere düşünce hemen şekere dönüşüp tatlı bir tat bırakır.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Dondurmayı güneşin altında uzun süre bırakırsak eriyip sulanır.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Güneşli bir yaz gününde gölgede durmak güneşin altından daha sıcaktır.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Bisiklete binen biri, pedalları ayaklarıyla çevirerek ileri doğru gider.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Deniz kenarındaki kumlar, dalgalar vurunca ateş gibi alev alıp yanar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Kalemimizin ucu körelince kalemtıraşla açarak yeniden sivri yaparız.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Evin çatısında biriken kar, güneş açınca eriyip sıcak çaya dönüşür.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Horozlar genellikle sabahın erken saatlerinde yüksek sesle öter.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Bir bardak suyun içine buz atınca su daha sıcak hâle gelir.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Çiçeklerin büyüyebilmesi için suya, toprağa ve güneş ışığına ihtiyaçları vardır.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Oyuncak ayılar geceleri kalkıp mutfakta yemek pişirerek kahvaltı hazırlar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Gözlerimizi sıkıca kapattığımız zaman odadaki eşyaları artık göremeyiz.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Bir limonu sıkınca içinden ekşi su yerine sıcak çikolata akar.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Kışın göllerin üzeri donduğunda buzun üstü çok kaygan olur.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Kaplumbağalar sırtlarındaki kabuğu çıkarıp gece yatarken yorgan gibi örtünür.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Tuz ve şeker birbirine benzese de tatları çok farklıdır.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Sokaktaki arabalar benzin yerine çiçek yiyerek hızlıca yol alır.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Kirlenen çamaşırlar çamaşır makinesinde su ve deterjanla yıkanır.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Denize girip yüzdükten sonra saçlarımız ıslanmaz, tamamen kuru kalır.",
+      "answer": false,
+      "level": 3
+    },
+    {
+      "sentence": "Saatin akrebi ve yelkovanı dönerek bize zamanı gösterir.",
+      "answer": true,
+      "level": 3
+    },
+    {
+      "sentence": "Ayılar, arılar gibi küçük olup çiçekten çiçeğe uçarak bal toplar.",
+      "answer": false,
+      "level": 3
+    }
+  ]
+}

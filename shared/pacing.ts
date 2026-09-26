@@ -1,7 +1,7 @@
 /** Kelime takip ve kelime grupları modları için zamanlama yardımcıları. */
+import { buildPhraseChunks, chunkSizeForLevel, endPunctuation } from "./chunking";
 
-export const COMMA_DELAY_MS = 150;
-export const SENTENCE_DELAY_MS = 300;
+export { chunkSizeForLevel };
 
 export interface Token {
   /** Ekranda gösterilecek kelime (noktalama dahil). */
@@ -21,11 +21,29 @@ export function msPerWord(targetWpm: number): number {
   return Math.round(60000 / Math.max(targetWpm, 1));
 }
 
-export function punctuationDelay(word: string): number {
-  const stripped = word.replace(/["'”’»)\]]+$/, "");
-  if (/[.!?…]$/.test(stripped)) return SENTENCE_DELAY_MS;
-  if (/[,;:]$/.test(stripped)) return COMMA_DELAY_MS;
-  return 0;
+/** En az beklemeler (100 kelime/dk'da bu değerler kullanılır). */
+export const COMMA_DELAY_MS = 150;
+export const SENTENCE_DELAY_MS = 300;
+
+/**
+ * Noktalamadan sonraki bekleme. Okuma araştırmalarında yan cümle ve özellikle cümle sonlarında
+ * ek bakma süresi ("wrap-up" etkisi) görülür; bu süre okuma hızıyla orantılıdır. Bu yüzden
+ * bekleme kelime süresinin bir oranıdır, ama aşağıdaki en az değerlerin altına inmez:
+ *   virgül, noktalı virgül, iki nokta : max(150 ms, kelime süresi × 0,25)
+ *   nokta, soru, ünlem, üç nokta      : max(300 ms, kelime süresi × 0,5)
+ *   paragraf sonu                    : cümle sonu + kelime süresi × 0,5
+ */
+export function pauseAfter(tokens: Token[], index: number, targetWpm: number): number {
+  const base = msPerWord(targetWpm);
+  const token = tokens[index];
+  const kind = endPunctuation(token.text);
+  const next = tokens[index + 1];
+  const paragraphEnd = !next || next.paragraph !== token.paragraph;
+  let pause = 0;
+  if (kind === "sentence" || paragraphEnd) pause = Math.max(SENTENCE_DELAY_MS, Math.round(base * 0.5));
+  else if (kind === "clause") pause = Math.max(COMMA_DELAY_MS, Math.round(base * 0.25));
+  if (paragraphEnd && next) pause += Math.round(base * 0.5);
+  return pause;
 }
 
 /** Türkçede hece sayısı ünlü sayısına eşittir (her hecede tam bir ünlü bulunur). */
@@ -49,48 +67,12 @@ export function wordBaseDurations(tokens: Token[], targetWpm: number): number[] 
   return syllables.map((s) => Math.round(base * (0.5 + 0.5 * (s / mean))));
 }
 
-/** Tek kelime (kelime takip) veya kelime grubu için adım süresi. */
-export function stepDuration(tokens: Token[], step: number[], bases: number[]): number {
-  const last = tokens[step[step.length - 1]];
-  return step.reduce((sum, i) => sum + bases[i], 0) + punctuationDelay(last.text);
+/** Tek kelime (kelime takip) veya kelime grubu için adım süresi: kelime süreleri + son kelimeden sonraki bekleme. */
+export function stepDuration(tokens: Token[], step: number[], bases: number[], targetWpm: number): number {
+  return step.reduce((sum, i) => sum + bases[i], 0) + pauseAfter(tokens, step[step.length - 1], targetWpm);
 }
 
-/** Seviyeye göre grup büyüklüğü: 1–2 → 2 kelime, 3–4 → 3 kelime, 5 → 4 kelime. */
-export function chunkSizeForLevel(level: number): number {
-  if (level <= 2) return 2;
-  if (level <= 4) return 3;
-  return 4;
-}
-
-/**
- * Kelimeleri anlamlı gruplara ayırır: gruplar cümle sonunu, virgülü ve paragrafı aşmaz.
- * Tek kelimelik artıkları mümkünse bir önceki gruba ekler.
- * Dönen değer: her grup için token indeksleri.
- */
+/** Anlam öbekleri (bkz. chunking.ts). */
 export function buildChunks(tokens: Token[], size: number): number[][] {
-  const chunks: number[][] = [];
-  let current: number[] = [];
-  const flush = () => {
-    if (!current.length) return;
-    const prev = chunks[chunks.length - 1];
-    const prevLast = prev ? tokens[prev[prev.length - 1]] : undefined;
-    const canMerge =
-      current.length === 1 &&
-      prev &&
-      prev.length < size + 1 &&
-      prevLast &&
-      prevLast.paragraph === tokens[current[0]].paragraph &&
-      punctuationDelay(prevLast.text) === 0;
-    if (canMerge) prev.push(...current);
-    else chunks.push(current);
-    current = [];
-  };
-  tokens.forEach((t, i) => {
-    if (current.length && tokens[current[0]].paragraph !== t.paragraph) flush();
-    current.push(i);
-    if (current.length >= size || punctuationDelay(t.text) > 0) flush();
-  });
-  flush();
-  return chunks;
+  return buildPhraseChunks(tokens, size);
 }
-

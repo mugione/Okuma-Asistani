@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { load, save } from "./storage";
 
 /** Yeni sürüm hazır olduğunda (okumayı bölmemek için sayfa kendiliğinden yenilenmez). */
 const UPDATE_EVENT = "okuhiz:update-ready";
@@ -55,6 +56,8 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
 }
 
+/** Bu tarayıcıda yükleme yapıldı mı (tarayıcı sekmesinde de kartı gizlemek için). */
+const INSTALLED_KEY = "okuhiz.installed";
 let deferredPrompt: BeforeInstallPromptEvent | null = null;
 const listeners = new Set<() => void>();
 if (typeof window !== "undefined") {
@@ -65,6 +68,7 @@ if (typeof window !== "undefined") {
   });
   window.addEventListener("appinstalled", () => {
     deferredPrompt = null;
+    save(INSTALLED_KEY, "1");
     listeners.forEach((l) => l());
   });
 }
@@ -75,13 +79,22 @@ export function useInstallPrompt() {
   useEffect(() => {
     const l = () => force((n) => n + 1);
     listeners.add(l);
-    return () => void listeners.delete(l);
+    const mq = window.matchMedia?.("(display-mode: standalone)");
+    mq?.addEventListener?.("change", l);
+    return () => {
+      listeners.delete(l);
+      mq?.removeEventListener?.("change", l);
+    };
   }, []);
   const standalone =
-    window.matchMedia?.("(display-mode: standalone)").matches || (navigator as { standalone?: boolean }).standalone === true;
-  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+    window.matchMedia?.("(display-mode: standalone)").matches ||
+    window.matchMedia?.("(display-mode: fullscreen)").matches ||
+    (navigator as { standalone?: boolean }).standalone === true;
+  // iPadOS 13+ kendini masaüstü Safari olarak tanıtır; dokunmatik Mac yoktur.
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (/Macintosh/.test(navigator.userAgent) && navigator.maxTouchPoints > 1);
   return {
-    installed: standalone,
+    /** Uygulama olarak açılmış ya da bu tarayıcıda yüklenmiş. */
+    installed: standalone || load(INSTALLED_KEY) === "1",
     canPrompt: !!deferredPrompt,
     ios,
     prompt: async () => {

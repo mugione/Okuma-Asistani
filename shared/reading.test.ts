@@ -12,7 +12,7 @@ import {
   TARGET_WPM_MAX,
   TARGET_WPM_MIN,
 } from "./reading";
-import { buildChunks, stepDuration, syllableCount, tokenize, wordBaseDurations } from "./pacing";
+import { pauseAfter, stepDuration, syllableCount, tokenize, wordBaseDurations } from "./pacing";
 
 describe("calculateWpm", () => {
   it("180 kelime / 120 sn = 90 WPM", () => expect(calculateWpm(180, 120)).toBe(90));
@@ -102,9 +102,9 @@ describe("pacing", () => {
   it("100 WPM: ortalama hecedeki kelime 600 ms, virgül +150, nokta +300", () => {
     const tokens = tokenize("Ali bugün, erken gitti.");
     const bases = wordBaseDurations(tokens, 100); // hepsi 2 heceli → ağırlık 1
-    expect(stepDuration(tokens, [0], bases)).toBe(600);
-    expect(stepDuration(tokens, [1], bases)).toBe(750);
-    expect(stepDuration(tokens, [3], bases)).toBe(900);
+    expect(stepDuration(tokens, [0], bases, 100)).toBe(600);
+    expect(stepDuration(tokens, [1], bases, 100)).toBe(750);
+    expect(stepDuration(tokens, [3], bases, 100)).toBe(900);
   });
   it("uzun kelimeye daha çok süre verilir ama ortalama hız korunur", () => {
     const tokens = tokenize("Ev bisikletiyle geldi ve kitapları okudu.");
@@ -113,9 +113,15 @@ describe("pacing", () => {
     const avg = bases.reduce((a, b) => a + b, 0) / bases.length;
     expect(Math.abs(avg - 600)).toBeLessThanOrEqual(1);
   });
-  it("gruplar cümle sonunu aşmaz", () => {
-    const tokens = tokenize("Ali bugün okula erken gitti. Ayşe de geldi.");
-    const groups = buildChunks(tokens, 2).map((g) => g.map((i) => tokens[i].text).join(" "));
-    expect(groups).toEqual(["Ali bugün", "okula erken gitti.", "Ayşe de geldi."]);
+  it("yavaş hızda beklemeler orantılı uzar, en az değerlerin altına inmez", () => {
+    const tokens = tokenize("Ali geldi, oturdu. Sonra gitti.");
+    expect(pauseAfter(tokens, 1, 60)).toBe(250); // virgül: 1000 ms × 0,25
+    expect(pauseAfter(tokens, 2, 60)).toBe(500); // nokta: 1000 ms × 0,5
+    expect(pauseAfter(tokens, 1, 150)).toBe(150); // hızlıda en az 150 ms
+    expect(pauseAfter(tokens, 0, 100)).toBe(0); // noktalama yok
+  });
+  it("paragraf sonunda ek bekleme", () => {
+    const tokens = tokenize("Bir iki.\n\nÜç dört.");
+    expect(pauseAfter(tokens, 1, 100)).toBe(300 + 300);
   });
 });

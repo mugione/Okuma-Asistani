@@ -1,5 +1,6 @@
 import { Award, BookOpen, Brain, Flame, Gamepad2, Gauge, Play, Star, Target, Trophy } from "lucide-react";
 import { api } from "../api/client";
+import { InstallCard } from "../components/InstallCard";
 import { Layout } from "../components/Layout";
 import { Button, Card, ErrorBox, Spinner } from "../components/ui";
 import { useApp, useAsync } from "../lib/app-state";
@@ -18,6 +19,8 @@ export function Home() {
       {data && (
         <div className="flex flex-col gap-5">
           <h1 className="text-4xl font-black tracking-tight">Merhaba {child.name}!</h1>
+
+          <InstallCard dismissible />
 
           {!child.placement_completed ? (
             <Card className="animate-fade-up border-3 border-sun-400 !bg-sun-100">

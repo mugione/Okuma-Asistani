@@ -195,7 +195,7 @@ export interface ProgressData {
   recentSessions: RecentSession[];
 }
 
-export type GameType = "word_catch" | "sentence_recall" | "missing_word";
+export type GameType = "word_catch" | "sentence_recall" | "missing_word" | "sentence_verify" | "word_chain" | "syllables";
 
 export interface GameResultResponse {
   gameSessionId: string;

@@ -1,5 +1,5 @@
 import { PartyPopper, Play } from "lucide-react";
-import { useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { GameResultResponse, GameType } from "../../../shared/api-types";
 import { api } from "../../api/client";
 import { useApp } from "../../lib/app-state";
@@ -30,6 +30,8 @@ export function GameShell({
   extraResult,
   onDone,
   doneLabel = "Bitti",
+  timeLimitSec,
+  summary: renderSummary,
 }: {
   gameType: GameType;
   title: string;
@@ -40,6 +42,10 @@ export function GameShell({
   extraResult?: () => { displayMs?: number };
   onDone: (s: GameSummary) => void;
   doneLabel?: string;
+  /** Süreli oyun: süre dolunca (ya da maddeler bitince) oyun biter. */
+  timeLimitSec?: number;
+  /** Sonuç ekranına oyuna özgü ek bilgi. */
+  summary?: (s: GameSummary, durationSec: number) => ReactNode;
 }) {
   const { child, refresh, celebrate } = useApp();
   const [phase, setPhase] = useState<"intro" | "play" | "saving" | "done">("intro");
@@ -48,10 +54,20 @@ export function GameShell({
   const startedAt = useRef(0);
   const [summary, setSummary] = useState<GameSummary | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [remaining, setRemaining] = useState(timeLimitSec ?? 0);
+  const savingRef = useRef(false);
+  const durationRef = useRef(0);
 
   const save = async () => {
-    if (!child) return;
+    if (!child || savingRef.current) return;
+    savingRef.current = true;
+    durationRef.current = Math.max(1, Math.round((performance.now() - startedAt.current) / 100) / 10);
     setPhase("saving");
+    if (!outcomes.current.length) {
+      setSummary({ total: 0, correct: 0, result: null });
+      setPhase("done");
+      return;
+    }
     const list = outcomes.current;
     const correct = list.filter((o) => o.correct).length;
     const avgReactionMs = Math.round(list.reduce((s, o) => s + o.reactionMs, 0) / Math.max(1, list.length));
@@ -64,7 +80,7 @@ export function GameShell({
         correctItems: correct,
         avgReactionMs,
         displayMs: extraResult?.().displayMs ?? null,
-        durationSeconds: Math.max(1, Math.round((performance.now() - startedAt.current) / 100) / 10),
+        durationSeconds: durationRef.current,
       });
       celebrate(result.newAchievements);
       void refresh();
@@ -75,7 +91,20 @@ export function GameShell({
     setPhase("done");
   };
 
+  // Süreli oyunlarda geri sayım.
+  useEffect(() => {
+    if (phase !== "play" || !timeLimitSec) return;
+    const id = setInterval(() => {
+      const left = Math.max(0, timeLimitSec - (performance.now() - startedAt.current) / 1000);
+      setRemaining(Math.ceil(left));
+      if (left <= 0) void save();
+    }, 200);
+    return () => clearInterval(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, timeLimitSec]);
+
   const onRoundEnd = (o: RoundOutcome) => {
+    if (savingRef.current) return;
     outcomes.current.push(o);
     if (round + 1 >= rounds) void save();
     else setRound((r) => r + 1);
@@ -92,6 +121,8 @@ export function GameShell({
           className="mt-6 w-full"
           onClick={() => {
             outcomes.current = [];
+            savingRef.current = false;
+            setRemaining(timeLimitSec ?? 0);
             startedAt.current = performance.now();
             setRound(0);
             setPhase("play");
@@ -104,13 +135,14 @@ export function GameShell({
   }
 
   if (phase === "done" && summary) {
-    const pct = Math.round((summary.correct / summary.total) * 100);
+    const pct = summary.total ? Math.round((summary.correct / summary.total) * 100) : 0;
     return (
       <Card className="animate-fade-up mx-auto max-w-md text-center">
         <PartyPopper className="mx-auto size-14 text-coral-500" aria-hidden />
         <div className="mt-2 flex justify-center"><Stars count={pct >= 90 ? 3 : pct >= 70 ? 2 : 1} size={44} /></div>
         <h2 className="mt-3 text-3xl font-black">{summary.correct} / {summary.total} doğru</h2>
         {summary.result && <p className="mt-1 text-lg font-extrabold text-sun-700">+{summary.result.xpEarned} XP</p>}
+        {renderSummary?.(summary, durationRef.current)}
         {error && <div className="mt-3"><ErrorBox message={error} /></div>}
         <Button size="lg" className="mt-6 w-full" onClick={() => onDone(summary)}>{doneLabel}</Button>
       </Card>
@@ -120,8 +152,18 @@ export function GameShell({
   return (
     <div className="mx-auto max-w-lg">
       <div className="mb-5 flex items-center gap-3">
-        <span className="text-sm font-extrabold text-ink/60">{Math.min(round + 1, rounds)} / {rounds}</span>
-        <ProgressBar value={(round / rounds) * 100} className="flex-1" />
+        {timeLimitSec ? (
+          <>
+            <span className="w-14 text-sm font-extrabold tabular-nums text-ink/60" aria-live="off">{remaining} sn</span>
+            <ProgressBar value={(remaining / timeLimitSec) * 100} color={remaining <= 10 ? "bg-coral-500" : "bg-brand-500"} className="flex-1" />
+            <span className="text-sm font-extrabold text-brand-700">{outcomes.current.filter((o) => o.correct).length} ✓</span>
+          </>
+        ) : (
+          <>
+            <span className="text-sm font-extrabold text-ink/60">{Math.min(round + 1, rounds)} / {rounds}</span>
+            <ProgressBar value={(round / rounds) * 100} className="flex-1" />
+          </>
+        )}
       </div>
       {phase === "saving" ? <p className="text-center font-bold text-ink/60">Kaydediliyor…</p> : <div key={round}>{renderRound(round, onRoundEnd)}</div>}
     </div>

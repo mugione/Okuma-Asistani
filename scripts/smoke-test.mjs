@@ -115,9 +115,13 @@ const game = await call("POST", "/api/games/result", {
   childId, gameType: "word_catch", totalItems: 10, correctItems: 9, avgReactionMs: 900, displayMs: 700, durationSeconds: 60,
 });
 check("Oyun sonucu kaydı", game.status === 201, game.json);
+for (const gameType of ["sentence_verify", "word_chain", "syllables"]) {
+  const g = await call("POST", "/api/games/result", { childId, gameType, totalItems: 8, correctItems: 6, durationSeconds: 60 });
+  check(`Yeni oyun kaydı: ${gameType}`, g.status === 201, g.json);
+}
 
 const stats = await call("GET", `/api/children/${childId}/stats?range=7`);
-check("İstatistik kaydı (7 gün)", stats.json.data?.sessionCount === 1 && stats.json.data.gamesPlayed === 1, stats.json);
+check("İstatistik kaydı (7 gün)", stats.json.data?.sessionCount === 1 && stats.json.data.gamesPlayed === 4, stats.json);
 const progress = await call("GET", `/api/children/${childId}/progress?range=30`);
 check("Gelişim serisi", progress.json.data?.points.length === 30 && progress.json.data.points.at(-1).wpm === expectedWpm, progress.json);
 const t2 = await call("GET", `/api/children/${childId}/today`);
@@ -187,6 +191,6 @@ parentId = null;
 const nf = await call("GET", "/api/yok");
 check("API 404 formatı", nf.status === 404 && nf.json.error?.code === "NOT_FOUND", nf.json);
 
-console.log(`\nTest ebeveyn kimliği: ${parentId}`);
+console.log(`\nTest ebeveyn kimliği: ${anonParentId}`);
 console.log(failures ? `❌ ${failures} test başarısız` : "✅ Tüm testler geçti");
 process.exit(failures ? 1 : 0);
