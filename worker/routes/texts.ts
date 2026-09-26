@@ -10,7 +10,8 @@ const listSchema = z.object({
   difficulty: z.coerce.number().int().min(1).max(5).optional(),
 });
 
-const SUMMARY_COLUMNS = "id, slug, title, category, difficulty, grade_level, word_count, estimated_duration";
+const SUMMARY_COLUMNS =
+  "id, slug, title, category, difficulty, grade_level, word_count, estimated_duration, readability_score, readability_level, effective_difficulty";
 
 export const texts = new Hono<AppEnv>();
 
@@ -23,12 +24,12 @@ texts.get("/", async (c) => {
     params.push(q.category);
   }
   if (q.difficulty) {
-    where.push("difficulty = ?");
+    where.push("COALESCE(effective_difficulty, difficulty) = ?");
     params.push(q.difficulty);
   }
   const list = await all<TextSummary>(
     c.env.DB,
-    `SELECT ${SUMMARY_COLUMNS} FROM texts WHERE ${where.join(" AND ")} ORDER BY difficulty, title`,
+    `SELECT ${SUMMARY_COLUMNS} FROM texts WHERE ${where.join(" AND ")} ORDER BY COALESCE(effective_difficulty, difficulty), readability_score DESC, title`,
     ...params,
   );
   return ok(c, list);

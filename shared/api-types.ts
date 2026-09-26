@@ -52,6 +52,11 @@ export interface TextSummary {
   grade_level: number;
   word_count: number;
   estimated_duration: number;
+  /** Ateşman okunabilirlik puanı (yüksek = kolay). */
+  readability_score: number | null;
+  readability_level: number | null;
+  /** Birleşik zorluk 1–5: Ateşman seviyesi + içerik (kavramsal) zorluğu. */
+  effective_difficulty: number | null;
 }
 
 /** Çocuğun bir metni okuma geçmişi (kütüphanede "okundu" gösterimi için). */

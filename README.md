@@ -126,6 +126,7 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 
 ### 📚 İçerik
 - **101** özgün Türkçe metin (+ seviye testi) · **10** kategori
+- **Ateşman (1997) okunabilirlik puanı** her metin için hesaplanır ([`shared/readability.ts`](shared/readability.ts)): `198,825 − 40,175 × (hece/kelime) − 2,610 × (kelime/cümle)`. Kütüphanede resmî bant ("kolay", "orta güçlükte" …) gösterilir. **Birleşik zorluk** (1–5) = Ateşman seviyesi (kelime ve cümle uzunluğu) + içerik zorluğu (kavramsal); metin önerisi, 1 dakika testi seçimi ve zorluk filtresi bunu kullanır. Puanlar veritabanı hazırlanırken bir kez hesaplanır, çalışma anında yük oluşturmaz
 - Uzay, Hayvanlar, Bilim, Doğa, Macera, Spor, Teknoloji, Günlük Yaşam, Tarih, Keşif
 - **846** anlama sorusu: her metnin 8–9 soruluk havuzu var, her okumada **5 soru** seçilir; tekrar okumada farklı sorular gelir
 - **530** oyun maddesi (150 kelime · 100 cümle · 100 eksik kelime · 180 doğru/yanlış cümlesi); kelime zinciri ve hece oyunları 600'ü aşkın kelimelik sözlükten otomatik üretilir

@@ -1,5 +1,6 @@
 import { BookCheck, CheckCircle2, Clock, FileText, Sparkles } from "lucide-react";
 import { useMemo, useState } from "react";
+import { atesmanLabel } from "../../shared/readability";
 import { calculateStars } from "../../shared/reading";
 import { api } from "../api/client";
 import { Layout } from "../components/Layout";
@@ -28,6 +29,22 @@ export function Difficulty({ level }: { level: number }) {
       {Array.from({ length: 5 }, (_, i) => (
         <span key={i} className={`h-2.5 w-2.5 rounded-full ${i < level ? "bg-coral-500" : "bg-ink/10"}`} />
       ))}
+    </span>
+  );
+}
+
+/** Ateşman okunabilirlik etiketi (puan yükseldikçe metin kolaylaşır). */
+export function ReadabilityBadge({ score }: { score: number | null }) {
+  if (score === null) return null;
+  const label = atesmanLabel(score);
+  const tone =
+    label === "çok kolay" || label === "kolay" ? "bg-brand-50 text-brand-700" : label === "orta güçlükte" ? "bg-sun-100 text-sun-700" : "bg-coral-100 text-coral-700";
+  return (
+    <span
+      className={`rounded-full px-2.5 py-0.5 text-xs font-extrabold ${tone}`}
+      title="Ateşman okunabilirlik puanı: kelime ve cümle uzunluğuna göre hesaplanır (yüksek = kolay)"
+    >
+      Okunabilirlik {Math.round(score)} · {label}
     </span>
   );
 }
@@ -119,12 +136,13 @@ export function Library() {
                 >
                   <div className="flex items-center justify-between gap-2">
                     <span className={`rounded-full px-3 py-1 text-xs font-extrabold ${CATEGORY_TONES[t.category] ?? "bg-ink/5"}`}>{t.category}</span>
-                    <Difficulty level={t.difficulty} />
+                    <Difficulty level={t.effective_difficulty ?? t.difficulty} />
                   </div>
                   <h2 className={`text-xl font-black ${h ? "text-brand-800" : ""}`}>{t.title}</h2>
                   <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm font-bold text-ink/50">
                     <span className="flex items-center gap-1"><FileText className="size-4" /> {t.word_count} kelime</span>
                     <span className="flex items-center gap-1"><Clock className="size-4" /> ~{Math.max(1, Math.round(t.estimated_duration / 60))} dk</span>
+                    <ReadabilityBadge score={t.readability_score} />
                   </div>
                   {h ? (
                     <div className="flex items-center justify-between gap-2 border-t border-brand-200/70 pt-2">

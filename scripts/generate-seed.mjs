@@ -4,6 +4,7 @@
 // Kelime sayısı ve tahmini süre burada hesaplanır; elle girilmez.
 // Not: Uygulanmış migration'lar değiştirilmemeli; yeni içerik için yeni bir dosya/migration ekleyin.
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { atesman, effectiveDifficulty } from "../shared/readability.ts";
 
 const readJson = (rel) => JSON.parse(readFileSync(new URL(rel, import.meta.url), "utf8"));
 const texts = readJson("../seed/texts.json");
@@ -118,5 +119,28 @@ if (extraQuestions.length) {
   }
   writeFileSync(new URL("../migrations/0007_more_questions.sql", import.meta.url), out7.join("\n") + "\n");
   console.log(`0007_more_questions.sql yazıldı: ${extraQuestions.length} metin, ${extraQuestions.reduce((n, e) => n + e.questions.length, 0)} soru.`);
+}
+// Ateşman okunabilirliği ve birleşik zorluk: çalışma anında değil, burada bir kez hesaplanır.
+{
+  const out12 = [
+    "-- OTOMATİK ÜRETİLDİ: npm run seed:generate — Ateşman (1997) okunabilirlik puanı ve birleşik zorluk.",
+    "-- Yeni metin eklenirse bu değerler için yeni bir migration üretin (uygulanmış migration değiştirilmez).",
+    "ALTER TABLE texts ADD COLUMN readability_score REAL;",
+    "ALTER TABLE texts ADD COLUMN readability_level INTEGER;",
+    "ALTER TABLE texts ADD COLUMN effective_difficulty INTEGER;",
+    "",
+  ];
+  const levels = {};
+  for (const t of [...texts, ...extra]) {
+    const r = atesman(t.content);
+    const eff = effectiveDifficulty(t.difficulty, r.level);
+    levels[eff] = (levels[eff] ?? 0) + 1;
+    out12.push(
+      `UPDATE texts SET readability_score = ${r.score}, readability_level = ${r.level}, effective_difficulty = ${eff} WHERE slug = ${q(t.slug)};`,
+    );
+  }
+  out12.push("CREATE INDEX idx_texts_effective_difficulty ON texts(effective_difficulty);");
+  writeFileSync(new URL("../migrations/0012_readability.sql", import.meta.url), out12.join("\n") + "\n");
+  console.log(`0012_readability.sql yazıldı: birleşik zorluk dağılımı ${JSON.stringify(levels)}`);
 }
 console.log(`0003_seed.sql yazıldı: ${texts.length} metin, ${texts.reduce((n, t) => n + t.questions.length, 0)} soru, ${achievements.length} rozet.`);

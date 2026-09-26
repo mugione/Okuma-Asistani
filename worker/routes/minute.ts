@@ -40,7 +40,7 @@ minute.post("/start", async (c) => {
     `SELECT t.id, t.title, t.content, t.word_count, t.difficulty FROM texts t
       LEFT JOIN (SELECT text_id, MAX(created_at) last FROM minute_tests WHERE child_id = ?1 GROUP BY text_id) m ON m.text_id = t.id
       WHERE t.is_placement = 0
-      ORDER BY m.last IS NOT NULL, m.last, ABS(t.difficulty - ?2), t.word_count DESC, RANDOM()
+      ORDER BY m.last IS NOT NULL, m.last, ABS(COALESCE(t.effective_difficulty, t.difficulty) - ?2), t.word_count DESC, RANDOM()
       LIMIT 1`,
     child.id, child.current_level,
   );

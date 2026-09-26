@@ -128,7 +128,8 @@ children.get("/:id/today", async (c) => {
        LEFT JOIN (SELECT text_id, MAX(created_at) last FROM reading_sessions WHERE child_id = ?1 GROUP BY text_id) r
          ON r.text_id = t.id
        WHERE t.is_placement = 0
-       ORDER BY ABS(t.difficulty - ?2) <= 1 DESC, r.last IS NOT NULL, r.last, ABS(t.difficulty - ?2), RANDOM()
+       ORDER BY ABS(COALESCE(t.effective_difficulty, t.difficulty) - ?2) <= 1 DESC, r.last IS NOT NULL, r.last,
+                ABS(COALESCE(t.effective_difficulty, t.difficulty) - ?2), RANDOM()
        LIMIT 1`, child.id, child.current_level),
     first<{ id: number }>(db, "SELECT id FROM texts WHERE is_placement = 1 LIMIT 1"),
     first<{ display_ms: number | null }>(db,

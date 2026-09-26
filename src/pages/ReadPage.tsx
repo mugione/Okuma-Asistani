@@ -8,7 +8,7 @@ import { ReadingFlow } from "../components/reading/ReadingFlow";
 import { Button, Card, ErrorBox, PageTitle, Spinner } from "../components/ui";
 import { useAsync } from "../lib/app-state";
 import { useRouter } from "../lib/router";
-import { Difficulty } from "./Library";
+import { Difficulty, ReadabilityBadge } from "./Library";
 
 export function ReadPage({ id }: { id: number }) {
   const { navigate } = useRouter();
@@ -22,7 +22,14 @@ export function ReadPage({ id }: { id: number }) {
       {error && <ErrorBox message={error} />}
       {text && (
         <>
-          <PageTitle sub={<span className="flex items-center gap-3">{text.category} · {text.word_count} kelime <Difficulty level={text.difficulty} /></span>}>
+          <PageTitle
+            sub={
+              <span className="flex flex-wrap items-center gap-3">
+                {text.category} · {text.word_count} kelime <Difficulty level={text.effective_difficulty ?? text.difficulty} />
+                <ReadabilityBadge score={text.readability_score} />
+              </span>
+            }
+          >
             {text.title}
           </PageTitle>
           {!started ? (

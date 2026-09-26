@@ -57,6 +57,11 @@ check("Büyük istek gövdesi reddedilir (413)", big.status === 413, big.status)
 
 const texts = await call("GET", "/api/texts");
 check("Metin listeleme (≥100)", texts.json.success && texts.json.data.length >= 100, texts.json.data?.length);
+check(
+  "Ateşman okunabilirliği tüm metinlerde",
+  texts.json.data.every((t) => typeof t.readability_score === "number" && t.effective_difficulty >= 1 && t.effective_difficulty <= 5),
+  texts.json.data.find((t) => typeof t.readability_score !== "number"),
+);
 const detail = await call("GET", `/api/texts/${texts.json.data[0].id}`);
 check("Metin detayı + sorular", detail.json.success && detail.json.data.questions.length >= 3, detail.json);
 check("Doğru cevap istemciye sızmıyor", !detail.text.includes("correct_option"));
