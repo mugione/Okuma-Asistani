@@ -103,6 +103,13 @@ check("Gerçek dışı hız reddedilir", tooFast.status === 422, tooFast.json);
 const tooLong = await call("POST", `/api/reading/${sid}/finish`, { durationSeconds: 900 });
 check("Oturumdan uzun süre reddedilir", tooLong.status === 400, tooLong.json);
 
+// Dinle-Oku oturumu da şimdi başlar (gerçekçi süre için aynı bekleme kullanılır).
+const listenText = texts.json.data[3];
+const listenStart = await call("POST", "/api/reading/start", { childId, textId: listenText.id, mode: "normal", assisted: "listen" });
+check("Dinle-Oku oturumu başlatma", listenStart.status === 201 && listenStart.json.data?.questions?.length > 0, listenStart.json);
+const badAssisted = await call("POST", "/api/reading/start", { childId, textId: listenText.id, mode: "tracking", assisted: "listen" });
+check("Dinle-Oku yalnızca normal okumayla", badAssisted.status === 400, badAssisted.json);
+
 console.log("… gerçekçi okuma süresi için 22 sn bekleniyor");
 await sleep(22_000);
 const wc = placement.json.data.word_count;
@@ -119,6 +126,15 @@ check("Anlama backend'de puanlanır", answers.json.success && typeof answers.jso
 const again = await call("POST", `/api/reading/${sid}/answers`, { answers: qs.map((q) => ({ questionId: q.id, selectedOption: "a" })) });
 check("Cevaplar iki kez gönderilemez", again.status === 409, again.json);
 
+// Dinle-Oku: destek adımları XP kazandırır, hedef hız değişmez, hız ortalamasına katılmaz.
+const targetBefore = (await call("GET", `/api/children/${childId}`)).json.data.target_wpm;
+const lFinish = await call("POST", `/api/reading/${listenStart.json.data.sessionId}/finish`, { durationSeconds: 30, assistedSteps: 2 });
+check("Dinle-Oku: 2 destek adımı +10 XP", lFinish.json.data?.xpEarned === 20, lFinish.json);
+const lAnswers = await call("POST", `/api/reading/${listenStart.json.data.sessionId}/answers`, {
+  answers: listenStart.json.data.questions.map((q) => ({ questionId: q.id, selectedOption: "a" })),
+});
+check("Dinle-Oku: hedef hız değişmez", lAnswers.json.data?.newTargetWpm === targetBefore && lAnswers.json.data?.previousTargetWpm === targetBefore, lAnswers.json);
+
 const game = await call("POST", "/api/games/result", {
   childId, gameType: "word_catch", totalItems: 10, correctItems: 9, avgReactionMs: 900, displayMs: 700, durationSeconds: 60,
 });
@@ -129,7 +145,11 @@ for (const gameType of ["sentence_verify", "word_chain", "syllables"]) {
 }
 
 const stats = await call("GET", `/api/children/${childId}/stats?range=7`);
-check("İstatistik kaydı (7 gün)", stats.json.data?.sessionCount === 1 && stats.json.data.gamesPlayed === 4, stats.json);
+check(
+  "İstatistik kaydı (7 gün; Dinle-Oku hız ortalamasına katılmaz)",
+  stats.json.data?.sessionCount === 2 && stats.json.data.gamesPlayed === 4 && stats.json.data.averageWpm === expectedWpm,
+  stats.json,
+);
 const progress = await call("GET", `/api/children/${childId}/progress?range=30`);
 check("Gelişim serisi", progress.json.data?.points.length === 30 && progress.json.data.points.at(-1).wpm === expectedWpm, progress.json);
 const t2 = await call("GET", `/api/children/${childId}/today`);
@@ -147,7 +167,11 @@ const mh = await call("GET", `/api/children/${childId}/minute-tests`);
 check("1 dakika testi geçmişi", mh.json.data?.count === 2 && mh.json.data?.best === mDone.json.data?.wcpm, mh.json);
 
 const hist = await call("GET", `/api/children/${childId}/reading-history`);
-check("Okuma geçmişi (seviye testi hariç)", hist.json.success && Array.isArray(hist.json.data) && hist.json.data.length === 0, hist.json);
+check(
+  "Okuma geçmişi (seviye testi hariç, Dinle-Oku dahil)",
+  hist.json.success && hist.json.data.length === 1 && hist.json.data[0].text_id === listenText.id,
+  hist.json,
+);
 const ach = await call("GET", `/api/children/${childId}/achievements`);
 check("Rozetler", ach.json.data?.some((a) => a.id === "first_reading" && a.earned_at), ach.json);
 check(

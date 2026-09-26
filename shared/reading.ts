@@ -145,7 +145,16 @@ export const XP = {
   minuteTest: 10,
   minuteRecord: 10,
   minuteFinishedText: 5,
+  /** Dinle-Oku: dinleme / birlikte okuma adımı başına. */
+  listenStep: 5,
 } as const;
+
+export type AssistedMode = "listen" | "echo";
+
+/** Dinle-Oku dinleme hızı: hedefin %15 üstü, 90–150 kelime/dk. */
+export function listeningWpm(targetWpm: number): number {
+  return Math.min(150, Math.max(90, Math.round(targetWpm * 1.15)));
+}
 
 /** Tekrarlı okumada ilk okumaya göre akıcılık artışı (%). */
 export function improvementPercent(firstWpm: number, latestWpm: number): number {

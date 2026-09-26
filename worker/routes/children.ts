@@ -180,9 +180,9 @@ children.get("/:id/stats", async (c) => {
     first<{ cnt: number; avg_wpm: number | null; avg_acc: number | null; avg_comp: number | null; secs: number | null;
       words: number | null; best: number | null; days: number }>(
       c.env.DB,
-      `SELECT COUNT(*) cnt, ROUND(AVG(wpm), 1) avg_wpm, ROUND(AVG(accuracy_percentage), 1) avg_acc,
+      `SELECT COUNT(*) cnt, ROUND(AVG(CASE WHEN assisted IS NULL THEN wpm END), 1) avg_wpm, ROUND(AVG(accuracy_percentage), 1) avg_acc,
               ROUND(AVG(comprehension_percentage), 1) avg_comp, SUM(duration_seconds) secs, SUM(word_count) words,
-              MAX(wpm) best, COUNT(DISTINCT stat_date) days
+              MAX(CASE WHEN assisted IS NULL THEN wpm END) best, COUNT(DISTINCT stat_date) days
          FROM reading_sessions WHERE child_id = ? AND completed_at IS NOT NULL AND stat_date >= ?`,
       child.id, since),
     first<{ cnt: number; acc: number | null; secs: number | null }>(
@@ -232,7 +232,7 @@ children.get("/:id/progress", async (c) => {
       `SELECT average_wpm FROM daily_stats WHERE child_id = ? AND date < ? AND average_wpm IS NOT NULL
        ORDER BY date DESC LIMIT 6`, child.id, since),
     all<RecentSession>(db,
-      `SELECT rs.id, t.title, rs.reading_mode, rs.wpm, rs.accuracy_percentage, rs.comprehension_percentage,
+      `SELECT rs.id, t.title, rs.reading_mode, rs.assisted, rs.wpm, rs.accuracy_percentage, rs.comprehension_percentage,
               rs.attempt_number, rs.completed_at
          FROM reading_sessions rs JOIN texts t ON t.id = rs.text_id
         WHERE rs.child_id = ? AND rs.completed_at IS NOT NULL

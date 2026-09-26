@@ -60,6 +60,7 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
   - 📄 *Normal:* çocuk kendi hızında okur
   - 🖍️ *Kelime takip:* kelimeler hedef hızda vurgulanır; süre hece sayısına göre dağıtılır (uzun kelimeye daha çok süre), noktalamadan sonra hıza göre bekleme (virgülde en az 150 ms, cümle sonunda en az 300 ms; yavaş hızlarda orantılı olarak uzar, paragraf sonunda daha uzun)
   - 🧩 *Kelime grupları:* metin Türkçe dil bilgisine göre anlam öbeklerine bölünür ([`shared/chunking.ts`](shared/chunking.ts)): noktalama, paragraf ve tırnak sınırları hiç aşılmaz; "bir/bu/her" ve sayılar sonraki kelimeden, "de/da, ki, mi, için, gibi, önce…" önceki kelimeden, birleşik fiiller ("ziyaret etmek") birbirinden ayrılmaz; zarf-fiil ve hâl ekleri doğal sınır sayılır. Öbek uzunluğu seviyeye göre 2–4 kelime. Kurallar 102 metnin tamamında otomatik testle doğrulanır
+- **🎧 Dinle-Oku (model okuma):** 1) metni tarayıcının Türkçe sesiyle dinle (kelimeler vurgulanır) ya da cümle cümle **yankı okuma** yap, 2) sesle **birlikte oku**, 3) **kendin oku** → sorular. Ses cihazda üretilir, hiçbir ses kaydı alınmaz ya da gönderilmez. En doğal ses otomatik seçilir ("Gelişmiş/Premium", "Natural", "Google" sesleri öne alınır), çocuk ya da ebeveyn "Dene" ile dinleyip değiştirebilir; cihaza göre ücretsiz doğal ses yükleme rehberi vardır. Ses robotikleşmesin diye doğal hızına yakın tutulur (0,8–1,3×); çocuğun temposuna (hedefin %15 üstü, 90–150 kelime/dk) cümle aralarındaki duraklamalarla uyulur. Dinle-Oku okumaları hedef hızı değiştirmez ve hız ortalamalarına katılmaz
 - **Tekrarlı okuma:** aynı metin günde 3 kez okunabilir
   > *"İlk okumaya göre %21 daha akıcı okudun."*
 
@@ -91,7 +92,7 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 <td width="50%" valign="top">
 
 ### 🏆 Oyunlaştırma
-- ⭐ XP, 🌟 1–3 yıldız, 🔥 günlük seri, 🏅 22 rozet
+- ⭐ XP, 🌟 1–3 yıldız, 🔥 günlük seri, 🏅 24 rozet
 - 🏘️ **Mahalle sıralaması:** navbar'daki ikondan günlük / haftalık / yıllık ilk 10. Sıralama o dönemde kazanılan XP'ye göredir. Yalnızca kullanıcı adı ve şifresi olan hesaplar listelenir, yalnızca çocuğun adı (ilk kelime) görünür, ebeveyn istediğinde kapatabilir. Sıralamayı yalnızca giriş yapmış kullanıcılar görebilir
 - 🦊 8 hazır SVG avatar: baykuş, kedi, tilki, ayı, tavşan, panda, aslan, kurbağa
 

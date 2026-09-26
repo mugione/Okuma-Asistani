@@ -1,4 +1,5 @@
 import {
+  AudioLines,
   Award,
   BookOpen,
   Brain,
@@ -9,6 +10,7 @@ import {
   Footprints,
   Gamepad2,
   Gauge,
+  Headphones,
   Library,
   Lightbulb,
   Moon,
@@ -26,7 +28,7 @@ import {
 
 /** D1'de saklanan rozet ikon adlarını Lucide bileşenlerine eşler (yalnızca kullanılanlar paketlenir). */
 const ICONS: Record<string, LucideIcon> = {
-  BookOpen, Brain, CalendarCheck, CalendarClock, Compass, Flame, Footprints, Gamepad2, Gauge, Library, Lightbulb, Moon,
+  AudioLines, BookOpen, Brain, CalendarCheck, CalendarClock, Headphones, Compass, Flame, Footprints, Gamepad2, Gauge, Library, Lightbulb, Moon,
   Mountain, Repeat, Rocket, Star, Timer, TrendingUp, Trophy, Type, Zap,
 };
 

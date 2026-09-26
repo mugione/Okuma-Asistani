@@ -29,12 +29,17 @@ export function ReadingFlow({
   plan,
   onComplete,
   completeLabel = "Bitti",
+  assisted,
+  assistedSteps = 0,
 }: {
   text: TextDetail;
   mode: ReadingModeName;
   plan: FlowPlan;
   onComplete: (outcome: FlowOutcome) => void;
   completeLabel?: string;
+  /** Dinle-Oku: bu okumadan önce metin dinlendi. */
+  assisted?: "listen" | "echo";
+  assistedSteps?: number;
 }) {
   const { child, refresh, celebrate } = useApp();
   const [stage, setStage] = useState<Stage>("starting");
@@ -55,14 +60,16 @@ export function ReadingFlow({
     setStage("starting");
     setNotice(null);
     try {
-      const s = await api.startReading({ childId: child.id, textId: text.id, mode });
+      // Tekrar okumalar artık destekli değildir (dinleme yalnızca ilk okumadan önce yapıldı).
+      const s = await api.startReading({ childId: child.id, textId: text.id, mode, assisted: finishes.length ? undefined : assisted });
       setSession({ id: s.sessionId, targetWpm: s.targetWpm, attempt: s.attemptNumber, questions: s.questions });
       setStage("reading");
     } catch (e) {
       setError(e instanceof Error ? e.message : "Okuma başlatılamadı.");
       setStage("error");
     }
-  }, [child, text.id, mode]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [child, text.id, mode, assisted, finishes.length]);
 
   useEffect(() => {
     if (startedRef.current) return;
@@ -74,7 +81,11 @@ export function ReadingFlow({
     if (!session) return;
     setBusy(true);
     try {
-      const f = await api.finishReading(session.id, { durationSeconds: duration, errorCount });
+      const f = await api.finishReading(session.id, {
+        durationSeconds: duration,
+        errorCount,
+        ...(assisted && !finishes.length ? { assistedSteps } : {}),
+      });
       const all = [...finishes, f];
       setFinishes(all);
       celebrate(f.newAchievements);

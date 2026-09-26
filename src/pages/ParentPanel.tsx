@@ -138,7 +138,7 @@ function ChildDashboard({ child }: { child: Child }) {
                   <tr key={s.id} className="border-t border-ink/5 font-semibold">
                     <td className="py-2 tabular-nums">{new Date(s.completed_at).toLocaleDateString("tr-TR", { day: "numeric", month: "short" })}</td>
                     <td>{s.title}{s.attempt_number > 1 && <span className="ml-1 text-ink/45">({s.attempt_number}. okuma)</span>}</td>
-                    <td>{MODE_LABELS[s.reading_mode] ?? s.reading_mode}</td>
+                    <td>{s.assisted === "listen" ? "Dinle-Oku" : s.assisted === "echo" ? "Yankı okuma" : (MODE_LABELS[s.reading_mode] ?? s.reading_mode)}</td>
                     <td className="text-right tabular-nums">{Math.round(s.wpm)}</td>
                     <td className="text-right tabular-nums">{fmt(s.accuracy_percentage, "%")}</td>
                     <td className="text-right tabular-nums">{fmt(s.comprehension_percentage, "%")}</td>

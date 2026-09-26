@@ -26,7 +26,7 @@ export function refreshDailyStatsStmt(db: D1Database, childId: string, date: str
          COALESCE(r.xp, 0) + COALESCE(g.xp, 0) + COALESCE(m.xp, 0)
        FROM
          (SELECT SUM(duration_seconds) secs, SUM(word_count) words, COUNT(*) cnt,
-                 ROUND(AVG(wpm), 1) avg_wpm, ROUND(AVG(accuracy_percentage), 1) avg_acc,
+                 ROUND(AVG(CASE WHEN assisted IS NULL THEN wpm END), 1) avg_wpm, ROUND(AVG(accuracy_percentage), 1) avg_acc,
                  ROUND(AVG(comprehension_percentage), 1) avg_comp, SUM(xp_earned) xp
             FROM reading_sessions WHERE child_id = ?1 AND stat_date = ?2 AND completed_at IS NOT NULL) r,
          (SELECT SUM(duration_seconds) secs, SUM(xp_earned) xp
@@ -47,6 +47,8 @@ export function refreshDailyStatsStmt(db: D1Database, childId: string, date: str
 }
 
 interface Metrics {
+  listen_sessions: number;
+  echo_sessions: number;
   minute_tests: number;
   minute_records: number;
   minute_best: number;
@@ -70,6 +72,8 @@ export async function awardAchievements(
   const metrics = await first<Metrics>(
     db,
     `SELECT
+       (SELECT COUNT(*) FROM reading_sessions WHERE child_id = ?1 AND assisted = 'listen' AND completed_at IS NOT NULL) listen_sessions,
+       (SELECT COUNT(*) FROM reading_sessions WHERE child_id = ?1 AND assisted = 'echo' AND completed_at IS NOT NULL) echo_sessions,
        (SELECT COUNT(*) FROM minute_tests WHERE child_id = ?1 AND completed_at IS NOT NULL) minute_tests,
        (SELECT COUNT(*) FROM minute_tests WHERE child_id = ?1 AND is_record = 1) minute_records,
        (SELECT COALESCE(MAX(wcpm), 0) FROM minute_tests WHERE child_id = ?1 AND completed_at IS NOT NULL) minute_best,

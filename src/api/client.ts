@@ -89,9 +89,9 @@ export const api = {
   achievements: (childId: string) => request<Achievement[]>("GET", `/api/children/${childId}/achievements`),
   texts: () => request<TextSummary[]>("GET", "/api/texts"),
   text: (id: number) => request<TextDetail>("GET", `/api/texts/${id}`),
-  startReading: (body: { childId: string; textId: number; mode: ReadingModeName }) =>
+  startReading: (body: { childId: string; textId: number; mode: ReadingModeName; assisted?: "listen" | "echo" }) =>
     request<StartReadingResult>("POST", "/api/reading/start", body),
-  finishReading: (sessionId: string, body: { durationSeconds: number; errorCount?: number | null }) =>
+  finishReading: (sessionId: string, body: { durationSeconds: number; errorCount?: number | null; assistedSteps?: number }) =>
     request<FinishReadingResult>("POST", `/api/reading/${sessionId}/finish`, body),
   submitAnswers: (sessionId: string, answers: { questionId: number; selectedOption: string }[]) =>
     request<SubmitAnswersResult>("POST", `/api/reading/${sessionId}/answers`, { answers }),

@@ -1,5 +1,7 @@
-import { AlignLeft, Highlighter, Rows3 } from "lucide-react";
+import { AlignLeft, Headphones, Highlighter, Rows3 } from "lucide-react";
 import type { ReadingModeName } from "../../../shared/api-types";
+
+export type PickerMode = Exclude<ReadingModeName, "placement"> | "listen";
 
 export const MODES: { id: Exclude<ReadingModeName, "placement">; title: string; sub: string; icon: React.ReactNode }[] = [
   { id: "normal", title: "Normal Okuma", sub: "Kendi hızında oku", icon: <AlignLeft className="size-7" /> },
@@ -7,10 +9,13 @@ export const MODES: { id: Exclude<ReadingModeName, "placement">; title: string; 
   { id: "chunks", title: "Kelime Grupları", sub: "Kelimeleri grup grup oku", icon: <Rows3 className="size-7" /> },
 ];
 
-export function ModePicker({ value, onChange }: { value: ReadingModeName; onChange: (m: Exclude<ReadingModeName, "placement">) => void }) {
+const LISTEN_MODE = { id: "listen" as const, title: "Dinle-Oku", sub: "Önce dinle, sonra oku", icon: <Headphones className="size-7" /> };
+
+export function ModePicker({ value, onChange, withListen = false }: { value: PickerMode; onChange: (m: PickerMode) => void; withListen?: boolean }) {
+  const options: { id: PickerMode; title: string; sub: string; icon: React.ReactNode }[] = withListen ? [...MODES, LISTEN_MODE] : MODES;
   return (
-    <div className="grid gap-3 sm:grid-cols-3" role="radiogroup" aria-label="Okuma modu">
-      {MODES.map((m) => (
+    <div className={`grid gap-3 ${withListen ? "sm:grid-cols-2" : "sm:grid-cols-3"}`} role="radiogroup" aria-label="Okuma modu">
+      {options.map((m) => (
         <button
           key={m.id}
           role="radio"

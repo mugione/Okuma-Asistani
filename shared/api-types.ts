@@ -183,6 +183,7 @@ export interface RecentSession {
   id: string;
   title: string;
   reading_mode: string;
+  assisted: "listen" | "echo" | null;
   wpm: number;
   accuracy_percentage: number | null;
   comprehension_percentage: number | null;

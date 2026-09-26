@@ -46,6 +46,7 @@ interface SessionRow {
   xp_earned: number;
   stat_date: string;
   question_ids: string | null;
+  assisted: "listen" | "echo" | null;
 }
 
 interface QuestionRow {
@@ -67,6 +68,8 @@ const startSchema = z.object({
   childId: z.uuid(),
   textId: z.number().int().positive(),
   mode: z.enum(["placement", "normal", "tracking", "chunks"]),
+  /** Dinle-Oku: kendi okumasından önce metni dinledi (listen) ya da cümle cümle tekrar etti (echo). */
+  assisted: z.enum(["listen", "echo"]).optional(),
 });
 
 const finishSchema = z.object({
@@ -74,6 +77,8 @@ const finishSchema = z.object({
   durationSeconds: z.number().positive().max(60 * 60),
   // İsteğe bağlı: bir yetişkin dinlediyse takılınan/yanlış okunan kelime sayısı.
   errorCount: z.number().int().min(0).max(1000).nullable().optional(),
+  // Dinle-Oku: tamamlanan destek adımları (dinleme, birlikte okuma).
+  assistedSteps: z.number().int().min(0).max(2).optional(),
 });
 
 const answersSchema = z.object({
@@ -105,6 +110,9 @@ reading.post("/start", async (c) => {
   if ((body.mode === "placement") !== (text.is_placement === 1)) {
     throw new ApiError(400, "INVALID_MODE", "Seviye testi yalnızca seviye testi metniyle yapılabilir.");
   }
+  if (body.assisted && body.mode !== "normal") {
+    throw new ApiError(400, "INVALID_MODE", "Dinle-Oku yalnızca normal okuma ile kullanılabilir.");
+  }
 
   const today = istanbulDate();
   const previous = await first<{ n: number }>(
@@ -135,10 +143,11 @@ reading.post("/start", async (c) => {
   const startedAt = nowIso();
   await db
     .prepare(
-      `INSERT INTO reading_sessions (id, child_id, text_id, reading_mode, started_at, word_count, attempt_number, target_wpm, stat_date, question_ids)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      `INSERT INTO reading_sessions (id, child_id, text_id, reading_mode, started_at, word_count, attempt_number, target_wpm, stat_date, question_ids, assisted)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
     )
-    .bind(id, child.id, text.id, body.mode, startedAt, text.word_count, attemptNumber, child.target_wpm, today, JSON.stringify(chosenIds))
+    .bind(id, child.id, text.id, body.mode, startedAt, text.word_count, attemptNumber, child.target_wpm, today, JSON.stringify(chosenIds),
+      body.assisted ?? null)
     .run();
 
   const data: StartReadingResult = {
@@ -177,6 +186,7 @@ reading.post("/:id/finish", async (c) => {
     XP.readingCompleted +
     (session.attempt_number > 1 ? XP.repeatReading : 0) +
     (accuracy !== null && accuracy >= 95 ? XP.accuracyBonus : 0) +
+    (session.assisted ? (body.assistedSteps ?? 0) * XP.listenStep : 0) +
     activity.dailyXp;
   const completedAt = nowIso();
 
@@ -264,8 +274,10 @@ reading.post("/:id/answers", async (c) => {
   const xpEarned = comprehension >= 80 ? XP.comprehensionBonus : 0;
 
   const previousTarget = child.target_wpm;
-  const newTarget =
-    session.reading_mode === "placement"
+  // Dinle-Oku'da çocuk metni az önce dinlediği için hız yüksek çıkar: hedef değiştirilmez.
+  const newTarget = session.assisted
+    ? previousTarget
+    : session.reading_mode === "placement"
       ? initialTargetFromPlacement(session.wpm, comprehension)
       : calculateNextTarget({
           currentTargetWpm: previousTarget,
