@@ -2,7 +2,7 @@
 
 <img src="public/icons/icon-512.png" alt="OkuHız logosu" width="112" />
 
-# OkuHız
+# Okuma Asistanı
 
 ### Çocuklar için akıllı okuma antrenörü 📚✨
 
