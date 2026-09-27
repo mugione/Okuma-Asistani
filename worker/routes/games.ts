@@ -10,7 +10,7 @@ import { activityUpdate, awardAchievements, refreshDailyStatsStmt } from "../lib
 
 const resultSchema = z.object({
   childId: z.uuid(),
-  gameType: z.enum(["word_catch", "sentence_recall", "missing_word", "sentence_verify", "word_chain", "syllables", "antonyms"]),
+  gameType: z.enum(["word_catch", "sentence_recall", "missing_word", "sentence_verify", "word_chain", "syllables", "antonyms", "spelling"]),
   totalItems: z.number().int().min(1).max(100),
   correctItems: z.number().int().min(0).max(100),
   avgReactionMs: z.number().int().min(0).max(60_000).nullable().optional(),

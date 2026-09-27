@@ -263,7 +263,7 @@ export interface LeaderboardData {
   me: { rank: number | null; xp: number; eligible: boolean; reason: "no_account" | "hidden" | null } | null;
 }
 
-export type GameType = "word_catch" | "sentence_recall" | "missing_word" | "sentence_verify" | "word_chain" | "syllables" | "antonyms";
+export type GameType = "word_catch" | "sentence_recall" | "missing_word" | "sentence_verify" | "word_chain" | "syllables" | "antonyms" | "spelling";
 
 export interface GameResultResponse {
   gameSessionId: string;

@@ -4,6 +4,7 @@ import { api } from "../api/client";
 import type { GameSummary } from "../components/games/GameShell";
 import { Antonyms } from "../components/games/Antonyms";
 import { SentenceVerify } from "../components/games/SentenceVerify";
+import { Spelling } from "../components/games/Spelling";
 import { Syllables } from "../components/games/Syllables";
 import { WordCatch } from "../components/games/WordCatch";
 import { WordChain } from "../components/games/WordChain";
@@ -46,11 +47,12 @@ export function Training() {
         // Isınma oyunu her gün değişir (≈2 dk).
         const done = (_: GameSummary) => setStep("reading");
         const level = child?.current_level ?? 2;
-        const day = Math.floor(Date.parse(`${today.data.date}T00:00:00Z`) / 86_400_000) % 5;
+        const day = Math.floor(Date.parse(`${today.data.date}T00:00:00Z`) / 86_400_000) % 6;
         if (day === 1) return <SentenceVerify level={level} doneLabel="Okumaya Geç" onDone={done} />;
         if (day === 2) return <WordChain level={level} rounds={6} doneLabel="Okumaya Geç" onDone={done} />;
         if (day === 3) return <Syllables level={level} rounds={8} doneLabel="Okumaya Geç" onDone={done} />;
         if (day === 4) return <Antonyms level={level} rounds={10} doneLabel="Okumaya Geç" onDone={done} />;
+        if (day === 5) return <Spelling level={level} rounds={8} doneLabel="Okumaya Geç" onDone={done} />;
         return <WordCatch initialDisplayMs={today.data.wordCatchDisplayMs} rounds={10} doneLabel="Okumaya Geç" onDone={done} />;
       })()}
 

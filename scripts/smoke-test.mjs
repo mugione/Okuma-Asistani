@@ -144,7 +144,7 @@ const game = await call("POST", "/api/games/result", {
   childId, gameType: "word_catch", totalItems: 10, correctItems: 9, avgReactionMs: 900, displayMs: 700, durationSeconds: 60,
 });
 check("Oyun sonucu kaydı", game.status === 201, game.json);
-for (const gameType of ["sentence_verify", "word_chain", "syllables", "antonyms"]) {
+for (const gameType of ["sentence_verify", "word_chain", "syllables", "antonyms", "spelling"]) {
   const g = await call("POST", "/api/games/result", { childId, gameType, totalItems: 8, correctItems: 6, durationSeconds: 60 });
   check(`Yeni oyun kaydı: ${gameType}`, g.status === 201, g.json);
 }
@@ -152,7 +152,7 @@ for (const gameType of ["sentence_verify", "word_chain", "syllables", "antonyms"
 const stats = await call("GET", `/api/children/${childId}/stats?range=7`);
 check(
   "İstatistik kaydı (7 gün; Dinle-Oku hız ortalamasına katılmaz)",
-  stats.json.data?.sessionCount === 2 && stats.json.data.gamesPlayed === 5 && stats.json.data.averageWpm === expectedWpm,
+  stats.json.data?.sessionCount === 2 && stats.json.data.gamesPlayed === 6 && stats.json.data.averageWpm === expectedWpm,
   stats.json,
 );
 const progress = await call("GET", `/api/children/${childId}/progress?range=30`);

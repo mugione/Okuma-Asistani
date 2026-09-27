@@ -75,7 +75,8 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 - Sonuçlar backend'de hesaplanır ve doğrulanır; geçmiş, rekor ve ebeveyn panelinde tablo
 - XP: test +10 · rekor +10 · metni dakika dolmadan bitirme +5 · rozetler: İlk Dakika, Rekor Kırıcı, Düzenli Ölçüm, Dakikada 60 / 80 / 100 / 120
 
-### 🎮 Kelime oyunları (7)
+### 🎮 Kelime oyunları (8)
+- ✍️ **Doğru Yazılanı Bul:** doğru yazılış, yaygın yanlış yazılışlar arasından seçilir (TDK Yazım Kılavuzu). 120 madde: sık yanlış yazılan kelimeler (yalnız, herkes, şoför, laboratuvar…), "de/da" ve "ki", kesme işareti ve büyük harf, "mi" soru eki. Yanlış biçimlerle karşılaşmanın doğru yazımı bulanıklaştırmaması için cevaptan sonra yanlışlar gizlenir, yalnızca doğru yazılış ve kısa bir kural ipucu gösterilir
 - ↔️ **Zıt Anlamlı Kelimeler:** kelimenin zıttını 4 seçenek arasından bul (sıcak ↔ soğuk). 120 kelime çifti, 3 seviye; çeldiriciler eş ya da yakın anlamlı kelimelerdir. Kelime bilgisi okuduğunu anlamanın en güçlü belirleyicilerindendir
 - ✅ **Doğru mu Yanlış mı?** 90 saniyede kısa cümleleri oku, doğru/yanlış diye karar ver. Sessiz okuma akıcılığı testlerindeki (TOSREC) göreve dayanır; yanlış cevaplar net puandan düşer
 - 🔗 **Kelime Zinciri:** boşluksuz yazılmış kelimeleri ayır (`kedikuşbalık` → kedi · kuş · balık). Kelime tanıma akıcılığı testlerindeki (TOSWRF) göreve dayanır
@@ -85,7 +86,7 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 - 🧩 **Eksik Kelime:** boşluğa anlamca ve dilbilgisi olarak uyan kelimeyi seç
 
 ### ⏱️ Günlük antrenman (10 dk)
-2 dk ısınma oyunu (5 oyun arasında her gün farklı) → 4 dk okuma → 2 dk tekrar → 2 dk sorular
+2 dk ısınma oyunu (6 oyun arasında her gün farklı) → 4 dk okuma → 2 dk tekrar → 2 dk sorular
 
 </td>
 </tr>
