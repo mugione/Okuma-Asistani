@@ -128,8 +128,8 @@ export function Onboarding({ addChildOnly = false }: { addChildOnly?: boolean })
       {step === "welcome" && (
         <div className="animate-fade-up text-center">
           <img src="/favicon.svg" alt="" className="animate-float mx-auto size-24" />
-          <h1 className="mt-4 text-5xl font-black tracking-tight text-brand-700">
-            Oku<span className="text-coral-500">Hız</span>
+          <h1 className="mt-4 text-4xl font-black tracking-tight text-brand-700 sm:text-5xl">
+            Okuma <span className="text-coral-500">Asistanı</span>
           </h1>
           <p className="mt-3 text-xl font-bold text-ink/60">Akıllı okuma antrenörün!</p>
           <ul className="mx-auto mt-8 flex max-w-sm flex-col gap-3 text-left text-lg font-bold">
