@@ -1,12 +1,14 @@
 import base from "../../seed/games.json";
 import extraSentences from "../../seed/games-extra/sentences.json";
 import verify from "../../seed/games-extra/sentence-verify.json";
+import antonyms from "../../seed/games-extra/antonyms.json";
 import extraWords from "../../seed/games-extra/word-catch.json";
 
 export interface WordCatchItem { word: string; options: string[] }
 export interface SentenceRecallItem { sentence: string; question: string; options: string[] }
 export interface MissingWordItem { sentence: string; options: string[] }
 export interface SentenceVerifyItem { sentence: string; answer: boolean; level: 1 | 2 | 3 }
+export interface AntonymItem { word: string; options: string[]; level: 1 | 2 | 3 }
 
 const byLength = (a: WordCatchItem, b: WordCatchItem) => a.word.length - b.word.length;
 
@@ -16,6 +18,7 @@ export const GAME_DATA = {
   sentenceRecall: [...base.sentenceRecall, ...extraSentences.sentenceRecall] as SentenceRecallItem[],
   missingWord: [...base.missingWord, ...extraSentences.missingWord] as MissingWordItem[],
   sentenceVerify: verify.sentenceVerify as SentenceVerifyItem[],
+  antonyms: antonyms.antonyms as AntonymItem[],
 };
 
 const lowerWords = (words: string[]) =>

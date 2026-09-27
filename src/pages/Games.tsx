@@ -1,5 +1,6 @@
-import { Blocks, Eye, Link2, ListChecks, MessageSquareText, PuzzleIcon } from "lucide-react";
+import { ArrowLeftRight, Blocks, Eye, Link2, ListChecks, MessageSquareText, PuzzleIcon } from "lucide-react";
 import { api } from "../api/client";
+import { Antonyms } from "../components/games/Antonyms";
 import { MissingWord } from "../components/games/MissingWord";
 import { SentenceRecall } from "../components/games/SentenceRecall";
 import { SentenceVerify } from "../components/games/SentenceVerify";
@@ -12,9 +13,10 @@ import { useApp, useAsync } from "../lib/app-state";
 import { Link, useRouter } from "../lib/router";
 
 const GAMES = [
-  { slug: "dogru-mu-yanlis-mi", title: "Doğru mu Yanlış mı?", sub: "90 saniyede hızlı ve anlayarak oku", icon: <ListChecks className="size-10" />, tone: "bg-sun-100 text-sun-700", badge: "Yeni" },
-  { slug: "kelime-zinciri", title: "Kelime Zinciri", sub: "Yapışık kelimeleri ayır", icon: <Link2 className="size-10" />, tone: "bg-brand-100 text-brand-800", badge: "Yeni" },
-  { slug: "heceleri-birlestir", title: "Heceleri Birleştir", sub: "Heceleri sıraya diz", icon: <Blocks className="size-10" />, tone: "bg-grape-100 text-grape-700", badge: "Yeni" },
+  { slug: "zit-anlamlilar", title: "Zıt Anlamlı Kelimeler", sub: "Kelimenin zıttını bul", icon: <ArrowLeftRight className="size-10" />, tone: "bg-coral-100 text-coral-700", badge: "Yeni" },
+  { slug: "dogru-mu-yanlis-mi", title: "Doğru mu Yanlış mı?", sub: "90 saniyede hızlı ve anlayarak oku", icon: <ListChecks className="size-10" />, tone: "bg-sun-100 text-sun-700" },
+  { slug: "kelime-zinciri", title: "Kelime Zinciri", sub: "Yapışık kelimeleri ayır", icon: <Link2 className="size-10" />, tone: "bg-brand-100 text-brand-800" },
+  { slug: "heceleri-birlestir", title: "Heceleri Birleştir", sub: "Heceleri sıraya diz", icon: <Blocks className="size-10" />, tone: "bg-grape-100 text-grape-700" },
   { slug: "kelimeyi-yakala", title: "Kelimeyi Yakala", sub: "Kısa süre görünen kelimeyi bul", icon: <Eye className="size-10" />, tone: "bg-brand-50 text-brand-700" },
   { slug: "cumleyi-hatirla", title: "Cümleyi Hatırla", sub: "Cümleyi oku, ayrıntıyı hatırla", icon: <MessageSquareText className="size-10" />, tone: "bg-grape-100 text-grape-700" },
   { slug: "eksik-kelime", title: "Eksik Kelime", sub: "Boşluğa uygun kelimeyi seç", icon: <PuzzleIcon className="size-10" />, tone: "bg-coral-100 text-coral-700" },
@@ -56,6 +58,7 @@ export function GamePage({ slug }: { slug: string }) {
       {today.data && slug === "dogru-mu-yanlis-mi" && <SentenceVerify level={level} onDone={back} />}
       {today.data && slug === "kelime-zinciri" && <WordChain level={level} onDone={back} />}
       {today.data && slug === "heceleri-birlestir" && <Syllables level={level} onDone={back} />}
+      {today.data && slug === "zit-anlamlilar" && <Antonyms level={level} onDone={back} />}
     </Layout>
   );
 }
