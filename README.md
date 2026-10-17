@@ -76,7 +76,6 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 - XP: test +10 · rekor +10 · metni dakika dolmadan bitirme +5 · rozetler: İlk Dakika, Rekor Kırıcı, Düzenli Ölçüm, Dakikada 60 / 80 / 100 / 120
 
 ### 🎮 Kelime oyunları (9)
-- 🟰 **Eş Anlamlı Kelimeler:** 98 kelime grubu (kalp = yürek, savaş = harp = cenk…), iki çalışma türüyle. **Kartlarla Tekrar:** kelimeyi oku ve dinle, kartı çevir; "Tekrar göster" denen kart 3 kart sonra yeniden gelir, deste bitince zorlanılan kartlar ayrıca tekrar edilebilir. **Test:** eş anlamlısını 4 seçenek arasından bul. 198 kelimenin hepsi ElevenLabs ile bir kez üretilmiş seslerle okunur (uygulamayla gelir, çevrimdışı da çalışır)
 - ✍️ **Doğru Yazılanı Bul:** doğru yazılış, yaygın yanlış yazılışlar arasından seçilir (TDK Yazım Kılavuzu). 120 madde: sık yanlış yazılan kelimeler (yalnız, herkes, şoför, laboratuvar…), "de/da" ve "ki", kesme işareti ve büyük harf, "mi" soru eki. Yanlış biçimlerle karşılaşmanın doğru yazımı bulanıklaştırmaması için cevaptan sonra yanlışlar gizlenir, yalnızca doğru yazılış ve kısa bir kural ipucu gösterilir
 - ↔️ **Zıt Anlamlı Kelimeler:** kelimenin zıttını 4 seçenek arasından bul (sıcak ↔ soğuk). 120 kelime çifti, 3 seviye; çeldiriciler eş ya da yakın anlamlı kelimelerdir. Kelime bilgisi okuduğunu anlamanın en güçlü belirleyicilerindendir
 - ✅ **Doğru mu Yanlış mı?** 90 saniyede kısa cümleleri oku, doğru/yanlış diye karar ver. Sessiz okuma akıcılığı testlerindeki (TOSREC) göreve dayanır; yanlış cevaplar net puandan düşer

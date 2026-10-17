@@ -16,3 +16,22 @@ const TR: Record<string, string> = { ç: "c2", ğ: "g2", ı: "i2", ö: "o2", ş:
  * "sürat" gibi çiftler aynı dosyaya düşmesin. scripts/generate-word-audio.mjs ile aynı olmalı.
  */
 export const audioSlug = (word: string) => word.replace(/[çğıöşüâîû]/g, (c) => TR[c]).replace(/[^a-z0-9]+/g, "-");
+
+/**
+ * Kartlarla tekrar: bilinemeyen kartı kuyruğa geri koyar.
+ * - Henüz gösterilmemiş kartlar varsa kart, bunlardan `gap` tanesinin arkasına girer: çocuk her karta
+ *   "Bilemedim" dese bile yeni kartlar gelmeye devam eder, bilinemeyen kart 3-4 kart sonra döner.
+ * - Bütün kartlar en az bir kez gösterildiyse kuyruğun sonuna girer: kuyrukta yalnızca bilinemeyen
+ *   kartlar kaldığı için hepsi sırayla tekrar edilir (birkaç kart arasında dönüp kalınmaz).
+ */
+export function requeueMissed<T>(rest: readonly T[], card: T, seen: ReadonlySet<T>, gap = 3): T[] {
+  let unseen = 0;
+  let lastUnseen = -1;
+  for (let i = 0; i < rest.length; i++) {
+    if (seen.has(rest[i])) continue;
+    lastUnseen = i;
+    if (++unseen === gap) break;
+  }
+  const at = lastUnseen < 0 ? rest.length : Math.max(Math.min(gap, rest.length), lastUnseen + 1);
+  return [...rest.slice(0, at), card, ...rest.slice(at)];
+}

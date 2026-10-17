@@ -1,6 +1,6 @@
 import { Equal, Layers, ListChecks, PartyPopper, Play, RotateCcw, ThumbsUp, Volume2 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { SYNONYM_GROUPS } from "../../../shared/synonyms";
+import { requeueMissed, SYNONYM_GROUPS } from "../../../shared/synonyms";
 import { api } from "../../api/client";
 import { useApp } from "../../lib/app-state";
 import { shuffle } from "../../lib/games-data";
@@ -130,9 +130,6 @@ function QuizRound({ item, next, onEnd }: { item: QuizItem; next?: QuizItem; onE
 // ---------------------------------------------------------------------------------------------
 // Kartlarla tekrar
 
-/** "Tekrar göster" denen kart bu kadar kart sonra yeniden gelir. */
-const REPEAT_GAP = 3;
-
 function SynonymCards({ cards, onDone }: { cards: number; onDone: (s: GameSummary) => void }) {
   const { child, refresh, celebrate } = useApp();
   const [deck, setDeck] = useState<Group[]>(() => shuffle([...SYNONYM_GROUPS]).slice(0, cards));
@@ -142,6 +139,9 @@ function SynonymCards({ cards, onDone }: { cards: number; onDone: (s: GameSummar
   const [summary, setSummary] = useState<GameSummary | null>(null);
   const [error, setError] = useState<string | null>(null);
   const missed = useRef(new Set<number>());
+  const seen = useRef(new Set<number>());
+  /** "Bilemedim" sonrası kısa bilgi: kartın kaybolmadığını, birazdan geri geleceğini söyler. */
+  const [notice, setNotice] = useState<string | null>(null);
   const startedAt = useRef(0);
 
   const card = queue.length ? deck[queue[0]] : null;
@@ -157,6 +157,8 @@ function SynonymCards({ cards, onDone }: { cards: number; onDone: (s: GameSummar
 
   const start = (newDeck = deck) => {
     missed.current = new Set();
+    seen.current = new Set();
+    setNotice(null);
     setDeck(newDeck);
     setQueue(newDeck.map((_, i) => i));
     setFlipped(false);
@@ -193,13 +195,13 @@ function SynonymCards({ cards, onDone }: { cards: number; onDone: (s: GameSummar
 
   const answer = (known: boolean) => {
     const [head, ...rest] = queue;
-    if (!known) {
-      missed.current.add(head);
-      rest.splice(Math.min(REPEAT_GAP, rest.length), 0, head);
-    }
+    seen.current.add(head);
+    if (!known) missed.current.add(head);
+    const next = known ? rest : requeueMissed(rest, head, seen.current);
+    setNotice(known ? null : next.length > 1 ? `“${deck[head][0]}” birazdan tekrar gelecek.` : null);
     setFlipped(false);
-    setQueue(rest);
-    if (!rest.length) void finish();
+    setQueue(next);
+    if (!next.length) void finish();
   };
 
   if (phase === "intro") {
@@ -243,6 +245,9 @@ function SynonymCards({ cards, onDone }: { cards: number; onDone: (s: GameSummar
         <span className="text-sm font-extrabold text-ink/60">{learned} / {deck.length} öğrenildi</span>
         <ProgressBar value={(learned / deck.length) * 100} className="flex-1" />
       </div>
+      <p className={`mb-3 flex min-h-6 items-center justify-center gap-1.5 text-sm font-bold text-coral-700 ${notice ? "" : "invisible"}`} aria-live="polite">
+        <RotateCcw className="size-4" aria-hidden /> {notice}
+      </p>
       {phase === "saving" || !card ? (
         <p className="text-center font-bold text-ink/60">Kaydediliyor…</p>
       ) : (
@@ -264,7 +269,7 @@ function SynonymCards({ cards, onDone }: { cards: number; onDone: (s: GameSummar
           {flipped ? (
             <div className="mt-5 grid grid-cols-2 gap-3">
               <Button variant="danger" size="lg" onClick={() => answer(false)}>
-                <RotateCcw className="size-5" /> Tekrar göster
+                <RotateCcw className="size-5" /> Bilemedim
               </Button>
               <Button size="lg" onClick={() => answer(true)}>
                 <ThumbsUp className="size-5" /> Biliyordum
