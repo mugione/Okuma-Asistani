@@ -1,10 +1,11 @@
-import { ArrowLeftRight, Blocks, Eye, Link2, ListChecks, MessageSquareText, PuzzleIcon, SpellCheck } from "lucide-react";
+import { ArrowLeftRight, Blocks, Equal, Eye, Link2, ListChecks, MessageSquareText, PuzzleIcon, SpellCheck } from "lucide-react";
 import { api } from "../api/client";
 import { Antonyms } from "../components/games/Antonyms";
 import { MissingWord } from "../components/games/MissingWord";
 import { SentenceRecall } from "../components/games/SentenceRecall";
 import { SentenceVerify } from "../components/games/SentenceVerify";
 import { Spelling } from "../components/games/Spelling";
+import { Synonyms } from "../components/games/Synonyms";
 import { Syllables } from "../components/games/Syllables";
 import { WordCatch } from "../components/games/WordCatch";
 import { WordChain } from "../components/games/WordChain";
@@ -14,7 +15,8 @@ import { useApp, useAsync } from "../lib/app-state";
 import { Link, useRouter } from "../lib/router";
 
 const GAMES = [
-  { slug: "dogru-yazilani-bul", title: "Doğru Yazılanı Bul", sub: "Doğru yazılmış kelimeyi seç", icon: <SpellCheck className="size-10" />, tone: "bg-brand-50 text-brand-700", badge: "Yeni" },
+  { slug: "es-anlamlilar", title: "Eş Anlamlı Kelimeler", sub: "Kartlarla tekrar et ya da test ol", icon: <Equal className="size-10" />, tone: "bg-sun-100 text-sun-700", badge: "Yeni" },
+  { slug: "dogru-yazilani-bul", title: "Doğru Yazılanı Bul", sub: "Doğru yazılmış kelimeyi seç", icon: <SpellCheck className="size-10" />, tone: "bg-brand-50 text-brand-700" },
   { slug: "zit-anlamlilar", title: "Zıt Anlamlı Kelimeler", sub: "Kelimenin zıttını bul", icon: <ArrowLeftRight className="size-10" />, tone: "bg-coral-100 text-coral-700" },
   { slug: "dogru-mu-yanlis-mi", title: "Doğru mu Yanlış mı?", sub: "90 saniyede hızlı ve anlayarak oku", icon: <ListChecks className="size-10" />, tone: "bg-sun-100 text-sun-700" },
   { slug: "kelime-zinciri", title: "Kelime Zinciri", sub: "Yapışık kelimeleri ayır", icon: <Link2 className="size-10" />, tone: "bg-brand-100 text-brand-800" },
@@ -62,6 +64,7 @@ export function GamePage({ slug }: { slug: string }) {
       {today.data && slug === "heceleri-birlestir" && <Syllables level={level} onDone={back} />}
       {today.data && slug === "zit-anlamlilar" && <Antonyms level={level} onDone={back} />}
       {today.data && slug === "dogru-yazilani-bul" && <Spelling level={level} onDone={back} />}
+      {today.data && slug === "es-anlamlilar" && <Synonyms onDone={back} />}
     </Layout>
   );
 }

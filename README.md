@@ -75,7 +75,8 @@ Bunlara ek olarak **düzenli çalışma** (günlük seri) ve **zaman içindeki g
 - Sonuçlar backend'de hesaplanır ve doğrulanır; geçmiş, rekor ve ebeveyn panelinde tablo
 - XP: test +10 · rekor +10 · metni dakika dolmadan bitirme +5 · rozetler: İlk Dakika, Rekor Kırıcı, Düzenli Ölçüm, Dakikada 60 / 80 / 100 / 120
 
-### 🎮 Kelime oyunları (8)
+### 🎮 Kelime oyunları (9)
+- 🟰 **Eş Anlamlı Kelimeler:** 98 kelime grubu (kalp = yürek, savaş = harp = cenk…), iki çalışma türüyle. **Kartlarla Tekrar:** kelimeyi oku ve dinle, kartı çevir; "Tekrar göster" denen kart 3 kart sonra yeniden gelir, deste bitince zorlanılan kartlar ayrıca tekrar edilebilir. **Test:** eş anlamlısını 4 seçenek arasından bul. 198 kelimenin hepsi ElevenLabs ile bir kez üretilmiş seslerle okunur (uygulamayla gelir, çevrimdışı da çalışır)
 - ✍️ **Doğru Yazılanı Bul:** doğru yazılış, yaygın yanlış yazılışlar arasından seçilir (TDK Yazım Kılavuzu). 120 madde: sık yanlış yazılan kelimeler (yalnız, herkes, şoför, laboratuvar…), "de/da" ve "ki", kesme işareti ve büyük harf, "mi" soru eki. Yanlış biçimlerle karşılaşmanın doğru yazımı bulanıklaştırmaması için cevaptan sonra yanlışlar gizlenir, yalnızca doğru yazılış ve kısa bir kural ipucu gösterilir
 - ↔️ **Zıt Anlamlı Kelimeler:** kelimenin zıttını 4 seçenek arasından bul (sıcak ↔ soğuk). 120 kelime çifti, 3 seviye; çeldiriciler eş ya da yakın anlamlı kelimelerdir. Kelime bilgisi okuduğunu anlamanın en güçlü belirleyicilerindendir
 - ✅ **Doğru mu Yanlış mı?** 90 saniyede kısa cümleleri oku, doğru/yanlış diye karar ver. Sessiz okuma akıcılığı testlerindeki (TOSREC) göreve dayanır; yanlış cevaplar net puandan düşer
@@ -269,6 +270,44 @@ flowchart LR
 | User | User Details: **Read** (`wrangler whoami` için) |
 
 workers.dev alt alanınız yoksa betik onu da kaydeder (Workers Scripts: Edit izni bunu kapsar).
+
+</details>
+
+<details>
+<summary><b>🔊 Kelime sesleri (ElevenLabs, bir kez üretilir)</b></summary>
+
+Eş Anlamlı Kelimeler oyununun 198 kelimesinin sesi [`public/audio/kelimeler`](public/audio/kelimeler) klasöründe, repoyla birlikte gelir. Uygulama çalışırken ElevenLabs'e **hiç istek atılmaz**, API anahtarı sunucuya da tarayıcıya da gitmez; sesler service worker sayesinde çevrimdışı da çalışır. Bir dosya yoksa ya da çalınamazsa tarayıcının Türkçe sesi devreye girer.
+
+**1. Anahtarı ayarlayın** (yalnızca sesleri yeniden üretmek için gerekir). `.env.example` dosyasını `.env` olarak kopyalayıp doldurun:
+
+```bash
+ELEVENLABS_API_KEY=...        # 🔒 yalnızca .env içinde; asla koda, README'ye veya commit'e yazmayın
+ELEVENLABS_VOICE_ID=...       # ElevenLabs'teki ses kimliği
+# ELEVENLABS_MODEL_ID=...     # isteğe bağlı; varsayılan eleven_multilingual_v2
+```
+
+Anahtarda yalnızca **Text to Speech** izni olması yeterlidir; ElevenLabs panelinden izinleri kısıtlı bir anahtar oluşturmanız önerilir.
+
+**2. Sesleri üretin:**
+
+```bash
+npm run audio:generate                         # yalnızca eksik sesleri üretir, var olanları atlar
+npm run audio:generate -- --force al           # bir kelimeyi yeniden üretir
+npm run audio:generate -- --force ak aş ek     # birkaç kelimeyi birlikte yeniden üretir
+npm run audio:generate -- --force              # hepsini baştan üretir
+```
+
+Her üretim biraz farklı çıkar: dinleyip beğenmediğiniz bir kelimeyi aynı komutla tekrar üretmeniz çoğu zaman yeterlidir. Özellikle kısa kelimeleri (al, ak, aş, ek, yel, toy) dinleyip kontrol edin. Ses yenilendikten sonra tarayıcıda eski ses gelirse sayfayı sert yenileyin (Cmd/Ctrl + Shift + R) ya da uygulamadaki **Yenile** düğmesine basın.
+
+**Yeni kelime eklemek:** kelime grubunu [`seed/games-extra/synonyms.json`](seed/games-extra/synonyms.json) dosyasına ekleyip `npm run audio:generate` çalıştırın. `npm test`, her kelimenin tam olarak bir ses dosyası olduğunu denetler.
+
+**Seslerin kesik olmaması için betik ([`scripts/generate-word-audio.mjs`](scripts/generate-word-audio.mjs)):**
+- Kelimeyi noktayla bitirerek üretir (`kalp.`): bitiş tonlaması doğal ve tamamlanmış olur.
+- ElevenLabs'in zaman damgalı ucunu kullanır; son harf sesin içinde bitmiyorsa ya da hizalama metinle eşleşmiyorsa sesi yeniden üretir (en fazla 3 deneme).
+- Kısa kelimelerin ("al", "his") Türkçe okunması için okunmayan bir Türkçe bağlam cümlesi gönderir.
+- Dosyanın başına ~0,3 sn, sonuna ~0,4 sn sessizlik ekler; tarayıcılar ve Bluetooth kulaklıklar sesin ilk/son milisaniyelerini yutsa da kelime kırpılmaz. Süre bilgisini taşıyan MP3 "Info" çerçevesi çıkarılır ki oynatıcı sesi erken kesmesin.
+- 192 kbps MP3, ses hızı 0,9 (çocuklar için biraz yavaş). Ayarlar betiğin başındaki `VOICE_SETTINGS` içindedir.
+- Dosya adlarında Türkçe harfler rakamla yazılır (`sürat` → `su2rat.mp3`), böylece "surat" ile "sürat" gibi kelimeler karışmaz.
 
 </details>
 

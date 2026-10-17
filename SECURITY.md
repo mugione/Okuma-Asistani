@@ -13,6 +13,7 @@ Bir güvenlik açığı bulduysanız lütfen **herkese açık issue açmayın**.
   Fork'lar `npm run setup:cloudflare` çalıştırdığında kendi veritabanlarının kimliği otomatik yazılır.
 - CI iş akışı hiçbir secret kullanmaz ve deploy yapmaz.
 - `AUTH_PEPPER` Worker secret'ı `npm run setup:cloudflare` tarafından yalnızca yoksa rastgele üretilir ve hiçbir yerde gösterilmez. **Değiştirilirse mevcut tüm şifreler geçersiz olur.** Yerel geliştirme için `.dev.vars` (git'e girmez) kullanılır.
+- `ELEVENLABS_API_KEY` yalnızca yerelde, git'e girmeyen `.env` içinde durur ve sadece `npm run audio:generate` (ses üretimi) tarafından kullanılır. Uygulama ve Worker bu anahtarı hiç kullanmaz; sesler repoda hazır MP3 dosyaları olarak bulunur.
 
 ## Uygulama güvenlik modeli (MVP)
 
